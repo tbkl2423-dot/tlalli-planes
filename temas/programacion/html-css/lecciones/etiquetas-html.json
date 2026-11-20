@@ -1,0 +1,53 @@
+{
+  "id": "etiquetas-html",
+  "tema": "html-css",
+  "subtema": "etiquetas-html",
+  "titulo": "Etiquetas HTML",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "HTML describe qué hay en una página. Cada parte va dentro de una etiqueta que abre y cierra."
+    },
+    {
+      "texto": "h1 es el título principal, p es un párrafo y a es un enlace.",
+      "codigo": "<h1>Mi página</h1>\n<p>Hola, bienvenido.</p>\n<a href=\"otra.html\">Ir a otra página</a>"
+    },
+    {
+      "texto": "La etiqueta de cierre lleva una diagonal antes del nombre, por ejemplo la que cierra un párrafo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "elegir-parrafo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué etiqueta se usa para un párrafo?",
+      "opciones": [
+        "<p>",
+        "<h1>",
+        "<a>"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "<p> marca un párrafo de texto."
+    },
+    {
+      "id": "completar-cierre",
+      "tipo": "completar",
+      "enunciado": "<h1>Hola___",
+      "respuestas_validas": [
+        "</h1>"
+      ],
+      "explicacion_respuesta": "Cada etiqueta se cierra con su nombre y una diagonal: </h1>."
+    },
+    {
+      "id": "concepto-enlace",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué atributo de la etiqueta a indica a dónde lleva el enlace?",
+      "respuesta_esperada": "href",
+      "palabras_clave": [
+        "href"
+      ],
+      "explicacion_respuesta": "href guarda la dirección a la que lleva el enlace."
+    }
+  ]
+}

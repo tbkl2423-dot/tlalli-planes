@@ -1,0 +1,28 @@
+name: Error en una lección
+description: Reporta información incorrecta, una pregunta mal planteada o una respuesta equivocada.
+labels: ["error-contenido"]
+body:
+  - type: input
+    id: tema
+    attributes:
+      label: Tema
+      placeholder: javascript
+    validations:
+      required: true
+  - type: input
+    id: leccion
+    attributes:
+      label: Lección o ejercicio
+      placeholder: funciones / practica-suma
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: ¿Qué está mal?
+    validations:
+      required: true
+  - type: textarea
+    id: correccion
+    attributes:
+      label: ¿Cómo debería ser? (opcional)

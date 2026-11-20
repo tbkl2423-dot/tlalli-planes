@@ -1,0 +1,46 @@
+{
+  "id": "referencias-absolutas",
+  "tema": "excel",
+  "subtema": "referencias-absolutas",
+  "titulo": "Referencias absolutas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Cuando copias una fórmula hacia abajo, Excel mueve sus referencias. A1 se vuelve A2, luego A3."
+    },
+    {
+      "texto": "Si quieres que una celda no se mueva, le pones el signo de pesos antes de la columna y de la fila.",
+      "codigo": "=B2*$E$1"
+    },
+    {
+      "texto": "Así, al copiar la fórmula, B2 cambia en cada fila, pero E1 siempre se queda fija."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "elegir-fija",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál referencia queda fija al copiar la fórmula?",
+      "opciones": [
+        "C3",
+        "$C$3",
+        "C:3"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "$C$3 fija la columna y la fila."
+    },
+    {
+      "id": "concepto-pesos",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué símbolo usas para que una celda no cambie al copiar una fórmula?",
+      "respuesta_esperada": "El signo de pesos",
+      "palabras_clave": [
+        "pesos",
+        "dolar",
+        "$"
+      ],
+      "explicacion_respuesta": "El signo de pesos fija la columna, la fila o las dos."
+    }
+  ]
+}

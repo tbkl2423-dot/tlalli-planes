@@ -1,0 +1,56 @@
+{
+  "id": "formulas-basicas",
+  "tema": "excel",
+  "subtema": "formulas-basicas",
+  "titulo": "Fórmulas básicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Toda fórmula empieza con el signo igual. Sin él, Excel la toma como texto."
+    },
+    {
+      "texto": "SUMA suma un rango de celdas y PROMEDIO saca su promedio. Un rango se escribe con dos puntos.",
+      "codigo": "=SUMA(A1:A5)\n=PROMEDIO(B2:B10)"
+    },
+    {
+      "texto": "En Excel en inglés las mismas funciones se llaman SUM y AVERAGE."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "inicio-formula",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Con qué signo empieza una fórmula?",
+      "opciones": [
+        "+",
+        "=",
+        "#"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "Las fórmulas empiezan con =."
+    },
+    {
+      "id": "completar-suma",
+      "tipo": "completar",
+      "enunciado": "=___(A1:A10)",
+      "respuestas_validas": [
+        "SUMA",
+        "SUM"
+      ],
+      "explicacion_respuesta": "SUMA, o SUM en inglés, suma todo el rango."
+    },
+    {
+      "id": "rango-celdas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué celdas incluye el rango A1:A3?",
+      "opciones": [
+        "Solo A1 y A3",
+        "A1, A2 y A3",
+        "A1 hasta C1"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "Los dos puntos significan desde A1 hasta A3, así que incluye A2."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "verbo-to-be",
+  "tema": "ingles-a1",
+  "subtema": "verbo-to-be",
+  "titulo": "El verbo to be",
+  "version": 1,
+  "duracion_min": 6,
+  "explicacion": [
+    {
+      "texto": "To be significa ser o estar. Cambia según la persona: I am, you are, he is, she is."
+    },
+    {
+      "texto": "Para plural se usa are: we are, they are.",
+      "codigo": "I am happy.\nShe is a teacher.\nThey are friends."
+    },
+    {
+      "texto": "En la conversación casi siempre se contrae: I'm, you're, he's."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "completar-she",
+      "tipo": "completar",
+      "enunciado": "She ___ a doctor.",
+      "respuestas_validas": [
+        "is"
+      ],
+      "explicacion_respuesta": "Con he, she e it se usa is."
+    },
+    {
+      "id": "completar-they",
+      "tipo": "completar",
+      "enunciado": "They ___ my friends.",
+      "respuestas_validas": [
+        "are"
+      ],
+      "explicacion_respuesta": "Con we, you y they se usa are."
+    },
+    {
+      "id": "traducir-feliz",
+      "tipo": "traduccion",
+      "frase": "Yo estoy feliz",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i am happy",
+        "i'm happy"
+      ],
+      "explicacion_respuesta": "Con I se usa am: I am happy, o en corto I'm happy."
+    }
+  ]
+}

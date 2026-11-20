@@ -1,0 +1,56 @@
+{
+  "id": "python",
+  "titulo": "Python desde cero",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Primeros pasos en Python: guardar datos en variables, conocer sus tipos y trabajar con listas.",
+  "version": 1,
+  "aliases": [
+    "python basico",
+    "py",
+    "python 3"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "variables-y-tipos",
+      "titulo": "Variables y tipos de datos",
+      "aliases": [
+        "int",
+        "str",
+        "float",
+        "tipos"
+      ]
+    },
+    {
+      "id": "listas",
+      "titulo": "Listas",
+      "aliases": [
+        "list",
+        "arreglos",
+        "append"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "fundamentos",
+      "titulo": "Fundamentos",
+      "lecciones": [
+        {
+          "id": "variables-y-tipos",
+          "titulo": "Variables y tipos de datos",
+          "subtema": "variables-y-tipos",
+          "archivo": "lecciones/variables-y-tipos.json"
+        },
+        {
+          "id": "listas",
+          "titulo": "Listas",
+          "subtema": "listas",
+          "archivo": "lecciones/listas.json"
+        }
+      ]
+    }
+  ]
+}

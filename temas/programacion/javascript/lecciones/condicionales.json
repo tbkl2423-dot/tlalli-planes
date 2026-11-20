@@ -1,0 +1,74 @@
+{
+  "id": "condicionales",
+  "tema": "javascript",
+  "subtema": "condicionales",
+  "titulo": "Condicionales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un programa toma decisiones con if. Si la condición es verdadera, se ejecuta el bloque; si no, se salta."
+    },
+    {
+      "texto": "Con else indicas qué hacer cuando la condición es falsa.",
+      "codigo": "if (edad >= 18) {\n  console.log(\"Adulto\");\n} else {\n  console.log(\"Menor\");\n}"
+    },
+    {
+      "texto": "Para comparar usa triple igual, que revisa el valor y el tipo. Mayor que, menor que y diferente también son comparaciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "elegir-comparador",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué operador revisa que dos valores sean iguales en valor y en tipo?",
+      "opciones": [
+        "=",
+        "==",
+        "==="
+      ],
+      "correcta": 2,
+      "explicacion_respuesta": "=== compara valor y tipo. Un solo = asigna, no compara."
+    },
+    {
+      "id": "completar-else",
+      "tipo": "completar",
+      "enunciado": "if (x > 0) { positivo(); } ___ { otro(); }",
+      "respuestas_validas": [
+        "else"
+      ],
+      "explicacion_respuesta": "else se ejecuta cuando la condición del if es falsa."
+    },
+    {
+      "id": "practica-mayor",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función esMayor que reciba una edad y regrese true si es 18 o más, y false si no.",
+      "codigo_inicial": "function esMayor(edad) {\n  // tu código aquí\n}",
+      "funcion": "esMayor",
+      "pruebas": [
+        {
+          "entrada": [
+            18
+          ],
+          "salida": true
+        },
+        {
+          "entrada": [
+            17
+          ],
+          "salida": false
+        },
+        {
+          "entrada": [
+            40
+          ],
+          "salida": true
+        }
+      ],
+      "solucion": "function esMayor(edad) {\n  if (edad >= 18) {\n    return true;\n  }\n  return false;\n}",
+      "pista": "Compara con >= 18 y usa return en cada caso.",
+      "explicacion_respuesta": "Con >= incluyes el 18. También podrías escribir return edad >= 18, que ya da true o false."
+    }
+  ]
+}

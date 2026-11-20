@@ -1,0 +1,81 @@
+name: Validar catálogo
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+    paths: ["temas/**", "schema/**", "scripts/**"]
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Formato, duplicados, datos personales y pruebas de código
+        run: npm run validar
+
+      - name: Archivos modificados en el PR
+        if: github.event_name == 'pull_request'
+        id: cambios
+        run: |
+          echo "archivos=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'temas/**' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Revisión de contenido con IA
+        if: github.event_name == 'pull_request'
+        env:
+          IA_API_URL: ${{ secrets.IA_API_URL }}
+          IA_API_KEY: ${{ secrets.IA_API_KEY }}
+          IA_MODELO: ${{ secrets.IA_MODELO }}
+        run: node scripts/revision-ia.mjs ${{ steps.cambios.outputs.archivos }}
+
+  # Fusiona automáticamente los PR creados por la app (etiqueta "desde-app")
+  # cuando todas las revisiones pasan. Los PR de personas se revisan a mano.
+  auto-merge:
+    needs: validar
+    if: github.event_name == 'pull_request' && contains(github.event.pull_request.labels.*.name, 'desde-app')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Activar fusión automática
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge ${{ github.event.pull_request.number }} --repo ${{ github.repository }} --squash --auto
+
+  # index.json no vive en el repositorio: se genera de los plan.json y se publica en GitHub Pages
+  # junto con temas/. Así dos PR nunca chocan por editar el mismo índice.
+  publicar:
+    needs: validar
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/generar-indice.mjs _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

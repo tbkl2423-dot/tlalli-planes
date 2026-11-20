@@ -1,0 +1,72 @@
+{
+  "id": "listas",
+  "tema": "python",
+  "subtema": "listas",
+  "titulo": "Listas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una lista guarda varios valores en orden, entre corchetes y separados por comas."
+    },
+    {
+      "texto": "Cada elemento tiene una posición que empieza en cero. Con append agregas un elemento al final.",
+      "codigo": "frutas = [\"mango\", \"pera\"]\nprint(frutas[0])   # mango\nfrutas.append(\"uva\")"
+    },
+    {
+      "texto": "La función len te dice cuántos elementos tiene la lista."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "primer-indice",
+      "tipo": "opcion_multiple",
+      "pregunta": "En la lista [\"a\", \"b\", \"c\"], ¿qué posición tiene \"a\"?",
+      "opciones": [
+        "0",
+        "1",
+        "-1"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las posiciones empiezan en 0, así que el primer elemento está en la posición 0."
+    },
+    {
+      "id": "completar-append",
+      "tipo": "completar",
+      "enunciado": "numeros.___(5)",
+      "respuestas_validas": [
+        "append"
+      ],
+      "explicacion_respuesta": "append agrega un elemento al final de la lista."
+    },
+    {
+      "id": "practica-total",
+      "tipo": "codigo",
+      "lenguaje": "python",
+      "instruccion": "Escribe una función total que reciba una lista de números y regrese su suma.",
+      "codigo_inicial": "def total(numeros):\n    # tu código aquí\n    pass",
+      "funcion": "total",
+      "pruebas": [
+        {
+          "entrada": [
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "salida": 6
+        },
+        {
+          "entrada": [
+            []
+          ],
+          "salida": 0
+        }
+      ],
+      "solucion": "def total(numeros):\n    return sum(numeros)",
+      "pista": "Python tiene una función que suma todos los elementos de una lista.",
+      "explicacion_respuesta": "sum(numeros) suma todo. También funciona un ciclo for que va acumulando."
+    }
+  ]
+}

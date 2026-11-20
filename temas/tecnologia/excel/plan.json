@@ -1,0 +1,55 @@
+{
+  "id": "excel",
+  "titulo": "Excel básico",
+  "categoria": "tecnologia",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Usa fórmulas en Excel o en hojas de cálculo similares: sumar, promediar y copiar fórmulas sin errores.",
+  "version": 1,
+  "aliases": [
+    "hojas de calculo",
+    "excel basico",
+    "google sheets"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "formulas-basicas",
+      "titulo": "Fórmulas básicas",
+      "aliases": [
+        "suma",
+        "promedio",
+        "funciones de excel"
+      ]
+    },
+    {
+      "id": "referencias-absolutas",
+      "titulo": "Referencias absolutas",
+      "aliases": [
+        "signo de pesos",
+        "fijar celda",
+        "referencias"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "formulas",
+      "titulo": "Fórmulas",
+      "lecciones": [
+        {
+          "id": "formulas-basicas",
+          "titulo": "Fórmulas básicas",
+          "subtema": "formulas-basicas",
+          "archivo": "lecciones/formulas-basicas.json"
+        },
+        {
+          "id": "referencias-absolutas",
+          "titulo": "Referencias absolutas",
+          "subtema": "referencias-absolutas",
+          "archivo": "lecciones/referencias-absolutas.json"
+        }
+      ]
+    }
+  ]
+}

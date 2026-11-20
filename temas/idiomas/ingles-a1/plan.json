@@ -1,0 +1,55 @@
+{
+  "id": "ingles-a1",
+  "titulo": "Inglés A1",
+  "categoria": "idiomas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Inglés para principiantes: saludar, presentarte y usar el verbo to be en frases simples.",
+  "version": 1,
+  "aliases": [
+    "ingles basico",
+    "english a1",
+    "ingles principiante"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "saludos",
+      "titulo": "Saludos y presentaciones",
+      "aliases": [
+        "greetings",
+        "hello",
+        "presentarse"
+      ]
+    },
+    {
+      "id": "verbo-to-be",
+      "titulo": "El verbo to be",
+      "aliases": [
+        "to be",
+        "am is are",
+        "ser o estar"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "saludos",
+          "titulo": "Saludos y presentaciones",
+          "subtema": "saludos",
+          "archivo": "lecciones/saludos.json"
+        },
+        {
+          "id": "verbo-to-be",
+          "titulo": "El verbo to be",
+          "subtema": "verbo-to-be",
+          "archivo": "lecciones/verbo-to-be.json"
+        }
+      ]
+    }
+  ]
+}

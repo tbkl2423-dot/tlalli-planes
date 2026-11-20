@@ -1,0 +1,55 @@
+{
+  "id": "variables-y-tipos",
+  "tema": "python",
+  "subtema": "variables-y-tipos",
+  "titulo": "Variables y tipos de datos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En Python creas una variable solo con escribir su nombre, un signo igual y el valor. No necesitas ninguna palabra especial."
+    },
+    {
+      "texto": "Cada valor tiene un tipo: int para enteros, float para decimales, str para texto y bool para verdadero o falso.",
+      "codigo": "edad = 20        # int\nprecio = 9.5     # float\nnombre = \"Ana\"   # str\nactivo = True    # bool"
+    },
+    {
+      "texto": "La función type te dice el tipo de un valor, y print lo muestra en pantalla."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tipo-texto",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tipo tiene el valor \"hola\" en Python?",
+      "opciones": [
+        "int",
+        "str",
+        "bool"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "Todo lo que va entre comillas es texto, y el texto en Python es str."
+    },
+    {
+      "id": "completar-print",
+      "tipo": "completar",
+      "enunciado": "___(\"Hola mundo\")",
+      "respuestas_validas": [
+        "print"
+      ],
+      "explicacion_respuesta": "print muestra un valor en pantalla."
+    },
+    {
+      "id": "concepto-float",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué tipo de dato usarías para guardar un precio con centavos?",
+      "respuesta_esperada": "float",
+      "palabras_clave": [
+        "float",
+        "decimal",
+        "flotante"
+      ],
+      "explicacion_respuesta": "Los números con punto decimal son float."
+    }
+  ]
+}

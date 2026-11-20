@@ -1,0 +1,54 @@
+{
+  "id": "porcentajes",
+  "tema": "matematicas-basicas",
+  "subtema": "porcentajes",
+  "titulo": "Porcentajes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Por ciento significa de cada cien. El 25 por ciento es 25 de cada 100, o sea, una cuarta parte."
+    },
+    {
+      "texto": "Para sacar un porcentaje, multiplicas la cantidad por el porcentaje y divides entre cien. El 10 por ciento de 300 es 30."
+    },
+    {
+      "texto": "Truco rápido: el 10 por ciento es mover el punto decimal un lugar a la izquierda, y el 50 por ciento es la mitad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "diez-por-ciento",
+      "tipo": "completar",
+      "enunciado": "El 10% de 450 es ___",
+      "respuestas_validas": [
+        "45"
+      ],
+      "explicacion_respuesta": "450 por 10 entre 100 da 45."
+    },
+    {
+      "id": "descuento",
+      "tipo": "opcion_multiple",
+      "pregunta": "Una playera cuesta 200 pesos y tiene 25% de descuento. ¿Cuánto pagas?",
+      "opciones": [
+        "50",
+        "150",
+        "175"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "El 25% de 200 es 50; 200 menos 50 son 150."
+    },
+    {
+      "id": "concepto-cincuenta",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿A qué fracción equivale el 50 por ciento?",
+      "respuesta_esperada": "Un medio, la mitad",
+      "palabras_clave": [
+        "mitad",
+        "medio",
+        "1/2"
+      ],
+      "explicacion_respuesta": "50 de cada 100 es la mitad."
+    }
+  ]
+}

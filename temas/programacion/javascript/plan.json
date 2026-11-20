@@ -1,0 +1,71 @@
+{
+  "id": "javascript",
+  "titulo": "JavaScript desde cero",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Aprende las bases de JavaScript: variables, funciones y cómo tomar decisiones con if.",
+  "version": 2,
+  "aliases": [
+    "js",
+    "javascript basico",
+    "ecmascript"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "variables",
+      "titulo": "Variables y constantes",
+      "aliases": [
+        "let",
+        "const",
+        "var"
+      ]
+    },
+    {
+      "id": "funciones",
+      "titulo": "Funciones",
+      "aliases": [
+        "function",
+        "return",
+        "arrow functions",
+        "funciones flecha"
+      ]
+    },
+    {
+      "id": "condicionales",
+      "titulo": "Condicionales",
+      "aliases": [
+        "if",
+        "else",
+        "if else"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "fundamentos",
+      "titulo": "Fundamentos",
+      "lecciones": [
+        {
+          "id": "variables",
+          "titulo": "Variables y constantes",
+          "subtema": "variables",
+          "archivo": "lecciones/variables.json"
+        },
+        {
+          "id": "funciones",
+          "titulo": "Funciones",
+          "subtema": "funciones",
+          "archivo": "lecciones/funciones.json"
+        },
+        {
+          "id": "condicionales",
+          "titulo": "Condicionales",
+          "subtema": "condicionales",
+          "archivo": "lecciones/condicionales.json"
+        }
+      ]
+    }
+  ]
+}

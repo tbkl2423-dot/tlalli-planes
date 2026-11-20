@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tbkl2423-dot/tlalli-planes/schema/index.schema.json",
+  "title": "Índice del catálogo de Tlalli",
+  "description": "Lista ligera de todos los temas y subtemas. La app descarga solo este archivo para comparar lo que ya existe.",
+  "type": "object",
+  "required": ["version", "actualizado", "temas"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "integer", "minimum": 1, "description": "Se incrementa en cada cambio del catálogo." },
+    "actualizado": { "type": "string", "format": "date" },
+    "temas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "titulo", "categoria", "ruta", "version", "subtemas"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "titulo": { "type": "string", "minLength": 2, "maxLength": 80 },
+          "categoria": { "$ref": "#/$defs/categoria" },
+          "ruta": { "type": "string", "pattern": "^temas/[a-z0-9-]+/[a-z0-9-]+$" },
+          "version": { "type": "integer", "minimum": 1 },
+          "aliases": { "type": "array", "items": { "type": "string" }, "maxItems": 15 },
+          "subtemas": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "titulo"],
+              "additionalProperties": false,
+              "properties": {
+                "id": { "$ref": "#/$defs/id" },
+                "titulo": { "type": "string", "minLength": 2, "maxLength": 80 },
+                "aliases": { "type": "array", "items": { "type": "string" }, "maxItems": 15 }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 60 },
+    "categoria": { "type": "string", "enum": ["programacion", "idiomas", "ciencias", "matematicas", "historia", "humanidades", "arte", "negocios", "tecnologia", "salud", "otros"] }
+  }
+}

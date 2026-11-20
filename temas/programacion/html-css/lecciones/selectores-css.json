@@ -1,0 +1,43 @@
+{
+  "id": "selectores-css",
+  "tema": "html-css",
+  "subtema": "selectores-css",
+  "titulo": "Selectores y colores en CSS",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "CSS dice cómo se ve cada parte. Escribes un selector y, entre llaves, las propiedades."
+    },
+    {
+      "texto": "Un selector puede ser el nombre de la etiqueta, una clase con punto o un id con numeral.",
+      "codigo": "p { color: gray; }\n.aviso { color: red; }\n#titulo { font-size: 32px; }"
+    },
+    {
+      "texto": "Cada propiedad termina en punto y coma. color cambia el color del texto y background el del fondo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "selector-clase",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo seleccionas los elementos con la clase boton?",
+      "opciones": [
+        "#boton",
+        ".boton",
+        "boton()"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "Las clases se seleccionan con un punto: .boton."
+    },
+    {
+      "id": "completar-color",
+      "tipo": "completar",
+      "enunciado": "h1 { ___: blue; }",
+      "respuestas_validas": [
+        "color"
+      ],
+      "explicacion_respuesta": "color cambia el color del texto."
+    }
+  ]
+}

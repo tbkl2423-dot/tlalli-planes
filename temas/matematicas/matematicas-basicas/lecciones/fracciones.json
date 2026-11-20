@@ -1,0 +1,54 @@
+{
+  "id": "fracciones",
+  "tema": "matematicas-basicas",
+  "subtema": "fracciones",
+  "titulo": "Fracciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una fracción indica partes de un todo. El número de abajo, el denominador, dice en cuántas partes se divide."
+    },
+    {
+      "texto": "El número de arriba, el numerador, dice cuántas partes tomas. Tres cuartos son tres partes de cuatro."
+    },
+    {
+      "texto": "Para sumar fracciones con el mismo denominador, sumas los numeradores y dejas el denominador igual. Un quinto más dos quintos son tres quintos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nombre-abajo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llama el número de abajo en una fracción?",
+      "opciones": [
+        "Numerador",
+        "Denominador",
+        "Cociente"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "El de abajo es el denominador: indica en cuántas partes se divide el todo."
+    },
+    {
+      "id": "sumar-octavos",
+      "tipo": "completar",
+      "enunciado": "2/8 + 3/8 = ___/8",
+      "respuestas_validas": [
+        "5"
+      ],
+      "explicacion_respuesta": "Con el mismo denominador se suman los numeradores: 2 más 3 son 5."
+    },
+    {
+      "id": "mitad-pizza",
+      "tipo": "opcion_multiple",
+      "pregunta": "Una pizza tiene 8 rebanadas y comes la mitad. ¿Cuántas rebanadas comiste?",
+      "opciones": [
+        "2",
+        "4",
+        "6"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "La mitad de 8 es 4, igual que 4/8 = 1/2."
+    }
+  ]
+}

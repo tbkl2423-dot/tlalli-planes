@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tbkl2423-dot/tlalli-planes/schema/plan.schema.json",
+  "title": "Plan de estudio de un tema",
+  "type": "object",
+  "required": [
+    "id",
+    "titulo",
+    "categoria",
+    "idioma",
+    "nivel",
+    "descripcion",
+    "version",
+    "unidades",
+    "subtemas"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "titulo": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "idioma": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+      "description": "Idioma en que se enseña (es, es-MX, en...)"
+    },
+    "nivel": {
+      "type": "string",
+      "enum": [
+        "principiante",
+        "intermedio",
+        "avanzado"
+      ]
+    },
+    "descripcion": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 400
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 15
+    },
+    "requisitos": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "description": "IDs de temas recomendados antes de este."
+    },
+    "subtemas": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Subtemas que cubre el tema. index.json se genera a partir de aquí.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "titulo"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "titulo": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 80
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 15
+          }
+        }
+      }
+    },
+    "unidades": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "titulo",
+          "lecciones"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/id"
+          },
+          "titulo": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 80
+          },
+          "lecciones": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "titulo",
+                "subtema",
+                "archivo"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "$ref": "#/$defs/id"
+                },
+                "titulo": {
+                  "type": "string",
+                  "minLength": 2,
+                  "maxLength": 80
+                },
+                "subtema": {
+                  "$ref": "#/$defs/id",
+                  "description": "ID del subtema en index.json que cubre esta lección."
+                },
+                "archivo": {
+                  "type": "string",
+                  "pattern": "^lecciones/[a-z0-9-]+\\.json$"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 60
+    }
+  }
+}

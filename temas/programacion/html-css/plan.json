@@ -1,0 +1,55 @@
+{
+  "id": "html-css",
+  "titulo": "HTML y CSS",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Crea tu primera página web: la estructura con HTML y el estilo con CSS.",
+  "version": 1,
+  "aliases": [
+    "html",
+    "css",
+    "paginas web",
+    "desarrollo web basico"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "etiquetas-html",
+      "titulo": "Etiquetas HTML",
+      "aliases": [
+        "tags",
+        "estructura html"
+      ]
+    },
+    {
+      "id": "selectores-css",
+      "titulo": "Selectores y colores en CSS",
+      "aliases": [
+        "css basico",
+        "estilos",
+        "clases css"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primera-pagina",
+      "titulo": "Tu primera página",
+      "lecciones": [
+        {
+          "id": "etiquetas-html",
+          "titulo": "Etiquetas HTML",
+          "subtema": "etiquetas-html",
+          "archivo": "lecciones/etiquetas-html.json"
+        },
+        {
+          "id": "selectores-css",
+          "titulo": "Selectores y colores en CSS",
+          "subtema": "selectores-css",
+          "archivo": "lecciones/selectores-css.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "variables",
+  "tema": "javascript",
+  "subtema": "variables",
+  "titulo": "Variables y constantes",
+  "version": 1,
+  "duracion_min": 4,
+  "explicacion": [
+    { "texto": "Una variable es como una caja con etiqueta: guardas un dato adentro y luego lo buscas por su nombre." },
+    { "texto": "En JavaScript usamos let para valores que pueden cambiar, y const para valores que no cambian.", "codigo": "let edad = 20;\nedad = 21;\nconst nombre = \"Ana\";" },
+    { "texto": "Si intentas cambiar una const, JavaScript marca un error. Por eso se usa const por defecto y let solo cuando el valor va a cambiar." }
+  ],
+  "ejercicios": [
+    {
+      "id": "concepto-const",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué palabra usarías para una variable que no va a cambiar?",
+      "respuesta_esperada": "const",
+      "palabras_clave": ["const", "constante"],
+      "pista": "Empieza con 'con'.",
+      "explicacion_respuesta": "const se usa para valores que no se van a reasignar."
+    },
+    {
+      "id": "elegir-let",
+      "tipo": "opcion_multiple",
+      "pregunta": "Vas a guardar un contador que sube cada vez que el usuario toca un botón. ¿Qué usas?",
+      "opciones": ["const", "let", "Ninguna, no se puede"],
+      "correcta": 1,
+      "explicacion_respuesta": "El contador cambia, así que necesita let."
+    },
+    {
+      "id": "completar-const",
+      "tipo": "completar",
+      "enunciado": "___ PI = 3.1416;",
+      "respuestas_validas": ["const"],
+      "explicacion_respuesta": "PI nunca cambia, así que se declara con const."
+    }
+  ]
+}

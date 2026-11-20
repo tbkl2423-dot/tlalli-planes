@@ -1,0 +1,60 @@
+{
+  "id": "saludos",
+  "tema": "ingles-a1",
+  "subtema": "saludos",
+  "titulo": "Saludos y presentaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para saludar en inglés dices hello, que se pronuncia jelóu. Entre amigos también se usa hi."
+    },
+    {
+      "texto": "Para presentarte dices my name is y tu nombre. Para preguntar el nombre de alguien: what is your name?"
+    },
+    {
+      "texto": "Al conocer a alguien se dice nice to meet you, que significa mucho gusto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "traducir-gusto",
+      "tipo": "traduccion",
+      "frase": "Mucho gusto",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "nice to meet you",
+        "pleased to meet you"
+      ],
+      "explicacion_respuesta": "Nice to meet you es la forma más común de decir mucho gusto."
+    },
+    {
+      "id": "escuchar-nombre",
+      "tipo": "escucha",
+      "frase": "What is your name?",
+      "idioma": "en",
+      "explicacion_respuesta": "What is your name? significa ¿cómo te llamas?"
+    },
+    {
+      "id": "pronunciar-hello",
+      "tipo": "pronunciacion",
+      "frase": "Hello, my name is Sam",
+      "idioma": "en",
+      "umbral_similitud": 0.75,
+      "explicacion_respuesta": "Hello, my name is Sam significa hola, me llamo Sam."
+    },
+    {
+      "id": "elegir-saludo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un saludo informal en inglés?",
+      "opciones": [
+        "Goodbye",
+        "Hi",
+        "Thanks"
+      ],
+      "correcta": 1,
+      "explicacion_respuesta": "Hi es un saludo informal. Goodbye es para despedirse y thanks para agradecer."
+    }
+  ]
+}

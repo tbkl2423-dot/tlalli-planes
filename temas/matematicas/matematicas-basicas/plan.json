@@ -1,0 +1,54 @@
+{
+  "id": "matematicas-basicas",
+  "titulo": "Matemáticas básicas",
+  "categoria": "matematicas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Repasa fracciones y porcentajes con ejemplos de la vida diaria.",
+  "version": 1,
+  "aliases": [
+    "mate basica",
+    "aritmetica",
+    "matematicas"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "fracciones",
+      "titulo": "Fracciones",
+      "aliases": [
+        "numerador",
+        "denominador",
+        "quebrados"
+      ]
+    },
+    {
+      "id": "porcentajes",
+      "titulo": "Porcentajes",
+      "aliases": [
+        "por ciento",
+        "descuentos"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "numeros",
+      "titulo": "Números de todos los días",
+      "lecciones": [
+        {
+          "id": "fracciones",
+          "titulo": "Fracciones",
+          "subtema": "fracciones",
+          "archivo": "lecciones/fracciones.json"
+        },
+        {
+          "id": "porcentajes",
+          "titulo": "Porcentajes",
+          "subtema": "porcentajes",
+          "archivo": "lecciones/porcentajes.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "funciones",
+  "tema": "javascript",
+  "subtema": "funciones",
+  "titulo": "Funciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    { "texto": "Una función es como una receta: le das ingredientes, hace algo con ellos y te regresa un resultado." },
+    { "texto": "Los ingredientes se llaman parámetros, y lo que regresa se indica con la palabra return.", "codigo": "function doble(n) {\n  return n * 2;\n}" },
+    { "texto": "Para usarla la llamas por su nombre con paréntesis. Por ejemplo, doble de 4 regresa 8." }
+  ],
+  "ejercicios": [
+    {
+      "id": "concepto-return",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Para qué sirve la palabra return dentro de una función?",
+      "respuesta_esperada": "Para devolver un resultado de la función",
+      "palabras_clave": ["devolver", "regresar", "resultado", "valor"],
+      "explicacion_respuesta": "return devuelve un valor a quien llamó la función y termina su ejecución."
+    },
+    {
+      "id": "practica-suma",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función llamada suma que reciba dos números y regrese su suma.",
+      "codigo_inicial": "function suma(a, b) {\n  // tu código aquí\n}",
+      "funcion": "suma",
+      "pruebas": [
+        { "entrada": [2, 3], "salida": 5 },
+        { "entrada": [10, -1], "salida": 9 },
+        { "entrada": [0, 0], "salida": 0 }
+      ],
+      "solucion": "function suma(a, b) {\n  return a + b;\n}",
+      "pista": "Acuérdate de usar return.",
+      "explicacion_respuesta": "La función debe regresar a + b con return; si solo lo imprime, no devuelve nada."
+    }
+  ]
+}
