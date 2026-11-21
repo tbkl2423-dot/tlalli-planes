@@ -4,8 +4,8 @@
   "categoria": "programacion",
   "idioma": "es",
   "nivel": "principiante",
-  "descripcion": "Primeros pasos en Python: guardar datos en variables, conocer sus tipos y trabajar con listas.",
-  "version": 3,
+  "descripcion": "Python desde cero hasta clases: variables, texto, decisiones, ciclos, funciones, colecciones, archivos, errores y objetos.",
+  "version": 4,
   "aliases": [
     "python basico",
     "py",

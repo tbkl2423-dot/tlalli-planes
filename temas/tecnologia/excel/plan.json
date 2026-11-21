@@ -4,8 +4,8 @@
   "categoria": "tecnologia",
   "idioma": "es",
   "nivel": "principiante",
-  "descripcion": "Usa fórmulas en Excel o en hojas de cálculo similares: sumar, promediar y copiar fórmulas sin errores.",
-  "version": 3,
+  "descripcion": "Excel práctico: fórmulas, referencias, SI, BUSCARX, ordenar y filtrar, formato condicional, gráficos y tablas dinámicas.",
+  "version": 4,
   "aliases": [
     "hojas de calculo",
     "excel basico",

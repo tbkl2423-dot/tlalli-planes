@@ -4,8 +4,8 @@
   "categoria": "programacion",
   "idioma": "es",
   "nivel": "principiante",
-  "descripcion": "Crea tu primera página web: la estructura con HTML y el estilo con CSS.",
-  "version": 3,
+  "descripcion": "Crea páginas web: etiquetas, enlaces, imágenes, formularios, estilos, modelo de caja, Flexbox, Grid, diseño responsivo y accesibilidad.",
+  "version": 4,
   "aliases": [
     "html",
     "css",

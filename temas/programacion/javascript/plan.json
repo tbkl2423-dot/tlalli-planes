@@ -4,8 +4,8 @@
   "categoria": "programacion",
   "idioma": "es",
   "nivel": "principiante",
-  "descripcion": "Aprende las bases de JavaScript: variables, funciones y cómo tomar decisiones con if.",
-  "version": 4,
+  "descripcion": "JavaScript completo para empezar: variables, funciones, decisiones, ciclos, arreglos, objetos, la página (DOM), eventos y async/await.",
+  "version": 5,
   "aliases": [
     "js",
     "javascript basico",
