@@ -1,0 +1,45 @@
+{
+  "id": "enfoque",
+  "tema": "fotografia",
+  "subtema": "enfoque",
+  "titulo": "Enfoque y profundidad de campo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La profundidad de campo es la zona de la foto que se ve nítida."
+    },
+    {
+      "texto": "Una profundidad corta desenfoca el fondo y destaca al sujeto, ideal para retratos."
+    },
+    {
+      "texto": "Una profundidad amplia mantiene todo nítido, ideal para paisajes. Se logra con apertura cerrada, como f/11."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "paisaje",
+      "tipo": "opcion_multiple",
+      "pregunta": "Para un paisaje todo nítido, ¿qué apertura conviene?",
+      "opciones": [
+        "f/11",
+        "f/1.8",
+        "f/2"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Una apertura cerrada amplía la profundidad de campo."
+    },
+    {
+      "id": "retrato",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué se desenfoca el fondo en un retrato?",
+      "respuesta_esperada": "Para destacar a la persona.",
+      "palabras_clave": [
+        "destacar",
+        "sujeto",
+        "persona"
+      ],
+      "explicacion_respuesta": "El fondo borroso dirige la mirada al sujeto."
+    }
+  ]
+}

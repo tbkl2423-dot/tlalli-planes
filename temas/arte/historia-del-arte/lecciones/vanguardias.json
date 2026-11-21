@@ -1,0 +1,42 @@
+{
+  "id": "vanguardias",
+  "tema": "historia-del-arte",
+  "subtema": "vanguardias",
+  "titulo": "Vanguardias",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las vanguardias del siglo veinte rompieron con la representación tradicional."
+    },
+    {
+      "texto": "El cubismo de Picasso mostraba un objeto desde varios ángulos a la vez."
+    },
+    {
+      "texto": "El surrealismo, con Dalí, pintó el mundo de los sueños. Remedios Varo y Leonora Carrington desarrollaron su obra surrealista en México."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cubismo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué artista es central en el cubismo?",
+      "opciones": [
+        "Picasso",
+        "Monet",
+        "Rafael"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Junto con Georges Braque."
+    },
+    {
+      "id": "suenos",
+      "tipo": "completar",
+      "enunciado": "El movimiento que pintó el mundo de los sueños es el ___.",
+      "respuestas_validas": [
+        "surrealismo"
+      ],
+      "explicacion_respuesta": "Buscaba expresar el inconsciente."
+    }
+  ]
+}

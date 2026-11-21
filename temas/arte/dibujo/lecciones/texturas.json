@@ -1,0 +1,42 @@
+{
+  "id": "texturas",
+  "tema": "dibujo",
+  "subtema": "texturas",
+  "titulo": "Texturas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La textura muestra cómo se siente una superficie: suave, rugosa o brillante."
+    },
+    {
+      "texto": "Se logra con distintos trazos: tramado con líneas cruzadas, puntillismo con puntos o difuminado suave."
+    },
+    {
+      "texto": "Observa el objeto real y repite el patrón que ves, no lo que imaginas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tramado",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué técnica usa líneas cruzadas?",
+      "opciones": [
+        "Tramado",
+        "Puntillismo",
+        "Difuminado"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Más líneas cruzadas, más oscuro."
+    },
+    {
+      "id": "puntos",
+      "tipo": "completar",
+      "enunciado": "Sombrear con puntos se llama ___.",
+      "respuestas_validas": [
+        "puntillismo"
+      ],
+      "explicacion_respuesta": "Más puntos juntos crean zonas más oscuras."
+    }
+  ]
+}

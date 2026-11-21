@@ -1,0 +1,45 @@
+{
+  "id": "crecimiento",
+  "tema": "emprendimiento",
+  "subtema": "crecimiento",
+  "titulo": "Crecer y escalar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Crecer no es solo vender más: es vender más sin que los costos y el trabajo crezcan igual."
+    },
+    {
+      "texto": "Documenta tus procesos para que otras personas puedan hacerlos."
+    },
+    {
+      "texto": "Mide pocas cosas importantes, como ventas, clientes que regresan y margen."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "escalar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa escalar un negocio?",
+      "opciones": [
+        "Crecer sin que los costos crezcan igual",
+        "Subir los precios",
+        "Abrir sin planear"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Escalar es crecer de forma eficiente."
+    },
+    {
+      "id": "procesos",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué documentar los procesos?",
+      "respuesta_esperada": "Para que otras personas puedan hacer el trabajo igual de bien.",
+      "palabras_clave": [
+        "otras personas",
+        "delegar",
+        "equipo"
+      ],
+      "explicacion_respuesta": "Así no dependes de hacerlo todo tú."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Leer y entender la música: notas, ritmo, escalas, intervalos y acordes.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "musica",
     "solfeo",
@@ -90,7 +90,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -98,6 +98,72 @@
           "titulo": "Las notas musicales",
           "subtema": "notas",
           "archivo": "lecciones/notas.json"
+        },
+        {
+          "id": "pentagrama",
+          "titulo": "Pentagrama y claves",
+          "subtema": "pentagrama",
+          "archivo": "lecciones/pentagrama.json"
+        },
+        {
+          "id": "ritmo",
+          "titulo": "Figuras rítmicas",
+          "subtema": "ritmo",
+          "archivo": "lecciones/ritmo.json"
+        },
+        {
+          "id": "compas",
+          "titulo": "Compás",
+          "subtema": "compas",
+          "archivo": "lecciones/compas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "alteraciones",
+          "titulo": "Sostenidos y bemoles",
+          "subtema": "alteraciones",
+          "archivo": "lecciones/alteraciones.json"
+        },
+        {
+          "id": "escalas",
+          "titulo": "Escalas mayores y menores",
+          "subtema": "escalas",
+          "archivo": "lecciones/escalas.json"
+        },
+        {
+          "id": "intervalos",
+          "titulo": "Intervalos",
+          "subtema": "intervalos",
+          "archivo": "lecciones/intervalos.json"
+        },
+        {
+          "id": "acordes",
+          "titulo": "Acordes y triadas",
+          "subtema": "acordes",
+          "archivo": "lecciones/acordes.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "armaduras",
+          "titulo": "Armaduras y tonalidades",
+          "subtema": "armaduras",
+          "archivo": "lecciones/armaduras.json"
+        },
+        {
+          "id": "progresiones",
+          "titulo": "Progresiones de acordes",
+          "subtema": "progresiones",
+          "archivo": "lecciones/progresiones.json"
         }
       ]
     }

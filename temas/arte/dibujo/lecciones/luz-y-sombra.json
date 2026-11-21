@@ -1,0 +1,42 @@
+{
+  "id": "luz-y-sombra",
+  "tema": "dibujo",
+  "subtema": "luz-y-sombra",
+  "titulo": "Luz y sombra",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El sombreado da volumen. Primero identifica de dónde viene la luz."
+    },
+    {
+      "texto": "En una esfera verás: la luz, los medios tonos, la sombra propia, la luz reflejada y la sombra proyectada en el piso."
+    },
+    {
+      "texto": "Una escala de valores, del blanco al negro, te ayuda a practicar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "proyectada",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llama la sombra que un objeto deja sobre el piso?",
+      "opciones": [
+        "Sombra proyectada",
+        "Sombra propia",
+        "Luz reflejada"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la sombra que cae fuera del objeto."
+    },
+    {
+      "id": "primero",
+      "tipo": "completar",
+      "enunciado": "Antes de sombrear identifica de dónde viene la ___.",
+      "respuestas_validas": [
+        "luz"
+      ],
+      "explicacion_respuesta": "Todas las sombras dependen de la fuente de luz."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "escalas",
+  "tema": "teoria-musical",
+  "subtema": "escalas",
+  "titulo": "Escalas mayores y menores",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una escala es una serie ordenada de notas."
+    },
+    {
+      "texto": "La escala mayor sigue el patrón tono, tono, semitono, tono, tono, tono, semitono. Do mayor usa solo teclas blancas."
+    },
+    {
+      "texto": "La escala menor natural suena más triste. La menor de la usa las mismas notas que do mayor, empezando en la."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "do-mayor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué escala mayor usa solo teclas blancas del piano?",
+      "opciones": [
+        "Do mayor",
+        "Sol mayor",
+        "Fa mayor"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Do, re, mi, fa, sol, la, si, sin alteraciones."
+    },
+    {
+      "id": "relativa",
+      "tipo": "completar",
+      "enunciado": "La relativa menor de do mayor es la ___ menor.",
+      "respuestas_validas": [
+        "la"
+      ],
+      "explicacion_respuesta": "Comparten las mismas notas."
+    }
+  ]
+}

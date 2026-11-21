@@ -1,0 +1,45 @@
+{
+  "id": "contemporaneo",
+  "tema": "historia-del-arte",
+  "subtema": "contemporaneo",
+  "titulo": "Arte contemporáneo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El arte contemporáneo usa todo tipo de medios: instalaciones, video, performance y arte digital."
+    },
+    {
+      "texto": "Muchas obras invitan a pensar más que a admirar una técnica."
+    },
+    {
+      "texto": "Artistas como Gabriel Orozco o Teresa Margolles han llevado el arte mexicano a museos de todo el mundo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "medios",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué caracteriza al arte contemporáneo?",
+      "opciones": [
+        "Usa muchos medios distintos",
+        "Solo usa óleo",
+        "Solo retrata reyes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Instalación, video, performance y más."
+    },
+    {
+      "id": "reflexion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué busca con frecuencia el arte contemporáneo?",
+      "respuesta_esperada": "Hacer pensar y cuestionar.",
+      "palabras_clave": [
+        "pensar",
+        "cuestion",
+        "reflexion"
+      ],
+      "explicacion_respuesta": "La idea pesa tanto como la técnica."
+    }
+  ]
+}

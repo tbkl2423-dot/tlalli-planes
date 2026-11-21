@@ -1,0 +1,45 @@
+{
+  "id": "linea",
+  "tema": "dibujo",
+  "subtema": "linea",
+  "titulo": "Línea y trazo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La línea es la base del dibujo. Puede ser fina o gruesa, firme o temblorosa."
+    },
+    {
+      "texto": "Dibuja desde el hombro y el codo, no solo con la muñeca: las líneas largas salen más fluidas."
+    },
+    {
+      "texto": "Variar el grosor de la línea da sensación de peso y profundidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fluidas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo salen líneas largas más fluidas?",
+      "opciones": [
+        "Moviendo el brazo desde el hombro",
+        "Solo con los dedos",
+        "Apretando fuerte"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El brazo completo da trazos más estables."
+    },
+    {
+      "id": "grosor",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Para qué sirve variar el grosor de la línea?",
+      "respuesta_esperada": "Para dar sensación de peso y profundidad.",
+      "palabras_clave": [
+        "peso",
+        "profundidad",
+        "volumen"
+      ],
+      "explicacion_respuesta": "Las líneas gruesas parecen más cerca o más pesadas."
+    }
+  ]
+}

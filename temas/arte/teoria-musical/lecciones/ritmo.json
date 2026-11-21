@@ -1,0 +1,43 @@
+{
+  "id": "ritmo",
+  "tema": "teoria-musical",
+  "subtema": "ritmo",
+  "titulo": "Figuras rítmicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las figuras indican cuánto dura cada nota."
+    },
+    {
+      "texto": "En un compás de cuatro tiempos: la redonda dura cuatro, la blanca dos, la negra uno y la corchea medio."
+    },
+    {
+      "texto": "Los silencios son figuras de pausa con las mismas duraciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "corchea",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas corcheas caben en una negra?",
+      "opciones": [
+        "Dos",
+        "Cuatro",
+        "Una"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La corchea dura la mitad de una negra."
+    },
+    {
+      "id": "blanca",
+      "tipo": "completar",
+      "enunciado": "Una blanca dura ___ tiempos.",
+      "respuestas_validas": [
+        "2",
+        "dos"
+      ],
+      "explicacion_respuesta": "Dos negras equivalen a una blanca."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ventas",
+  "tema": "emprendimiento",
+  "subtema": "ventas",
+  "titulo": "Ventas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Vender es ayudar a alguien a resolver su problema con lo que ofreces."
+    },
+    {
+      "texto": "Escucha más de lo que hablas: entiende la necesidad antes de presentar tu producto."
+    },
+    {
+      "texto": "Haz seguimiento: muchas ventas se cierran en el segundo o tercer contacto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "escuchar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene hacer primero en una venta?",
+      "opciones": [
+        "Escuchar la necesidad del cliente",
+        "Hablar de todas las funciones",
+        "Bajar el precio"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Entender antes de proponer."
+    },
+    {
+      "id": "seguimiento",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué hacer seguimiento a un cliente?",
+      "respuesta_esperada": "Porque muchas ventas se cierran después del primer contacto.",
+      "palabras_clave": [
+        "segundo",
+        "despues",
+        "contacto"
+      ],
+      "explicacion_respuesta": "La constancia genera confianza."
+    }
+  ]
+}

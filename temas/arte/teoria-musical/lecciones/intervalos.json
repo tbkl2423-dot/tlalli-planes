@@ -1,0 +1,42 @@
+{
+  "id": "intervalos",
+  "tema": "teoria-musical",
+  "subtema": "intervalos",
+  "titulo": "Intervalos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un intervalo es la distancia entre dos notas."
+    },
+    {
+      "texto": "De do a mi hay una tercera mayor; de do a sol, una quinta justa; de do al siguiente do, una octava."
+    },
+    {
+      "texto": "Las terceras dan el color mayor o menor de los acordes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "quinta",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué intervalo hay de do a sol?",
+      "opciones": [
+        "Quinta",
+        "Tercera",
+        "Octava"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Do, re, mi, fa, sol: cinco notas."
+    },
+    {
+      "id": "octava",
+      "tipo": "completar",
+      "enunciado": "De do al siguiente do hay una ___.",
+      "respuestas_validas": [
+        "octava"
+      ],
+      "explicacion_respuesta": "Ocho notas de distancia."
+    }
+  ]
+}

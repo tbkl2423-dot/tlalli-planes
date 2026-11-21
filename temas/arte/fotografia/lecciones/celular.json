@@ -1,0 +1,42 @@
+{
+  "id": "celular",
+  "tema": "fotografia",
+  "subtema": "celular",
+  "titulo": "Fotografía con el celular",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Limpia el lente antes de tomar fotos: la grasa de los dedos empaña la imagen."
+    },
+    {
+      "texto": "Toca la pantalla para enfocar y ajusta la exposición deslizando el dedo."
+    },
+    {
+      "texto": "Evita el zoom digital; mejor acércate. Y aprovecha el modo retrato y la cuadrícula para componer."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "zoom",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene en lugar del zoom digital?",
+      "opciones": [
+        "Acercarte físicamente",
+        "Subir el brillo",
+        "Usar flash"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El zoom digital solo recorta y pierde calidad."
+    },
+    {
+      "id": "lente",
+      "tipo": "completar",
+      "enunciado": "Antes de fotografiar conviene limpiar el ___.",
+      "respuestas_validas": [
+        "lente"
+      ],
+      "explicacion_respuesta": "Una huella en el lente vuelve borrosa la foto."
+    }
+  ]
+}

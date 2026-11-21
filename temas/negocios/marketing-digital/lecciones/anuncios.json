@@ -1,0 +1,44 @@
+{
+  "id": "anuncios",
+  "tema": "marketing-digital",
+  "subtema": "anuncios",
+  "titulo": "Publicidad pagada",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La publicidad pagada en redes y buscadores te deja llegar a un público muy específico."
+    },
+    {
+      "texto": "Defines a quién mostrarlo, cuánto gastar por día y qué acción buscas."
+    },
+    {
+      "texto": "Empieza con presupuestos pequeños, prueba varias versiones y quédate con la que mejor funciona."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "prueba",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene al empezar con anuncios?",
+      "opciones": [
+        "Probar con poco presupuesto y comparar",
+        "Gastar todo el primer día",
+        "No medir"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Probar y medir evita desperdiciar dinero."
+    },
+    {
+      "id": "ab",
+      "tipo": "completar",
+      "enunciado": "Comparar dos versiones de un anuncio se llama prueba ___.",
+      "respuestas_validas": [
+        "A/B",
+        "a/b",
+        "AB"
+      ],
+      "explicacion_respuesta": "Muestras A y B y ves cuál funciona mejor."
+    }
+  ]
+}

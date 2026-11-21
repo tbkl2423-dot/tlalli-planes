@@ -1,0 +1,42 @@
+{
+  "id": "perspectiva",
+  "tema": "dibujo",
+  "subtema": "perspectiva",
+  "titulo": "Perspectiva",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La perspectiva da sensación de profundidad en una superficie plana."
+    },
+    {
+      "texto": "En perspectiva de un punto, las líneas que se alejan van hacia un solo punto de fuga en el horizonte."
+    },
+    {
+      "texto": "En perspectiva de dos puntos, como al ver la esquina de un edificio, hay dos puntos de fuga."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "esquina",
+      "tipo": "opcion_multiple",
+      "pregunta": "Al dibujar la esquina de un edificio, ¿cuántos puntos de fuga se usan?",
+      "opciones": [
+        "Dos",
+        "Uno",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cada cara se aleja hacia su propio punto."
+    },
+    {
+      "id": "horizonte",
+      "tipo": "completar",
+      "enunciado": "Los puntos de fuga están sobre la línea del ___.",
+      "respuestas_validas": [
+        "horizonte"
+      ],
+      "explicacion_respuesta": "El horizonte está a la altura de tus ojos."
+    }
+  ]
+}

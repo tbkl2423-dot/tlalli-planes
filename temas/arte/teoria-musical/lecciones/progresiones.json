@@ -1,0 +1,45 @@
+{
+  "id": "progresiones",
+  "tema": "teoria-musical",
+  "subtema": "progresiones",
+  "titulo": "Progresiones de acordes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una progresión es una secuencia de acordes."
+    },
+    {
+      "texto": "Los acordes se numeran según la nota de la escala: en do mayor, I es do, IV es fa y V es sol."
+    },
+    {
+      "texto": "La progresión I, V, vi, IV aparece en muchísimas canciones populares."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "quinto",
+      "tipo": "opcion_multiple",
+      "pregunta": "En do mayor, ¿cuál es el acorde V?",
+      "opciones": [
+        "Sol",
+        "Fa",
+        "La menor"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Sol es la quinta nota de la escala."
+    },
+    {
+      "id": "comun",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué tantas canciones comparten progresiones?",
+      "respuesta_esperada": "Porque esas combinaciones suenan bien y son fáciles de seguir.",
+      "palabras_clave": [
+        "suenan",
+        "funcionan",
+        "facil"
+      ],
+      "explicacion_respuesta": "Las progresiones son la base, no la canción completa."
+    }
+  ]
+}

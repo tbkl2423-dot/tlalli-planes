@@ -1,0 +1,44 @@
+{
+  "id": "contenido",
+  "tema": "marketing-digital",
+  "subtema": "contenido",
+  "titulo": "Marketing de contenido",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El marketing de contenido atrae clientes con información útil en lugar de anuncios."
+    },
+    {
+      "texto": "Por ejemplo, una panadería puede enseñar a conservar el pan o mostrar cómo se hace."
+    },
+    {
+      "texto": "El contenido útil se comparte y te posiciona como experto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ejemplo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un ejemplo de marketing de contenido?",
+      "opciones": [
+        "Un video con consejos útiles",
+        "Un anuncio con descuento",
+        "Un cartel con el logo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Aporta valor antes de vender."
+    },
+    {
+      "id": "util",
+      "tipo": "completar",
+      "enunciado": "El buen contenido es ___ para tu público.",
+      "respuestas_validas": [
+        "útil",
+        "util",
+        "valioso"
+      ],
+      "explicacion_respuesta": "Si sirve, se comparte."
+    }
+  ]
+}

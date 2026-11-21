@@ -1,0 +1,42 @@
+{
+  "id": "producto-minimo",
+  "tema": "emprendimiento",
+  "subtema": "producto-minimo",
+  "titulo": "Producto mínimo viable",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un producto mínimo viable es la versión más simple que permite aprender si a la gente le interesa."
+    },
+    {
+      "texto": "Puede ser tan sencillo como una página con un botón de preordenar o un servicio hecho a mano."
+    },
+    {
+      "texto": "Mide qué hacen los clientes, aprende y mejora en ciclos cortos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "objetivo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el objetivo principal de un producto mínimo viable?",
+      "opciones": [
+        "Aprender rápido con poco gasto",
+        "Tener el producto perfecto",
+        "Ganar un premio"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es una herramienta de aprendizaje."
+    },
+    {
+      "id": "ciclo",
+      "tipo": "completar",
+      "enunciado": "El proceso es construir, medir y ___.",
+      "respuestas_validas": [
+        "aprender"
+      ],
+      "explicacion_respuesta": "Ciclo construir, medir, aprender."
+    }
+  ]
+}

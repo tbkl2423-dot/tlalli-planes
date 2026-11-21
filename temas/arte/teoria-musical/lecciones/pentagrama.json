@@ -1,0 +1,42 @@
+{
+  "id": "pentagrama",
+  "tema": "teoria-musical",
+  "subtema": "pentagrama",
+  "titulo": "Pentagrama y claves",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El pentagrama tiene cinco líneas y cuatro espacios. Las notas se escriben en ellos."
+    },
+    {
+      "texto": "La clave al inicio indica qué nota corresponde a cada línea. La clave de sol marca el sol en la segunda línea."
+    },
+    {
+      "texto": "La clave de fa se usa para notas graves, como las del bajo o la mano izquierda del piano."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sol",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué línea marca el sol la clave de sol?",
+      "opciones": [
+        "Segunda",
+        "Primera",
+        "Quinta"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La espiral de la clave rodea la segunda línea."
+    },
+    {
+      "id": "graves",
+      "tipo": "completar",
+      "enunciado": "Para notas graves se usa la clave de ___.",
+      "respuestas_validas": [
+        "fa"
+      ],
+      "explicacion_respuesta": "La clave de fa se usa en instrumentos graves."
+    }
+  ]
+}

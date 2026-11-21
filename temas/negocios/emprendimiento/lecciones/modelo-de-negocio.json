@@ -1,0 +1,42 @@
+{
+  "id": "modelo-de-negocio",
+  "tema": "emprendimiento",
+  "subtema": "modelo-de-negocio",
+  "titulo": "Modelo de negocio",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El modelo de negocio explica cómo creas, entregas y cobras valor."
+    },
+    {
+      "texto": "El lienzo de modelo de negocio, o canvas, resume en una hoja: clientes, propuesta de valor, canales, ingresos y costos, entre otros."
+    },
+    {
+      "texto": "Sirve para ver todo el negocio de un vistazo y detectar huecos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "canvas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es el canvas de modelo de negocio?",
+      "opciones": [
+        "Un resumen del negocio en una hoja",
+        "Un tipo de lienzo para pintar",
+        "Un contrato"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tiene nueve bloques."
+    },
+    {
+      "id": "propuesta",
+      "tipo": "completar",
+      "enunciado": "Lo que hace único a tu producto para el cliente es la propuesta de ___.",
+      "respuestas_validas": [
+        "valor"
+      ],
+      "explicacion_respuesta": "Responde por qué te elegirían."
+    }
+  ]
+}

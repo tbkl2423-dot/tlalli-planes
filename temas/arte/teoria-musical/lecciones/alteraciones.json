@@ -1,0 +1,42 @@
+{
+  "id": "alteraciones",
+  "tema": "teoria-musical",
+  "subtema": "alteraciones",
+  "titulo": "Sostenidos y bemoles",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El sostenido sube una nota medio tono y el bemol la baja medio tono."
+    },
+    {
+      "texto": "El becuadro cancela una alteración anterior."
+    },
+    {
+      "texto": "En el piano, las teclas negras son las notas alteradas: do sostenido es lo mismo que re bemol."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sube",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué alteración sube medio tono?",
+      "opciones": [
+        "Sostenido",
+        "Bemol",
+        "Becuadro"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El sostenido eleva la nota."
+    },
+    {
+      "id": "enarmonico",
+      "tipo": "completar",
+      "enunciado": "Do sostenido suena igual que re ___.",
+      "respuestas_validas": [
+        "bemol"
+      ],
+      "explicacion_respuesta": "Son notas enarmónicas."
+    }
+  ]
+}

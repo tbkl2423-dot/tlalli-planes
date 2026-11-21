@@ -1,0 +1,42 @@
+{
+  "id": "armaduras",
+  "tema": "teoria-musical",
+  "subtema": "armaduras",
+  "titulo": "Armaduras y tonalidades",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La armadura son los sostenidos o bemoles al inicio del pentagrama. Indican la tonalidad."
+    },
+    {
+      "texto": "Sol mayor tiene un sostenido, fa sostenido. Fa mayor tiene un bemol, si bemol."
+    },
+    {
+      "texto": "El círculo de quintas ordena las tonalidades: cada paso agrega un sostenido."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sol",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántos sostenidos tiene sol mayor?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Solo fa sostenido."
+    },
+    {
+      "id": "circulo",
+      "tipo": "completar",
+      "enunciado": "El diagrama que ordena las tonalidades es el círculo de ___.",
+      "respuestas_validas": [
+        "quintas"
+      ],
+      "explicacion_respuesta": "Cada tonalidad está a una quinta de la siguiente."
+    }
+  ]
+}

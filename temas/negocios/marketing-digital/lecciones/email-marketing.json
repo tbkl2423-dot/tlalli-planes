@@ -1,0 +1,43 @@
+{
+  "id": "email-marketing",
+  "tema": "marketing-digital",
+  "subtema": "email-marketing",
+  "titulo": "Email marketing",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El correo te permite hablar directo con quienes ya mostraron interés."
+    },
+    {
+      "texto": "Pide permiso para enviar correos y ofrece algo a cambio, como una guía o un descuento."
+    },
+    {
+      "texto": "Un asunto claro y un solo llamado a la acción por correo funcionan mejor."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "permiso",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es importante antes de enviar correos de marketing?",
+      "opciones": [
+        "Tener el permiso de la persona",
+        "Comprar listas de correos",
+        "Enviar todos los días"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El permiso evita el spam y genera confianza."
+    },
+    {
+      "id": "llamado",
+      "tipo": "completar",
+      "enunciado": "Cada correo debe tener un solo llamado a la ___.",
+      "respuestas_validas": [
+        "acción",
+        "accion"
+      ],
+      "explicacion_respuesta": "Una sola acción clara aumenta las respuestas."
+    }
+  ]
+}

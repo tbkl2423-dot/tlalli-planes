@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Aprende a dibujar lo que ves: línea, forma, proporción, perspectiva, luz y sombra.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "dibujo",
     "dibujar",
@@ -75,14 +75,74 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
+        {
+          "id": "materiales",
+          "titulo": "Materiales",
+          "subtema": "materiales",
+          "archivo": "lecciones/materiales.json"
+        },
+        {
+          "id": "linea",
+          "titulo": "Línea y trazo",
+          "subtema": "linea",
+          "archivo": "lecciones/linea.json"
+        },
         {
           "id": "formas-basicas",
           "titulo": "Formas básicas",
           "subtema": "formas-basicas",
           "archivo": "lecciones/formas-basicas.json"
+        },
+        {
+          "id": "proporcion",
+          "titulo": "Proporción y encaje",
+          "subtema": "proporcion",
+          "archivo": "lecciones/proporcion.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "perspectiva",
+          "titulo": "Perspectiva",
+          "subtema": "perspectiva",
+          "archivo": "lecciones/perspectiva.json"
+        },
+        {
+          "id": "luz-y-sombra",
+          "titulo": "Luz y sombra",
+          "subtema": "luz-y-sombra",
+          "archivo": "lecciones/luz-y-sombra.json"
+        },
+        {
+          "id": "texturas",
+          "titulo": "Texturas",
+          "subtema": "texturas",
+          "archivo": "lecciones/texturas.json"
+        },
+        {
+          "id": "figura-humana",
+          "titulo": "Figura humana",
+          "subtema": "figura-humana",
+          "archivo": "lecciones/figura-humana.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "rostro",
+          "titulo": "El rostro",
+          "subtema": "rostro",
+          "archivo": "lecciones/rostro.json"
         }
       ]
     }

@@ -1,0 +1,42 @@
+{
+  "id": "medieval",
+  "tema": "historia-del-arte",
+  "subtema": "medieval",
+  "titulo": "Arte medieval",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El arte medieval europeo fue sobre todo religioso."
+    },
+    {
+      "texto": "El románico tiene muros gruesos, arcos de medio punto e iglesias oscuras."
+    },
+    {
+      "texto": "El gótico eleva las catedrales con arcos apuntados y grandes vitrales que llenan el interior de luz de colores."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "vitrales",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué estilo es famoso por catedrales altas con vitrales?",
+      "opciones": [
+        "Gótico",
+        "Románico",
+        "Barroco"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Como la catedral de Notre Dame."
+    },
+    {
+      "id": "arco",
+      "tipo": "completar",
+      "enunciado": "El románico usa arcos de medio ___.",
+      "respuestas_validas": [
+        "punto"
+      ],
+      "explicacion_respuesta": "Son arcos semicirculares."
+    }
+  ]
+}

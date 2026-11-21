@@ -1,0 +1,46 @@
+{
+  "id": "barroco",
+  "tema": "historia-del-arte",
+  "subtema": "barroco",
+  "titulo": "Barroco",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El barroco, en el siglo diecisiete, buscó emocionar con dramatismo, movimiento y contrastes de luz."
+    },
+    {
+      "texto": "Caravaggio usó el claroscuro: figuras iluminadas sobre fondos muy oscuros."
+    },
+    {
+      "texto": "En México, el barroco brilló en iglesias como Santa Prisca en Taxco y Tonantzintla en Puebla."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "claroscuro",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué técnica caracteriza a Caravaggio?",
+      "opciones": [
+        "Claroscuro",
+        "Puntillismo",
+        "Cubismo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Contraste fuerte entre luz y sombra."
+    },
+    {
+      "id": "mexico",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona un ejemplo de barroco en México.",
+      "respuesta_esperada": "Santa Prisca en Taxco.",
+      "palabras_clave": [
+        "santa prisca",
+        "tonantzintla",
+        "taxco",
+        "catedral"
+      ],
+      "explicacion_respuesta": "El barroco novohispano es muy ornamentado."
+    }
+  ]
+}

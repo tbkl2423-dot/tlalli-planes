@@ -1,0 +1,45 @@
+{
+  "id": "figura-humana",
+  "tema": "dibujo",
+  "subtema": "figura-humana",
+  "titulo": "Figura humana",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una medida clásica es la cabeza: un adulto mide unas siete u ocho cabezas de alto."
+    },
+    {
+      "texto": "Empieza con un esqueleto de líneas y círculos para las articulaciones, y luego agrega volumen con cilindros."
+    },
+    {
+      "texto": "Los dibujos rápidos de gesto, de treinta segundos, ayudan a captar el movimiento."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cabezas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas cabezas mide de alto un adulto aproximadamente?",
+      "opciones": [
+        "Siete u ocho",
+        "Tres",
+        "Doce"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la proporción clásica."
+    },
+    {
+      "id": "gesto",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Para qué sirven los dibujos rápidos de gesto?",
+      "respuesta_esperada": "Para captar el movimiento y la postura.",
+      "palabras_clave": [
+        "movimiento",
+        "postura",
+        "accion"
+      ],
+      "explicacion_respuesta": "La rapidez obliga a ver lo esencial."
+    }
+  ]
+}

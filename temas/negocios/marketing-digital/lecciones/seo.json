@@ -1,0 +1,46 @@
+{
+  "id": "seo",
+  "tema": "marketing-digital",
+  "subtema": "seo",
+  "titulo": "SEO",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El SEO es lograr que tu sitio aparezca en buscadores sin pagar."
+    },
+    {
+      "texto": "Usa las palabras que la gente realmente busca, escribe títulos claros y responde bien la pregunta."
+    },
+    {
+      "texto": "Que tu sitio cargue rápido y se vea bien en celular también ayuda."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "factor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ayuda al SEO?",
+      "opciones": [
+        "Contenido que responde lo que la gente busca",
+        "Repetir mil veces una palabra",
+        "Ocultar texto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los buscadores premian lo útil."
+    },
+    {
+      "id": "celular",
+      "tipo": "completar",
+      "enunciado": "Un sitio debe verse bien en el ___.",
+      "respuestas_validas": [
+        "celular",
+        "móvil",
+        "movil",
+        "teléfono",
+        "telefono"
+      ],
+      "explicacion_respuesta": "La mayoría busca desde el teléfono."
+    }
+  ]
+}

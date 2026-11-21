@@ -1,0 +1,46 @@
+{
+  "id": "retrato",
+  "tema": "fotografia",
+  "subtema": "retrato",
+  "titulo": "Retrato",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En un retrato, enfoca los ojos: son lo primero que mira quien ve la foto."
+    },
+    {
+      "texto": "Coloca a la persona cerca de una ventana y con el fondo despejado."
+    },
+    {
+      "texto": "Platicar mientras fotografías ayuda a que la persona se relaje y salgan expresiones naturales."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "enfoque",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué debe estar enfocado en un retrato?",
+      "opciones": [
+        "Los ojos",
+        "Las manos",
+        "El fondo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Unos ojos nítidos dan vida al retrato."
+    },
+    {
+      "id": "natural",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cómo consigues expresiones naturales?",
+      "respuesta_esperada": "Platicando para que la persona se relaje.",
+      "palabras_clave": [
+        "platicar",
+        "relaj",
+        "hablar",
+        "confianza"
+      ],
+      "explicacion_respuesta": "La gente relajada se ve mejor en fotos."
+    }
+  ]
+}

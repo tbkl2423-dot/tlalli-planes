@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Dar a conocer un producto en internet: público objetivo, redes sociales, contenido, SEO, anuncios y métricas.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "marketing",
     "mercadotecnia",
@@ -74,7 +74,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -82,6 +82,66 @@
           "titulo": "Público objetivo",
           "subtema": "publico-objetivo",
           "archivo": "lecciones/publico-objetivo.json"
+        },
+        {
+          "id": "marca",
+          "titulo": "Marca",
+          "subtema": "marca",
+          "archivo": "lecciones/marca.json"
+        },
+        {
+          "id": "redes-sociales",
+          "titulo": "Redes sociales",
+          "subtema": "redes-sociales",
+          "archivo": "lecciones/redes-sociales.json"
+        },
+        {
+          "id": "contenido",
+          "titulo": "Marketing de contenido",
+          "subtema": "contenido",
+          "archivo": "lecciones/contenido.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "seo",
+          "titulo": "SEO",
+          "subtema": "seo",
+          "archivo": "lecciones/seo.json"
+        },
+        {
+          "id": "anuncios",
+          "titulo": "Publicidad pagada",
+          "subtema": "anuncios",
+          "archivo": "lecciones/anuncios.json"
+        },
+        {
+          "id": "email-marketing",
+          "titulo": "Email marketing",
+          "subtema": "email-marketing",
+          "archivo": "lecciones/email-marketing.json"
+        },
+        {
+          "id": "metricas",
+          "titulo": "Métricas",
+          "subtema": "metricas",
+          "archivo": "lecciones/metricas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "embudo",
+          "titulo": "Embudo de ventas",
+          "subtema": "embudo",
+          "archivo": "lecciones/embudo.json"
         }
       ]
     }

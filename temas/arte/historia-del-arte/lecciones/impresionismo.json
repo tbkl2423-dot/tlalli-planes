@@ -1,0 +1,43 @@
+{
+  "id": "impresionismo",
+  "tema": "historia-del-arte",
+  "subtema": "impresionismo",
+  "titulo": "Impresionismo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El impresionismo nació en Francia a finales del siglo diecinueve."
+    },
+    {
+      "texto": "Sus pintores salían al aire libre para captar la luz y el instante con pinceladas sueltas y visibles."
+    },
+    {
+      "texto": "Claude Monet pintó la misma escena a distintas horas, como sus nenúfares y la catedral de Ruan."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "buscaban",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué querían captar los impresionistas?",
+      "opciones": [
+        "La luz y el instante",
+        "Escenas religiosas",
+        "Formas geométricas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La luz cambiante era su tema central."
+    },
+    {
+      "id": "monet",
+      "tipo": "completar",
+      "enunciado": "El pintor de los nenúfares fue Claude ___.",
+      "respuestas_validas": [
+        "Monet",
+        "monet"
+      ],
+      "explicacion_respuesta": "Su cuadro Impresión, sol naciente dio nombre al movimiento."
+    }
+  ]
+}

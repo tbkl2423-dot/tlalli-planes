@@ -1,0 +1,42 @@
+{
+  "id": "prehistorico",
+  "tema": "historia-del-arte",
+  "subtema": "prehistorico",
+  "titulo": "Arte prehistórico",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las primeras obras de arte tienen decenas de miles de años: pinturas en cuevas y pequeñas figuras talladas."
+    },
+    {
+      "texto": "En las cuevas de Altamira y Lascaux se pintaron bisontes, caballos y manos con pigmentos minerales."
+    },
+    {
+      "texto": "En México hay pinturas rupestres en la Sierra de San Francisco, en Baja California."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "altamira",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué se pintó en la cueva de Altamira?",
+      "opciones": [
+        "Bisontes y otros animales",
+        "Paisajes urbanos",
+        "Retratos de reyes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los animales eran centrales en esa vida cazadora."
+    },
+    {
+      "id": "rupestre",
+      "tipo": "completar",
+      "enunciado": "La pintura en cuevas y rocas se llama arte ___.",
+      "respuestas_validas": [
+        "rupestre"
+      ],
+      "explicacion_respuesta": "Viene del latín rupes, roca."
+    }
+  ]
+}

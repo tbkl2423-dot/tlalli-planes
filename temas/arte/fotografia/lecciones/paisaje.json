@@ -1,0 +1,42 @@
+{
+  "id": "paisaje",
+  "tema": "fotografia",
+  "subtema": "paisaje",
+  "titulo": "Paisaje",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En un paisaje, coloca el horizonte en un tercio de la foto, no en el centro."
+    },
+    {
+      "texto": "Incluye algo en primer plano, como una roca o una flor, para dar profundidad."
+    },
+    {
+      "texto": "Usa un tripié o apoya la cámara si hay poca luz, y busca la hora dorada."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "horizonte",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde conviene poner el horizonte?",
+      "opciones": [
+        "En un tercio de la imagen",
+        "Exactamente al centro",
+        "Fuera de la foto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La regla de los tercios da más dinamismo."
+    },
+    {
+      "id": "primer-plano",
+      "tipo": "completar",
+      "enunciado": "Un elemento en primer ___ da profundidad al paisaje.",
+      "respuestas_validas": [
+        "plano"
+      ],
+      "explicacion_respuesta": "Ayuda a guiar la mirada hacia el fondo."
+    }
+  ]
+}

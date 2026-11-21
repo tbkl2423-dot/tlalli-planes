@@ -1,0 +1,43 @@
+{
+  "id": "marca",
+  "tema": "marketing-digital",
+  "subtema": "marca",
+  "titulo": "Marca",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La marca es lo que la gente piensa y siente de tu negocio, no solo el logotipo."
+    },
+    {
+      "texto": "Se construye con consistencia: los mismos colores, tono de voz y valores en todo lo que haces."
+    },
+    {
+      "texto": "Una marca clara hace que te recuerden y te recomienden."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "que-es",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es la marca?",
+      "opciones": [
+        "Lo que la gente piensa y siente de tu negocio",
+        "Solo el logotipo",
+        "El precio"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El logo es solo una parte."
+    },
+    {
+      "id": "consistencia",
+      "tipo": "completar",
+      "enunciado": "Una marca se construye con ___.",
+      "respuestas_validas": [
+        "consistencia",
+        "coherencia"
+      ],
+      "explicacion_respuesta": "Repetir los mismos elementos genera reconocimiento."
+    }
+  ]
+}

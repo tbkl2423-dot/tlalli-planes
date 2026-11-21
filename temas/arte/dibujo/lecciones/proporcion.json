@@ -1,0 +1,43 @@
+{
+  "id": "proporcion",
+  "tema": "dibujo",
+  "subtema": "proporcion",
+  "titulo": "Proporción y encaje",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La proporción es la relación de tamaño entre las partes de lo que dibujas."
+    },
+    {
+      "texto": "Para medir, estira el brazo, sostén el lápiz y compara cuántas veces cabe una parte en otra."
+    },
+    {
+      "texto": "Encajar es marcar primero las formas generales y luego los detalles."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "medir",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se suelen medir proporciones al dibujar del natural?",
+      "opciones": [
+        "Con el lápiz y el brazo estirado",
+        "Con regla sobre el modelo",
+        "Al azar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Comparas tamaños relativos con el lápiz."
+    },
+    {
+      "id": "encajar",
+      "tipo": "completar",
+      "enunciado": "Marcar primero las formas generales se llama ___.",
+      "respuestas_validas": [
+        "encajar",
+        "encaje"
+      ],
+      "explicacion_respuesta": "Los detalles van después."
+    }
+  ]
+}

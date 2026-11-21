@@ -1,0 +1,44 @@
+{
+  "id": "mesoamericano",
+  "tema": "historia-del-arte",
+  "subtema": "mesoamericano",
+  "titulo": "Arte mesoamericano",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El arte mesoamericano unía religión, poder y calendario."
+    },
+    {
+      "texto": "Los olmecas tallaron cabezas colosales. Los mayas pintaron los murales de Bonampak y tallaron estelas con escritura."
+    },
+    {
+      "texto": "Los mexicas esculpieron obras como la Coatlicue y la Piedra del Sol, que hoy están en el Museo Nacional de Antropología."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "olmecas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué esculpieron los olmecas?",
+      "opciones": [
+        "Cabezas colosales",
+        "La Piedra del Sol",
+        "El Partenón"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Son enormes cabezas de basalto."
+    },
+    {
+      "id": "museo",
+      "tipo": "completar",
+      "enunciado": "La Piedra del Sol está en el Museo Nacional de ___.",
+      "respuestas_validas": [
+        "Antropología",
+        "Antropologia",
+        "antropologia"
+      ],
+      "explicacion_respuesta": "En la Ciudad de México."
+    }
+  ]
+}

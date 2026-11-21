@@ -1,0 +1,42 @@
+{
+  "id": "costos-y-precios",
+  "tema": "emprendimiento",
+  "subtema": "costos-y-precios",
+  "titulo": "Costos y precios",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los costos variables cambian con cada venta, como la materia prima. Los fijos se pagan igual, vendas o no, como la renta."
+    },
+    {
+      "texto": "El precio debe cubrir costos y dejar ganancia, pero también considerar cuánto valora el cliente lo que ofreces."
+    },
+    {
+      "texto": "El punto de equilibrio es cuánto necesitas vender para no perder ni ganar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fijo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un costo fijo?",
+      "opciones": [
+        "La renta del local",
+        "La harina para cada pastel",
+        "El empaque de cada venta"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La renta no cambia con las ventas."
+    },
+    {
+      "id": "equilibrio",
+      "tipo": "completar",
+      "enunciado": "Vender lo justo para no ganar ni perder es el punto de ___.",
+      "respuestas_validas": [
+        "equilibrio"
+      ],
+      "explicacion_respuesta": "A partir de ahí empiezas a ganar."
+    }
+  ]
+}

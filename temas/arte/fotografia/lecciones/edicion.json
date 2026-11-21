@@ -1,0 +1,42 @@
+{
+  "id": "edicion",
+  "tema": "fotografia",
+  "subtema": "edicion",
+  "titulo": "Edición básica",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Edita con moderación: primero endereza y recorta, luego ajusta la exposición y el contraste."
+    },
+    {
+      "texto": "El balance de blancos corrige tonos demasiado azules o amarillos."
+    },
+    {
+      "texto": "Guarda siempre el original. Apps como Lightroom o Snapseed tienen herramientas gratuitas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "blancos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ajuste corrige una foto demasiado amarilla?",
+      "opciones": [
+        "Balance de blancos",
+        "Recorte",
+        "Nitidez"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El balance de blancos corrige la temperatura de color."
+    },
+    {
+      "id": "original",
+      "tipo": "completar",
+      "enunciado": "Antes de editar, conserva siempre el archivo ___.",
+      "respuestas_validas": [
+        "original"
+      ],
+      "explicacion_respuesta": "Así puedes volver a empezar."
+    }
+  ]
+}

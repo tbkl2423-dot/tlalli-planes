@@ -1,0 +1,42 @@
+{
+  "id": "rostro",
+  "tema": "dibujo",
+  "subtema": "rostro",
+  "titulo": "El rostro",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los ojos están aproximadamente a la mitad de la cabeza, no arriba como solemos creer."
+    },
+    {
+      "texto": "Entre los ojos cabe más o menos otro ojo."
+    },
+    {
+      "texto": "La base de la nariz está a la mitad entre los ojos y el mentón, y las orejas van entre la línea de las cejas y la nariz."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ojos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde están los ojos en una cabeza vista de frente?",
+      "opciones": [
+        "A la mitad",
+        "En el tercio superior",
+        "Arriba de la frente"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es un error común dibujarlos muy arriba."
+    },
+    {
+      "id": "entre-ojos",
+      "tipo": "completar",
+      "enunciado": "Entre los ojos cabe aproximadamente otro ___.",
+      "respuestas_validas": [
+        "ojo"
+      ],
+      "explicacion_respuesta": "Es una guía útil para la separación."
+    }
+  ]
+}

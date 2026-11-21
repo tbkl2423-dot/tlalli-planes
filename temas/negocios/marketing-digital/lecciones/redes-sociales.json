@@ -1,0 +1,45 @@
+{
+  "id": "redes-sociales",
+  "tema": "marketing-digital",
+  "subtema": "redes-sociales",
+  "titulo": "Redes sociales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "No necesitas estar en todas las redes: elige las que usa tu público."
+    },
+    {
+      "texto": "Publica con constancia y conversa: responde comentarios y mensajes."
+    },
+    {
+      "texto": "Los videos cortos suelen tener más alcance que las imágenes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "elegir",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué redes conviene estar?",
+      "opciones": [
+        "En las que usa tu público",
+        "En todas",
+        "En ninguna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Mejor pocas y bien atendidas."
+    },
+    {
+      "id": "interaccion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué responder comentarios?",
+      "respuesta_esperada": "Porque genera relación y confianza con la comunidad.",
+      "palabras_clave": [
+        "relacion",
+        "confianza",
+        "comunidad"
+      ],
+      "explicacion_respuesta": "Las redes son conversación, no solo anuncios."
+    }
+  ]
+}

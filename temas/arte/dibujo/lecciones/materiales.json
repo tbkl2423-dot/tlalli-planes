@@ -1,0 +1,43 @@
+{
+  "id": "materiales",
+  "tema": "dibujo",
+  "subtema": "materiales",
+  "titulo": "Materiales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los lápices de grafito van de duros, H, a blandos, B. Los H dan líneas claras y los B oscuras."
+    },
+    {
+      "texto": "Para empezar basta un lápiz HB, uno 2B, una goma y papel liso."
+    },
+    {
+      "texto": "La goma moldeable sirve para aclarar sombras sin dañar el papel."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "oscuro",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué lápiz da trazos más oscuros?",
+      "opciones": [
+        "4B",
+        "2H",
+        "HB"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Mientras más B, más blando y oscuro."
+    },
+    {
+      "id": "duro",
+      "tipo": "completar",
+      "enunciado": "Los lápices ___ dan líneas claras y finas.",
+      "respuestas_validas": [
+        "H",
+        "h"
+      ],
+      "explicacion_respuesta": "H significa duro, hard."
+    }
+  ]
+}

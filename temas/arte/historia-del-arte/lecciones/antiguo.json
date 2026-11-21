@@ -1,0 +1,45 @@
+{
+  "id": "antiguo",
+  "tema": "historia-del-arte",
+  "subtema": "antiguo",
+  "titulo": "Arte antiguo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El arte egipcio representaba figuras de perfil, con reglas fijas, ligado a la religión y a la vida después de la muerte."
+    },
+    {
+      "texto": "Los griegos buscaron la belleza ideal y el equilibrio, sobre todo en la escultura del cuerpo humano."
+    },
+    {
+      "texto": "Los romanos aportaron retratos realistas, mosaicos y una gran arquitectura con arcos y cúpulas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "griego",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué buscaba la escultura griega?",
+      "opciones": [
+        "La belleza ideal y el equilibrio",
+        "Lo abstracto",
+        "Lo caricaturesco"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Proporciones armónicas del cuerpo."
+    },
+    {
+      "id": "arcos",
+      "tipo": "completar",
+      "enunciado": "Los romanos destacaron en arquitectura con arcos y ___.",
+      "respuestas_validas": [
+        "cúpulas",
+        "cupulas",
+        "bóvedas",
+        "bovedas"
+      ],
+      "explicacion_respuesta": "Como el Panteón de Roma."
+    }
+  ]
+}

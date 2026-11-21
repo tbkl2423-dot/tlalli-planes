@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "De la idea al negocio: validar, modelo de negocio, costos y precios, ventas y formalización.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "emprender",
     "negocio propio",
@@ -75,7 +75,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -83,6 +83,66 @@
           "titulo": "De la idea al problema",
           "subtema": "idea",
           "archivo": "lecciones/idea.json"
+        },
+        {
+          "id": "cliente",
+          "titulo": "Conocer a tu cliente",
+          "subtema": "cliente",
+          "archivo": "lecciones/cliente.json"
+        },
+        {
+          "id": "modelo-de-negocio",
+          "titulo": "Modelo de negocio",
+          "subtema": "modelo-de-negocio",
+          "archivo": "lecciones/modelo-de-negocio.json"
+        },
+        {
+          "id": "costos-y-precios",
+          "titulo": "Costos y precios",
+          "subtema": "costos-y-precios",
+          "archivo": "lecciones/costos-y-precios.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "producto-minimo",
+          "titulo": "Producto mínimo viable",
+          "subtema": "producto-minimo",
+          "archivo": "lecciones/producto-minimo.json"
+        },
+        {
+          "id": "ventas",
+          "titulo": "Ventas",
+          "subtema": "ventas",
+          "archivo": "lecciones/ventas.json"
+        },
+        {
+          "id": "finanzas-del-negocio",
+          "titulo": "Finanzas del negocio",
+          "subtema": "finanzas-del-negocio",
+          "archivo": "lecciones/finanzas-del-negocio.json"
+        },
+        {
+          "id": "formalizacion",
+          "titulo": "Formalizar tu negocio",
+          "subtema": "formalizacion",
+          "archivo": "lecciones/formalizacion.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "crecimiento",
+          "titulo": "Crecer y escalar",
+          "subtema": "crecimiento",
+          "archivo": "lecciones/crecimiento.json"
         }
       ]
     }

@@ -1,0 +1,43 @@
+{
+  "id": "finanzas-del-negocio",
+  "tema": "emprendimiento",
+  "subtema": "finanzas-del-negocio",
+  "titulo": "Finanzas del negocio",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Separa el dinero del negocio del personal desde el primer día."
+    },
+    {
+      "texto": "El flujo de caja es el dinero que entra y sale. Un negocio con ventas puede quebrar si se queda sin efectivo."
+    },
+    {
+      "texto": "Lleva un registro sencillo de ingresos y gastos, aunque sea en una hoja de cálculo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "separar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué separar el dinero del negocio y el personal?",
+      "opciones": [
+        "Para saber si el negocio realmente gana",
+        "Por moda",
+        "No hace falta"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Mezclarlos oculta la realidad del negocio."
+    },
+    {
+      "id": "flujo",
+      "tipo": "completar",
+      "enunciado": "El dinero que entra y sale del negocio es el flujo de ___.",
+      "respuestas_validas": [
+        "caja",
+        "efectivo"
+      ],
+      "explicacion_respuesta": "Sin flujo, ni las ventas te salvan."
+    }
+  ]
+}

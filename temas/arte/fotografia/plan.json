@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Tomar mejores fotos con cualquier cámara: exposición, composición, luz y edición básica.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "fotografia",
     "fotos",
@@ -66,7 +66,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -74,6 +74,54 @@
           "titulo": "Composición",
           "subtema": "composicion",
           "archivo": "lecciones/composicion.json"
+        },
+        {
+          "id": "luz",
+          "titulo": "La luz",
+          "subtema": "luz",
+          "archivo": "lecciones/luz.json"
+        },
+        {
+          "id": "exposicion",
+          "titulo": "Triángulo de exposición",
+          "subtema": "exposicion",
+          "archivo": "lecciones/exposicion.json"
+        },
+        {
+          "id": "enfoque",
+          "titulo": "Enfoque y profundidad de campo",
+          "subtema": "enfoque",
+          "archivo": "lecciones/enfoque.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "celular",
+          "titulo": "Fotografía con el celular",
+          "subtema": "celular",
+          "archivo": "lecciones/celular.json"
+        },
+        {
+          "id": "retrato",
+          "titulo": "Retrato",
+          "subtema": "retrato",
+          "archivo": "lecciones/retrato.json"
+        },
+        {
+          "id": "paisaje",
+          "titulo": "Paisaje",
+          "subtema": "paisaje",
+          "archivo": "lecciones/paisaje.json"
+        },
+        {
+          "id": "edicion",
+          "titulo": "Edición básica",
+          "subtema": "edicion",
+          "archivo": "lecciones/edicion.json"
         }
       ]
     }

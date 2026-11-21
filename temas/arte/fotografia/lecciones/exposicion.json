@@ -1,0 +1,43 @@
+{
+  "id": "exposicion",
+  "tema": "fotografia",
+  "subtema": "exposicion",
+  "titulo": "Triángulo de exposición",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La apertura controla cuánta luz entra y cuánto queda enfocado. Un número f bajo, como f/1.8, deja entrar mucha luz y desenfoca el fondo."
+    },
+    {
+      "texto": "La velocidad de obturación es cuánto tiempo entra luz. Rápida congela el movimiento; lenta lo muestra borroso."
+    },
+    {
+      "texto": "El ISO es la sensibilidad. Un ISO alto ayuda con poca luz, pero agrega grano."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "congelar",
+      "tipo": "opcion_multiple",
+      "pregunta": "Para congelar a un niño corriendo, ¿qué conviene?",
+      "opciones": [
+        "Velocidad de obturación rápida",
+        "ISO bajo",
+        "Apertura cerrada"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Una fracción muy corta detiene el movimiento."
+    },
+    {
+      "id": "grano",
+      "tipo": "completar",
+      "enunciado": "Un ISO muy alto produce ___ en la imagen.",
+      "respuestas_validas": [
+        "ruido",
+        "grano"
+      ],
+      "explicacion_respuesta": "Por eso se sube solo cuando hace falta."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "formalizacion",
+  "tema": "emprendimiento",
+  "subtema": "formalizacion",
+  "titulo": "Formalizar tu negocio",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Formalizar tu negocio te permite facturar, acceder a créditos y vender a empresas."
+    },
+    {
+      "texto": "En México necesitas inscribirte en el SAT con tu RFC y elegir un régimen fiscal. Para pequeños negocios existe el Régimen Simplificado de Confianza."
+    },
+    {
+      "texto": "Un contador puede orientarte para elegir lo que más te conviene."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "facturar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ventaja da formalizar tu negocio?",
+      "opciones": [
+        "Poder emitir facturas",
+        "No pagar nunca impuestos",
+        "No necesitar clientes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Muchas empresas solo compran con factura."
+    },
+    {
+      "id": "rfc",
+      "tipo": "completar",
+      "enunciado": "Para darte de alta en el SAT necesitas tu ___.",
+      "respuestas_validas": [
+        "RFC",
+        "rfc"
+      ],
+      "explicacion_respuesta": "El Registro Federal de Contribuyentes."
+    }
+  ]
+}

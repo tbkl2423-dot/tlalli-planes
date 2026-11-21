@@ -1,0 +1,42 @@
+{
+  "id": "acordes",
+  "tema": "teoria-musical",
+  "subtema": "acordes",
+  "titulo": "Acordes y triadas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un acorde son tres o más notas que suenan juntas."
+    },
+    {
+      "texto": "La triada mayor se forma con la nota raíz, su tercera mayor y su quinta: do, mi, sol."
+    },
+    {
+      "texto": "La triada menor baja la tercera medio tono: do, mi bemol, sol. Suena más melancólica."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "do-mayor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué notas forman el acorde de do mayor?",
+      "opciones": [
+        "Do, mi, sol",
+        "Do, re, mi",
+        "Do, fa, la"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Raíz, tercera y quinta."
+    },
+    {
+      "id": "menor",
+      "tipo": "completar",
+      "enunciado": "Para hacer un acorde menor se baja la ___.",
+      "respuestas_validas": [
+        "tercera"
+      ],
+      "explicacion_respuesta": "Una tercera menor da el color triste."
+    }
+  ]
+}

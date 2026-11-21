@@ -1,0 +1,42 @@
+{
+  "id": "luz",
+  "tema": "fotografia",
+  "subtema": "luz",
+  "titulo": "La luz",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La luz define el ambiente de una foto."
+    },
+    {
+      "texto": "La luz dura, como el sol de mediodía, crea sombras marcadas. La suave, como un día nublado o una ventana, favorece los retratos."
+    },
+    {
+      "texto": "La hora dorada, cerca del amanecer y el atardecer, da tonos cálidos y sombras largas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "retrato",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué luz suele favorecer un retrato?",
+      "opciones": [
+        "Luz suave de ventana",
+        "Sol de mediodía",
+        "Flash directo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La luz suave suaviza la piel y las sombras."
+    },
+    {
+      "id": "dorada",
+      "tipo": "completar",
+      "enunciado": "La luz cálida del atardecer se llama hora ___.",
+      "respuestas_validas": [
+        "dorada"
+      ],
+      "explicacion_respuesta": "Ocurre poco después del amanecer y antes del atardecer."
+    }
+  ]
+}

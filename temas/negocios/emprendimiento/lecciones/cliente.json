@@ -1,0 +1,46 @@
+{
+  "id": "cliente",
+  "tema": "emprendimiento",
+  "subtema": "cliente",
+  "titulo": "Conocer a tu cliente",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Antes de vender, conoce a tu cliente: quién es, qué problema tiene y cómo lo resuelve hoy."
+    },
+    {
+      "texto": "Haz entrevistas: pregunta por experiencias reales y pasadas, no por opiniones sobre tu idea."
+    },
+    {
+      "texto": "Una buena pregunta: cuéntame la última vez que tuviste ese problema."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pregunta",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué pregunta da información más útil?",
+      "opciones": [
+        "¿Cuándo fue la última vez que te pasó?",
+        "¿Te gusta mi idea?",
+        "¿Comprarías esto?"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los hechos pasados valen más que las promesas."
+    },
+    {
+      "id": "por-que",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué no basta con preguntar si les gusta tu idea?",
+      "respuesta_esperada": "Porque la gente responde por amabilidad, no por lo que realmente haría.",
+      "palabras_clave": [
+        "amabilidad",
+        "cortesia",
+        "realmente",
+        "compromiso"
+      ],
+      "explicacion_respuesta": "Decir que sí es fácil; pagar es otra cosa."
+    }
+  ]
+}

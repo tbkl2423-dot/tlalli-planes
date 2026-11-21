@@ -1,0 +1,43 @@
+{
+  "id": "renacimiento",
+  "tema": "historia-del-arte",
+  "subtema": "renacimiento",
+  "titulo": "Renacimiento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El Renacimiento recuperó el arte clásico y desarrolló la perspectiva."
+    },
+    {
+      "texto": "Leonardo da Vinci pintó La Gioconda y La última cena. Miguel Ángel esculpió el David y pintó la Capilla Sixtina."
+    },
+    {
+      "texto": "Rafael es famoso por la armonía de sus composiciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sixtina",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién pintó la bóveda de la Capilla Sixtina?",
+      "opciones": [
+        "Miguel Ángel",
+        "Leonardo",
+        "Rafael"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La pintó entre 1508 y 1512."
+    },
+    {
+      "id": "gioconda",
+      "tipo": "completar",
+      "enunciado": "La Gioconda la pintó Leonardo da ___.",
+      "respuestas_validas": [
+        "Vinci",
+        "vinci"
+      ],
+      "explicacion_respuesta": "También se conoce como Mona Lisa."
+    }
+  ]
+}

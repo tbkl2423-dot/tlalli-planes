@@ -1,0 +1,45 @@
+{
+  "id": "metricas",
+  "tema": "marketing-digital",
+  "subtema": "metricas",
+  "titulo": "Métricas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las métricas te dicen qué funciona."
+    },
+    {
+      "texto": "El alcance es cuántas personas vieron algo. El CTR es el porcentaje que hizo clic. La conversión es el porcentaje que hizo la acción final, como comprar."
+    },
+    {
+      "texto": "Fíjate en métricas que se relacionen con ventas, no solo en los me gusta."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ctr",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 1000 personas ven un anuncio y 20 hacen clic, ¿cuál es el CTR?",
+      "opciones": [
+        "2%",
+        "20%",
+        "0.2%"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "20 / 1000 = 0.02."
+    },
+    {
+      "id": "vanidad",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué no basta con contar me gusta?",
+      "respuesta_esperada": "Porque no siempre se traducen en ventas.",
+      "palabras_clave": [
+        "ventas",
+        "clientes",
+        "compras"
+      ],
+      "explicacion_respuesta": "Mide lo que impacta el negocio."
+    }
+  ]
+}

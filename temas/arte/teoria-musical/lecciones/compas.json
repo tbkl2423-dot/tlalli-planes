@@ -1,0 +1,43 @@
+{
+  "id": "compas",
+  "tema": "teoria-musical",
+  "subtema": "compas",
+  "titulo": "Compás",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El compás agrupa los tiempos en partes iguales, separadas por barras."
+    },
+    {
+      "texto": "En 4/4 hay cuatro tiempos de negra por compás; es el más común en el pop."
+    },
+    {
+      "texto": "En 3/4 hay tres, como en el vals. En 6/8 se siente un balanceo de dos grupos de tres."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "vals",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué compás va el vals?",
+      "opciones": [
+        "3/4",
+        "4/4",
+        "2/4"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se cuenta uno, dos, tres."
+    },
+    {
+      "id": "cuatro",
+      "tipo": "completar",
+      "enunciado": "En 4/4 hay ___ tiempos por compás.",
+      "respuestas_validas": [
+        "4",
+        "cuatro"
+      ],
+      "explicacion_respuesta": "El número de arriba indica cuántos tiempos."
+    }
+  ]
+}

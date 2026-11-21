@@ -1,0 +1,44 @@
+{
+  "id": "embudo",
+  "tema": "marketing-digital",
+  "subtema": "embudo",
+  "titulo": "Embudo de ventas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El embudo de ventas describe el camino del cliente: descubre, se interesa, decide y compra."
+    },
+    {
+      "texto": "En cada etapa se pierden personas; el objetivo es que menos se queden en el camino."
+    },
+    {
+      "texto": "Después de la compra sigue la fidelización: que regresen y te recomienden."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "etapas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el orden del embudo?",
+      "opciones": [
+        "Descubrir, interesarse, decidir, comprar",
+        "Comprar, descubrir, decidir",
+        "Decidir, comprar, descubrir"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "De más personas a menos."
+    },
+    {
+      "id": "fidelizar",
+      "tipo": "completar",
+      "enunciado": "Lograr que el cliente regrese se llama ___.",
+      "respuestas_validas": [
+        "fidelización",
+        "fidelizacion",
+        "fidelizar"
+      ],
+      "explicacion_respuesta": "Retener cuesta menos que conseguir clientes nuevos."
+    }
+  ]
+}
