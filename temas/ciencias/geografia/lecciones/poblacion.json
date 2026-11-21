@@ -1,0 +1,43 @@
+{
+  "id": "poblacion",
+  "tema": "geografia",
+  "subtema": "poblacion",
+  "titulo": "Población",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "México tiene más de 120 millones de habitantes, y la mayoría vive en ciudades."
+    },
+    {
+      "texto": "La migración es el movimiento de personas de un lugar a otro, por trabajo, estudio o seguridad."
+    },
+    {
+      "texto": "El INEGI realiza el censo para saber cuántos somos y cómo vivimos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "censo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué institución hace el censo en México?",
+      "opciones": [
+        "INEGI",
+        "SAT",
+        "SEP"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El Instituto Nacional de Estadística y Geografía."
+    },
+    {
+      "id": "ciudades",
+      "tipo": "completar",
+      "enunciado": "La mayoría de la población de México vive en ___.",
+      "respuestas_validas": [
+        "ciudades",
+        "zonas urbanas"
+      ],
+      "explicacion_respuesta": "Es una población mayoritariamente urbana."
+    }
+  ]
+}

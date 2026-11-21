@@ -1,0 +1,44 @@
+{
+  "id": "poderes",
+  "tema": "formacion-civica",
+  "subtema": "poderes",
+  "titulo": "Los tres poderes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El poder se divide en tres para que ninguno abuse."
+    },
+    {
+      "texto": "El Ejecutivo gobierna y lo encabeza la presidencia. El Legislativo, el Congreso, hace las leyes. El Judicial, con la Suprema Corte, las interpreta y resuelve conflictos."
+    },
+    {
+      "texto": "El Congreso tiene dos cámaras: diputados y senadores."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "leyes",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué poder hace las leyes?",
+      "opciones": [
+        "Legislativo",
+        "Ejecutivo",
+        "Judicial"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El Congreso de la Unión."
+    },
+    {
+      "id": "camaras",
+      "tipo": "completar",
+      "enunciado": "El Congreso tiene la Cámara de Diputados y la de ___.",
+      "respuestas_validas": [
+        "Senadores",
+        "senadores",
+        "Senado"
+      ],
+      "explicacion_respuesta": "Juntas forman el Poder Legislativo."
+    }
+  ]
+}

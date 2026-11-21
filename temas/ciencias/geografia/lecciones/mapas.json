@@ -1,0 +1,42 @@
+{
+  "id": "mapas",
+  "tema": "geografia",
+  "subtema": "mapas",
+  "titulo": "Mapas y escalas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un mapa representa un territorio en tamaño reducido."
+    },
+    {
+      "texto": "La escala dice cuánto se redujo: en 1 a 100 mil, un centímetro del mapa son mil metros reales."
+    },
+    {
+      "texto": "La simbología explica qué significa cada color o símbolo, y la rosa de los vientos indica los puntos cardinales."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rosa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué indica la rosa de los vientos?",
+      "opciones": [
+        "Los puntos cardinales",
+        "La escala",
+        "La población"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Norte, sur, este y oeste."
+    },
+    {
+      "id": "escala",
+      "tipo": "completar",
+      "enunciado": "La ___ indica cuánto se redujo el territorio en el mapa.",
+      "respuestas_validas": [
+        "escala"
+      ],
+      "explicacion_respuesta": "Permite calcular distancias reales."
+    }
+  ]
+}

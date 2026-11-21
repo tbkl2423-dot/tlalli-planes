@@ -1,0 +1,43 @@
+{
+  "id": "c-s-z",
+  "tema": "ortografia-y-redaccion",
+  "subtema": "c-s-z",
+  "titulo": "C, S y Z",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En México c, s y z suenan igual, por eso se confunden."
+    },
+    {
+      "texto": "Los plurales de palabras con z cambian a c: luz, luces; lápiz, lápices."
+    },
+    {
+      "texto": "Las terminaciones ción vienen de palabras con t o con do: canción de cantado, atención de atento."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "plural",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el plural de pez?",
+      "opciones": [
+        "Peces",
+        "Pezes",
+        "Peses"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La z cambia a c antes de e."
+    },
+    {
+      "id": "cion",
+      "tipo": "completar",
+      "enunciado": "Educa___ (de educado)",
+      "respuestas_validas": [
+        "ción",
+        "cion"
+      ],
+      "explicacion_respuesta": "De educado sale educación."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "variables",
+  "tema": "logica-de-programacion",
+  "subtema": "variables",
+  "titulo": "Variables y datos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una variable es una caja con nombre donde guardas un dato que puede cambiar."
+    },
+    {
+      "texto": "Los datos pueden ser números, textos o valores de verdadero y falso."
+    },
+    {
+      "texto": "Ponles nombres que expliquen qué guardan: precioTotal es mejor que x."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nombre",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué nombre de variable es más claro?",
+      "opciones": [
+        "edadUsuario",
+        "a1",
+        "zz"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El nombre debe decir qué contiene."
+    },
+    {
+      "id": "caja",
+      "tipo": "completar",
+      "enunciado": "Una variable es como una ___ con nombre.",
+      "respuestas_validas": [
+        "caja"
+      ],
+      "explicacion_respuesta": "Guarda un valor que puedes leer y cambiar."
+    }
+  ]
+}

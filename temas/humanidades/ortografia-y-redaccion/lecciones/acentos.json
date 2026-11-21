@@ -1,0 +1,45 @@
+{
+  "id": "acentos",
+  "tema": "ortografia-y-redaccion",
+  "subtema": "acentos",
+  "titulo": "Reglas de acentuación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las palabras agudas llevan la fuerza en la última sílaba y se acentúan si terminan en n, s o vocal: canción, compás, café."
+    },
+    {
+      "texto": "Las graves la llevan en la penúltima y se acentúan si no terminan en n, s o vocal: árbol, lápiz."
+    },
+    {
+      "texto": "Las esdrújulas, con la fuerza en la antepenúltima, siempre se acentúan: música, teléfono."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "esdrujula",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál palabra siempre lleva acento escrito?",
+      "opciones": [
+        "Las esdrújulas",
+        "Las agudas",
+        "Las graves"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Todas las esdrújulas llevan tilde."
+    },
+    {
+      "id": "arbol",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué árbol lleva tilde?",
+      "opciones": [
+        "Es grave y termina en l",
+        "Es aguda",
+        "Es esdrújula"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las graves se acentúan si no terminan en n, s o vocal."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "pasado-continuo",
+  "tema": "ingles-b1",
+  "subtema": "pasado-continuo",
+  "titulo": "Pasado continuo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El pasado continuo describe algo que estaba pasando en un momento del pasado: I was reading at 9."
+    },
+    {
+      "texto": "Se forma con was o were más el verbo con ing."
+    },
+    {
+      "texto": "Se combina con el pasado simple para una acción que interrumpe: I was cooking when you called."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "were",
+      "tipo": "completar",
+      "enunciado": "They ___ playing when it started to rain.",
+      "respuestas_validas": [
+        "were"
+      ],
+      "explicacion_respuesta": "Con they se usa were."
+    },
+    {
+      "id": "estaba-durmiendo",
+      "tipo": "traduccion",
+      "frase": "Estaba durmiendo cuando llamaste",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i was sleeping when you called"
+      ],
+      "explicacion_respuesta": "Was sleeping más pasado simple."
+    }
+  ]
+}

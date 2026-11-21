@@ -1,0 +1,42 @@
+{
+  "id": "puntuacion",
+  "tema": "ortografia-y-redaccion",
+  "subtema": "puntuacion",
+  "titulo": "Puntuación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La coma marca pausas breves y separa elementos de una lista: compré pan, leche y huevos."
+    },
+    {
+      "texto": "El punto y seguido separa oraciones del mismo tema; el punto y aparte cambia de idea."
+    },
+    {
+      "texto": "En español los signos de interrogación y exclamación se abren y se cierran: ¿cómo estás?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "abrir",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál está bien escrita?",
+      "opciones": [
+        "¿Vienes mañana?",
+        "Vienes mañana?",
+        "?Vienes mañana?"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En español se abren y cierran los signos."
+    },
+    {
+      "id": "lista",
+      "tipo": "completar",
+      "enunciado": "Traje manzanas___ peras y uvas.",
+      "respuestas_validas": [
+        ","
+      ],
+      "explicacion_respuesta": "La coma separa los elementos de una lista."
+    }
+  ]
+}

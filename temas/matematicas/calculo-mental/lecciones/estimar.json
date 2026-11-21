@@ -1,0 +1,45 @@
+{
+  "id": "estimar",
+  "tema": "calculo-mental",
+  "subtema": "estimar",
+  "titulo": "Estimar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Estimar es calcular aproximado para saber si un resultado tiene sentido."
+    },
+    {
+      "texto": "En el súper, redondea cada precio y suma: 19.90 es casi 20, 48.50 es casi 50."
+    },
+    {
+      "texto": "Si tu estimación es 70 y la cuenta dice 170, algo está mal."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "super",
+      "tipo": "opcion_multiple",
+      "pregunta": "Compras cosas de 29.90, 9.90 y 59.90. ¿Cuánto aproximado?",
+      "opciones": [
+        "100",
+        "80",
+        "150"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "30 + 10 + 60 = 100."
+    },
+    {
+      "id": "para-que",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Para qué sirve estimar?",
+      "respuesta_esperada": "Para saber si un resultado tiene sentido.",
+      "palabras_clave": [
+        "sentido",
+        "error",
+        "revisar"
+      ],
+      "explicacion_respuesta": "Te ayuda a detectar errores rápido."
+    }
+  ]
+}

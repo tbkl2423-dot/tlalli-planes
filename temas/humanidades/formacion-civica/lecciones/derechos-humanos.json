@@ -1,0 +1,44 @@
+{
+  "id": "derechos-humanos",
+  "tema": "formacion-civica",
+  "subtema": "derechos-humanos",
+  "titulo": "Derechos humanos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los derechos humanos son los que tiene toda persona por el solo hecho de serlo, sin importar su origen, género o creencias."
+    },
+    {
+      "texto": "Incluyen el derecho a la vida, a la libertad, a la educación, a la salud y a no ser discriminado."
+    },
+    {
+      "texto": "En México los protege la Constitución y la Comisión Nacional de los Derechos Humanos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "quien",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién tiene derechos humanos?",
+      "opciones": [
+        "Toda persona",
+        "Solo los adultos",
+        "Solo los ciudadanos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Son universales."
+    },
+    {
+      "id": "cndh",
+      "tipo": "completar",
+      "enunciado": "La institución nacional que protege los derechos humanos es la ___.",
+      "respuestas_validas": [
+        "CNDH",
+        "cndh",
+        "Comisión Nacional de los Derechos Humanos"
+      ],
+      "explicacion_respuesta": "Recibe quejas contra autoridades."
+    }
+  ]
+}

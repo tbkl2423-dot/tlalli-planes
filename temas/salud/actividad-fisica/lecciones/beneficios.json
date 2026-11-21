@@ -1,0 +1,46 @@
+{
+  "id": "beneficios",
+  "tema": "actividad-fisica",
+  "subtema": "beneficios",
+  "titulo": "Por qué moverte",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La actividad física fortalece el corazón, los músculos y los huesos."
+    },
+    {
+      "texto": "También mejora el ánimo, el sueño y la concentración."
+    },
+    {
+      "texto": "No hace falta un gimnasio: caminar, bailar o subir escaleras cuenta."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "animo",
+      "tipo": "opcion_multiple",
+      "pregunta": "Además del cuerpo, ¿qué mejora el ejercicio?",
+      "opciones": [
+        "El ánimo y el sueño",
+        "La vista",
+        "El cabello"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Libera sustancias que mejoran el estado de ánimo."
+    },
+    {
+      "id": "ejemplo",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona una forma de moverte sin ir al gimnasio.",
+      "respuesta_esperada": "Caminar o bailar.",
+      "palabras_clave": [
+        "caminar",
+        "bailar",
+        "escaleras",
+        "bici"
+      ],
+      "explicacion_respuesta": "Toda actividad cuenta."
+    }
+  ]
+}

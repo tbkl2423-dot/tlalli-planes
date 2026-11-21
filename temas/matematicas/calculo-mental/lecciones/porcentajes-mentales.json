@@ -1,0 +1,42 @@
+{
+  "id": "porcentajes-mentales",
+  "tema": "calculo-mental",
+  "subtema": "porcentajes-mentales",
+  "titulo": "Porcentajes de cabeza",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El 10 por ciento se obtiene moviendo el punto un lugar: 10 por ciento de 350 es 35."
+    },
+    {
+      "texto": "El 5 por ciento es la mitad del 10. El 20 es el doble del 10."
+    },
+    {
+      "texto": "Para una propina del 15 por ciento: suma el 10 y el 5."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "quince",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es el 15% de 200?",
+      "opciones": [
+        "30",
+        "15",
+        "35"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "10% = 20 y 5% = 10: total 30."
+    },
+    {
+      "id": "veinte",
+      "tipo": "completar",
+      "enunciado": "El 20% de 80 es ___.",
+      "respuestas_validas": [
+        "16"
+      ],
+      "explicacion_respuesta": "10% = 8, el doble es 16."
+    }
+  ]
+}

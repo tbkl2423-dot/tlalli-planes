@@ -1,0 +1,42 @@
+{
+  "id": "presente-perfecto-vs-pasado",
+  "tema": "ingles-b1",
+  "subtema": "presente-perfecto-vs-pasado",
+  "titulo": "Presente perfecto o pasado simple",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Con un momento terminado y concreto se usa pasado simple: I saw him yesterday."
+    },
+    {
+      "texto": "Sin momento exacto, o con relación al presente, se usa presente perfecto: I have seen that movie."
+    },
+    {
+      "texto": "Already, yet y just suelen ir con presente perfecto: I've just arrived."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "yesterday",
+      "tipo": "opcion_multiple",
+      "pregunta": "Completa: I ___ to Cancún last year.",
+      "opciones": [
+        "went",
+        "have gone",
+        "have went"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Last year es un momento terminado: pasado simple."
+    },
+    {
+      "id": "just",
+      "tipo": "completar",
+      "enunciado": "I've ___ finished. (acabo de terminar)",
+      "respuestas_validas": [
+        "just"
+      ],
+      "explicacion_respuesta": "Just indica que acaba de pasar."
+    }
+  ]
+}

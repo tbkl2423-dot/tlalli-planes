@@ -1,0 +1,40 @@
+{
+  "id": "haber-hay-ahi",
+  "tema": "ortografia-y-redaccion",
+  "subtema": "haber-hay-ahi",
+  "titulo": "Hay, ahí y ay",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Hay es del verbo haber: hay comida. Ahí indica lugar: está ahí. Ay es una exclamación: ¡ay, me caí!"
+    },
+    {
+      "texto": "A ver significa veamos: a ver qué pasa. Haber es el verbo: debe haber una solución."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "lugar",
+      "tipo": "opcion_multiple",
+      "pregunta": "Las llaves están ___.",
+      "opciones": [
+        "ahí",
+        "hay",
+        "ay"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ahí indica lugar."
+    },
+    {
+      "id": "a-ver",
+      "tipo": "completar",
+      "enunciado": "___ ver, enséñamelo.",
+      "respuestas_validas": [
+        "A",
+        "a"
+      ],
+      "explicacion_respuesta": "A ver significa veamos."
+    }
+  ]
+}

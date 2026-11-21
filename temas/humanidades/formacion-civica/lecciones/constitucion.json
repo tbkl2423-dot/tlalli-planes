@@ -1,0 +1,44 @@
+{
+  "id": "constitucion",
+  "tema": "formacion-civica",
+  "subtema": "constitucion",
+  "titulo": "La Constitución",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La Constitución es la ley más importante del país. Todas las demás leyes deben respetarla."
+    },
+    {
+      "texto": "La actual se promulgó el 5 de febrero de 1917."
+    },
+    {
+      "texto": "Establece los derechos de las personas y cómo se organiza el gobierno."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "anio",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué año se promulgó la Constitución vigente?",
+      "opciones": [
+        "1917",
+        "1857",
+        "1824"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Fue resultado de la Revolución."
+    },
+    {
+      "id": "suprema",
+      "tipo": "completar",
+      "enunciado": "La ley más importante del país es la ___.",
+      "respuestas_validas": [
+        "Constitución",
+        "Constitucion",
+        "constitucion"
+      ],
+      "explicacion_respuesta": "También se le llama Carta Magna."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "relieve",
+  "tema": "geografia",
+  "subtema": "relieve",
+  "titulo": "El relieve",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El relieve son las formas del terreno: montañas, llanuras, mesetas y valles."
+    },
+    {
+      "texto": "México tiene grandes cordilleras, la Sierra Madre Occidental y la Oriental, y el Eje Neovolcánico, con volcanes como el Popocatépetl."
+    },
+    {
+      "texto": "El Pico de Orizaba, o Citlaltépetl, es la montaña más alta de México."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "alto",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la montaña más alta de México?",
+      "opciones": [
+        "Pico de Orizaba",
+        "Popocatépetl",
+        "Nevado de Toluca"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Mide más de 5 600 metros."
+    },
+    {
+      "id": "eje",
+      "tipo": "completar",
+      "enunciado": "La franja de volcanes del centro de México es el Eje ___.",
+      "respuestas_validas": [
+        "Neovolcánico",
+        "Neovolcanico",
+        "neovolcanico"
+      ],
+      "explicacion_respuesta": "Cruza el país de oeste a este."
+    }
+  ]
+}

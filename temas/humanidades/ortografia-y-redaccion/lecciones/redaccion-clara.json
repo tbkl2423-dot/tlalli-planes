@@ -1,0 +1,46 @@
+{
+  "id": "redaccion-clara",
+  "tema": "ortografia-y-redaccion",
+  "subtema": "redaccion-clara",
+  "titulo": "Redactar con claridad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Escribe oraciones cortas, con una idea cada una."
+    },
+    {
+      "texto": "Usa el orden natural: quién, qué hace y a quién o qué."
+    },
+    {
+      "texto": "Relee en voz alta: si te trabas al leer, la frase necesita ajustarse."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "claridad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es más clara?",
+      "opciones": [
+        "Mañana enviaré el reporte.",
+        "El reporte, que mañana, será por mí enviado.",
+        "Enviado será mañana el reporte por mí."
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El orden natural se entiende mejor."
+    },
+    {
+      "id": "releer",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué ayuda leer en voz alta lo que escribiste?",
+      "respuesta_esperada": "Porque así notas las frases confusas o largas.",
+      "palabras_clave": [
+        "confus",
+        "larga",
+        "trab",
+        "errores"
+      ],
+      "explicacion_respuesta": "El oído detecta lo que la vista pasa por alto."
+    }
+  ]
+}

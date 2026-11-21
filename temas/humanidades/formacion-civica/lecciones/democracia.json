@@ -1,0 +1,42 @@
+{
+  "id": "democracia",
+  "tema": "formacion-civica",
+  "subtema": "democracia",
+  "titulo": "Democracia y voto",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En una democracia, el poder viene del pueblo, que elige a sus gobernantes con el voto."
+    },
+    {
+      "texto": "El voto es libre, secreto y universal. En México se puede votar a partir de los 18 años, con la credencial del INE."
+    },
+    {
+      "texto": "La democracia también es dialogar, respetar a quien piensa distinto y aceptar resultados."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "edad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿A partir de qué edad se vota en México?",
+      "opciones": [
+        "18 años",
+        "16 años",
+        "21 años"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Al cumplir 18 se es ciudadano."
+    },
+    {
+      "id": "secreto",
+      "tipo": "completar",
+      "enunciado": "El voto es libre, universal y ___.",
+      "respuestas_validas": [
+        "secreto"
+      ],
+      "explicacion_respuesta": "Nadie puede saber por quién votaste."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "calculo-mental",
+  "titulo": "Cálculo mental",
+  "categoria": "matematicas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Trucos para hacer cuentas rápido sin calculadora: sumas, restas, multiplicaciones, porcentajes y estimaciones del día a día.",
+  "version": 1,
+  "aliases": [
+    "cuentas rapidas",
+    "matematicas mentales",
+    "aritmetica mental"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "sumas-rapidas",
+      "titulo": "Sumas rápidas",
+      "aliases": [
+        "sumar"
+      ]
+    },
+    {
+      "id": "restas-rapidas",
+      "titulo": "Restas rápidas",
+      "aliases": [
+        "restar",
+        "cambio"
+      ]
+    },
+    {
+      "id": "multiplicar-trucos",
+      "titulo": "Trucos para multiplicar",
+      "aliases": [
+        "tablas",
+        "multiplicar"
+      ]
+    },
+    {
+      "id": "porcentajes-mentales",
+      "titulo": "Porcentajes de cabeza",
+      "aliases": [
+        "descuentos",
+        "propina"
+      ]
+    },
+    {
+      "id": "estimar",
+      "titulo": "Estimar",
+      "aliases": [
+        "aproximar",
+        "redondear"
+      ]
+    },
+    {
+      "id": "fracciones-mentales",
+      "titulo": "Mitades, cuartos y tercios",
+      "aliases": [
+        "fracciones"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "sumas-rapidas",
+          "titulo": "Sumas rápidas",
+          "subtema": "sumas-rapidas",
+          "archivo": "lecciones/sumas-rapidas.json"
+        },
+        {
+          "id": "restas-rapidas",
+          "titulo": "Restas rápidas",
+          "subtema": "restas-rapidas",
+          "archivo": "lecciones/restas-rapidas.json"
+        },
+        {
+          "id": "multiplicar-trucos",
+          "titulo": "Trucos para multiplicar",
+          "subtema": "multiplicar-trucos",
+          "archivo": "lecciones/multiplicar-trucos.json"
+        },
+        {
+          "id": "porcentajes-mentales",
+          "titulo": "Porcentajes de cabeza",
+          "subtema": "porcentajes-mentales",
+          "archivo": "lecciones/porcentajes-mentales.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "estimar",
+          "titulo": "Estimar",
+          "subtema": "estimar",
+          "archivo": "lecciones/estimar.json"
+        },
+        {
+          "id": "fracciones-mentales",
+          "titulo": "Mitades, cuartos y tercios",
+          "subtema": "fracciones-mentales",
+          "archivo": "lecciones/fracciones-mentales.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "opiniones",
+  "tema": "ingles-b1",
+  "subtema": "opiniones",
+  "titulo": "Dar opiniones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para dar tu opinión: I think, in my opinion, I believe."
+    },
+    {
+      "texto": "Para estar de acuerdo: I agree, that's true. Para no estarlo con respeto: I see your point, but..."
+    },
+    {
+      "texto": "Para justificar: because, since, that's why."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "desacuerdo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una forma respetuosa de no estar de acuerdo?",
+      "opciones": [
+        "I see your point, but...",
+        "You are wrong",
+        "No"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Reconoce la otra postura antes de opinar."
+    },
+    {
+      "id": "creo-que",
+      "tipo": "traduccion",
+      "frase": "Creo que tienes razón",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i think you are right",
+        "i think you're right"
+      ],
+      "explicacion_respuesta": "I think introduce tu opinión."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pseudocodigo",
+  "tema": "logica-de-programacion",
+  "subtema": "pseudocodigo",
+  "titulo": "Pseudocódigo y diagramas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El pseudocódigo describe un programa con palabras normales, sin preocuparse por las reglas de un lenguaje."
+    },
+    {
+      "texto": "Por ejemplo:",
+      "codigo": "Leer edad\nSi edad >= 18 entonces\n   Mostrar \"Puedes votar\"\nSi no\n   Mostrar \"Aún no\"\nFin"
+    },
+    {
+      "texto": "Los diagramas de flujo dibujan lo mismo con figuras: óvalos para inicio y fin, rombos para decisiones y rectángulos para acciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rombo",
+      "tipo": "opcion_multiple",
+      "pregunta": "En un diagrama de flujo, ¿qué figura representa una decisión?",
+      "opciones": [
+        "Rombo",
+        "Óvalo",
+        "Círculo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El rombo tiene dos salidas: sí y no."
+    },
+    {
+      "id": "pseudo",
+      "tipo": "completar",
+      "enunciado": "Describir un programa con palabras normales se llama ___.",
+      "respuestas_validas": [
+        "pseudocódigo",
+        "pseudocodigo"
+      ],
+      "explicacion_respuesta": "Sirve para planear antes de programar."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "restas-rapidas",
+  "tema": "calculo-mental",
+  "subtema": "restas-rapidas",
+  "titulo": "Restas rápidas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para restar, cuenta hacia arriba. 100 menos 37: de 37 a 40 hay 3, y de 40 a 100 hay 60. Total 63."
+    },
+    {
+      "texto": "Es la forma de calcular el cambio en una tienda."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cambio",
+      "tipo": "opcion_multiple",
+      "pregunta": "Pagas 200 por algo de 135. ¿Cuánto te regresan?",
+      "opciones": [
+        "65",
+        "75",
+        "55"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "De 135 a 140 son 5, y de 140 a 200 son 60."
+    },
+    {
+      "id": "contar-arriba",
+      "tipo": "completar",
+      "enunciado": "100 - 58 = ___",
+      "respuestas_validas": [
+        "42"
+      ],
+      "explicacion_respuesta": "De 58 a 60 son 2, y de 60 a 100 son 40."
+    }
+  ]
+}

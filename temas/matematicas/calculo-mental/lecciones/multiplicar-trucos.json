@@ -1,0 +1,42 @@
+{
+  "id": "multiplicar-trucos",
+  "tema": "calculo-mental",
+  "subtema": "multiplicar-trucos",
+  "titulo": "Trucos para multiplicar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para multiplicar por 5, multiplica por 10 y divide entre 2: 5 por 36 es 360 entre 2, o sea 180."
+    },
+    {
+      "texto": "Para multiplicar por 11 un número de dos cifras, suma sus cifras y pon el resultado en medio: 11 por 23 es 253."
+    },
+    {
+      "texto": "Para multiplicar por 9, multiplica por 10 y resta el número: 9 por 7 es 70 menos 7, o sea 63."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "por-cinco",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 5 × 48?",
+      "opciones": [
+        "240",
+        "200",
+        "245"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "48 × 10 = 480, entre 2 = 240."
+    },
+    {
+      "id": "por-once",
+      "tipo": "completar",
+      "enunciado": "11 × 34 = ___",
+      "respuestas_validas": [
+        "374"
+      ],
+      "explicacion_respuesta": "3 + 4 = 7 en medio: 374."
+    }
+  ]
+}

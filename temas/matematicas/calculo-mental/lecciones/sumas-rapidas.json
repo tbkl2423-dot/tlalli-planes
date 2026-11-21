@@ -1,0 +1,39 @@
+{
+  "id": "sumas-rapidas",
+  "tema": "calculo-mental",
+  "subtema": "sumas-rapidas",
+  "titulo": "Sumas rápidas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para sumar rápido, redondea y luego ajusta. 48 más 27: piensa 50 más 27, que es 77, y quita 2. Da 75."
+    },
+    {
+      "texto": "También puedes sumar primero decenas y luego unidades: 36 más 45 es 70 más 11, o sea 81."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "redondear",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 99 + 46?",
+      "opciones": [
+        "145",
+        "135",
+        "146"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "100 + 46 = 146, menos 1 = 145."
+    },
+    {
+      "id": "decenas",
+      "tipo": "completar",
+      "enunciado": "38 + 24 = ___",
+      "respuestas_validas": [
+        "62"
+      ],
+      "explicacion_respuesta": "30 + 20 = 50 y 8 + 4 = 12: 62."
+    }
+  ]
+}

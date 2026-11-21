@@ -1,0 +1,114 @@
+{
+  "id": "formacion-civica",
+  "titulo": "Formación cívica",
+  "categoria": "humanidades",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Tus derechos y responsabilidades: la Constitución, cómo se organiza el gobierno, la democracia y la participación ciudadana.",
+  "version": 1,
+  "aliases": [
+    "civismo",
+    "derechos humanos",
+    "ciudadania"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "derechos-humanos",
+      "titulo": "Derechos humanos",
+      "aliases": [
+        "dignidad"
+      ]
+    },
+    {
+      "id": "constitucion",
+      "titulo": "La Constitución",
+      "aliases": [
+        "leyes",
+        "carta magna"
+      ]
+    },
+    {
+      "id": "poderes",
+      "titulo": "Los tres poderes",
+      "aliases": [
+        "ejecutivo",
+        "legislativo",
+        "judicial"
+      ]
+    },
+    {
+      "id": "democracia",
+      "titulo": "Democracia y voto",
+      "aliases": [
+        "elecciones",
+        "votar"
+      ]
+    },
+    {
+      "id": "participacion",
+      "titulo": "Participación ciudadana",
+      "aliases": [
+        "comunidad"
+      ]
+    },
+    {
+      "id": "convivencia",
+      "titulo": "Convivencia y conflictos",
+      "aliases": [
+        "respeto",
+        "dialogo"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "derechos-humanos",
+          "titulo": "Derechos humanos",
+          "subtema": "derechos-humanos",
+          "archivo": "lecciones/derechos-humanos.json"
+        },
+        {
+          "id": "constitucion",
+          "titulo": "La Constitución",
+          "subtema": "constitucion",
+          "archivo": "lecciones/constitucion.json"
+        },
+        {
+          "id": "poderes",
+          "titulo": "Los tres poderes",
+          "subtema": "poderes",
+          "archivo": "lecciones/poderes.json"
+        },
+        {
+          "id": "democracia",
+          "titulo": "Democracia y voto",
+          "subtema": "democracia",
+          "archivo": "lecciones/democracia.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "participacion",
+          "titulo": "Participación ciudadana",
+          "subtema": "participacion",
+          "archivo": "lecciones/participacion.json"
+        },
+        {
+          "id": "convivencia",
+          "titulo": "Convivencia y conflictos",
+          "subtema": "convivencia",
+          "archivo": "lecciones/convivencia.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "b-v",
+  "tema": "ortografia-y-redaccion",
+  "subtema": "b-v",
+  "titulo": "B y V",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Se escribe b después de m: también, hombre. Y v después de n: invierno, enviar."
+    },
+    {
+      "texto": "Los verbos en aba del pasado van con b: cantaba, jugaba."
+    },
+    {
+      "texto": "Las palabras que empiezan con bu, bur y bus van con b: buscar, burla."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mb",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál está bien escrita?",
+      "opciones": [
+        "También",
+        "Tamvién",
+        "Tanbién"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Después de m va b."
+    },
+    {
+      "id": "pasado",
+      "tipo": "completar",
+      "enunciado": "Ayer jug___ futbol.",
+      "respuestas_validas": [
+        "aba",
+        "aba."
+      ],
+      "explicacion_respuesta": "Las terminaciones aba van con b."
+    }
+  ]
+}

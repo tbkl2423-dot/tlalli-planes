@@ -1,0 +1,43 @@
+{
+  "id": "climas",
+  "tema": "geografia",
+  "subtema": "climas",
+  "titulo": "Climas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El tiempo es lo que pasa hoy en la atmósfera; el clima es el patrón de muchos años."
+    },
+    {
+      "texto": "El clima depende de la latitud, la altitud, la cercanía al mar y los vientos."
+    },
+    {
+      "texto": "México tiene climas secos en el norte, templados en el centro y cálidos húmedos en el sureste."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "diferencia",
+      "tipo": "opcion_multiple",
+      "pregunta": "Hoy llueve en tu ciudad. ¿Es tiempo o clima?",
+      "opciones": [
+        "Tiempo",
+        "Clima",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El tiempo es el estado de un momento."
+    },
+    {
+      "id": "altitud",
+      "tipo": "completar",
+      "enunciado": "A mayor ___, más frío suele hacer.",
+      "respuestas_validas": [
+        "altitud",
+        "altura"
+      ],
+      "explicacion_respuesta": "Por eso las montañas son frías."
+    }
+  ]
+}

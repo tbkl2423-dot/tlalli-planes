@@ -1,0 +1,45 @@
+{
+  "id": "pensar-en-pasos",
+  "tema": "logica-de-programacion",
+  "subtema": "pensar-en-pasos",
+  "titulo": "Pensar en pasos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Programar es darle a la computadora instrucciones exactas. Ella no adivina: hace justo lo que le dices."
+    },
+    {
+      "texto": "Antes de escribir código, describe la solución en pasos simples, como una receta."
+    },
+    {
+      "texto": "Por ejemplo, para preparar café: calentar agua, poner café en la taza, verter el agua, mezclar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "exactas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué las instrucciones deben ser exactas?",
+      "opciones": [
+        "La computadora no adivina",
+        "Para que se vean bonitas",
+        "Por costumbre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Hace exactamente lo que se le indica, ni más ni menos."
+    },
+    {
+      "id": "receta",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿A qué se parece un algoritmo en la vida diaria?",
+      "respuesta_esperada": "A una receta de cocina.",
+      "palabras_clave": [
+        "receta",
+        "instructivo",
+        "pasos"
+      ],
+      "explicacion_respuesta": "Ambos son pasos ordenados para lograr algo."
+    }
+  ]
+}

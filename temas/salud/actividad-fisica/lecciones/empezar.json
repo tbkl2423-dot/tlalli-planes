@@ -1,0 +1,45 @@
+{
+  "id": "empezar",
+  "tema": "actividad-fisica",
+  "subtema": "empezar",
+  "titulo": "Cómo empezar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Empieza poco a poco: diez minutos al día y ve subiendo."
+    },
+    {
+      "texto": "Elige algo que disfrutes; así es más fácil ser constante."
+    },
+    {
+      "texto": "Si tienes alguna enfermedad o hace mucho que no te ejercitas, consulta primero a un médico."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ritmo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo conviene empezar?",
+      "opciones": [
+        "Poco a poco",
+        "Con mucho esfuerzo el primer día",
+        "Solo los fines de semana"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Aumentar gradualmente evita lesiones."
+    },
+    {
+      "id": "disfrutar",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué elegir una actividad que disfrutes?",
+      "respuesta_esperada": "Porque así es más fácil ser constante.",
+      "palabras_clave": [
+        "constan",
+        "seguir",
+        "gusta"
+      ],
+      "explicacion_respuesta": "La constancia importa más que la intensidad."
+    }
+  ]
+}

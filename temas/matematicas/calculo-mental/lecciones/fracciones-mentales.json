@@ -1,0 +1,42 @@
+{
+  "id": "fracciones-mentales",
+  "tema": "calculo-mental",
+  "subtema": "fracciones-mentales",
+  "titulo": "Mitades, cuartos y tercios",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La mitad es dividir entre 2. El cuarto es la mitad de la mitad."
+    },
+    {
+      "texto": "Un tercio es dividir entre 3. Tres cuartos es la mitad más un cuarto."
+    },
+    {
+      "texto": "Tres cuartos de 80: la mitad es 40, un cuarto es 20, total 60."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tres-cuartos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto son tres cuartos de 40?",
+      "opciones": [
+        "30",
+        "20",
+        "10"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Mitad 20 más cuarto 10 = 30."
+    },
+    {
+      "id": "tercio",
+      "tipo": "completar",
+      "enunciado": "Un tercio de 90 es ___.",
+      "respuestas_validas": [
+        "30"
+      ],
+      "explicacion_respuesta": "90 entre 3 = 30."
+    }
+  ]
+}

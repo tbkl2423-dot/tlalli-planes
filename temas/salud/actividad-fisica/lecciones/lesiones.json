@@ -1,0 +1,45 @@
+{
+  "id": "lesiones",
+  "tema": "actividad-fisica",
+  "subtema": "lesiones",
+  "titulo": "Evitar lesiones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Calienta antes y aumenta la intensidad poco a poco."
+    },
+    {
+      "texto": "Descansa: los músculos se fortalecen mientras se recuperan."
+    },
+    {
+      "texto": "El dolor agudo es una señal para detenerte. Hidrátate y usa calzado adecuado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "dolor",
+      "tipo": "opcion_multiple",
+      "pregunta": "Sientes un dolor agudo al entrenar. ¿Qué haces?",
+      "opciones": [
+        "Detenerte",
+        "Seguir más fuerte",
+        "Ignorarlo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El dolor agudo es una alarma."
+    },
+    {
+      "id": "descanso",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué es importante descansar entre entrenamientos?",
+      "respuesta_esperada": "Porque los músculos se recuperan y se fortalecen al descansar.",
+      "palabras_clave": [
+        "recuper",
+        "fortalec",
+        "descans"
+      ],
+      "explicacion_respuesta": "El progreso ocurre durante la recuperación."
+    }
+  ]
+}

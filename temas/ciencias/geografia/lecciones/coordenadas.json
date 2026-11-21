@@ -1,0 +1,43 @@
+{
+  "id": "coordenadas",
+  "tema": "geografia",
+  "subtema": "coordenadas",
+  "titulo": "Latitud y longitud",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La latitud mide la distancia al norte o al sur del ecuador, en grados."
+    },
+    {
+      "texto": "La longitud mide la distancia al este u oeste del meridiano de Greenwich."
+    },
+    {
+      "texto": "Con las dos se ubica cualquier punto del planeta; así funciona el GPS."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ecuador",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Desde dónde se mide la latitud?",
+      "opciones": [
+        "Desde el ecuador",
+        "Desde Greenwich",
+        "Desde el polo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El ecuador es la latitud cero."
+    },
+    {
+      "id": "gps",
+      "tipo": "completar",
+      "enunciado": "El sistema que usa latitud y longitud en tu celular es el ___.",
+      "respuestas_validas": [
+        "GPS",
+        "gps"
+      ],
+      "explicacion_respuesta": "Calcula tu posición con satélites."
+    }
+  ]
+}

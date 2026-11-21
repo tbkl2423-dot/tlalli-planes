@@ -1,0 +1,45 @@
+{
+  "id": "regiones",
+  "tema": "geografia",
+  "subtema": "regiones",
+  "titulo": "Regiones naturales de México",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "México tiene desiertos en el norte, como el de Sonora y el Chihuahuense."
+    },
+    {
+      "texto": "En el centro hay bosques templados de pino y encino. En el sureste, selvas húmedas como la Lacandona."
+    },
+    {
+      "texto": "Sus costas tienen manglares y arrecifes, como el Sistema Arrecifal Mesoamericano en el Caribe."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "selva",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué parte de México está la selva Lacandona?",
+      "opciones": [
+        "Sureste",
+        "Norte",
+        "Noroeste"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Está en Chiapas."
+    },
+    {
+      "id": "desierto",
+      "tipo": "completar",
+      "enunciado": "En el norte de México está el desierto ___.",
+      "respuestas_validas": [
+        "Chihuahuense",
+        "chihuahuense",
+        "de Sonora",
+        "Sonorense"
+      ],
+      "explicacion_respuesta": "Son los grandes desiertos del país."
+    }
+  ]
+}

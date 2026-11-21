@@ -1,0 +1,46 @@
+{
+  "id": "condicionales",
+  "tema": "ingles-b1",
+  "subtema": "condicionales",
+  "titulo": "Condicionales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El primer condicional habla de algo posible: if it rains, I will stay home."
+    },
+    {
+      "texto": "El segundo condicional habla de algo imaginario: if I had more time, I would learn piano."
+    },
+    {
+      "texto": "En el segundo condicional se usa were para todas las personas en estilo formal: if I were you."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "imaginario",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué condicional usas para algo imaginario?",
+      "opciones": [
+        "El segundo",
+        "El primero",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "If más pasado, would más verbo."
+    },
+    {
+      "id": "si-fuera",
+      "tipo": "traduccion",
+      "frase": "Si yo fuera tú, estudiaría",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "if i were you, i would study",
+        "if i were you i would study",
+        "if i were you, i'd study"
+      ],
+      "explicacion_respuesta": "If I were you es la forma clásica de dar consejo."
+    }
+  ]
+}

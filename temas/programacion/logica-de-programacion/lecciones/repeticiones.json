@@ -1,0 +1,63 @@
+{
+  "id": "repeticiones",
+  "tema": "logica-de-programacion",
+  "subtema": "repeticiones",
+  "titulo": "Repetir tareas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los ciclos repiten instrucciones sin escribirlas muchas veces."
+    },
+    {
+      "texto": "Un ciclo puede repetirse un número fijo de veces o mientras se cumpla una condición."
+    },
+    {
+      "texto": "Siempre debe haber una forma de terminar; si no, el programa nunca se detiene."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "para-que",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve un ciclo?",
+      "opciones": [
+        "Repetir instrucciones",
+        "Guardar datos",
+        "Dibujar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Evita copiar el mismo código muchas veces."
+    },
+    {
+      "id": "contar",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función contarHasta(n) que regrese un arreglo con los números del 1 al n.",
+      "codigo_inicial": "function contarHasta(n) {\n  const lista = [];\n  // tu código aquí\n  return lista;\n}",
+      "funcion": "contarHasta",
+      "pruebas": [
+        {
+          "entrada": [
+            3
+          ],
+          "salida": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "entrada": [
+            1
+          ],
+          "salida": [
+            1
+          ]
+        }
+      ],
+      "solucion": "function contarHasta(n) {\n  const lista = [];\n  for (let i = 1; i <= n; i++) lista.push(i);\n  return lista;\n}",
+      "explicacion_respuesta": "Un ciclo de 1 a n agrega cada número."
+    }
+  ]
+}

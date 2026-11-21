@@ -1,0 +1,43 @@
+{
+  "id": "cuanto",
+  "tema": "actividad-fisica",
+  "subtema": "cuanto",
+  "titulo": "¿Cuánto ejercicio necesitas?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La recomendación para adultos es al menos 150 minutos a la semana de actividad moderada, como caminar rápido."
+    },
+    {
+      "texto": "Más dos días de ejercicios de fuerza."
+    },
+    {
+      "texto": "Puedes repartirlo: 30 minutos, cinco días."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "minutos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántos minutos de actividad moderada a la semana se recomiendan?",
+      "opciones": [
+        "150",
+        "30",
+        "500"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la recomendación general para adultos."
+    },
+    {
+      "id": "fuerza",
+      "tipo": "completar",
+      "enunciado": "Se recomiendan ___ días de ejercicios de fuerza a la semana.",
+      "respuestas_validas": [
+        "2",
+        "dos"
+      ],
+      "explicacion_respuesta": "Para mantener músculos y huesos."
+    }
+  ]
+}

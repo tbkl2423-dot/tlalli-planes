@@ -1,0 +1,114 @@
+{
+  "id": "geografia",
+  "titulo": "Geografía",
+  "categoria": "ciencias",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "El planeta y México: mapas, coordenadas, relieve, climas, población y regiones naturales.",
+  "version": 1,
+  "aliases": [
+    "geografia",
+    "mapas",
+    "geografia de mexico"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "mapas",
+      "titulo": "Mapas y escalas",
+      "aliases": [
+        "escala",
+        "simbologia"
+      ]
+    },
+    {
+      "id": "coordenadas",
+      "titulo": "Latitud y longitud",
+      "aliases": [
+        "ecuador",
+        "meridiano"
+      ]
+    },
+    {
+      "id": "relieve",
+      "titulo": "El relieve",
+      "aliases": [
+        "montañas",
+        "volcanes"
+      ]
+    },
+    {
+      "id": "climas",
+      "titulo": "Climas",
+      "aliases": [
+        "tiempo atmosferico"
+      ]
+    },
+    {
+      "id": "poblacion",
+      "titulo": "Población",
+      "aliases": [
+        "demografia",
+        "migracion"
+      ]
+    },
+    {
+      "id": "regiones",
+      "titulo": "Regiones naturales de México",
+      "aliases": [
+        "ecosistemas",
+        "biomas"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "mapas",
+          "titulo": "Mapas y escalas",
+          "subtema": "mapas",
+          "archivo": "lecciones/mapas.json"
+        },
+        {
+          "id": "coordenadas",
+          "titulo": "Latitud y longitud",
+          "subtema": "coordenadas",
+          "archivo": "lecciones/coordenadas.json"
+        },
+        {
+          "id": "relieve",
+          "titulo": "El relieve",
+          "subtema": "relieve",
+          "archivo": "lecciones/relieve.json"
+        },
+        {
+          "id": "climas",
+          "titulo": "Climas",
+          "subtema": "climas",
+          "archivo": "lecciones/climas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "poblacion",
+          "titulo": "Población",
+          "subtema": "poblacion",
+          "archivo": "lecciones/poblacion.json"
+        },
+        {
+          "id": "regiones",
+          "titulo": "Regiones naturales de México",
+          "subtema": "regiones",
+          "archivo": "lecciones/regiones.json"
+        }
+      ]
+    }
+  ]
+}

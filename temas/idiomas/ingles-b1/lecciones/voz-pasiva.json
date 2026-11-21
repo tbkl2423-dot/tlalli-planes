@@ -1,0 +1,42 @@
+{
+  "id": "voz-pasiva",
+  "tema": "ingles-b1",
+  "subtema": "voz-pasiva",
+  "titulo": "Voz pasiva",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La voz pasiva pone el foco en lo que recibe la acción: the bridge was built in 1990."
+    },
+    {
+      "texto": "Se forma con el verbo to be más el participio."
+    },
+    {
+      "texto": "Si importa quién lo hizo, se agrega by: the book was written by Octavio Paz."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pasiva",
+      "tipo": "completar",
+      "enunciado": "English ___ spoken here.",
+      "respuestas_validas": [
+        "is"
+      ],
+      "explicacion_respuesta": "To be más participio."
+    },
+    {
+      "id": "by",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué palabra introduce a quien hizo la acción?",
+      "opciones": [
+        "by",
+        "for",
+        "of"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Written by significa escrito por."
+    }
+  ]
+}

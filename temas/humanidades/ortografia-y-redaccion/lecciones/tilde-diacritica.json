@@ -1,0 +1,41 @@
+{
+  "id": "tilde-diacritica",
+  "tema": "ortografia-y-redaccion",
+  "subtema": "tilde-diacritica",
+  "titulo": "Tilde diacrítica",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La tilde diacrítica distingue palabras que se escriben igual: tú, pronombre, y tu, posesivo."
+    },
+    {
+      "texto": "Él es pronombre y el es artículo. Sí es afirmación y si es condición. Más es cantidad y mas significa pero."
+    },
+    {
+      "texto": "Ejemplo: tú tienes tu libro."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tu",
+      "tipo": "opcion_multiple",
+      "pregunta": "Completa: ___ tienes razón.",
+      "opciones": [
+        "Tú",
+        "Tu"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es el pronombre personal."
+    },
+    {
+      "id": "si",
+      "tipo": "completar",
+      "enunciado": "Dijo que ___, que vendría.",
+      "respuestas_validas": [
+        "sí"
+      ],
+      "explicacion_respuesta": "Es afirmación, lleva tilde."
+    }
+  ]
+}

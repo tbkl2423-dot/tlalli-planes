@@ -1,0 +1,45 @@
+{
+  "id": "participacion",
+  "tema": "formacion-civica",
+  "subtema": "participacion",
+  "titulo": "Participación ciudadana",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ser ciudadano no es solo votar: también es participar en tu comunidad."
+    },
+    {
+      "texto": "Puedes asistir a reuniones vecinales, hacer voluntariado o pedir información pública."
+    },
+    {
+      "texto": "El derecho de acceso a la información te permite preguntar al gobierno en qué gasta."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ejemplo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una forma de participación ciudadana?",
+      "opciones": [
+        "Hacer voluntariado en tu colonia",
+        "No enterarse de nada",
+        "Romper bancas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Participar mejora la comunidad."
+    },
+    {
+      "id": "informacion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Para qué sirve el derecho de acceso a la información?",
+      "respuesta_esperada": "Para saber qué hace el gobierno y en qué gasta.",
+      "palabras_clave": [
+        "gobierno",
+        "gasta",
+        "transparen"
+      ],
+      "explicacion_respuesta": "La transparencia ayuda a vigilar el uso de recursos públicos."
+    }
+  ]
+}

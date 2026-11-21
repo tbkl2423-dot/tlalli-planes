@@ -1,0 +1,43 @@
+{
+  "id": "fuerza",
+  "tema": "actividad-fisica",
+  "subtema": "fuerza",
+  "titulo": "Ejercicios de fuerza",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los ejercicios de fuerza hacen trabajar a los músculos contra una resistencia: tu peso, ligas o pesas."
+    },
+    {
+      "texto": "Sentadillas, lagartijas y planchas se pueden hacer en casa."
+    },
+    {
+      "texto": "Importa más la buena técnica que la cantidad de repeticiones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "casa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un ejercicio de fuerza que puedes hacer en casa?",
+      "opciones": [
+        "Sentadillas",
+        "Ver televisión",
+        "Estirar el cuello"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Usan tu propio peso como resistencia."
+    },
+    {
+      "id": "tecnica",
+      "tipo": "completar",
+      "enunciado": "Importa más la buena ___ que el número de repeticiones.",
+      "respuestas_validas": [
+        "técnica",
+        "tecnica"
+      ],
+      "explicacion_respuesta": "La mala técnica causa lesiones."
+    }
+  ]
+}

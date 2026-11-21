@@ -1,0 +1,127 @@
+{
+  "id": "ortografia-y-redaccion",
+  "titulo": "Ortografía y redacción",
+  "categoria": "humanidades",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Escribe con claridad y sin faltas: acentos, letras que se confunden, puntuación y cómo redactar textos claros.",
+  "version": 1,
+  "aliases": [
+    "ortografia",
+    "redaccion",
+    "escribir bien",
+    "acentos"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "acentos",
+      "titulo": "Reglas de acentuación",
+      "aliases": [
+        "agudas",
+        "graves",
+        "esdrujulas"
+      ]
+    },
+    {
+      "id": "tilde-diacritica",
+      "titulo": "Tilde diacrítica",
+      "aliases": [
+        "tu tú",
+        "si sí"
+      ]
+    },
+    {
+      "id": "b-v",
+      "titulo": "B y V",
+      "aliases": [
+        "b v"
+      ]
+    },
+    {
+      "id": "c-s-z",
+      "titulo": "C, S y Z",
+      "aliases": [
+        "seseo"
+      ]
+    },
+    {
+      "id": "puntuacion",
+      "titulo": "Puntuación",
+      "aliases": [
+        "coma",
+        "punto"
+      ]
+    },
+    {
+      "id": "haber-hay-ahi",
+      "titulo": "Hay, ahí y ay",
+      "aliases": [
+        "haber a ver"
+      ]
+    },
+    {
+      "id": "redaccion-clara",
+      "titulo": "Redactar con claridad",
+      "aliases": [
+        "escribir claro"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "acentos",
+          "titulo": "Reglas de acentuación",
+          "subtema": "acentos",
+          "archivo": "lecciones/acentos.json"
+        },
+        {
+          "id": "tilde-diacritica",
+          "titulo": "Tilde diacrítica",
+          "subtema": "tilde-diacritica",
+          "archivo": "lecciones/tilde-diacritica.json"
+        },
+        {
+          "id": "b-v",
+          "titulo": "B y V",
+          "subtema": "b-v",
+          "archivo": "lecciones/b-v.json"
+        },
+        {
+          "id": "c-s-z",
+          "titulo": "C, S y Z",
+          "subtema": "c-s-z",
+          "archivo": "lecciones/c-s-z.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "puntuacion",
+          "titulo": "Puntuación",
+          "subtema": "puntuacion",
+          "archivo": "lecciones/puntuacion.json"
+        },
+        {
+          "id": "haber-hay-ahi",
+          "titulo": "Hay, ahí y ay",
+          "subtema": "haber-hay-ahi",
+          "archivo": "lecciones/haber-hay-ahi.json"
+        },
+        {
+          "id": "redaccion-clara",
+          "titulo": "Redactar con claridad",
+          "subtema": "redaccion-clara",
+          "archivo": "lecciones/redaccion-clara.json"
+        }
+      ]
+    }
+  ]
+}

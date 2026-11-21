@@ -1,0 +1,45 @@
+{
+  "id": "dividir-problemas",
+  "tema": "logica-de-programacion",
+  "subtema": "dividir-problemas",
+  "titulo": "Dividir el problema",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un problema grande se resuelve mejor si lo divides en partes pequeñas."
+    },
+    {
+      "texto": "Cada parte puede ser una función con un nombre claro, que haga una sola cosa."
+    },
+    {
+      "texto": "Probar cada parte por separado facilita encontrar errores."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "estrategia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una buena estrategia ante un problema grande?",
+      "opciones": [
+        "Dividirlo en partes pequeñas",
+        "Escribir todo de una vez",
+        "Copiar sin entender"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Divide y vencerás."
+    },
+    {
+      "id": "una-cosa",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué conviene que una función haga una sola cosa?",
+      "respuesta_esperada": "Porque es más fácil de entender, probar y reutilizar.",
+      "palabras_clave": [
+        "entender",
+        "probar",
+        "reutilizar"
+      ],
+      "explicacion_respuesta": "Las funciones pequeñas son más claras."
+    }
+  ]
+}

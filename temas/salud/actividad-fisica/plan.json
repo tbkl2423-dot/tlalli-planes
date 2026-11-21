@@ -1,0 +1,111 @@
+{
+  "id": "actividad-fisica",
+  "titulo": "Actividad física",
+  "categoria": "salud",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Moverte para estar sano: cuánto ejercicio necesitas, cómo empezar, fuerza, flexibilidad y cómo evitar lesiones.",
+  "version": 1,
+  "aliases": [
+    "ejercicio",
+    "deporte",
+    "entrenar"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "beneficios",
+      "titulo": "Por qué moverte",
+      "aliases": [
+        "salud"
+      ]
+    },
+    {
+      "id": "cuanto",
+      "titulo": "¿Cuánto ejercicio necesitas?",
+      "aliases": [
+        "recomendaciones"
+      ]
+    },
+    {
+      "id": "empezar",
+      "titulo": "Cómo empezar",
+      "aliases": [
+        "principiante"
+      ]
+    },
+    {
+      "id": "fuerza",
+      "titulo": "Ejercicios de fuerza",
+      "aliases": [
+        "pesas",
+        "musculos"
+      ]
+    },
+    {
+      "id": "flexibilidad",
+      "titulo": "Flexibilidad y estiramientos",
+      "aliases": [
+        "estirar"
+      ]
+    },
+    {
+      "id": "lesiones",
+      "titulo": "Evitar lesiones",
+      "aliases": [
+        "calentamiento",
+        "descanso"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "beneficios",
+          "titulo": "Por qué moverte",
+          "subtema": "beneficios",
+          "archivo": "lecciones/beneficios.json"
+        },
+        {
+          "id": "cuanto",
+          "titulo": "¿Cuánto ejercicio necesitas?",
+          "subtema": "cuanto",
+          "archivo": "lecciones/cuanto.json"
+        },
+        {
+          "id": "empezar",
+          "titulo": "Cómo empezar",
+          "subtema": "empezar",
+          "archivo": "lecciones/empezar.json"
+        },
+        {
+          "id": "fuerza",
+          "titulo": "Ejercicios de fuerza",
+          "subtema": "fuerza",
+          "archivo": "lecciones/fuerza.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "flexibilidad",
+          "titulo": "Flexibilidad y estiramientos",
+          "subtema": "flexibilidad",
+          "archivo": "lecciones/flexibilidad.json"
+        },
+        {
+          "id": "lesiones",
+          "titulo": "Evitar lesiones",
+          "subtema": "lesiones",
+          "archivo": "lecciones/lesiones.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "convivencia",
+  "tema": "formacion-civica",
+  "subtema": "convivencia",
+  "titulo": "Convivencia y conflictos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los conflictos son normales; lo importante es resolverlos sin violencia."
+    },
+    {
+      "texto": "Escuchar, expresar lo que sientes sin atacar y buscar acuerdos ayuda."
+    },
+    {
+      "texto": "Si no pueden solos, una mediación con alguien neutral puede ayudar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "resolver",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una buena forma de resolver un conflicto?",
+      "opciones": [
+        "Dialogar y buscar acuerdos",
+        "Gritar más fuerte",
+        "Ignorar al otro para siempre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El diálogo busca soluciones para ambos."
+    },
+    {
+      "id": "mediacion",
+      "tipo": "completar",
+      "enunciado": "Cuando una persona neutral ayuda a resolver un conflicto se llama ___.",
+      "respuestas_validas": [
+        "mediación",
+        "mediacion"
+      ],
+      "explicacion_respuesta": "El mediador no decide: facilita el acuerdo."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "estilo-indirecto",
+  "tema": "ingles-b1",
+  "subtema": "estilo-indirecto",
+  "titulo": "Estilo indirecto",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El estilo indirecto cuenta lo que otra persona dijo."
+    },
+    {
+      "texto": "Normalmente el verbo retrocede un tiempo: I am tired se vuelve she said she was tired."
+    },
+    {
+      "texto": "Las preguntas se convierten en afirmaciones: where do you live? se vuelve he asked where I lived."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "retrocede",
+      "tipo": "opcion_multiple",
+      "pregunta": "Ana dijo: I like coffee. En estilo indirecto:",
+      "opciones": [
+        "Ana said she liked coffee",
+        "Ana said she likes coffees",
+        "Ana said I like coffee"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El presente pasa a pasado."
+    },
+    {
+      "id": "asked",
+      "tipo": "completar",
+      "enunciado": "He ___ me where I lived.",
+      "respuestas_validas": [
+        "asked"
+      ],
+      "explicacion_respuesta": "Para preguntas se usa asked."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "flexibilidad",
+  "tema": "actividad-fisica",
+  "subtema": "flexibilidad",
+  "titulo": "Flexibilidad y estiramientos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los estiramientos mantienen el movimiento de las articulaciones."
+    },
+    {
+      "texto": "Estira con suavidad, sin rebotes y sin llegar al dolor, sosteniendo de 15 a 30 segundos."
+    },
+    {
+      "texto": "Antes del ejercicio conviene calentar con movimientos suaves; los estiramientos largos van mejor al final."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rebotes",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se debe estirar?",
+      "opciones": [
+        "Suave y sin rebotes",
+        "Con rebotes fuertes",
+        "Hasta que duela mucho"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los rebotes pueden lastimar el músculo."
+    },
+    {
+      "id": "segundos",
+      "tipo": "completar",
+      "enunciado": "Cada estiramiento se sostiene de 15 a ___ segundos.",
+      "respuestas_validas": [
+        "30",
+        "treinta"
+      ],
+      "explicacion_respuesta": "Es tiempo suficiente para que el músculo se relaje."
+    }
+  ]
+}

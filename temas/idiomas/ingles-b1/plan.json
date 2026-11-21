@@ -1,0 +1,113 @@
+{
+  "id": "ingles-b1",
+  "titulo": "Inglés B1",
+  "categoria": "idiomas",
+  "idioma": "es",
+  "nivel": "intermedio",
+  "descripcion": "Inglés intermedio: hablar de experiencias, planes y opiniones con tiempos verbales más completos.",
+  "version": 1,
+  "aliases": [
+    "ingles intermedio",
+    "english b1"
+  ],
+  "requisitos": [
+    "ingles-a2"
+  ],
+  "subtemas": [
+    {
+      "id": "pasado-continuo",
+      "titulo": "Pasado continuo",
+      "aliases": [
+        "past continuous",
+        "was were ing"
+      ]
+    },
+    {
+      "id": "presente-perfecto-vs-pasado",
+      "titulo": "Presente perfecto o pasado simple",
+      "aliases": [
+        "present perfect"
+      ]
+    },
+    {
+      "id": "condicionales",
+      "titulo": "Condicionales",
+      "aliases": [
+        "if",
+        "first conditional"
+      ]
+    },
+    {
+      "id": "voz-pasiva",
+      "titulo": "Voz pasiva",
+      "aliases": [
+        "passive voice"
+      ]
+    },
+    {
+      "id": "estilo-indirecto",
+      "titulo": "Estilo indirecto",
+      "aliases": [
+        "reported speech"
+      ]
+    },
+    {
+      "id": "opiniones",
+      "titulo": "Dar opiniones",
+      "aliases": [
+        "i think",
+        "agree"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "pasado-continuo",
+          "titulo": "Pasado continuo",
+          "subtema": "pasado-continuo",
+          "archivo": "lecciones/pasado-continuo.json"
+        },
+        {
+          "id": "presente-perfecto-vs-pasado",
+          "titulo": "Presente perfecto o pasado simple",
+          "subtema": "presente-perfecto-vs-pasado",
+          "archivo": "lecciones/presente-perfecto-vs-pasado.json"
+        },
+        {
+          "id": "condicionales",
+          "titulo": "Condicionales",
+          "subtema": "condicionales",
+          "archivo": "lecciones/condicionales.json"
+        },
+        {
+          "id": "voz-pasiva",
+          "titulo": "Voz pasiva",
+          "subtema": "voz-pasiva",
+          "archivo": "lecciones/voz-pasiva.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "estilo-indirecto",
+          "titulo": "Estilo indirecto",
+          "subtema": "estilo-indirecto",
+          "archivo": "lecciones/estilo-indirecto.json"
+        },
+        {
+          "id": "opiniones",
+          "titulo": "Dar opiniones",
+          "subtema": "opiniones",
+          "archivo": "lecciones/opiniones.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "decisiones",
+  "tema": "logica-de-programacion",
+  "subtema": "decisiones",
+  "titulo": "Tomar decisiones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los programas eligen caminos con condiciones: si pasa esto, haz aquello; si no, haz otra cosa."
+    },
+    {
+      "texto": "Las condiciones dan verdadero o falso. Se combinan con y, donde ambas deben cumplirse, y con o, donde basta una."
+    },
+    {
+      "texto": "Ejemplo: si llueve y tengo que salir, llevo paraguas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "y",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuándo es verdadera la condición A y B?",
+      "opciones": [
+        "Cuando A y B son verdaderas",
+        "Cuando una es verdadera",
+        "Nunca"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con y deben cumplirse ambas."
+    },
+    {
+      "id": "mayor",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función mayor(a, b) que regrese el número más grande.",
+      "codigo_inicial": "function mayor(a, b) {\n  // tu código aquí\n}",
+      "funcion": "mayor",
+      "pruebas": [
+        {
+          "entrada": [
+            3,
+            7
+          ],
+          "salida": 7
+        },
+        {
+          "entrada": [
+            9,
+            2
+          ],
+          "salida": 9
+        }
+      ],
+      "solucion": "function mayor(a, b) {\n  if (a > b) return a;\n  return b;\n}",
+      "explicacion_respuesta": "Si a es mayor regresa a; si no, regresa b."
+    }
+  ]
+}

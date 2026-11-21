@@ -1,0 +1,114 @@
+{
+  "id": "logica-de-programacion",
+  "titulo": "Lógica de programación",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Piensa como programador antes de elegir un lenguaje: algoritmos, variables, decisiones, repeticiones y cómo dividir un problema.",
+  "version": 1,
+  "aliases": [
+    "pseudocodigo",
+    "pensamiento computacional",
+    "diagramas de flujo"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "pensar-en-pasos",
+      "titulo": "Pensar en pasos",
+      "aliases": [
+        "algoritmo",
+        "instrucciones"
+      ]
+    },
+    {
+      "id": "pseudocodigo",
+      "titulo": "Pseudocódigo y diagramas",
+      "aliases": [
+        "diagrama de flujo"
+      ]
+    },
+    {
+      "id": "variables",
+      "titulo": "Variables y datos",
+      "aliases": [
+        "datos",
+        "tipos"
+      ]
+    },
+    {
+      "id": "decisiones",
+      "titulo": "Tomar decisiones",
+      "aliases": [
+        "si entonces",
+        "condicionales"
+      ]
+    },
+    {
+      "id": "repeticiones",
+      "titulo": "Repetir tareas",
+      "aliases": [
+        "ciclos",
+        "bucles"
+      ]
+    },
+    {
+      "id": "dividir-problemas",
+      "titulo": "Dividir el problema",
+      "aliases": [
+        "funciones",
+        "descomposicion"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "pensar-en-pasos",
+          "titulo": "Pensar en pasos",
+          "subtema": "pensar-en-pasos",
+          "archivo": "lecciones/pensar-en-pasos.json"
+        },
+        {
+          "id": "pseudocodigo",
+          "titulo": "Pseudocódigo y diagramas",
+          "subtema": "pseudocodigo",
+          "archivo": "lecciones/pseudocodigo.json"
+        },
+        {
+          "id": "variables",
+          "titulo": "Variables y datos",
+          "subtema": "variables",
+          "archivo": "lecciones/variables.json"
+        },
+        {
+          "id": "decisiones",
+          "titulo": "Tomar decisiones",
+          "subtema": "decisiones",
+          "archivo": "lecciones/decisiones.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "repeticiones",
+          "titulo": "Repetir tareas",
+          "subtema": "repeticiones",
+          "archivo": "lecciones/repeticiones.json"
+        },
+        {
+          "id": "dividir-problemas",
+          "titulo": "Dividir el problema",
+          "subtema": "dividir-problemas",
+          "archivo": "lecciones/dividir-problemas.json"
+        }
+      ]
+    }
+  ]
+}
