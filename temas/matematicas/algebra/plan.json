@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "Usar letras para representar números: expresiones, ecuaciones, sistemas, factorización y funciones.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "algebra",
     "algebra basica"
@@ -86,10 +86,10 @@
       "titulo": "Primeros pasos",
       "lecciones": [
         {
-          "id": "expresiones",
-          "titulo": "Expresiones algebraicas",
-          "subtema": "expresiones",
-          "archivo": "lecciones/expresiones.json"
+          "id": "ecuaciones-primer-grado",
+          "titulo": "Ecuaciones de primer grado",
+          "subtema": "ecuaciones-primer-grado",
+          "archivo": "lecciones/ecuaciones-primer-grado.json"
         }
       ]
     }

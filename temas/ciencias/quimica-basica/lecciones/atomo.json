@@ -1,8 +1,8 @@
 {
-  "id": "materia",
+  "id": "atomo",
   "tema": "quimica-basica",
-  "subtema": "materia",
-  "titulo": "La materia y sus estados",
+  "subtema": "atomo",
+  "titulo": "El átomo",
   "version": 1,
   "duracion_min": 5,
   "explicacion": [

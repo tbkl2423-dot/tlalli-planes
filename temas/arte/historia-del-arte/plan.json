@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Un recorrido por los grandes estilos, desde el arte rupestre hasta el muralismo mexicano y el arte contemporáneo.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "historia del arte",
     "estilos artisticos"
@@ -93,10 +93,10 @@
       "titulo": "Primeros pasos",
       "lecciones": [
         {
-          "id": "prehistorico",
-          "titulo": "Arte prehistórico",
-          "subtema": "prehistorico",
-          "archivo": "lecciones/prehistorico.json"
+          "id": "muralismo",
+          "titulo": "Muralismo mexicano",
+          "subtema": "muralismo",
+          "archivo": "lecciones/muralismo.json"
         }
       ]
     }

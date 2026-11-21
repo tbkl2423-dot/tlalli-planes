@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "Resumir datos, leer gráficas y calcular qué tan probable es que algo pase.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "probabilidad",
     "estadistica"
@@ -82,10 +82,10 @@
       "titulo": "Primeros pasos",
       "lecciones": [
         {
-          "id": "tipos-de-datos",
-          "titulo": "Tipos de datos",
-          "subtema": "tipos-de-datos",
-          "archivo": "lecciones/tipos-de-datos.json"
+          "id": "probabilidad-clasica",
+          "titulo": "Probabilidad clásica",
+          "subtema": "probabilidad-clasica",
+          "archivo": "lecciones/probabilidad-clasica.json"
         }
       ]
     }

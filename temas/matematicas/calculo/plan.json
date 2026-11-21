@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "avanzado",
   "descripcion": "Límites, derivadas e integrales: las herramientas para estudiar el cambio y la acumulación.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "calculo",
     "derivadas",
@@ -81,10 +81,10 @@
       "titulo": "Primeros pasos",
       "lecciones": [
         {
-          "id": "limites",
-          "titulo": "Límites",
-          "subtema": "limites",
-          "archivo": "lecciones/limites.json"
+          "id": "derivada",
+          "titulo": "La derivada",
+          "subtema": "derivada",
+          "archivo": "lecciones/derivada.json"
         }
       ]
     }

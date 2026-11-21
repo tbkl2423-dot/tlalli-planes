@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Aprende a dibujar lo que ves: línea, forma, proporción, perspectiva, luz y sombra.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "dibujo",
     "dibujar",
@@ -79,10 +79,10 @@
       "titulo": "Primeros pasos",
       "lecciones": [
         {
-          "id": "materiales",
-          "titulo": "Materiales",
-          "subtema": "materiales",
-          "archivo": "lecciones/materiales.json"
+          "id": "formas-basicas",
+          "titulo": "Formas básicas",
+          "subtema": "formas-basicas",
+          "archivo": "lecciones/formas-basicas.json"
         }
       ]
     }

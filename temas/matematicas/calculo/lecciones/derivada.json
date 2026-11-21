@@ -1,8 +1,8 @@
 {
-  "id": "limites",
+  "id": "derivada",
   "tema": "calculo",
-  "subtema": "limites",
-  "titulo": "Límites",
+  "subtema": "derivada",
+  "titulo": "La derivada",
   "version": 1,
   "duracion_min": 5,
   "explicacion": [

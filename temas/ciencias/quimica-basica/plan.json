@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "De qué está hecha la materia: átomos, tabla periódica, enlaces, reacciones y mezclas.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "quimica",
     "materia"
@@ -84,10 +84,10 @@
       "titulo": "Primeros pasos",
       "lecciones": [
         {
-          "id": "materia",
-          "titulo": "La materia y sus estados",
-          "subtema": "materia",
-          "archivo": "lecciones/materia.json"
+          "id": "atomo",
+          "titulo": "El átomo",
+          "subtema": "atomo",
+          "archivo": "lecciones/atomo.json"
         }
       ]
     }

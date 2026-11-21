@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Movimiento, fuerzas, energía, ondas y electricidad explicados con ejemplos cotidianos.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "fisica",
     "mecanica"
@@ -103,10 +103,10 @@
       "titulo": "Primeros pasos",
       "lecciones": [
         {
-          "id": "magnitudes",
-          "titulo": "Magnitudes y unidades",
-          "subtema": "magnitudes",
-          "archivo": "lecciones/magnitudes.json"
+          "id": "leyes-de-newton",
+          "titulo": "Leyes de Newton",
+          "subtema": "leyes-de-newton",
+          "archivo": "lecciones/leyes-de-newton.json"
         }
       ]
     }
