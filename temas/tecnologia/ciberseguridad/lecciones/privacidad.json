@@ -1,0 +1,45 @@
+{
+  "id": "privacidad",
+  "tema": "ciberseguridad",
+  "subtema": "privacidad",
+  "titulo": "Privacidad en redes sociales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Lo que publicas en redes puede quedarse para siempre, aunque lo borres."
+    },
+    {
+      "texto": "Evita publicar tu dirección, tu ubicación en tiempo real o datos como tu fecha de nacimiento completa."
+    },
+    {
+      "texto": "Revisa la configuración de privacidad para decidir quién ve tus publicaciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "evitar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene no publicar?",
+      "opciones": [
+        "Tu ubicación en tiempo real",
+        "Una foto de un paisaje",
+        "Tu canción favorita"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tu ubicación en vivo puede ponerte en riesgo."
+    },
+    {
+      "id": "permanente",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué hay que pensar antes de publicar?",
+      "respuesta_esperada": "Porque lo publicado puede quedar para siempre aunque lo borres.",
+      "palabras_clave": [
+        "siempre",
+        "captura",
+        "borra"
+      ],
+      "explicacion_respuesta": "Otros pueden guardar capturas o copias."
+    }
+  ]
+}

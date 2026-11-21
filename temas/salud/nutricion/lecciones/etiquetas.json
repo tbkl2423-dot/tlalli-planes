@@ -1,0 +1,42 @@
+{
+  "id": "etiquetas",
+  "tema": "nutricion",
+  "subtema": "etiquetas",
+  "titulo": "Leer etiquetas y sellos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En México, los productos con exceso de azúcar, sodio, grasas o calorías llevan sellos negros en forma de octágono."
+    },
+    {
+      "texto": "Mientras más sellos tenga un producto, más conviene consumirlo con moderación."
+    },
+    {
+      "texto": "Revisa también la lista de ingredientes: van ordenados de mayor a menor cantidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sellos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué indican los sellos negros octagonales?",
+      "opciones": [
+        "Exceso de azúcar, sodio, grasas o calorías",
+        "Que es orgánico",
+        "Que es importado"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ayudan a elegir de un vistazo."
+    },
+    {
+      "id": "orden",
+      "tipo": "completar",
+      "enunciado": "Los ingredientes se listan de mayor a ___ cantidad.",
+      "respuestas_validas": [
+        "menor"
+      ],
+      "explicacion_respuesta": "El primero es el que más hay en el producto."
+    }
+  ]
+}

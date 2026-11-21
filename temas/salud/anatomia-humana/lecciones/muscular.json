@@ -1,0 +1,44 @@
+{
+  "id": "muscular",
+  "tema": "anatomia-humana",
+  "subtema": "muscular",
+  "titulo": "Sistema muscular",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los músculos permiten el movimiento contrayéndose y relajándose."
+    },
+    {
+      "texto": "Hay tres tipos: esqueléticos, que mueves a voluntad; lisos, como los del estómago; y el cardiaco, del corazón."
+    },
+    {
+      "texto": "Los tendones unen los músculos con los huesos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "voluntario",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué músculos mueves a voluntad?",
+      "opciones": [
+        "Los esqueléticos",
+        "Los lisos",
+        "El cardiaco"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los lisos y el cardiaco trabajan solos."
+    },
+    {
+      "id": "tendones",
+      "tipo": "completar",
+      "enunciado": "Los músculos se unen a los huesos mediante ___.",
+      "respuestas_validas": [
+        "tendones",
+        "tendón",
+        "tendon"
+      ],
+      "explicacion_respuesta": "Como el tendón de Aquiles."
+    }
+  ]
+}

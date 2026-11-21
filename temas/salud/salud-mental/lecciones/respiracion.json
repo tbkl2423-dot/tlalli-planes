@@ -1,0 +1,42 @@
+{
+  "id": "respiracion",
+  "tema": "salud-mental",
+  "subtema": "respiracion",
+  "titulo": "Técnicas de respiración",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Respirar lento y profundo le indica al cuerpo que puede calmarse."
+    },
+    {
+      "texto": "Prueba esto: inhala por la nariz contando cuatro, sostén cuatro y exhala por la boca contando seis."
+    },
+    {
+      "texto": "Repite unos minutos. Alargar la exhalación es lo que más ayuda a relajar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "clave",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué parte de la respiración ayuda más a relajarse?",
+      "opciones": [
+        "Alargar la exhalación",
+        "Respirar rápido",
+        "Sostener el aire un minuto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Exhalar despacio activa la respuesta de calma."
+    },
+    {
+      "id": "inhalar",
+      "tipo": "completar",
+      "enunciado": "Se inhala por la ___.",
+      "respuestas_validas": [
+        "nariz"
+      ],
+      "explicacion_respuesta": "La nariz filtra y calienta el aire."
+    }
+  ]
+}

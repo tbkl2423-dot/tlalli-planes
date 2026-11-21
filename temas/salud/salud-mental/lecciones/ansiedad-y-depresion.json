@@ -1,0 +1,46 @@
+{
+  "id": "ansiedad-y-depresion",
+  "tema": "salud-mental",
+  "subtema": "ansiedad-y-depresion",
+  "titulo": "Ansiedad y depresión",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La ansiedad es preocupación intensa y persistente, a veces con el corazón acelerado o falta de aire."
+    },
+    {
+      "texto": "La depresión incluye tristeza o vacío que dura semanas, pérdida de interés, cambios de sueño y de apetito."
+    },
+    {
+      "texto": "Son condiciones de salud reales y tratables, no falta de voluntad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tratables",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es cierto sobre la ansiedad y la depresión?",
+      "opciones": [
+        "Son condiciones tratables",
+        "Son falta de voluntad",
+        "Se quitan solas siempre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con apoyo profesional mejoran."
+    },
+    {
+      "id": "senal-depresion",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona una señal de depresión.",
+      "respuesta_esperada": "Perder el interés en cosas que antes gustaban.",
+      "palabras_clave": [
+        "interes",
+        "triste",
+        "vacio",
+        "sueño"
+      ],
+      "explicacion_respuesta": "La pérdida de interés por semanas es una señal importante."
+    }
+  ]
+}

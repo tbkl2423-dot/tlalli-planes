@@ -1,0 +1,42 @@
+{
+  "id": "http",
+  "tema": "redes",
+  "subtema": "http",
+  "titulo": "HTTP y HTTPS",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "HTTP es el protocolo de la web: el navegador pide una página y el servidor la responde."
+    },
+    {
+      "texto": "Las respuestas traen un código: 200 es correcto, 404 no encontrado y 500 error del servidor."
+    },
+    {
+      "texto": "HTTPS agrega cifrado para que nadie en medio pueda leer ni cambiar los datos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "404",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa el código 404?",
+      "opciones": [
+        "No encontrado",
+        "Todo bien",
+        "Error del servidor"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La página solicitada no existe."
+    },
+    {
+      "id": "ok",
+      "tipo": "completar",
+      "enunciado": "El código de respuesta correcta es ___.",
+      "respuestas_validas": [
+        "200"
+      ],
+      "explicacion_respuesta": "200 OK significa que todo salió bien."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ip",
+  "tema": "redes",
+  "subtema": "ip",
+  "titulo": "Direcciones IP",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una dirección IP identifica a un dispositivo en una red, como 192.168.1.10."
+    },
+    {
+      "texto": "IPv4 tiene cuatro números del 0 al 255. Como se agotaron, existe IPv6, con muchas más direcciones."
+    },
+    {
+      "texto": "Las IP privadas se usan dentro de tu casa y el router comparte una IP pública hacia internet."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ipv4",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántos números tiene una dirección IPv4?",
+      "opciones": [
+        "Cuatro",
+        "Seis",
+        "Dos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Por ejemplo, 192.168.1.10."
+    },
+    {
+      "id": "v6",
+      "tipo": "completar",
+      "enunciado": "La versión con muchas más direcciones es IP___.",
+      "respuestas_validas": [
+        "v6",
+        "V6"
+      ],
+      "explicacion_respuesta": "IPv6 resolvió la falta de direcciones."
+    }
+  ]
+}

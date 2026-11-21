@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Entender las emociones, manejar el estrés y saber cuándo pedir ayuda profesional.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "bienestar",
     "emociones",
@@ -67,7 +67,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -75,6 +75,48 @@
           "titulo": "Las emociones",
           "subtema": "emociones",
           "archivo": "lecciones/emociones.json"
+        },
+        {
+          "id": "estres",
+          "titulo": "Estrés",
+          "subtema": "estres",
+          "archivo": "lecciones/estres.json"
+        },
+        {
+          "id": "sueno",
+          "titulo": "Sueño",
+          "subtema": "sueno",
+          "archivo": "lecciones/sueno.json"
+        },
+        {
+          "id": "habitos",
+          "titulo": "Hábitos saludables",
+          "subtema": "habitos",
+          "archivo": "lecciones/habitos.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "respiracion",
+          "titulo": "Técnicas de respiración",
+          "subtema": "respiracion",
+          "archivo": "lecciones/respiracion.json"
+        },
+        {
+          "id": "ansiedad-y-depresion",
+          "titulo": "Ansiedad y depresión",
+          "subtema": "ansiedad-y-depresion",
+          "archivo": "lecciones/ansiedad-y-depresion.json"
+        },
+        {
+          "id": "pedir-ayuda",
+          "titulo": "Cuándo y cómo pedir ayuda",
+          "subtema": "pedir-ayuda",
+          "archivo": "lecciones/pedir-ayuda.json"
         }
       ]
     }

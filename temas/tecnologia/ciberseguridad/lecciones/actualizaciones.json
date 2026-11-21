@@ -1,0 +1,43 @@
+{
+  "id": "actualizaciones",
+  "tema": "ciberseguridad",
+  "subtema": "actualizaciones",
+  "titulo": "Actualizaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las actualizaciones corrigen fallas de seguridad que los atacantes conocen y aprovechan."
+    },
+    {
+      "texto": "Mantén al día el sistema, el navegador y las apps. Actívalas en automático cuando se pueda."
+    },
+    {
+      "texto": "Descarga apps solo de tiendas oficiales."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "para-que",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué son importantes las actualizaciones?",
+      "opciones": [
+        "Corrigen fallas de seguridad",
+        "Solo cambian colores",
+        "Hacen el equipo más lento a propósito"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cada actualización cierra puertas que los atacantes podrían usar."
+    },
+    {
+      "id": "tiendas",
+      "tipo": "completar",
+      "enunciado": "Conviene descargar apps solo de tiendas ___.",
+      "respuestas_validas": [
+        "oficiales",
+        "oficial"
+      ],
+      "explicacion_respuesta": "Las tiendas oficiales revisan las apps."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "correo",
+  "tema": "computacion-basica",
+  "subtema": "correo",
+  "titulo": "Correo electrónico",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un correo electrónico tiene destinatario, asunto y mensaje. El asunto resume de qué trata."
+    },
+    {
+      "texto": "Con copia, o CC, envías el mismo correo a otras personas. Con copia oculta, o CCO, los demás no ven esas direcciones."
+    },
+    {
+      "texto": "Puedes adjuntar archivos con el ícono del clip."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cco",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve la copia oculta, CCO?",
+      "opciones": [
+        "Para que los demás no vean esas direcciones",
+        "Para borrar el correo",
+        "Para enviarlo más tarde"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Protege la privacidad de los destinatarios."
+    },
+    {
+      "id": "adjuntar",
+      "tipo": "completar",
+      "enunciado": "Para enviar un archivo se usa el ícono del ___.",
+      "respuestas_validas": [
+        "clip"
+      ],
+      "explicacion_respuesta": "El clip agrega archivos adjuntos."
+    }
+  ]
+}

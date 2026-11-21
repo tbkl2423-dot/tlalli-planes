@@ -1,0 +1,42 @@
+{
+  "id": "inmunologico",
+  "tema": "anatomia-humana",
+  "subtema": "inmunologico",
+  "titulo": "Sistema inmunológico",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El sistema inmunológico defiende al cuerpo de virus, bacterias y otros invasores."
+    },
+    {
+      "texto": "La piel y las mucosas son la primera barrera. Los glóbulos blancos atacan a lo que logra entrar."
+    },
+    {
+      "texto": "Las vacunas enseñan al sistema inmunológico a reconocer un microbio sin tener que enfermar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "vacunas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo funcionan las vacunas?",
+      "opciones": [
+        "Enseñan al cuerpo a reconocer un microbio",
+        "Matan todas las bacterias",
+        "Sustituyen a la sangre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Generan memoria inmunológica."
+    },
+    {
+      "id": "barrera",
+      "tipo": "completar",
+      "enunciado": "La primera barrera de defensa es la ___.",
+      "respuestas_validas": [
+        "piel"
+      ],
+      "explicacion_respuesta": "La piel impide la entrada de muchos microbios."
+    }
+  ]
+}

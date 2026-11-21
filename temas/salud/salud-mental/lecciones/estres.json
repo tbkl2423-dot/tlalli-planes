@@ -1,0 +1,46 @@
+{
+  "id": "estres",
+  "tema": "salud-mental",
+  "subtema": "estres",
+  "titulo": "Estrés",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El estrés es la reacción del cuerpo ante una exigencia: se acelera el corazón y aumenta la tensión."
+    },
+    {
+      "texto": "Ayuda en momentos puntuales, pero si dura mucho tiempo afecta el sueño, la digestión y el ánimo."
+    },
+    {
+      "texto": "Moverte, dormir bien, organizar pendientes y hablar con alguien de confianza ayudan a manejarlo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "estrategia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál ayuda a manejar el estrés?",
+      "opciones": [
+        "Hacer ejercicio",
+        "Dormir menos",
+        "Aislarse siempre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El ejercicio reduce las hormonas del estrés."
+    },
+    {
+      "id": "senal",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona una señal de estrés prolongado.",
+      "respuesta_esperada": "Problemas para dormir o irritabilidad.",
+      "palabras_clave": [
+        "dormir",
+        "irrit",
+        "cansancio",
+        "dolor"
+      ],
+      "explicacion_respuesta": "El cuerpo avisa con sueño alterado, tensión o irritabilidad."
+    }
+  ]
+}

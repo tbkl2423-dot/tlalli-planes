@@ -1,0 +1,44 @@
+{
+  "id": "dos-pasos",
+  "tema": "ciberseguridad",
+  "subtema": "dos-pasos",
+  "titulo": "Verificación en dos pasos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La verificación en dos pasos agrega una segunda prueba además de tu contraseña."
+    },
+    {
+      "texto": "Puede ser un código de una app autenticadora, una llave de seguridad o un mensaje SMS."
+    },
+    {
+      "texto": "Así, aunque roben tu contraseña, no pueden entrar sin el segundo paso. Actívala primero en tu correo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mejor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál suele ser más segura?",
+      "opciones": [
+        "App autenticadora",
+        "SMS",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los SMS pueden interceptarse; las apps generan códigos en tu teléfono."
+    },
+    {
+      "id": "por-que-correo",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué activar primero la verificación en tu correo?",
+      "respuesta_esperada": "Porque con el correo se recuperan las demás cuentas.",
+      "palabras_clave": [
+        "recuperar",
+        "cuentas"
+      ],
+      "explicacion_respuesta": "Quien controla tu correo puede restablecer muchas contraseñas."
+    }
+  ]
+}

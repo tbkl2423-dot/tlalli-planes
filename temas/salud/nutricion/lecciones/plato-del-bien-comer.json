@@ -1,0 +1,42 @@
+{
+  "id": "plato-del-bien-comer",
+  "tema": "nutricion",
+  "subtema": "plato-del-bien-comer",
+  "titulo": "El plato del bien comer",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El plato del bien comer es la guía mexicana de alimentación. Divide los alimentos en tres grupos."
+    },
+    {
+      "texto": "Verduras y frutas; cereales, de preferencia integrales; y leguminosas junto con alimentos de origen animal."
+    },
+    {
+      "texto": "La idea es combinar los tres grupos en cada comida y variar dentro de cada grupo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "grupos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántos grupos tiene el plato del bien comer?",
+      "opciones": [
+        "Tres",
+        "Cinco",
+        "Siete"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Verduras y frutas, cereales, y leguminosas con origen animal."
+    },
+    {
+      "id": "integrales",
+      "tipo": "completar",
+      "enunciado": "Se recomienda que los cereales sean ___.",
+      "respuestas_validas": [
+        "integrales"
+      ],
+      "explicacion_respuesta": "Los integrales tienen más fibra."
+    }
+  ]
+}

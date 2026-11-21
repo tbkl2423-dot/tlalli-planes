@@ -1,0 +1,43 @@
+{
+  "id": "tcp-udp",
+  "tema": "redes",
+  "subtema": "tcp-udp",
+  "titulo": "TCP y UDP",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "TCP y UDP son formas de enviar datos por internet."
+    },
+    {
+      "texto": "TCP confirma que cada paquete llegó y en orden. Se usa para páginas web, correo y descargas."
+    },
+    {
+      "texto": "UDP envía sin confirmar; es más rápido y se usa en videollamadas y juegos, donde un dato tarde ya no sirve."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "videollamada",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué protocolo suele usarse en videollamadas?",
+      "opciones": [
+        "UDP",
+        "TCP",
+        "FTP"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Prefiere rapidez aunque se pierda algún paquete."
+    },
+    {
+      "id": "confiable",
+      "tipo": "completar",
+      "enunciado": "El protocolo que garantiza que todo llegue en orden es ___.",
+      "respuestas_validas": [
+        "TCP",
+        "tcp"
+      ],
+      "explicacion_respuesta": "TCP reenvía lo que se pierde."
+    }
+  ]
+}

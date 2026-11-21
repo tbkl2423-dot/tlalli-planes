@@ -1,0 +1,45 @@
+{
+  "id": "nube",
+  "tema": "computacion-basica",
+  "subtema": "nube",
+  "titulo": "Almacenamiento en la nube",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Guardar en la nube significa guardar tus archivos en servidores de internet, como Google Drive o OneDrive."
+    },
+    {
+      "texto": "Así puedes verlos desde cualquier dispositivo y no los pierdes si se descompone tu computadora."
+    },
+    {
+      "texto": "Una buena regla de respaldo es tener tus archivos importantes en al menos dos lugares distintos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ventaja",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ventaja tiene guardar en la nube?",
+      "opciones": [
+        "Acceder desde cualquier dispositivo",
+        "No necesitar internet nunca",
+        "Que los archivos ocupen menos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tus archivos te siguen a cualquier equipo."
+    },
+    {
+      "id": "respaldo",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué conviene tener respaldos?",
+      "respuesta_esperada": "Para no perder archivos si el equipo falla o se pierde.",
+      "palabras_clave": [
+        "perder",
+        "falla",
+        "roba"
+      ],
+      "explicacion_respuesta": "Un respaldo te salva de fallas, robos y errores."
+    }
+  ]
+}

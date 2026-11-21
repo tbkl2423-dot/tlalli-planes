@@ -1,0 +1,44 @@
+{
+  "id": "etica",
+  "tema": "inteligencia-artificial",
+  "subtema": "etica",
+  "titulo": "Ética y privacidad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Antes de compartir datos con una IA, piensa si son privados: contraseñas, datos médicos o de otras personas."
+    },
+    {
+      "texto": "Si usas IA para un trabajo, sé transparente sobre cómo la usaste."
+    },
+    {
+      "texto": "Crear imágenes o audios falsos de personas reales para engañar puede causar mucho daño y en muchos lugares es ilegal."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "privado",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué no conviene pegar en un chat de IA?",
+      "opciones": [
+        "Contraseñas y datos privados",
+        "Una receta de cocina",
+        "Un poema propio"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Lo que escribes puede almacenarse."
+    },
+    {
+      "id": "transparencia",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué es importante decir si usaste IA en un trabajo?",
+      "respuesta_esperada": "Por honestidad, para que sepan cómo se hizo.",
+      "palabras_clave": [
+        "honest",
+        "transparen"
+      ],
+      "explicacion_respuesta": "La transparencia genera confianza."
+    }
+  ]
+}

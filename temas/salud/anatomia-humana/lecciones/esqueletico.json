@@ -1,0 +1,43 @@
+{
+  "id": "esqueletico",
+  "tema": "anatomia-humana",
+  "subtema": "esqueletico",
+  "titulo": "Sistema óseo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El esqueleto de un adulto tiene 206 huesos. Sostiene el cuerpo, protege órganos y permite el movimiento."
+    },
+    {
+      "texto": "Dentro de algunos huesos está la médula ósea, que fabrica las células de la sangre."
+    },
+    {
+      "texto": "Las articulaciones unen los huesos, como en la rodilla o el codo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cuantos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántos huesos tiene un adulto?",
+      "opciones": [
+        "206",
+        "106",
+        "306"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Al nacer hay más, pero varios se fusionan."
+    },
+    {
+      "id": "medula",
+      "tipo": "completar",
+      "enunciado": "Las células de la sangre se fabrican en la ___ ósea.",
+      "respuestas_validas": [
+        "médula",
+        "medula"
+      ],
+      "explicacion_respuesta": "La médula ósea está dentro de huesos como la cadera."
+    }
+  ]
+}

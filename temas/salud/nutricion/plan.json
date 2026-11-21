@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Qué nutrientes necesita el cuerpo, cómo leer etiquetas y cómo armar un plato equilibrado.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "nutricion",
     "alimentacion",
@@ -63,7 +63,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -71,6 +71,48 @@
           "titulo": "Macronutrientes y micronutrientes",
           "subtema": "nutrientes",
           "archivo": "lecciones/nutrientes.json"
+        },
+        {
+          "id": "plato-del-bien-comer",
+          "titulo": "El plato del bien comer",
+          "subtema": "plato-del-bien-comer",
+          "archivo": "lecciones/plato-del-bien-comer.json"
+        },
+        {
+          "id": "hidratacion",
+          "titulo": "Hidratación",
+          "subtema": "hidratacion",
+          "archivo": "lecciones/hidratacion.json"
+        },
+        {
+          "id": "etiquetas",
+          "titulo": "Leer etiquetas y sellos",
+          "subtema": "etiquetas",
+          "archivo": "lecciones/etiquetas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "azucar-y-sal",
+          "titulo": "Azúcar, sal y grasas",
+          "subtema": "azucar-y-sal",
+          "archivo": "lecciones/azucar-y-sal.json"
+        },
+        {
+          "id": "porciones",
+          "titulo": "Porciones",
+          "subtema": "porciones",
+          "archivo": "lecciones/porciones.json"
+        },
+        {
+          "id": "mitos",
+          "titulo": "Mitos de la alimentación",
+          "subtema": "mitos",
+          "archivo": "lecciones/mitos.json"
         }
       ]
     }

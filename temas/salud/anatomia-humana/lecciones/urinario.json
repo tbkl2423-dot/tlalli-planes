@@ -1,0 +1,42 @@
+{
+  "id": "urinario",
+  "tema": "anatomia-humana",
+  "subtema": "urinario",
+  "titulo": "Sistema urinario",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los riñones filtran la sangre y eliminan los desechos en forma de orina."
+    },
+    {
+      "texto": "La orina baja por los uréteres a la vejiga y sale por la uretra."
+    },
+    {
+      "texto": "Tomar suficiente agua ayuda a que los riñones trabajen bien."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "filtran",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué órganos filtran la sangre?",
+      "opciones": [
+        "Los riñones",
+        "Los pulmones",
+        "Los intestinos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cada día filtran muchos litros de sangre."
+    },
+    {
+      "id": "vejiga",
+      "tipo": "completar",
+      "enunciado": "La orina se almacena en la ___.",
+      "respuestas_validas": [
+        "vejiga"
+      ],
+      "explicacion_respuesta": "La vejiga se vacía al orinar."
+    }
+  ]
+}

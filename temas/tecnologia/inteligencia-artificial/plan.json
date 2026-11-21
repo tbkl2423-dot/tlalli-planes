@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Qué es la IA, cómo aprenden los modelos y cómo usarla de forma útil y responsable.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "ia",
     "inteligencia artificial",
@@ -68,7 +68,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -76,6 +76,48 @@
           "titulo": "¿Qué es la inteligencia artificial?",
           "subtema": "que-es-ia",
           "archivo": "lecciones/que-es-ia.json"
+        },
+        {
+          "id": "aprendizaje-automatico",
+          "titulo": "Aprendizaje automático",
+          "subtema": "aprendizaje-automatico",
+          "archivo": "lecciones/aprendizaje-automatico.json"
+        },
+        {
+          "id": "redes-neuronales",
+          "titulo": "Redes neuronales",
+          "subtema": "redes-neuronales",
+          "archivo": "lecciones/redes-neuronales.json"
+        },
+        {
+          "id": "modelos-de-lenguaje",
+          "titulo": "Modelos de lenguaje",
+          "subtema": "modelos-de-lenguaje",
+          "archivo": "lecciones/modelos-de-lenguaje.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "prompts",
+          "titulo": "Escribir buenas instrucciones",
+          "subtema": "prompts",
+          "archivo": "lecciones/prompts.json"
+        },
+        {
+          "id": "sesgos",
+          "titulo": "Sesgos y límites",
+          "subtema": "sesgos",
+          "archivo": "lecciones/sesgos.json"
+        },
+        {
+          "id": "etica",
+          "titulo": "Ética y privacidad",
+          "subtema": "etica",
+          "archivo": "lecciones/etica.json"
         }
       ]
     }

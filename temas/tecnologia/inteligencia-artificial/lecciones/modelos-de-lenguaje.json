@@ -1,0 +1,45 @@
+{
+  "id": "modelos-de-lenguaje",
+  "tema": "inteligencia-artificial",
+  "subtema": "modelos-de-lenguaje",
+  "titulo": "Modelos de lenguaje",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un modelo de lenguaje se entrena con enormes cantidades de texto para predecir qué palabra sigue."
+    },
+    {
+      "texto": "Con esa habilidad puede conversar, resumir, traducir y escribir."
+    },
+    {
+      "texto": "No consulta una base de datos de hechos: genera texto probable, por eso puede inventar información."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "entrena",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué aprende un modelo de lenguaje durante su entrenamiento?",
+      "opciones": [
+        "A predecir el texto que sigue",
+        "A navegar en internet sola",
+        "A tener emociones"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Su base es predecir la siguiente palabra."
+    },
+    {
+      "id": "inventa",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué un modelo de lenguaje puede inventar datos?",
+      "respuesta_esperada": "Porque genera texto probable, no consulta hechos verificados.",
+      "palabras_clave": [
+        "probable",
+        "genera",
+        "verific"
+      ],
+      "explicacion_respuesta": "Por eso hay que verificar la información importante."
+    }
+  ]
+}

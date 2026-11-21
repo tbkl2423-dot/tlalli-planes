@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Los sistemas del cuerpo humano y cómo trabajan juntos.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "anatomia",
     "cuerpo humano"
@@ -90,7 +90,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -98,6 +98,72 @@
           "titulo": "Niveles de organización",
           "subtema": "niveles",
           "archivo": "lecciones/niveles.json"
+        },
+        {
+          "id": "esqueletico",
+          "titulo": "Sistema óseo",
+          "subtema": "esqueletico",
+          "archivo": "lecciones/esqueletico.json"
+        },
+        {
+          "id": "muscular",
+          "titulo": "Sistema muscular",
+          "subtema": "muscular",
+          "archivo": "lecciones/muscular.json"
+        },
+        {
+          "id": "circulatorio",
+          "titulo": "Sistema circulatorio",
+          "subtema": "circulatorio",
+          "archivo": "lecciones/circulatorio.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "respiratorio",
+          "titulo": "Sistema respiratorio",
+          "subtema": "respiratorio",
+          "archivo": "lecciones/respiratorio.json"
+        },
+        {
+          "id": "digestivo",
+          "titulo": "Sistema digestivo",
+          "subtema": "digestivo",
+          "archivo": "lecciones/digestivo.json"
+        },
+        {
+          "id": "nervioso",
+          "titulo": "Sistema nervioso",
+          "subtema": "nervioso",
+          "archivo": "lecciones/nervioso.json"
+        },
+        {
+          "id": "endocrino",
+          "titulo": "Sistema endocrino",
+          "subtema": "endocrino",
+          "archivo": "lecciones/endocrino.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "inmunologico",
+          "titulo": "Sistema inmunológico",
+          "subtema": "inmunologico",
+          "archivo": "lecciones/inmunologico.json"
+        },
+        {
+          "id": "urinario",
+          "titulo": "Sistema urinario",
+          "subtema": "urinario",
+          "archivo": "lecciones/urinario.json"
         }
       ]
     }

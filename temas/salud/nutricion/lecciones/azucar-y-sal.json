@@ -1,0 +1,45 @@
+{
+  "id": "azucar-y-sal",
+  "tema": "nutricion",
+  "subtema": "azucar-y-sal",
+  "titulo": "Azúcar, sal y grasas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El exceso de azúcar se relaciona con obesidad, caries y diabetes tipo 2."
+    },
+    {
+      "texto": "El exceso de sal, o sodio, puede subir la presión arterial."
+    },
+    {
+      "texto": "Los ultraprocesados, como frituras y pan dulce industrial, suelen tener mucha azúcar, sal y grasa a la vez."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué problema se relaciona con comer mucha sal?",
+      "opciones": [
+        "Presión arterial alta",
+        "Falta de vitamina C",
+        "Huesos más fuertes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El sodio en exceso eleva la presión."
+    },
+    {
+      "id": "reducir",
+      "tipo": "voz_pregunta",
+      "pregunta": "Da una forma de reducir el azúcar en tu día.",
+      "respuesta_esperada": "Tomar agua en lugar de refresco.",
+      "palabras_clave": [
+        "agua",
+        "refresco",
+        "fruta"
+      ],
+      "explicacion_respuesta": "Las bebidas azucaradas son una de las mayores fuentes de azúcar."
+    }
+  ]
+}

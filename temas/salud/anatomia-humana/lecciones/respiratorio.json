@@ -1,0 +1,42 @@
+{
+  "id": "respiratorio",
+  "tema": "anatomia-humana",
+  "subtema": "respiratorio",
+  "titulo": "Sistema respiratorio",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El aire entra por la nariz, baja por la tráquea y llega a los pulmones por los bronquios."
+    },
+    {
+      "texto": "En los alvéolos, pequeños sacos de los pulmones, el oxígeno pasa a la sangre y sale el dióxido de carbono."
+    },
+    {
+      "texto": "El diafragma, un músculo bajo los pulmones, hace que respiremos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "intercambio",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde pasa el oxígeno a la sangre?",
+      "opciones": [
+        "En los alvéolos",
+        "En la tráquea",
+        "En el estómago"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los alvéolos tienen paredes muy delgadas rodeadas de capilares."
+    },
+    {
+      "id": "musculo",
+      "tipo": "completar",
+      "enunciado": "El músculo principal de la respiración es el ___.",
+      "respuestas_validas": [
+        "diafragma"
+      ],
+      "explicacion_respuesta": "Al contraerse, hace que el aire entre."
+    }
+  ]
+}

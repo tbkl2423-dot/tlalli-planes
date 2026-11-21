@@ -1,0 +1,43 @@
+{
+  "id": "sesgos",
+  "tema": "inteligencia-artificial",
+  "subtema": "sesgos",
+  "titulo": "Sesgos y límites",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una IA aprende de los datos con los que se entrenó. Si esos datos tienen prejuicios, el modelo puede repetirlos."
+    },
+    {
+      "texto": "Las alucinaciones son respuestas falsas dichas con seguridad."
+    },
+    {
+      "texto": "Por eso la IA es una herramienta de apoyo: las decisiones importantes necesitan revisión humana."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "origen",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿De dónde vienen los sesgos de una IA?",
+      "opciones": [
+        "De los datos de entrenamiento",
+        "De la pantalla",
+        "Del teclado"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El modelo refleja lo que hay en sus datos."
+    },
+    {
+      "id": "alucinacion",
+      "tipo": "completar",
+      "enunciado": "Una respuesta falsa dicha con seguridad se llama ___.",
+      "respuestas_validas": [
+        "alucinación",
+        "alucinacion"
+      ],
+      "explicacion_respuesta": "Por eso hay que verificar."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "porciones",
+  "tema": "nutricion",
+  "subtema": "porciones",
+  "titulo": "Porciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La porción es la cantidad de un alimento que comes en una ocasión."
+    },
+    {
+      "texto": "Una guía práctica es usar la mano: un puño para cereales, la palma para la proteína y dos manos abiertas para verduras."
+    },
+    {
+      "texto": "Comer despacio ayuda a notar cuando ya estás satisfecho."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "palma",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la guía de la mano, ¿qué porción equivale a la palma?",
+      "opciones": [
+        "La proteína, como pollo o frijoles",
+        "Las verduras",
+        "El aceite"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La palma da una idea de la porción de proteína."
+    },
+    {
+      "id": "despacio",
+      "tipo": "completar",
+      "enunciado": "Comer ___ ayuda a notar la saciedad.",
+      "respuestas_validas": [
+        "despacio",
+        "lento"
+      ],
+      "explicacion_respuesta": "El cuerpo tarda unos minutos en avisar que está lleno."
+    }
+  ]
+}

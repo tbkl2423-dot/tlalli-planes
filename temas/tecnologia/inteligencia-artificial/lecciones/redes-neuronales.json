@@ -1,0 +1,42 @@
+{
+  "id": "redes-neuronales",
+  "tema": "inteligencia-artificial",
+  "subtema": "redes-neuronales",
+  "titulo": "Redes neuronales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una red neuronal está formada por capas de unidades simples conectadas, inspiradas de forma lejana en las neuronas."
+    },
+    {
+      "texto": "Cada conexión tiene un peso. Entrenar es ajustar millones de pesos para que la red se equivoque menos."
+    },
+    {
+      "texto": "El aprendizaje profundo usa redes con muchas capas, y es la base del reconocimiento de imágenes y voz."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "entrenar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué se ajusta al entrenar una red neuronal?",
+      "opciones": [
+        "Los pesos de las conexiones",
+        "El tamaño de la pantalla",
+        "El idioma"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los pesos determinan qué aprende la red."
+    },
+    {
+      "id": "profundo",
+      "tipo": "completar",
+      "enunciado": "Las redes con muchas capas se usan en el aprendizaje ___.",
+      "respuestas_validas": [
+        "profundo"
+      ],
+      "explicacion_respuesta": "Deep learning en inglés."
+    }
+  ]
+}

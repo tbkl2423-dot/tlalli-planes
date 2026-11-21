@@ -1,0 +1,42 @@
+{
+  "id": "circulatorio",
+  "tema": "anatomia-humana",
+  "subtema": "circulatorio",
+  "titulo": "Sistema circulatorio",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El corazón tiene cuatro cavidades: dos aurículas y dos ventrículos."
+    },
+    {
+      "texto": "Las arterias llevan la sangre desde el corazón y las venas la regresan."
+    },
+    {
+      "texto": "Los glóbulos rojos transportan oxígeno, los blancos defienden al cuerpo y las plaquetas ayudan a coagular."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "arterias",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué vasos sacan la sangre del corazón?",
+      "opciones": [
+        "Arterias",
+        "Venas",
+        "Nervios"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las arterias salen del corazón; las venas regresan."
+    },
+    {
+      "id": "oxigeno",
+      "tipo": "completar",
+      "enunciado": "Los glóbulos ___ transportan oxígeno.",
+      "respuestas_validas": [
+        "rojos"
+      ],
+      "explicacion_respuesta": "Contienen hemoglobina, que se une al oxígeno."
+    }
+  ]
+}

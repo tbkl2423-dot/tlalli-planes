@@ -1,0 +1,45 @@
+{
+  "id": "navegador",
+  "tema": "computacion-basica",
+  "subtema": "navegador",
+  "titulo": "Navegar en internet",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El navegador es el programa para visitar páginas web, como Chrome, Firefox o Edge."
+    },
+    {
+      "texto": "En la barra de direcciones escribes una dirección o lo que quieres buscar."
+    },
+    {
+      "texto": "Un candado junto a la dirección indica que la conexión está cifrada, pero no garantiza que el sitio sea confiable."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "candado",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué indica el candado en la barra de direcciones?",
+      "opciones": [
+        "Que la conexión está cifrada",
+        "Que el sitio es oficial del gobierno",
+        "Que no tiene anuncios"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cifrado no es lo mismo que confiable: también los sitios falsos pueden tener candado."
+    },
+    {
+      "id": "busqueda",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cómo mejorarías una búsqueda que da resultados que no sirven?",
+      "respuesta_esperada": "Usando palabras más específicas.",
+      "palabras_clave": [
+        "especific",
+        "palabras",
+        "comillas"
+      ],
+      "explicacion_respuesta": "Palabras precisas o frases entre comillas afinan los resultados."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "archivos-y-carpetas",
+  "tema": "computacion-basica",
+  "subtema": "archivos-y-carpetas",
+  "titulo": "Archivos y carpetas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un archivo guarda información: un documento, una foto o una canción. Su extensión, como .pdf o .jpg, indica de qué tipo es."
+    },
+    {
+      "texto": "Las carpetas agrupan archivos. Puedes tener carpetas dentro de otras, como cajones dentro de un mueble."
+    },
+    {
+      "texto": "Con nombres claros y carpetas por tema encontrarás todo más rápido."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "extension",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué indica la extensión .jpg?",
+      "opciones": [
+        "Que es una imagen",
+        "Que es un texto",
+        "Que es un programa"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "jpg es un formato de imagen."
+    },
+    {
+      "id": "agrupar",
+      "tipo": "completar",
+      "enunciado": "Los archivos se ordenan dentro de ___.",
+      "respuestas_validas": [
+        "carpetas",
+        "carpeta"
+      ],
+      "explicacion_respuesta": "Las carpetas organizan los archivos por tema."
+    }
+  ]
+}

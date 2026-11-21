@@ -1,0 +1,46 @@
+{
+  "id": "pedir-ayuda",
+  "tema": "salud-mental",
+  "subtema": "pedir-ayuda",
+  "titulo": "Cuándo y cómo pedir ayuda",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Pedir ayuda es un acto de valentía. Puedes empezar hablando con alguien de confianza."
+    },
+    {
+      "texto": "Un psicólogo o un médico pueden orientarte. En México existe la Línea de la Vida, gratuita, que atiende todo el día."
+    },
+    {
+      "texto": "Si tú o alguien corre peligro inmediato, llama al 911."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "emergencia",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si alguien está en peligro inmediato, ¿qué haces?",
+      "opciones": [
+        "Llamar al 911",
+        "Esperar a mañana",
+        "No decir nada"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En una emergencia se pide ayuda de inmediato."
+    },
+    {
+      "id": "primer-paso",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuál puede ser un primer paso para pedir ayuda?",
+      "respuesta_esperada": "Hablar con alguien de confianza.",
+      "palabras_clave": [
+        "hablar",
+        "confianza",
+        "amigo",
+        "familia"
+      ],
+      "explicacion_respuesta": "Contarle a alguien abre la puerta a más apoyo."
+    }
+  ]
+}

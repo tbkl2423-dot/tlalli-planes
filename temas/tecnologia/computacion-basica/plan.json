@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Usar una computadora con confianza: archivos y carpetas, atajos de teclado, navegador y correo.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "computacion",
     "uso de la computadora",
@@ -71,7 +71,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -79,6 +79,48 @@
           "titulo": "Partes de una computadora",
           "subtema": "partes",
           "archivo": "lecciones/partes.json"
+        },
+        {
+          "id": "archivos-y-carpetas",
+          "titulo": "Archivos y carpetas",
+          "subtema": "archivos-y-carpetas",
+          "archivo": "lecciones/archivos-y-carpetas.json"
+        },
+        {
+          "id": "atajos",
+          "titulo": "Atajos de teclado",
+          "subtema": "atajos",
+          "archivo": "lecciones/atajos.json"
+        },
+        {
+          "id": "navegador",
+          "titulo": "Navegar en internet",
+          "subtema": "navegador",
+          "archivo": "lecciones/navegador.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "correo",
+          "titulo": "Correo electrónico",
+          "subtema": "correo",
+          "archivo": "lecciones/correo.json"
+        },
+        {
+          "id": "nube",
+          "titulo": "Almacenamiento en la nube",
+          "subtema": "nube",
+          "archivo": "lecciones/nube.json"
+        },
+        {
+          "id": "procesador-de-texto",
+          "titulo": "Procesador de textos",
+          "subtema": "procesador-de-texto",
+          "archivo": "lecciones/procesador-de-texto.json"
         }
       ]
     }

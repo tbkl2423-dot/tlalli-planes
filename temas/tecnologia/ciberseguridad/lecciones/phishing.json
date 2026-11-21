@@ -1,0 +1,42 @@
+{
+  "id": "phishing",
+  "tema": "ciberseguridad",
+  "subtema": "phishing",
+  "titulo": "Phishing y fraudes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El phishing usa mensajes que imitan a bancos, tiendas o servicios para que entregues tus datos."
+    },
+    {
+      "texto": "Señales: urgencia, amenazas, errores de ortografía y enlaces a direcciones extrañas."
+    },
+    {
+      "texto": "Ante la duda, no abras el enlace: entra tú mismo al sitio oficial escribiendo la dirección."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "senal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una señal de phishing?",
+      "opciones": [
+        "Un mensaje urgente que pide tu contraseña",
+        "Un boletín que no pide nada",
+        "Un recibo que tú solicitaste"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las empresas reales no piden contraseñas por mensaje."
+    },
+    {
+      "id": "oficial",
+      "tipo": "completar",
+      "enunciado": "En vez de abrir el enlace, entra tú al sitio ___.",
+      "respuestas_validas": [
+        "oficial"
+      ],
+      "explicacion_respuesta": "Escribir la dirección tú mismo evita sitios falsos."
+    }
+  ]
+}

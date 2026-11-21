@@ -1,0 +1,42 @@
+{
+  "id": "digestivo",
+  "tema": "anatomia-humana",
+  "subtema": "digestivo",
+  "titulo": "Sistema digestivo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La digestión empieza en la boca, con los dientes y la saliva."
+    },
+    {
+      "texto": "En el estómago los jugos gástricos deshacen los alimentos. En el intestino delgado se absorben casi todos los nutrientes."
+    },
+    {
+      "texto": "El intestino grueso absorbe agua y forma las heces."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "absorbe",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde se absorben la mayoría de los nutrientes?",
+      "opciones": [
+        "Intestino delgado",
+        "Estómago",
+        "Esófago"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Sus vellosidades aumentan la superficie de absorción."
+    },
+    {
+      "id": "inicio",
+      "tipo": "completar",
+      "enunciado": "La digestión empieza en la ___.",
+      "respuestas_validas": [
+        "boca"
+      ],
+      "explicacion_respuesta": "Masticar y la saliva inician el proceso."
+    }
+  ]
+}

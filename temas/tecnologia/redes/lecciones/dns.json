@@ -1,0 +1,45 @@
+{
+  "id": "dns",
+  "tema": "redes",
+  "subtema": "dns",
+  "titulo": "DNS",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El DNS es la agenda de internet: convierte nombres de dominio en direcciones IP."
+    },
+    {
+      "texto": "Cuando escribes un dominio, tu equipo pregunta a un servidor DNS cuál es su IP y luego se conecta."
+    },
+    {
+      "texto": "Si el DNS falla, parece que no hay internet aunque la conexión funcione."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "funcion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué traduce el DNS?",
+      "opciones": [
+        "Nombres de dominio a IP",
+        "Idiomas",
+        "Contraseñas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Facilita recordar nombres en lugar de números."
+    },
+    {
+      "id": "falla",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué pasa si el DNS no responde?",
+      "respuesta_esperada": "No se pueden abrir sitios por su nombre aunque haya conexión.",
+      "palabras_clave": [
+        "nombre",
+        "abrir",
+        "sitios"
+      ],
+      "explicacion_respuesta": "La conexión existe, pero no se sabe a qué IP ir."
+    }
+  ]
+}

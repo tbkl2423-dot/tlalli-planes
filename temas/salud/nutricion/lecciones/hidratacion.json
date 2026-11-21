@@ -1,0 +1,46 @@
+{
+  "id": "hidratacion",
+  "tema": "nutricion",
+  "subtema": "hidratacion",
+  "titulo": "Hidratación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El agua es la mejor bebida para hidratarse."
+    },
+    {
+      "texto": "La sed, la orina oscura y el cansancio pueden indicar que te falta agua."
+    },
+    {
+      "texto": "Los refrescos y jugos industrializados aportan mucha azúcar; conviene limitarlos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mejor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la mejor bebida para hidratarse?",
+      "opciones": [
+        "Agua simple",
+        "Refresco",
+        "Bebida energética"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El agua hidrata sin azúcar."
+    },
+    {
+      "id": "senales",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona una señal de deshidratación.",
+      "respuesta_esperada": "Orina oscura o mucha sed.",
+      "palabras_clave": [
+        "sed",
+        "oscura",
+        "cansancio",
+        "mareo"
+      ],
+      "explicacion_respuesta": "El color de la orina es una pista sencilla."
+    }
+  ]
+}

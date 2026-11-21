@@ -1,0 +1,44 @@
+{
+  "id": "mitos",
+  "tema": "nutricion",
+  "subtema": "mitos",
+  "titulo": "Mitos de la alimentación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "No hay alimentos milagro: ningún producto quema grasa por sí solo."
+    },
+    {
+      "texto": "Saltarse comidas no siempre ayuda a bajar de peso; puede hacer que comas más después."
+    },
+    {
+      "texto": "Las dietas muy restrictivas son difíciles de mantener. Para cambios grandes, consulta a un profesional de la nutrición."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "milagro",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Existen alimentos que quemen grasa por sí solos?",
+      "opciones": [
+        "No",
+        "Sí, el limón",
+        "Sí, el café"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Lo que funciona es el conjunto de hábitos."
+    },
+    {
+      "id": "profesional",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿A quién conviene acudir para un plan de alimentación?",
+      "respuesta_esperada": "A un nutriólogo o profesional de la nutrición.",
+      "palabras_clave": [
+        "nutri",
+        "profesional"
+      ],
+      "explicacion_respuesta": "Un profesional adapta el plan a tu salud y tus metas."
+    }
+  ]
+}

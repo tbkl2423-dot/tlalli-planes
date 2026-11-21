@@ -1,0 +1,45 @@
+{
+  "id": "wifi",
+  "tema": "redes",
+  "subtema": "wifi",
+  "titulo": "Wifi",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El wifi transmite datos por ondas de radio, sobre todo en las bandas de 2.4 y 5 gigahercios."
+    },
+    {
+      "texto": "La banda de 2.4 llega más lejos y atraviesa mejor las paredes. La de 5 es más rápida pero de menor alcance."
+    },
+    {
+      "texto": "Paredes gruesas, metal y otros aparatos debilitan la señal. Poner el router en un lugar alto y central ayuda."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "alcance",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué banda llega más lejos?",
+      "opciones": [
+        "2.4 GHz",
+        "5 GHz",
+        "Las dos igual"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las frecuencias bajas atraviesan mejor los obstáculos."
+    },
+    {
+      "id": "mejorar",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cómo mejorarías la señal wifi en casa?",
+      "respuesta_esperada": "Poniendo el router en un lugar alto y central.",
+      "palabras_clave": [
+        "alto",
+        "central",
+        "centro"
+      ],
+      "explicacion_respuesta": "Así la señal se reparte mejor."
+    }
+  ]
+}

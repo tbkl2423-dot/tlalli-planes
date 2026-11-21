@@ -1,0 +1,42 @@
+{
+  "id": "endocrino",
+  "tema": "anatomia-humana",
+  "subtema": "endocrino",
+  "titulo": "Sistema endocrino",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El sistema endocrino usa hormonas, mensajeros químicos que viajan por la sangre."
+    },
+    {
+      "texto": "El páncreas produce insulina, que regula el azúcar en la sangre. La tiroides regula el metabolismo."
+    },
+    {
+      "texto": "Es más lento que el sistema nervioso, pero sus efectos duran más."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "insulina",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué órgano produce la insulina?",
+      "opciones": [
+        "Páncreas",
+        "Hígado",
+        "Corazón"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cuando falla la insulina aparece la diabetes."
+    },
+    {
+      "id": "mensajeros",
+      "tipo": "completar",
+      "enunciado": "Los mensajeros químicos del sistema endocrino son las ___.",
+      "respuestas_validas": [
+        "hormonas"
+      ],
+      "explicacion_respuesta": "Viajan por la sangre hasta sus órganos blanco."
+    }
+  ]
+}

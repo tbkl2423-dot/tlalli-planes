@@ -1,0 +1,43 @@
+{
+  "id": "procesador-de-texto",
+  "tema": "computacion-basica",
+  "subtema": "procesador-de-texto",
+  "titulo": "Procesador de textos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un procesador de textos, como Word o Google Docs, sirve para escribir y dar formato a documentos."
+    },
+    {
+      "texto": "Puedes cambiar la fuente, el tamaño, poner negritas y usar estilos de título para organizar el documento."
+    },
+    {
+      "texto": "Los estilos de título además crean un índice automático."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "negritas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué atajo pone el texto en negritas en la mayoría de procesadores?",
+      "opciones": [
+        "Control + B o Control + N",
+        "Control + P",
+        "Control + Q"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En inglés es Control + B; en algunos equipos en español, Control + N."
+    },
+    {
+      "id": "indice",
+      "tipo": "completar",
+      "enunciado": "Usar estilos de título permite crear un ___ automático.",
+      "respuestas_validas": [
+        "índice",
+        "indice"
+      ],
+      "explicacion_respuesta": "El índice se arma con los títulos del documento."
+    }
+  ]
+}

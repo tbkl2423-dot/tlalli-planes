@@ -1,0 +1,45 @@
+{
+  "id": "sueno",
+  "tema": "salud-mental",
+  "subtema": "sueno",
+  "titulo": "Sueño",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un adulto necesita entre siete y nueve horas de sueño."
+    },
+    {
+      "texto": "Dormir y despertar a la misma hora, evitar pantallas antes de dormir y reducir la cafeína por la tarde mejora el descanso."
+    },
+    {
+      "texto": "Dormir poco de forma constante afecta la memoria, el ánimo y las defensas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "horas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas horas de sueño necesita un adulto?",
+      "opciones": [
+        "Entre 7 y 9",
+        "Entre 4 y 5",
+        "Más de 12"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es el rango recomendado para adultos."
+    },
+    {
+      "id": "pantallas",
+      "tipo": "completar",
+      "enunciado": "Conviene evitar ___ antes de dormir.",
+      "respuestas_validas": [
+        "pantallas",
+        "pantalla",
+        "el celular",
+        "celular"
+      ],
+      "explicacion_respuesta": "La luz de las pantallas retrasa el sueño."
+    }
+  ]
+}

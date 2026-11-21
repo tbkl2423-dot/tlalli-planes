@@ -1,0 +1,43 @@
+{
+  "id": "atajos",
+  "tema": "computacion-basica",
+  "subtema": "atajos",
+  "titulo": "Atajos de teclado",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los atajos de teclado ahorran tiempo. Control más C copia, Control más X corta y Control más V pega."
+    },
+    {
+      "texto": "Control más S guarda, Control más F busca texto y Control más Z deshace."
+    },
+    {
+      "texto": "Alt más Tab cambia entre ventanas abiertas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "buscar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué atajo busca texto en una página o documento?",
+      "opciones": [
+        "Control + F",
+        "Control + B",
+        "Control + T"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "F viene de find, buscar."
+    },
+    {
+      "id": "guardar",
+      "tipo": "completar",
+      "enunciado": "Control + ___ guarda el archivo.",
+      "respuestas_validas": [
+        "S",
+        "s"
+      ],
+      "explicacion_respuesta": "S viene de save."
+    }
+  ]
+}

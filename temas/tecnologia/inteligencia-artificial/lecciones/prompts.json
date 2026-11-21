@@ -1,0 +1,42 @@
+{
+  "id": "prompts",
+  "tema": "inteligencia-artificial",
+  "subtema": "prompts",
+  "titulo": "Escribir buenas instrucciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un prompt es la instrucción que le das a una IA. Mientras más claro, mejor el resultado."
+    },
+    {
+      "texto": "Di el objetivo, el contexto, el formato que quieres y para quién es. Por ejemplo: explica la fotosíntesis a un niño de diez años en cinco frases."
+    },
+    {
+      "texto": "Si la respuesta no sirve, pide ajustes concretos en lugar de empezar de cero."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mejor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un mejor prompt?",
+      "opciones": [
+        "Resume este texto en 3 viñetas para un correo a mi jefe",
+        "Haz algo con esto",
+        "Texto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Incluye objetivo, formato y destinatario."
+    },
+    {
+      "id": "formato",
+      "tipo": "completar",
+      "enunciado": "Un buen prompt dice el objetivo, el contexto y el ___ de la respuesta.",
+      "respuestas_validas": [
+        "formato"
+      ],
+      "explicacion_respuesta": "El formato puede ser una lista, una tabla o un párrafo."
+    }
+  ]
+}

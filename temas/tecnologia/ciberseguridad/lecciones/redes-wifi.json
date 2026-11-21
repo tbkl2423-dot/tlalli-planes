@@ -1,0 +1,43 @@
+{
+  "id": "redes-wifi",
+  "tema": "ciberseguridad",
+  "subtema": "redes-wifi",
+  "titulo": "Redes wifi públicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En una red wifi pública otras personas podrían intentar ver lo que envías."
+    },
+    {
+      "texto": "Evita entrar a tu banco o comprar en redes públicas. Si es necesario, usa los datos de tu celular."
+    },
+    {
+      "texto": "En casa, cambia la contraseña que trae el módem de fábrica y usa cifrado WPA2 o WPA3."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "banco",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Conviene revisar tu banco en el wifi abierto de un café?",
+      "opciones": [
+        "Mejor no; usa tus datos móviles",
+        "Sí, siempre es seguro",
+        "Solo de noche"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las redes abiertas son más fáciles de espiar."
+    },
+    {
+      "id": "cifrado",
+      "tipo": "completar",
+      "enunciado": "El cifrado recomendado para el wifi de casa es WPA2 o ___.",
+      "respuestas_validas": [
+        "WPA3",
+        "wpa3"
+      ],
+      "explicacion_respuesta": "WPA3 es el estándar más reciente."
+    }
+  ]
+}

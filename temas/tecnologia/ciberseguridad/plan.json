@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Protege tus cuentas y tus datos: contraseñas, verificación en dos pasos, fraudes y respaldos.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "seguridad informatica",
     "ciberseguridad",
@@ -67,7 +67,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -75,6 +75,48 @@
           "titulo": "Contraseñas seguras",
           "subtema": "contrasenas",
           "archivo": "lecciones/contrasenas.json"
+        },
+        {
+          "id": "dos-pasos",
+          "titulo": "Verificación en dos pasos",
+          "subtema": "dos-pasos",
+          "archivo": "lecciones/dos-pasos.json"
+        },
+        {
+          "id": "phishing",
+          "titulo": "Phishing y fraudes",
+          "subtema": "phishing",
+          "archivo": "lecciones/phishing.json"
+        },
+        {
+          "id": "actualizaciones",
+          "titulo": "Actualizaciones",
+          "subtema": "actualizaciones",
+          "archivo": "lecciones/actualizaciones.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "redes-wifi",
+          "titulo": "Redes wifi públicas",
+          "subtema": "redes-wifi",
+          "archivo": "lecciones/redes-wifi.json"
+        },
+        {
+          "id": "respaldos",
+          "titulo": "Respaldos",
+          "subtema": "respaldos",
+          "archivo": "lecciones/respaldos.json"
+        },
+        {
+          "id": "privacidad",
+          "titulo": "Privacidad en redes sociales",
+          "subtema": "privacidad",
+          "archivo": "lecciones/privacidad.json"
         }
       ]
     }

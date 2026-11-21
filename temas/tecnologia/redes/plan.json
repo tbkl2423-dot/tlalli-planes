@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "Cómo viajan los datos: direcciones IP, DNS, routers, protocolos y la web.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "redes de computadoras",
     "networking",
@@ -76,7 +76,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -84,6 +84,54 @@
           "titulo": "¿Qué es una red?",
           "subtema": "que-es-red",
           "archivo": "lecciones/que-es-red.json"
+        },
+        {
+          "id": "ip",
+          "titulo": "Direcciones IP",
+          "subtema": "ip",
+          "archivo": "lecciones/ip.json"
+        },
+        {
+          "id": "dns",
+          "titulo": "DNS",
+          "subtema": "dns",
+          "archivo": "lecciones/dns.json"
+        },
+        {
+          "id": "router",
+          "titulo": "Router y switch",
+          "subtema": "router",
+          "archivo": "lecciones/router.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "tcp-udp",
+          "titulo": "TCP y UDP",
+          "subtema": "tcp-udp",
+          "archivo": "lecciones/tcp-udp.json"
+        },
+        {
+          "id": "http",
+          "titulo": "HTTP y HTTPS",
+          "subtema": "http",
+          "archivo": "lecciones/http.json"
+        },
+        {
+          "id": "modelo-osi",
+          "titulo": "Modelo de capas",
+          "subtema": "modelo-osi",
+          "archivo": "lecciones/modelo-osi.json"
+        },
+        {
+          "id": "wifi",
+          "titulo": "Wifi",
+          "subtema": "wifi",
+          "archivo": "lecciones/wifi.json"
         }
       ]
     }

@@ -1,0 +1,42 @@
+{
+  "id": "router",
+  "tema": "redes",
+  "subtema": "router",
+  "titulo": "Router y switch",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El módem conecta tu casa con tu proveedor de internet."
+    },
+    {
+      "texto": "El router reparte esa conexión entre tus dispositivos, por cable o wifi, y les asigna direcciones privadas."
+    },
+    {
+      "texto": "Un switch conecta muchos equipos por cable dentro de una misma red."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "reparte",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué aparato reparte internet entre los dispositivos de casa?",
+      "opciones": [
+        "El router",
+        "El monitor",
+        "El teclado"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Muchas veces módem y router vienen en el mismo aparato."
+    },
+    {
+      "id": "switch",
+      "tipo": "completar",
+      "enunciado": "Para conectar muchos equipos por cable se usa un ___.",
+      "respuestas_validas": [
+        "switch"
+      ],
+      "explicacion_respuesta": "El switch amplía los puertos de red."
+    }
+  ]
+}

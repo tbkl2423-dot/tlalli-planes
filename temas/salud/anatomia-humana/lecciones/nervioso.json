@@ -1,0 +1,42 @@
+{
+  "id": "nervioso",
+  "tema": "anatomia-humana",
+  "subtema": "nervioso",
+  "titulo": "Sistema nervioso",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El sistema nervioso controla y coordina al cuerpo. Su centro es el encéfalo y la médula espinal."
+    },
+    {
+      "texto": "Las neuronas envían señales eléctricas y químicas a gran velocidad."
+    },
+    {
+      "texto": "Los nervios llevan información de los sentidos al cerebro y órdenes del cerebro a los músculos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "celula",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llaman las células del sistema nervioso que envían señales?",
+      "opciones": [
+        "Neuronas",
+        "Glóbulos",
+        "Osteocitos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las neuronas forman redes enormes."
+    },
+    {
+      "id": "central",
+      "tipo": "completar",
+      "enunciado": "El sistema nervioso central lo forman el encéfalo y la médula ___.",
+      "respuestas_validas": [
+        "espinal"
+      ],
+      "explicacion_respuesta": "La médula espinal corre dentro de la columna."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "habitos",
+  "tema": "salud-mental",
+  "subtema": "habitos",
+  "titulo": "Hábitos saludables",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Pequeños hábitos sostienen la salud mental: moverte, dormir, comer variado y convivir con otras personas."
+    },
+    {
+      "texto": "Empieza con cambios pequeños y concretos, como caminar diez minutos al día."
+    },
+    {
+      "texto": "Ligar un hábito nuevo a uno que ya tienes ayuda a recordarlo: después del café, estiro cinco minutos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "empezar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo conviene empezar un hábito nuevo?",
+      "opciones": [
+        "Con un cambio pequeño y concreto",
+        "Cambiando todo de golpe",
+        "Solo los lunes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Lo pequeño se sostiene mejor."
+    },
+    {
+      "id": "ligar",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué significa ligar un hábito a otro?",
+      "respuesta_esperada": "Hacer el hábito nuevo justo después de uno que ya haces.",
+      "palabras_clave": [
+        "despues",
+        "ya haces",
+        "rutina"
+      ],
+      "explicacion_respuesta": "La rutina existente funciona como recordatorio."
+    }
+  ]
+}

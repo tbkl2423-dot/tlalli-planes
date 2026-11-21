@@ -1,0 +1,44 @@
+{
+  "id": "aprendizaje-automatico",
+  "tema": "inteligencia-artificial",
+  "subtema": "aprendizaje-automatico",
+  "titulo": "Aprendizaje automático",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En el aprendizaje automático, el modelo aprende patrones a partir de ejemplos en lugar de reglas escritas."
+    },
+    {
+      "texto": "En el aprendizaje supervisado, cada ejemplo trae la respuesta correcta, por ejemplo fotos etiquetadas como gato o perro."
+    },
+    {
+      "texto": "Después se prueba con datos nuevos que el modelo no vio, para saber si de verdad aprendió."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "supervisado",
+      "tipo": "opcion_multiple",
+      "pregunta": "En el aprendizaje supervisado, los ejemplos…",
+      "opciones": [
+        "traen la respuesta correcta",
+        "no tienen etiquetas",
+        "son inventados por el modelo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las etiquetas guían el aprendizaje."
+    },
+    {
+      "id": "prueba",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué se prueba el modelo con datos que no vio?",
+      "respuesta_esperada": "Para saber si generaliza y no solo memorizó.",
+      "palabras_clave": [
+        "generaliza",
+        "memoriz"
+      ],
+      "explicacion_respuesta": "Un modelo que solo memoriza falla con casos nuevos."
+    }
+  ]
+}

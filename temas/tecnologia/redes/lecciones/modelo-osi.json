@@ -1,0 +1,45 @@
+{
+  "id": "modelo-osi",
+  "tema": "redes",
+  "subtema": "modelo-osi",
+  "titulo": "Modelo de capas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las redes se explican en capas: cada una resuelve una parte del problema."
+    },
+    {
+      "texto": "Abajo está lo físico, como cables y ondas. Luego cómo se direcciona, la IP. Después el transporte, TCP o UDP. Y arriba las aplicaciones, como HTTP."
+    },
+    {
+      "texto": "El modelo OSI tiene siete capas y el modelo TCP/IP, que es el que se usa en internet, tiene cuatro."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "capas-osi",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas capas tiene el modelo OSI?",
+      "opciones": [
+        "Siete",
+        "Cuatro",
+        "Diez"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Física, enlace, red, transporte, sesión, presentación y aplicación."
+    },
+    {
+      "id": "aplicacion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué capa está HTTP?",
+      "opciones": [
+        "Aplicación",
+        "Física",
+        "Red"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "HTTP es un protocolo de aplicación."
+    }
+  ]
+}

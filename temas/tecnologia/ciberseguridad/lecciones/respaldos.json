@@ -1,0 +1,42 @@
+{
+  "id": "respaldos",
+  "tema": "ciberseguridad",
+  "subtema": "respaldos",
+  "titulo": "Respaldos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un respaldo es una copia de tus archivos importantes en otro lugar."
+    },
+    {
+      "texto": "Te protege de fallas, robos y del ransomware, un programa que secuestra tus archivos y pide dinero."
+    },
+    {
+      "texto": "La regla 3-2-1: tres copias, en dos medios distintos, y una fuera de casa o en la nube."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ransomware",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace el ransomware?",
+      "opciones": [
+        "Cifra tus archivos y pide rescate",
+        "Acelera tu computadora",
+        "Limpia virus"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con un respaldo puedes recuperar tus archivos sin pagar."
+    },
+    {
+      "id": "regla",
+      "tipo": "completar",
+      "enunciado": "La regla de respaldos es 3-2-___.",
+      "respuestas_validas": [
+        "1"
+      ],
+      "explicacion_respuesta": "Tres copias, dos medios, una fuera del lugar."
+    }
+  ]
+}
