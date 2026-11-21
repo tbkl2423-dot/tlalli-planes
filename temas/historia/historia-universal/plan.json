@@ -1,0 +1,108 @@
+{
+  "id": "historia-universal",
+  "titulo": "Historia universal",
+  "categoria": "historia",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Los grandes momentos de la humanidad: primeras civilizaciones, mundo clásico, Edad Media, revoluciones y siglo XX.",
+  "version": 1,
+  "aliases": [
+    "historia universal",
+    "historia mundial"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "prehistoria",
+      "titulo": "Prehistoria",
+      "aliases": [
+        "paleolitico",
+        "neolitico"
+      ]
+    },
+    {
+      "id": "primeras-civilizaciones",
+      "titulo": "Primeras civilizaciones",
+      "aliases": [
+        "mesopotamia",
+        "egipto"
+      ]
+    },
+    {
+      "id": "grecia",
+      "titulo": "Grecia antigua",
+      "aliases": [
+        "democracia"
+      ]
+    },
+    {
+      "id": "roma",
+      "titulo": "Roma",
+      "aliases": [
+        "imperio romano"
+      ]
+    },
+    {
+      "id": "edad-media",
+      "titulo": "Edad Media",
+      "aliases": [
+        "feudalismo"
+      ]
+    },
+    {
+      "id": "renacimiento",
+      "titulo": "Renacimiento",
+      "aliases": [
+        "humanismo"
+      ]
+    },
+    {
+      "id": "exploracion",
+      "titulo": "Era de la exploración",
+      "aliases": [
+        "colon"
+      ]
+    },
+    {
+      "id": "revoluciones",
+      "titulo": "Revoluciones liberales",
+      "aliases": [
+        "revolucion francesa",
+        "ilustracion"
+      ]
+    },
+    {
+      "id": "revolucion-industrial",
+      "titulo": "Revolución Industrial",
+      "aliases": [
+        "maquina de vapor"
+      ]
+    },
+    {
+      "id": "guerras-mundiales",
+      "titulo": "Primera y Segunda Guerra Mundial"
+    },
+    {
+      "id": "guerra-fria",
+      "titulo": "Guerra Fría"
+    },
+    {
+      "id": "globalizacion",
+      "titulo": "Mundo actual y globalización"
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "prehistoria",
+          "titulo": "Prehistoria",
+          "subtema": "prehistoria",
+          "archivo": "lecciones/prehistoria.json"
+        }
+      ]
+    }
+  ]
+}

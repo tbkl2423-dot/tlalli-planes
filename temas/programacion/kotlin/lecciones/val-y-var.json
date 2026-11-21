@@ -1,0 +1,43 @@
+{
+  "id": "val-y-var",
+  "tema": "kotlin",
+  "subtema": "val-y-var",
+  "titulo": "val y var",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En Kotlin declaras valores con val y variables con var."
+    },
+    {
+      "texto": "Un val no se puede reasignar. Un var sí puede cambiar.",
+      "codigo": "val nombre = \"Ana\"\nvar edad = 20\nedad = 21"
+    },
+    {
+      "texto": "Kotlin deduce el tipo solo: si escribes 20, sabe que es un Int."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "no-cambia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué palabra declara un valor que no se puede reasignar?",
+      "opciones": [
+        "val",
+        "var",
+        "let"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "val es de solo lectura; var se puede reasignar."
+    },
+    {
+      "id": "declarar-var",
+      "tipo": "completar",
+      "enunciado": "___ contador = 0\ncontador = contador + 1",
+      "respuestas_validas": [
+        "var"
+      ],
+      "explicacion_respuesta": "Como contador cambia, se declara con var."
+    }
+  ]
+}

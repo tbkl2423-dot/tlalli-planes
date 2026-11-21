@@ -1,0 +1,55 @@
+{
+  "id": "mesoamerica",
+  "tema": "historia-de-mexico",
+  "subtema": "mesoamerica",
+  "titulo": "Mesoamérica",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Mesoamérica es la región donde florecieron culturas como la olmeca, la maya, la teotihuacana y la mexica."
+    },
+    {
+      "texto": "Los mexicas fundaron México-Tenochtitlan en 1325, según la tradición, sobre un islote del lago de Texcoco."
+    },
+    {
+      "texto": "Compartían rasgos: cultivo del maíz, calendarios, pirámides escalonadas y el juego de pelota."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cultivo-base",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué cultivo fue la base de la alimentación en Mesoamérica?",
+      "opciones": [
+        "Maíz",
+        "Trigo",
+        "Arroz"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El maíz, junto con frijol, calabaza y chile, sostuvo a las culturas mesoamericanas."
+    },
+    {
+      "id": "lago",
+      "tipo": "completar",
+      "enunciado": "Tenochtitlan se fundó en un islote del lago de ___.",
+      "respuestas_validas": [
+        "Texcoco",
+        "texcoco"
+      ],
+      "explicacion_respuesta": "La ciudad creció sobre el lago con chinampas y calzadas."
+    },
+    {
+      "id": "independencia-inicio",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué año inició la guerra de Independencia?",
+      "opciones": [
+        "1810",
+        "1821",
+        "1910"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Empezó en 1810 con el llamado de Miguel Hidalgo y se consumó en 1821."
+    }
+  ]
+}

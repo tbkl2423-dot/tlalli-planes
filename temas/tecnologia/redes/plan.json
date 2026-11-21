@@ -1,0 +1,91 @@
+{
+  "id": "redes",
+  "titulo": "Redes e internet",
+  "categoria": "tecnologia",
+  "idioma": "es",
+  "nivel": "intermedio",
+  "descripcion": "Cómo viajan los datos: direcciones IP, DNS, routers, protocolos y la web.",
+  "version": 1,
+  "aliases": [
+    "redes de computadoras",
+    "networking",
+    "internet"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "que-es-red",
+      "titulo": "¿Qué es una red?",
+      "aliases": [
+        "lan",
+        "wan"
+      ]
+    },
+    {
+      "id": "ip",
+      "titulo": "Direcciones IP",
+      "aliases": [
+        "ipv4",
+        "ipv6"
+      ]
+    },
+    {
+      "id": "dns",
+      "titulo": "DNS",
+      "aliases": [
+        "dominios"
+      ]
+    },
+    {
+      "id": "router",
+      "titulo": "Router y switch",
+      "aliases": [
+        "modem"
+      ]
+    },
+    {
+      "id": "tcp-udp",
+      "titulo": "TCP y UDP",
+      "aliases": [
+        "protocolos"
+      ]
+    },
+    {
+      "id": "http",
+      "titulo": "HTTP y HTTPS",
+      "aliases": [
+        "web",
+        "ssl"
+      ]
+    },
+    {
+      "id": "modelo-osi",
+      "titulo": "Modelo de capas",
+      "aliases": [
+        "osi",
+        "tcp/ip"
+      ]
+    },
+    {
+      "id": "wifi",
+      "titulo": "Wifi",
+      "aliases": [
+        "inalambrico"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "que-es-red",
+          "titulo": "¿Qué es una red?",
+          "subtema": "que-es-red",
+          "archivo": "lecciones/que-es-red.json"
+        }
+      ]
+    }
+  ]
+}

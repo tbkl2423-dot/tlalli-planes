@@ -1,0 +1,90 @@
+{
+  "id": "dibujo",
+  "titulo": "Dibujo",
+  "categoria": "arte",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Aprende a dibujar lo que ves: línea, forma, proporción, perspectiva, luz y sombra.",
+  "version": 1,
+  "aliases": [
+    "dibujo",
+    "dibujar",
+    "ilustracion"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "materiales",
+      "titulo": "Materiales",
+      "aliases": [
+        "lapices",
+        "papel"
+      ]
+    },
+    {
+      "id": "linea",
+      "titulo": "Línea y trazo",
+      "aliases": [
+        "trazos"
+      ]
+    },
+    {
+      "id": "formas-basicas",
+      "titulo": "Formas básicas",
+      "aliases": [
+        "construccion"
+      ]
+    },
+    {
+      "id": "proporcion",
+      "titulo": "Proporción y encaje",
+      "aliases": [
+        "medir"
+      ]
+    },
+    {
+      "id": "perspectiva",
+      "titulo": "Perspectiva",
+      "aliases": [
+        "punto de fuga"
+      ]
+    },
+    {
+      "id": "luz-y-sombra",
+      "titulo": "Luz y sombra",
+      "aliases": [
+        "valores",
+        "sombreado"
+      ]
+    },
+    {
+      "id": "texturas",
+      "titulo": "Texturas"
+    },
+    {
+      "id": "figura-humana",
+      "titulo": "Figura humana",
+      "aliases": [
+        "proporciones del cuerpo"
+      ]
+    },
+    {
+      "id": "rostro",
+      "titulo": "El rostro"
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "materiales",
+          "titulo": "Materiales",
+          "subtema": "materiales",
+          "archivo": "lecciones/materiales.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "niveles",
+  "tema": "anatomia-humana",
+  "subtema": "niveles",
+  "titulo": "Niveles de organización",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El cuerpo se organiza en niveles: células forman tejidos, los tejidos forman órganos y los órganos forman sistemas."
+    },
+    {
+      "texto": "El sistema circulatorio lleva oxígeno y nutrientes a todo el cuerpo. Su bomba es el corazón."
+    },
+    {
+      "texto": "El sistema respiratorio toma oxígeno del aire en los pulmones y saca dióxido de carbono."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "bomba",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué órgano bombea la sangre?",
+      "opciones": [
+        "El corazón",
+        "El hígado",
+        "El pulmón"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El corazón es un músculo que bombea sangre sin parar."
+    },
+    {
+      "id": "niveles-orden",
+      "tipo": "completar",
+      "enunciado": "Células → tejidos → ___ → sistemas",
+      "respuestas_validas": [
+        "órganos",
+        "organos"
+      ],
+      "explicacion_respuesta": "Varios tejidos forman un órgano y varios órganos un sistema."
+    }
+  ]
+}

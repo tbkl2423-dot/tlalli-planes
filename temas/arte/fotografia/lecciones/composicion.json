@@ -1,0 +1,43 @@
+{
+  "id": "composicion",
+  "tema": "fotografia",
+  "subtema": "composicion",
+  "titulo": "Composición",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La regla de los tercios divide la imagen con dos líneas horizontales y dos verticales. Colocar el sujeto en sus cruces suele verse más interesante."
+    },
+    {
+      "texto": "La luz lo es todo. La hora dorada, poco después del amanecer o antes del atardecer, da una luz suave y cálida."
+    },
+    {
+      "texto": "La exposición depende de tres cosas: la apertura, la velocidad de obturación y el ISO."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tercios",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde pone el sujeto la regla de los tercios?",
+      "opciones": [
+        "En los cruces de las líneas",
+        "Siempre al centro",
+        "En una esquina"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los cruces son puntos fuertes de atención."
+    },
+    {
+      "id": "iso",
+      "tipo": "completar",
+      "enunciado": "La exposición depende de la apertura, la velocidad de obturación y el ___.",
+      "respuestas_validas": [
+        "ISO",
+        "iso"
+      ],
+      "explicacion_respuesta": "Son los tres lados del triángulo de exposición."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "inteligencia-artificial",
+  "titulo": "Inteligencia artificial",
+  "categoria": "tecnologia",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Qué es la IA, cómo aprenden los modelos y cómo usarla de forma útil y responsable.",
+  "version": 1,
+  "aliases": [
+    "ia",
+    "inteligencia artificial",
+    "machine learning",
+    "aprendizaje automatico"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "que-es-ia",
+      "titulo": "¿Qué es la inteligencia artificial?",
+      "aliases": [
+        "ia"
+      ]
+    },
+    {
+      "id": "aprendizaje-automatico",
+      "titulo": "Aprendizaje automático",
+      "aliases": [
+        "machine learning",
+        "datos de entrenamiento"
+      ]
+    },
+    {
+      "id": "redes-neuronales",
+      "titulo": "Redes neuronales",
+      "aliases": [
+        "deep learning"
+      ]
+    },
+    {
+      "id": "modelos-de-lenguaje",
+      "titulo": "Modelos de lenguaje",
+      "aliases": [
+        "llm",
+        "chatbots"
+      ]
+    },
+    {
+      "id": "prompts",
+      "titulo": "Escribir buenas instrucciones",
+      "aliases": [
+        "prompt"
+      ]
+    },
+    {
+      "id": "sesgos",
+      "titulo": "Sesgos y límites",
+      "aliases": [
+        "alucinaciones"
+      ]
+    },
+    {
+      "id": "etica",
+      "titulo": "Ética y privacidad",
+      "aliases": [
+        "uso responsable"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "que-es-ia",
+          "titulo": "¿Qué es la inteligencia artificial?",
+          "subtema": "que-es-ia",
+          "archivo": "lecciones/que-es-ia.json"
+        }
+      ]
+    }
+  ]
+}

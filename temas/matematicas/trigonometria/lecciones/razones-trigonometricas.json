@@ -1,0 +1,42 @@
+{
+  "id": "razones-trigonometricas",
+  "tema": "trigonometria",
+  "subtema": "razones-trigonometricas",
+  "titulo": "Razones trigonométricas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En un triángulo rectángulo, el lado más largo es la hipotenusa y los otros dos son los catetos."
+    },
+    {
+      "texto": "Para un ángulo, el seno es el cateto opuesto entre la hipotenusa, el coseno es el cateto adyacente entre la hipotenusa y la tangente es el opuesto entre el adyacente."
+    },
+    {
+      "texto": "Una forma de recordarlo es SOH CAH TOA."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "seno",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se calcula el seno de un ángulo?",
+      "opciones": [
+        "Cateto opuesto / hipotenusa",
+        "Cateto adyacente / hipotenusa",
+        "Opuesto / adyacente"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Seno = opuesto entre hipotenusa: la S-O-H de SOH CAH TOA."
+    },
+    {
+      "id": "lado-largo",
+      "tipo": "completar",
+      "enunciado": "El lado más largo de un triángulo rectángulo se llama ___.",
+      "respuestas_validas": [
+        "hipotenusa"
+      ],
+      "explicacion_respuesta": "La hipotenusa está frente al ángulo recto y es el lado más largo."
+    }
+  ]
+}

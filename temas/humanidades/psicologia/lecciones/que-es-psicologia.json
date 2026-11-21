@@ -1,0 +1,43 @@
+{
+  "id": "que-es-psicologia",
+  "tema": "psicologia",
+  "subtema": "que-es-psicologia",
+  "titulo": "¿Qué es la psicología?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La psicología es la ciencia que estudia la mente y el comportamiento."
+    },
+    {
+      "texto": "Usa el método científico: observa, plantea hipótesis y hace experimentos."
+    },
+    {
+      "texto": "Pavlov observó que unos perros salivaban al oír una campana que antes sonaba con la comida. Eso se llama condicionamiento clásico."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "estudia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué estudia la psicología?",
+      "opciones": [
+        "La mente y el comportamiento",
+        "Los planetas",
+        "Las rocas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la ciencia de los procesos mentales y la conducta."
+    },
+    {
+      "id": "pavlov",
+      "tipo": "completar",
+      "enunciado": "El experimento de la campana y los perros es de ___.",
+      "respuestas_validas": [
+        "Pavlov",
+        "pavlov"
+      ],
+      "explicacion_respuesta": "Iván Pavlov describió el condicionamiento clásico."
+    }
+  ]
+}

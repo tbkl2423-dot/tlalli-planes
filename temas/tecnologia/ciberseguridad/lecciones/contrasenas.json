@@ -1,0 +1,44 @@
+{
+  "id": "contrasenas",
+  "tema": "ciberseguridad",
+  "subtema": "contrasenas",
+  "titulo": "Contraseñas seguras",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una contraseña segura es larga y única. Usar la misma en varios sitios es peligroso: si una se filtra, caen todas."
+    },
+    {
+      "texto": "La verificación en dos pasos pide algo más que la contraseña, como un código en tu teléfono."
+    },
+    {
+      "texto": "El phishing son mensajes falsos que se hacen pasar por un banco o empresa para robar tus datos. Desconfía de la urgencia y revisa el remitente."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mejor-contrasena",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace más segura una contraseña?",
+      "opciones": [
+        "Que sea larga y única",
+        "Que sea tu fecha de nacimiento",
+        "Usarla en todos lados"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La longitud y no repetirla son lo que más protege."
+    },
+    {
+      "id": "que-es-phishing",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es el phishing?",
+      "respuesta_esperada": "Un engaño con mensajes falsos para robar datos.",
+      "palabras_clave": [
+        "falso",
+        "datos"
+      ],
+      "explicacion_respuesta": "El phishing imita a empresas reales para que entregues contraseñas o datos bancarios."
+    }
+  ]
+}

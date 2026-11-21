@@ -1,0 +1,45 @@
+{
+  "id": "saludos",
+  "tema": "frances-a1",
+  "subtema": "saludos",
+  "titulo": "Saludos y presentaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para saludar se dice bonjour, que significa buenos días. Entre amigos se usa salut."
+    },
+    {
+      "texto": "Para presentarte dices je m'appelle y tu nombre."
+    },
+    {
+      "texto": "En francés muchas letras finales no se pronuncian: en Paris la s final es muda."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "me-llamo",
+      "tipo": "traduccion",
+      "frase": "Me llamo Ana",
+      "idioma_origen": "es",
+      "idioma_destino": "fr",
+      "respuestas_validas": [
+        "je m'appelle ana",
+        "je m’appelle ana"
+      ],
+      "explicacion_respuesta": "Je m'appelle significa literalmente yo me llamo."
+    },
+    {
+      "id": "bonjour",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa bonjour?",
+      "opciones": [
+        "Buenos días",
+        "Adiós",
+        "Gracias"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Bonjour es el saludo de uso general durante el día."
+    }
+  ]
+}

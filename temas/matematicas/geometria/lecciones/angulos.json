@@ -1,0 +1,42 @@
+{
+  "id": "angulos",
+  "tema": "geometria",
+  "subtema": "angulos",
+  "titulo": "Ángulos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un ángulo mide cuánto se abren dos líneas que salen del mismo punto. Se mide en grados."
+    },
+    {
+      "texto": "Un ángulo recto mide 90 grados, como la esquina de una hoja. Si mide menos es agudo, y si mide más es obtuso."
+    },
+    {
+      "texto": "Los tres ángulos de cualquier triángulo siempre suman 180 grados."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "suma-triangulo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto suman los ángulos de un triángulo?",
+      "opciones": [
+        "180 grados",
+        "360 grados",
+        "90 grados"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En todo triángulo los tres ángulos interiores suman 180 grados."
+    },
+    {
+      "id": "recto",
+      "tipo": "completar",
+      "enunciado": "Un ángulo recto mide ___ grados.",
+      "respuestas_validas": [
+        "90"
+      ],
+      "explicacion_respuesta": "El ángulo recto mide 90 grados, como la esquina de un cuadrado."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "prehistoria",
+  "tema": "historia-universal",
+  "subtema": "prehistoria",
+  "titulo": "Prehistoria",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La prehistoria es el periodo anterior a la escritura. En el neolítico los humanos aprendieron a cultivar y criar animales, y se volvieron sedentarios."
+    },
+    {
+      "texto": "Las primeras ciudades y la escritura surgieron en Mesopotamia, entre los ríos Tigris y Éufrates."
+    },
+    {
+      "texto": "Poco después floreció Egipto a orillas del río Nilo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fin-prehistoria",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué invento marca el fin de la prehistoria?",
+      "opciones": [
+        "La escritura",
+        "La rueda",
+        "El fuego"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La historia empieza cuando hay registros escritos."
+    },
+    {
+      "id": "rio-egipto",
+      "tipo": "completar",
+      "enunciado": "La civilización egipcia creció a orillas del río ___.",
+      "respuestas_validas": [
+        "Nilo",
+        "nilo"
+      ],
+      "explicacion_respuesta": "Las crecidas del Nilo hacían fértiles sus tierras."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "calculo",
+  "titulo": "Cálculo diferencial e integral",
+  "categoria": "matematicas",
+  "idioma": "es",
+  "nivel": "avanzado",
+  "descripcion": "Límites, derivadas e integrales: las herramientas para estudiar el cambio y la acumulación.",
+  "version": 1,
+  "aliases": [
+    "calculo",
+    "derivadas",
+    "integrales"
+  ],
+  "requisitos": [
+    "algebra",
+    "trigonometria"
+  ],
+  "subtemas": [
+    {
+      "id": "limites",
+      "titulo": "Límites",
+      "aliases": [
+        "limite"
+      ]
+    },
+    {
+      "id": "continuidad",
+      "titulo": "Continuidad"
+    },
+    {
+      "id": "derivada",
+      "titulo": "La derivada",
+      "aliases": [
+        "pendiente de la tangente"
+      ]
+    },
+    {
+      "id": "reglas-de-derivacion",
+      "titulo": "Reglas de derivación",
+      "aliases": [
+        "regla de la cadena"
+      ]
+    },
+    {
+      "id": "aplicaciones-derivada",
+      "titulo": "Máximos, mínimos y optimización",
+      "aliases": [
+        "optimizacion"
+      ]
+    },
+    {
+      "id": "integral-indefinida",
+      "titulo": "Integral indefinida",
+      "aliases": [
+        "antiderivada"
+      ]
+    },
+    {
+      "id": "integral-definida",
+      "titulo": "Integral definida y área",
+      "aliases": [
+        "area bajo la curva"
+      ]
+    },
+    {
+      "id": "teorema-fundamental",
+      "titulo": "Teorema fundamental del cálculo"
+    },
+    {
+      "id": "tecnicas-de-integracion",
+      "titulo": "Técnicas de integración",
+      "aliases": [
+        "sustitucion",
+        "por partes"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "limites",
+          "titulo": "Límites",
+          "subtema": "limites",
+          "archivo": "lecciones/limites.json"
+        }
+      ]
+    }
+  ]
+}

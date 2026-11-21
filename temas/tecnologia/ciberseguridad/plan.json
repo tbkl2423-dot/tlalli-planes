@@ -1,0 +1,82 @@
+{
+  "id": "ciberseguridad",
+  "titulo": "Ciberseguridad personal",
+  "categoria": "tecnologia",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Protege tus cuentas y tus datos: contraseñas, verificación en dos pasos, fraudes y respaldos.",
+  "version": 1,
+  "aliases": [
+    "seguridad informatica",
+    "ciberseguridad",
+    "phishing"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "contrasenas",
+      "titulo": "Contraseñas seguras",
+      "aliases": [
+        "gestor de contraseñas"
+      ]
+    },
+    {
+      "id": "dos-pasos",
+      "titulo": "Verificación en dos pasos",
+      "aliases": [
+        "2fa",
+        "autenticacion"
+      ]
+    },
+    {
+      "id": "phishing",
+      "titulo": "Phishing y fraudes",
+      "aliases": [
+        "estafas",
+        "correos falsos"
+      ]
+    },
+    {
+      "id": "actualizaciones",
+      "titulo": "Actualizaciones",
+      "aliases": [
+        "parches"
+      ]
+    },
+    {
+      "id": "redes-wifi",
+      "titulo": "Redes wifi públicas",
+      "aliases": [
+        "wifi"
+      ]
+    },
+    {
+      "id": "respaldos",
+      "titulo": "Respaldos",
+      "aliases": [
+        "backup"
+      ]
+    },
+    {
+      "id": "privacidad",
+      "titulo": "Privacidad en redes sociales",
+      "aliases": [
+        "datos personales"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "contrasenas",
+          "titulo": "Contraseñas seguras",
+          "subtema": "contrasenas",
+          "archivo": "lecciones/contrasenas.json"
+        }
+      ]
+    }
+  ]
+}

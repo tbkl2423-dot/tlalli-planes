@@ -1,0 +1,43 @@
+{
+  "id": "expresiones",
+  "tema": "algebra",
+  "subtema": "expresiones",
+  "titulo": "Expresiones algebraicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En álgebra una letra, como x, representa un número que no conocemos."
+    },
+    {
+      "texto": "Para resolver una ecuación dejamos la x sola. Lo que hagas de un lado del signo igual, hazlo también del otro."
+    },
+    {
+      "texto": "Por ejemplo, en x + 5 = 12 restamos 5 de los dos lados y queda x = 7.",
+      "codigo": "x + 5 = 12\nx = 12 - 5\nx = 7"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "resolver-1",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 2x = 10, ¿cuánto vale x?",
+      "opciones": [
+        "5",
+        "20",
+        "8"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Dividimos ambos lados entre 2: x = 10 / 2 = 5."
+    },
+    {
+      "id": "resolver-2",
+      "tipo": "completar",
+      "enunciado": "Si x - 3 = 4, entonces x = ___",
+      "respuestas_validas": [
+        "7"
+      ],
+      "explicacion_respuesta": "Sumamos 3 en ambos lados: x = 4 + 3 = 7."
+    }
+  ]
+}

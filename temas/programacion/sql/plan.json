@@ -1,0 +1,120 @@
+{
+  "id": "sql",
+  "titulo": "SQL y bases de datos",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Consultar y modificar datos en bases de datos relacionales con SQL: filtrar, ordenar, agrupar y unir tablas.",
+  "version": 1,
+  "aliases": [
+    "sql",
+    "bases de datos",
+    "mysql",
+    "postgresql",
+    "sqlite"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "select",
+      "titulo": "Consultas con SELECT",
+      "aliases": [
+        "select from"
+      ]
+    },
+    {
+      "id": "where",
+      "titulo": "Filtrar con WHERE",
+      "aliases": [
+        "and or",
+        "like"
+      ]
+    },
+    {
+      "id": "order-by-limit",
+      "titulo": "Ordenar y limitar",
+      "aliases": [
+        "order by",
+        "limit"
+      ]
+    },
+    {
+      "id": "agregaciones",
+      "titulo": "Funciones de agregación",
+      "aliases": [
+        "count",
+        "sum",
+        "avg"
+      ]
+    },
+    {
+      "id": "group-by",
+      "titulo": "Agrupar con GROUP BY y HAVING",
+      "aliases": [
+        "having"
+      ]
+    },
+    {
+      "id": "joins",
+      "titulo": "Unir tablas con JOIN",
+      "aliases": [
+        "inner join",
+        "left join"
+      ]
+    },
+    {
+      "id": "subconsultas",
+      "titulo": "Subconsultas",
+      "aliases": [
+        "subquery"
+      ]
+    },
+    {
+      "id": "insert-update-delete",
+      "titulo": "Insertar, actualizar y borrar",
+      "aliases": [
+        "insert",
+        "update",
+        "delete"
+      ]
+    },
+    {
+      "id": "crear-tablas",
+      "titulo": "Crear tablas y llaves",
+      "aliases": [
+        "create table",
+        "primary key",
+        "foreign key"
+      ]
+    },
+    {
+      "id": "indices",
+      "titulo": "Índices",
+      "aliases": [
+        "index"
+      ]
+    },
+    {
+      "id": "transacciones",
+      "titulo": "Transacciones",
+      "aliases": [
+        "commit",
+        "rollback"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "select",
+          "titulo": "Consultas con SELECT",
+          "subtema": "select",
+          "archivo": "lecciones/select.json"
+        }
+      ]
+    }
+  ]
+}

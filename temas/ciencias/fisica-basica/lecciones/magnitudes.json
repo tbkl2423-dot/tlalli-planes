@@ -1,0 +1,42 @@
+{
+  "id": "magnitudes",
+  "tema": "fisica-basica",
+  "subtema": "magnitudes",
+  "titulo": "Magnitudes y unidades",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La primera ley de Newton dice que un objeto sigue quieto o moviéndose en línea recta si ninguna fuerza lo cambia. A esto se le llama inercia."
+    },
+    {
+      "texto": "La segunda ley dice que la fuerza es igual a la masa por la aceleración: F = m·a."
+    },
+    {
+      "texto": "La tercera ley dice que a toda acción corresponde una reacción igual y opuesta, como cuando empujas una pared y la pared te empuja a ti."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "inercia",
+      "tipo": "opcion_multiple",
+      "pregunta": "Cuando el camión frena y tu cuerpo se va hacia adelante, ¿qué ley lo explica?",
+      "opciones": [
+        "Primera ley (inercia)",
+        "Segunda ley",
+        "Tercera ley"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tu cuerpo tiende a seguir moviéndose: eso es la inercia."
+    },
+    {
+      "id": "fma",
+      "tipo": "completar",
+      "enunciado": "F = m · ___",
+      "respuestas_validas": [
+        "a"
+      ],
+      "explicacion_respuesta": "La fuerza es masa por aceleración."
+    }
+  ]
+}

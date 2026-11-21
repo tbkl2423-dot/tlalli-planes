@@ -1,0 +1,47 @@
+{
+  "id": "saludos",
+  "tema": "portugues-a1",
+  "subtema": "saludos",
+  "titulo": "Saludos y presentaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El portugués y el español se parecen mucho, así que avanzarás rápido."
+    },
+    {
+      "texto": "Para saludar se dice olá, y para preguntar cómo estás, tudo bem. La respuesta es tudo bem también."
+    },
+    {
+      "texto": "Cuidado con los falsos amigos: esquisito en portugués significa raro, no delicioso."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "hola-como",
+      "tipo": "traduccion",
+      "frase": "Hola, ¿cómo estás?",
+      "idioma_origen": "es",
+      "idioma_destino": "pt",
+      "respuestas_validas": [
+        "olá, tudo bem?",
+        "olá tudo bem",
+        "oi, tudo bem?",
+        "oi tudo bem"
+      ],
+      "explicacion_respuesta": "Olá u oi saludan; tudo bem pregunta cómo estás."
+    },
+    {
+      "id": "esquisito",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa esquisito en portugués?",
+      "opciones": [
+        "Raro",
+        "Delicioso",
+        "Elegante"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es un falso amigo: suena a exquisito pero significa raro."
+    }
+  ]
+}

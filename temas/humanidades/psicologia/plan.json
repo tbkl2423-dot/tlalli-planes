@@ -1,0 +1,100 @@
+{
+  "id": "psicologia",
+  "titulo": "Introducción a la psicología",
+  "categoria": "humanidades",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Cómo pensamos, sentimos y aprendemos: percepción, memoria, motivación, desarrollo y personalidad.",
+  "version": 1,
+  "aliases": [
+    "psicologia",
+    "mente",
+    "comportamiento"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "que-es-psicologia",
+      "titulo": "¿Qué es la psicología?",
+      "aliases": [
+        "ciencia del comportamiento"
+      ]
+    },
+    {
+      "id": "cerebro-y-conducta",
+      "titulo": "Cerebro y conducta",
+      "aliases": [
+        "neuronas"
+      ]
+    },
+    {
+      "id": "percepcion",
+      "titulo": "Sensación y percepción",
+      "aliases": [
+        "sentidos"
+      ]
+    },
+    {
+      "id": "aprendizaje",
+      "titulo": "Aprendizaje",
+      "aliases": [
+        "condicionamiento",
+        "pavlov"
+      ]
+    },
+    {
+      "id": "memoria",
+      "titulo": "Memoria",
+      "aliases": [
+        "olvido"
+      ]
+    },
+    {
+      "id": "motivacion",
+      "titulo": "Motivación y emoción"
+    },
+    {
+      "id": "desarrollo",
+      "titulo": "Desarrollo humano",
+      "aliases": [
+        "piaget"
+      ]
+    },
+    {
+      "id": "personalidad",
+      "titulo": "Personalidad",
+      "aliases": [
+        "rasgos"
+      ]
+    },
+    {
+      "id": "psicologia-social",
+      "titulo": "Psicología social",
+      "aliases": [
+        "grupos",
+        "influencia"
+      ]
+    },
+    {
+      "id": "sesgos",
+      "titulo": "Sesgos cognitivos",
+      "aliases": [
+        "sesgo de confirmacion"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "que-es-psicologia",
+          "titulo": "¿Qué es la psicología?",
+          "subtema": "que-es-psicologia",
+          "archivo": "lecciones/que-es-psicologia.json"
+        }
+      ]
+    }
+  ]
+}

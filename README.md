@@ -32,3 +32,9 @@ El orden y alcance de los subtemas sigue temarios ya establecidos; las lecciones
 - Matemáticas: [Plan de Estudio SEP 2022](https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/07/Plan-de-Estudios-Educacion-Basica_digital-2024.pdf)
 - Biología: [OpenStax Biology 2e](https://openstax.org/books/biology-2e/pages/preface) (CC BY 4.0)
 - Primeros auxilios: guías internacionales de primeros auxilios de la Cruz Roja (IFRC)
+- Ciencias de la computación (algoritmos, redes): [OSSU Computer Science](https://github.com/ossu/computer-science), que sigue las guías ACM/IEEE
+- Física, química, anatomía, psicología, astronomía: índices de los libros abiertos de [OpenStax](https://openstax.org/subjects)
+- Teoría musical: [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/) (CC BY-SA)
+- Historia de México: periodización de los programas de historia de la SEP y del [CCH UNAM](https://portalacademico.cch.unam.mx/)
+- Finanzas personales: unidades del curso de [educación financiera de Khan Academy](https://blog.khanacademy.org/empowering-learners-with-financial-literacy/)
+- Inglés A2, francés y portugués A1: descriptores del MCER

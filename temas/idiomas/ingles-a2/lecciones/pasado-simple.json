@@ -1,0 +1,56 @@
+{
+  "id": "pasado-simple",
+  "tema": "ingles-a2",
+  "subtema": "pasado-simple",
+  "titulo": "Pasado simple",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El pasado simple sirve para acciones terminadas en el pasado."
+    },
+    {
+      "texto": "En los verbos regulares se agrega ed: work se vuelve worked. Para preguntar y negar se usa did.",
+      "codigo": "I worked yesterday.\nDid you work?\nI didn't work."
+    },
+    {
+      "texto": "Muchos verbos comunes son irregulares: go se vuelve went y have se vuelve had."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fui",
+      "tipo": "traduccion",
+      "frase": "Ayer fui al parque",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "yesterday i went to the park",
+        "i went to the park yesterday"
+      ],
+      "explicacion_respuesta": "Go es irregular: su pasado es went."
+    },
+    {
+      "id": "pasado-play",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el pasado de play?",
+      "opciones": [
+        "played",
+        "plaid",
+        "plays"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Play es regular: se agrega ed."
+    },
+    {
+      "id": "negar",
+      "tipo": "completar",
+      "enunciado": "I ___ watch TV last night.",
+      "respuestas_validas": [
+        "didn't",
+        "did not"
+      ],
+      "explicacion_respuesta": "La negación en pasado usa didn't más el verbo en forma base."
+    }
+  ]
+}

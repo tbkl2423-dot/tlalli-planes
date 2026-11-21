@@ -1,0 +1,45 @@
+{
+  "id": "presupuesto",
+  "tema": "finanzas-personales",
+  "subtema": "presupuesto",
+  "titulo": "Presupuesto",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un presupuesto es un plan de tu dinero: cuánto entra, cuánto sale y en qué."
+    },
+    {
+      "texto": "Una regla sencilla para empezar es separar tus ingresos en necesidades, gustos y ahorro."
+    },
+    {
+      "texto": "Un fondo de emergencia es dinero guardado para imprevistos, como una enfermedad o perder el empleo. Se suele recomendar que cubra varios meses de gastos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fondo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve un fondo de emergencia?",
+      "opciones": [
+        "Para imprevistos",
+        "Para vacaciones",
+        "Para invertir en acciones"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Te protege de endeudarte cuando pasa algo inesperado."
+    },
+    {
+      "id": "presupuesto",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es un presupuesto?",
+      "respuesta_esperada": "Un plan de cuánto dinero entra y en qué se gasta.",
+      "palabras_clave": [
+        "plan",
+        "gasta",
+        "entra"
+      ],
+      "explicacion_respuesta": "Saber a dónde va tu dinero es el primer paso para controlarlo."
+    }
+  ]
+}

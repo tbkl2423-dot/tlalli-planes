@@ -1,0 +1,104 @@
+{
+  "id": "historia-del-arte",
+  "titulo": "Historia del arte",
+  "categoria": "arte",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Un recorrido por los grandes estilos, desde el arte rupestre hasta el muralismo mexicano y el arte contemporáneo.",
+  "version": 1,
+  "aliases": [
+    "historia del arte",
+    "estilos artisticos"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "prehistorico",
+      "titulo": "Arte prehistórico",
+      "aliases": [
+        "rupestre"
+      ]
+    },
+    {
+      "id": "antiguo",
+      "titulo": "Arte antiguo",
+      "aliases": [
+        "egipto",
+        "grecia"
+      ]
+    },
+    {
+      "id": "mesoamericano",
+      "titulo": "Arte mesoamericano",
+      "aliases": [
+        "coatlicue",
+        "piedra del sol"
+      ]
+    },
+    {
+      "id": "medieval",
+      "titulo": "Arte medieval",
+      "aliases": [
+        "gotico",
+        "romanico"
+      ]
+    },
+    {
+      "id": "renacimiento",
+      "titulo": "Renacimiento",
+      "aliases": [
+        "da vinci",
+        "miguel angel"
+      ]
+    },
+    {
+      "id": "barroco",
+      "titulo": "Barroco",
+      "aliases": [
+        "caravaggio"
+      ]
+    },
+    {
+      "id": "impresionismo",
+      "titulo": "Impresionismo",
+      "aliases": [
+        "monet"
+      ]
+    },
+    {
+      "id": "vanguardias",
+      "titulo": "Vanguardias",
+      "aliases": [
+        "cubismo",
+        "surrealismo"
+      ]
+    },
+    {
+      "id": "muralismo",
+      "titulo": "Muralismo mexicano",
+      "aliases": [
+        "rivera",
+        "orozco",
+        "siqueiros"
+      ]
+    },
+    {
+      "id": "contemporaneo",
+      "titulo": "Arte contemporáneo"
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "prehistorico",
+          "titulo": "Arte prehistórico",
+          "subtema": "prehistorico",
+          "archivo": "lecciones/prehistorico.json"
+        }
+      ]
+    }
+  ]
+}

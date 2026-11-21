@@ -1,0 +1,82 @@
+{
+  "id": "salud-mental",
+  "titulo": "Salud mental y bienestar",
+  "categoria": "salud",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Entender las emociones, manejar el estrés y saber cuándo pedir ayuda profesional.",
+  "version": 1,
+  "aliases": [
+    "bienestar",
+    "emociones",
+    "estres",
+    "ansiedad"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "emociones",
+      "titulo": "Las emociones",
+      "aliases": [
+        "inteligencia emocional"
+      ]
+    },
+    {
+      "id": "estres",
+      "titulo": "Estrés",
+      "aliases": [
+        "manejo del estres"
+      ]
+    },
+    {
+      "id": "sueno",
+      "titulo": "Sueño",
+      "aliases": [
+        "dormir bien"
+      ]
+    },
+    {
+      "id": "habitos",
+      "titulo": "Hábitos saludables",
+      "aliases": [
+        "ejercicio"
+      ]
+    },
+    {
+      "id": "respiracion",
+      "titulo": "Técnicas de respiración",
+      "aliases": [
+        "relajacion"
+      ]
+    },
+    {
+      "id": "ansiedad-y-depresion",
+      "titulo": "Ansiedad y depresión",
+      "aliases": [
+        "senales de alerta"
+      ]
+    },
+    {
+      "id": "pedir-ayuda",
+      "titulo": "Cuándo y cómo pedir ayuda",
+      "aliases": [
+        "terapia",
+        "linea de la vida"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "emociones",
+          "titulo": "Las emociones",
+          "subtema": "emociones",
+          "archivo": "lecciones/emociones.json"
+        }
+      ]
+    }
+  ]
+}

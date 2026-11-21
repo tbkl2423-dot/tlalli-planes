@@ -1,0 +1,97 @@
+{
+  "id": "algebra",
+  "titulo": "Álgebra",
+  "categoria": "matematicas",
+  "idioma": "es",
+  "nivel": "intermedio",
+  "descripcion": "Usar letras para representar números: expresiones, ecuaciones, sistemas, factorización y funciones.",
+  "version": 1,
+  "aliases": [
+    "algebra",
+    "algebra basica"
+  ],
+  "requisitos": [
+    "matematicas-basicas"
+  ],
+  "subtemas": [
+    {
+      "id": "expresiones",
+      "titulo": "Expresiones algebraicas",
+      "aliases": [
+        "terminos semejantes"
+      ]
+    },
+    {
+      "id": "ecuaciones-primer-grado",
+      "titulo": "Ecuaciones de primer grado",
+      "aliases": [
+        "despejar"
+      ]
+    },
+    {
+      "id": "desigualdades",
+      "titulo": "Desigualdades",
+      "aliases": [
+        "inecuaciones"
+      ]
+    },
+    {
+      "id": "sistemas",
+      "titulo": "Sistemas de ecuaciones",
+      "aliases": [
+        "2x2",
+        "sustitucion"
+      ]
+    },
+    {
+      "id": "productos-notables",
+      "titulo": "Productos notables",
+      "aliases": [
+        "binomio al cuadrado"
+      ]
+    },
+    {
+      "id": "factorizacion",
+      "titulo": "Factorización",
+      "aliases": [
+        "factor comun"
+      ]
+    },
+    {
+      "id": "ecuaciones-cuadraticas",
+      "titulo": "Ecuaciones cuadráticas",
+      "aliases": [
+        "formula general"
+      ]
+    },
+    {
+      "id": "funciones",
+      "titulo": "Funciones y gráficas",
+      "aliases": [
+        "funcion lineal",
+        "pendiente"
+      ]
+    },
+    {
+      "id": "exponentes",
+      "titulo": "Leyes de los exponentes",
+      "aliases": [
+        "potencias"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "expresiones",
+          "titulo": "Expresiones algebraicas",
+          "subtema": "expresiones",
+          "archivo": "lecciones/expresiones.json"
+        }
+      ]
+    }
+  ]
+}

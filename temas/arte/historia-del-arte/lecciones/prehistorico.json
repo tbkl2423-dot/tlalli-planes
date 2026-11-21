@@ -1,0 +1,45 @@
+{
+  "id": "prehistorico",
+  "tema": "historia-del-arte",
+  "subtema": "prehistorico",
+  "titulo": "Arte prehistórico",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El muralismo mexicano surgió después de la Revolución para contar la historia del país en los muros de edificios públicos."
+    },
+    {
+      "texto": "Sus tres grandes representantes son Diego Rivera, José Clemente Orozco y David Alfaro Siqueiros."
+    },
+    {
+      "texto": "La idea era que el arte estuviera al alcance de todos, no solo en museos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "muralistas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién NO es uno de los tres grandes muralistas?",
+      "opciones": [
+        "Frida Kahlo",
+        "Diego Rivera",
+        "José Clemente Orozco"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Frida Kahlo fue pintora, pero no se cuenta entre los tres grandes muralistas."
+    },
+    {
+      "id": "para-que",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué los muralistas pintaban en edificios públicos?",
+      "respuesta_esperada": "Para que el arte y la historia llegaran a todo el pueblo.",
+      "palabras_clave": [
+        "todos",
+        "pueblo",
+        "publico"
+      ],
+      "explicacion_respuesta": "Querían un arte social, visible para cualquiera."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "que-es-filosofia",
+  "tema": "filosofia",
+  "subtema": "que-es-filosofia",
+  "titulo": "¿Qué es la filosofía?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La palabra filosofía viene del griego y significa amor a la sabiduría."
+    },
+    {
+      "texto": "Sócrates enseñaba haciendo preguntas para que las personas descubrieran lo que no sabían."
+    },
+    {
+      "texto": "Una falacia es un argumento que parece válido pero no lo es, como atacar a la persona en vez de a su idea."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "significa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa la palabra filosofía?",
+      "opciones": [
+        "Amor a la sabiduría",
+        "Estudio de la vida",
+        "Arte de hablar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Viene de philos, amor, y sophia, sabiduría."
+    },
+    {
+      "id": "falacia",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es una falacia?",
+      "respuesta_esperada": "Un razonamiento que parece correcto pero no lo es.",
+      "palabras_clave": [
+        "parece",
+        "correcto"
+      ],
+      "explicacion_respuesta": "Reconocer falacias ayuda a pensar y discutir mejor."
+    }
+  ]
+}

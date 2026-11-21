@@ -1,0 +1,44 @@
+{
+  "id": "que-es-algoritmo",
+  "tema": "algoritmos",
+  "subtema": "que-es-algoritmo",
+  "titulo": "¿Qué es un algoritmo?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un algoritmo es una lista de pasos precisos para resolver un problema, como una receta."
+    },
+    {
+      "texto": "Dos algoritmos pueden dar el mismo resultado, pero uno puede tardar mucho más. Por eso medimos cuántos pasos hacen según el tamaño de los datos."
+    },
+    {
+      "texto": "La búsqueda lineal revisa uno por uno. La binaria, en una lista ordenada, parte a la mitad cada vez y encuentra el dato mucho más rápido."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "binaria-requiere",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué necesita la búsqueda binaria?",
+      "opciones": [
+        "Que la lista esté ordenada",
+        "Que la lista sea corta",
+        "Que no haya números"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La búsqueda binaria descarta la mitad en cada paso, y eso solo funciona si los datos están ordenados."
+    },
+    {
+      "id": "definir-algoritmo",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es un algoritmo?",
+      "respuesta_esperada": "Una serie de pasos para resolver un problema.",
+      "palabras_clave": [
+        "pasos",
+        "problema"
+      ],
+      "explicacion_respuesta": "Un algoritmo es una secuencia finita de pasos claros que resuelve un problema."
+    }
+  ]
+}

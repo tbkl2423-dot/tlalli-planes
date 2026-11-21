@@ -1,0 +1,105 @@
+{
+  "id": "git",
+  "titulo": "Git y GitHub",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Guardar la historia de tu código, trabajar con ramas y colaborar en GitHub sin perder cambios.",
+  "version": 1,
+  "aliases": [
+    "git",
+    "github",
+    "control de versiones"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "que-es-git",
+      "titulo": "¿Qué es el control de versiones?",
+      "aliases": [
+        "versiones"
+      ]
+    },
+    {
+      "id": "commits",
+      "titulo": "Commits",
+      "aliases": [
+        "add",
+        "commit",
+        "status"
+      ]
+    },
+    {
+      "id": "historial",
+      "titulo": "Ver el historial",
+      "aliases": [
+        "log",
+        "diff"
+      ]
+    },
+    {
+      "id": "ramas",
+      "titulo": "Ramas",
+      "aliases": [
+        "branch",
+        "switch",
+        "checkout"
+      ]
+    },
+    {
+      "id": "merge",
+      "titulo": "Fusionar ramas",
+      "aliases": [
+        "merge",
+        "conflictos"
+      ]
+    },
+    {
+      "id": "remotos",
+      "titulo": "Repositorios remotos",
+      "aliases": [
+        "push",
+        "pull",
+        "clone"
+      ]
+    },
+    {
+      "id": "pull-requests",
+      "titulo": "Pull requests",
+      "aliases": [
+        "pr",
+        "revision de codigo"
+      ]
+    },
+    {
+      "id": "deshacer",
+      "titulo": "Deshacer cambios",
+      "aliases": [
+        "revert",
+        "restore",
+        "reset"
+      ]
+    },
+    {
+      "id": "gitignore",
+      "titulo": "Ignorar archivos",
+      "aliases": [
+        ".gitignore"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "que-es-git",
+          "titulo": "¿Qué es el control de versiones?",
+          "subtema": "que-es-git",
+          "archivo": "lecciones/que-es-git.json"
+        }
+      ]
+    }
+  ]
+}

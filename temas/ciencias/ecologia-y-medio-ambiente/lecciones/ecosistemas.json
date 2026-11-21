@@ -1,0 +1,42 @@
+{
+  "id": "ecosistemas",
+  "tema": "ecologia-y-medio-ambiente",
+  "subtema": "ecosistemas",
+  "titulo": "Ecosistemas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un ecosistema es el conjunto de seres vivos de un lugar y el ambiente en el que viven, como un bosque o un lago."
+    },
+    {
+      "texto": "Las plantas son productoras: hacen su alimento con la luz del sol. Los animales son consumidores y los hongos y bacterias son descomponedores."
+    },
+    {
+      "texto": "México es uno de los países megadiversos: alberga una gran parte de las especies del planeta."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "productor",
+      "tipo": "opcion_multiple",
+      "pregunta": "En una cadena alimenticia, ¿quién es productor?",
+      "opciones": [
+        "Una planta",
+        "Un conejo",
+        "Un hongo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las plantas producen su alimento por fotosíntesis."
+    },
+    {
+      "id": "descomponen",
+      "tipo": "completar",
+      "enunciado": "Los hongos y las bacterias son ___.",
+      "respuestas_validas": [
+        "descomponedores"
+      ],
+      "explicacion_respuesta": "Descomponen la materia muerta y devuelven nutrientes al suelo."
+    }
+  ]
+}

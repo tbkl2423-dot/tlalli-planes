@@ -1,0 +1,89 @@
+{
+  "id": "marketing-digital",
+  "titulo": "Marketing digital",
+  "categoria": "negocios",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Dar a conocer un producto en internet: público objetivo, redes sociales, contenido, SEO, anuncios y métricas.",
+  "version": 1,
+  "aliases": [
+    "marketing",
+    "mercadotecnia",
+    "redes sociales"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "publico-objetivo",
+      "titulo": "Público objetivo",
+      "aliases": [
+        "buyer persona"
+      ]
+    },
+    {
+      "id": "marca",
+      "titulo": "Marca",
+      "aliases": [
+        "branding"
+      ]
+    },
+    {
+      "id": "redes-sociales",
+      "titulo": "Redes sociales"
+    },
+    {
+      "id": "contenido",
+      "titulo": "Marketing de contenido"
+    },
+    {
+      "id": "seo",
+      "titulo": "SEO",
+      "aliases": [
+        "posicionamiento"
+      ]
+    },
+    {
+      "id": "anuncios",
+      "titulo": "Publicidad pagada",
+      "aliases": [
+        "ads"
+      ]
+    },
+    {
+      "id": "email-marketing",
+      "titulo": "Email marketing",
+      "aliases": [
+        "newsletter"
+      ]
+    },
+    {
+      "id": "metricas",
+      "titulo": "Métricas",
+      "aliases": [
+        "conversion",
+        "ctr"
+      ]
+    },
+    {
+      "id": "embudo",
+      "titulo": "Embudo de ventas",
+      "aliases": [
+        "funnel"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "publico-objetivo",
+          "titulo": "Público objetivo",
+          "subtema": "publico-objetivo",
+          "archivo": "lecciones/publico-objetivo.json"
+        }
+      ]
+    }
+  ]
+}

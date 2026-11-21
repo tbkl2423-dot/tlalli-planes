@@ -1,0 +1,105 @@
+{
+  "id": "anatomia-humana",
+  "titulo": "Anatomía humana",
+  "categoria": "salud",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Los sistemas del cuerpo humano y cómo trabajan juntos.",
+  "version": 1,
+  "aliases": [
+    "anatomia",
+    "cuerpo humano"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "niveles",
+      "titulo": "Niveles de organización",
+      "aliases": [
+        "celulas",
+        "tejidos",
+        "organos"
+      ]
+    },
+    {
+      "id": "esqueletico",
+      "titulo": "Sistema óseo",
+      "aliases": [
+        "huesos"
+      ]
+    },
+    {
+      "id": "muscular",
+      "titulo": "Sistema muscular",
+      "aliases": [
+        "musculos"
+      ]
+    },
+    {
+      "id": "circulatorio",
+      "titulo": "Sistema circulatorio",
+      "aliases": [
+        "corazon",
+        "sangre"
+      ]
+    },
+    {
+      "id": "respiratorio",
+      "titulo": "Sistema respiratorio",
+      "aliases": [
+        "pulmones"
+      ]
+    },
+    {
+      "id": "digestivo",
+      "titulo": "Sistema digestivo",
+      "aliases": [
+        "estomago",
+        "intestinos"
+      ]
+    },
+    {
+      "id": "nervioso",
+      "titulo": "Sistema nervioso",
+      "aliases": [
+        "cerebro",
+        "neuronas"
+      ]
+    },
+    {
+      "id": "endocrino",
+      "titulo": "Sistema endocrino",
+      "aliases": [
+        "hormonas"
+      ]
+    },
+    {
+      "id": "inmunologico",
+      "titulo": "Sistema inmunológico",
+      "aliases": [
+        "defensas"
+      ]
+    },
+    {
+      "id": "urinario",
+      "titulo": "Sistema urinario",
+      "aliases": [
+        "rinones"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "niveles",
+          "titulo": "Niveles de organización",
+          "subtema": "niveles",
+          "archivo": "lecciones/niveles.json"
+        }
+      ]
+    }
+  ]
+}

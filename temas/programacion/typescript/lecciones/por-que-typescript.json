@@ -1,0 +1,40 @@
+{
+  "id": "por-que-typescript",
+  "tema": "typescript",
+  "subtema": "por-que-typescript",
+  "titulo": "¿Por qué TypeScript?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "TypeScript es JavaScript con tipos. Antes de ejecutarse se convierte en JavaScript normal."
+    },
+    {
+      "texto": "Escribes el tipo después de dos puntos. Si asignas otro tipo, el editor te avisa del error.",
+      "codigo": "let edad: number = 20;\nedad = \"veinte\"; // error"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "en-que-se-convierte",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué se convierte el código TypeScript para ejecutarse?",
+      "opciones": [
+        "JavaScript",
+        "Python",
+        "HTML"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El compilador de TypeScript genera JavaScript que corre en el navegador o en Node."
+    },
+    {
+      "id": "anotar",
+      "tipo": "completar",
+      "enunciado": "let nombre___ string = \"Ana\";",
+      "respuestas_validas": [
+        ":"
+      ],
+      "explicacion_respuesta": "El tipo se indica con dos puntos después del nombre."
+    }
+  ]
+}

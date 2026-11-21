@@ -1,0 +1,44 @@
+{
+  "id": "publico-objetivo",
+  "tema": "marketing-digital",
+  "subtema": "publico-objetivo",
+  "titulo": "Público objetivo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El marketing empieza por saber a quién le hablas. Ese grupo es tu público objetivo."
+    },
+    {
+      "texto": "El SEO busca que tu página aparezca en los primeros resultados de los buscadores sin pagar anuncios."
+    },
+    {
+      "texto": "Las métricas te dicen qué funciona. La tasa de conversión es el porcentaje de personas que hacen lo que buscas, como comprar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "seo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué busca el SEO?",
+      "opciones": [
+        "Aparecer en buscadores sin pagar",
+        "Enviar correos",
+        "Diseñar logotipos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El SEO mejora el posicionamiento orgánico."
+    },
+    {
+      "id": "conversion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es la tasa de conversión?",
+      "respuesta_esperada": "El porcentaje de personas que hacen la acción que buscas.",
+      "palabras_clave": [
+        "porcentaje",
+        "accion"
+      ],
+      "explicacion_respuesta": "Por ejemplo, de 100 visitas, 3 compras es una conversión del 3%."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "nutrientes",
+  "tema": "nutricion",
+  "subtema": "nutrientes",
+  "titulo": "Macronutrientes y micronutrientes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los macronutrientes dan energía y materiales al cuerpo: carbohidratos, proteínas y grasas."
+    },
+    {
+      "texto": "Los micronutrientes, como vitaminas y minerales, se necesitan en poca cantidad pero son indispensables."
+    },
+    {
+      "texto": "El plato del bien comer recomienda en cada comida verduras y frutas, cereales, y leguminosas o alimentos de origen animal."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "macro",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estos es un macronutriente?",
+      "opciones": [
+        "Proteínas",
+        "Vitamina C",
+        "Hierro"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Proteínas, carbohidratos y grasas son macronutrientes."
+    },
+    {
+      "id": "plato",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué grupos de alimentos tiene el plato del bien comer?",
+      "respuesta_esperada": "Verduras y frutas, cereales, leguminosas y alimentos de origen animal.",
+      "palabras_clave": [
+        "verduras",
+        "cereales",
+        "leguminosas"
+      ],
+      "explicacion_respuesta": "Combinar los grupos da variedad de nutrientes en cada comida."
+    }
+  ]
+}

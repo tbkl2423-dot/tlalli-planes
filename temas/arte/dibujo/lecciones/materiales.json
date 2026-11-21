@@ -1,0 +1,44 @@
+{
+  "id": "materiales",
+  "tema": "dibujo",
+  "subtema": "materiales",
+  "titulo": "Materiales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Casi todo lo que ves puede construirse con formas básicas: esferas, cubos, cilindros y conos."
+    },
+    {
+      "texto": "Empieza con trazos suaves para encajar las formas y después refuerza las líneas buenas."
+    },
+    {
+      "texto": "En perspectiva, las líneas paralelas que se alejan parecen juntarse en un punto del horizonte llamado punto de fuga."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fuga",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llama el punto donde parecen juntarse las líneas que se alejan?",
+      "opciones": [
+        "Punto de fuga",
+        "Punto de apoyo",
+        "Punto focal"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las paralelas convergen en el punto de fuga sobre la línea del horizonte."
+    },
+    {
+      "id": "empezar",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué conviene empezar con trazos suaves?",
+      "respuesta_esperada": "Para poder corregir antes de definir las líneas finales.",
+      "palabras_clave": [
+        "corregir",
+        "suave"
+      ],
+      "explicacion_respuesta": "Los trazos suaves se borran o se cubren fácilmente."
+    }
+  ]
+}

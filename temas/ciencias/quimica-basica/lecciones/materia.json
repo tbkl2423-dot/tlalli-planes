@@ -1,0 +1,42 @@
+{
+  "id": "materia",
+  "tema": "quimica-basica",
+  "subtema": "materia",
+  "titulo": "La materia y sus estados",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Toda la materia está formada por átomos. Un átomo tiene un núcleo con protones y neutrones, y alrededor se mueven los electrones."
+    },
+    {
+      "texto": "Los protones tienen carga positiva, los electrones negativa y los neutrones no tienen carga."
+    },
+    {
+      "texto": "El número de protones define qué elemento es. Por ejemplo, todo átomo con un protón es hidrógeno."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "carga-electron",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué carga tiene el electrón?",
+      "opciones": [
+        "Negativa",
+        "Positiva",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El electrón es negativo; el protón positivo y el neutrón neutro."
+    },
+    {
+      "id": "define-elemento",
+      "tipo": "completar",
+      "enunciado": "El número de ___ define qué elemento es un átomo.",
+      "respuestas_validas": [
+        "protones"
+      ],
+      "explicacion_respuesta": "Ese número se llama número atómico y es único para cada elemento."
+    }
+  ]
+}

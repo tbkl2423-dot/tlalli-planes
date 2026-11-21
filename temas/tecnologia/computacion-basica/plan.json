@@ -1,0 +1,86 @@
+{
+  "id": "computacion-basica",
+  "titulo": "Computación básica",
+  "categoria": "tecnologia",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Usar una computadora con confianza: archivos y carpetas, atajos de teclado, navegador y correo.",
+  "version": 1,
+  "aliases": [
+    "computacion",
+    "uso de la computadora",
+    "informatica basica"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "partes",
+      "titulo": "Partes de una computadora",
+      "aliases": [
+        "hardware",
+        "software"
+      ]
+    },
+    {
+      "id": "archivos-y-carpetas",
+      "titulo": "Archivos y carpetas",
+      "aliases": [
+        "explorador"
+      ]
+    },
+    {
+      "id": "atajos",
+      "titulo": "Atajos de teclado",
+      "aliases": [
+        "copiar pegar",
+        "ctrl c"
+      ]
+    },
+    {
+      "id": "navegador",
+      "titulo": "Navegar en internet",
+      "aliases": [
+        "navegador",
+        "buscar"
+      ]
+    },
+    {
+      "id": "correo",
+      "titulo": "Correo electrónico",
+      "aliases": [
+        "email",
+        "adjuntos"
+      ]
+    },
+    {
+      "id": "nube",
+      "titulo": "Almacenamiento en la nube",
+      "aliases": [
+        "drive",
+        "respaldo"
+      ]
+    },
+    {
+      "id": "procesador-de-texto",
+      "titulo": "Procesador de textos",
+      "aliases": [
+        "word",
+        "docs"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "partes",
+          "titulo": "Partes de una computadora",
+          "subtema": "partes",
+          "archivo": "lecciones/partes.json"
+        }
+      ]
+    }
+  ]
+}

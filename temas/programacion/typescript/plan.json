@@ -1,0 +1,86 @@
+{
+  "id": "typescript",
+  "titulo": "TypeScript",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "intermedio",
+  "descripcion": "JavaScript con tipos: detecta errores antes de ejecutar y hace el código más fácil de mantener.",
+  "version": 1,
+  "aliases": [
+    "typescript",
+    "ts"
+  ],
+  "requisitos": [
+    "javascript"
+  ],
+  "subtemas": [
+    {
+      "id": "por-que-typescript",
+      "titulo": "¿Por qué TypeScript?",
+      "aliases": [
+        "tipado"
+      ]
+    },
+    {
+      "id": "tipos-basicos",
+      "titulo": "Tipos básicos",
+      "aliases": [
+        "string",
+        "number",
+        "boolean"
+      ]
+    },
+    {
+      "id": "interfaces",
+      "titulo": "Interfaces y types",
+      "aliases": [
+        "interface",
+        "type"
+      ]
+    },
+    {
+      "id": "uniones",
+      "titulo": "Uniones y literales",
+      "aliases": [
+        "union",
+        "literal"
+      ]
+    },
+    {
+      "id": "funciones-tipadas",
+      "titulo": "Funciones tipadas",
+      "aliases": [
+        "parametros"
+      ]
+    },
+    {
+      "id": "genericos",
+      "titulo": "Genéricos",
+      "aliases": [
+        "generics"
+      ]
+    },
+    {
+      "id": "narrowing",
+      "titulo": "Estrechamiento de tipos",
+      "aliases": [
+        "typeof",
+        "narrowing"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "por-que-typescript",
+          "titulo": "¿Por qué TypeScript?",
+          "subtema": "por-que-typescript",
+          "archivo": "lecciones/por-que-typescript.json"
+        }
+      ]
+    }
+  ]
+}

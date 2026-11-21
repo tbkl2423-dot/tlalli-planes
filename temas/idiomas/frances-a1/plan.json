@@ -1,0 +1,86 @@
+{
+  "id": "frances-a1",
+  "titulo": "Francés A1",
+  "categoria": "idiomas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Francés desde cero: saludos, presentarte, números y frases de todos los días.",
+  "version": 1,
+  "aliases": [
+    "frances",
+    "frances basico",
+    "french"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "saludos",
+      "titulo": "Saludos y presentaciones",
+      "aliases": [
+        "bonjour",
+        "salut"
+      ]
+    },
+    {
+      "id": "pronunciacion",
+      "titulo": "Pronunciación",
+      "aliases": [
+        "letras mudas"
+      ]
+    },
+    {
+      "id": "numeros",
+      "titulo": "Números"
+    },
+    {
+      "id": "etre-avoir",
+      "titulo": "Être y avoir",
+      "aliases": [
+        "ser",
+        "tener"
+      ]
+    },
+    {
+      "id": "articulos",
+      "titulo": "Artículos y género",
+      "aliases": [
+        "le la les"
+      ]
+    },
+    {
+      "id": "verbos-er",
+      "titulo": "Verbos en -er",
+      "aliases": [
+        "parler"
+      ]
+    },
+    {
+      "id": "preguntas",
+      "titulo": "Hacer preguntas",
+      "aliases": [
+        "est-ce que"
+      ]
+    },
+    {
+      "id": "negacion",
+      "titulo": "La negación",
+      "aliases": [
+        "ne pas"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "saludos",
+          "titulo": "Saludos y presentaciones",
+          "subtema": "saludos",
+          "archivo": "lecciones/saludos.json"
+        }
+      ]
+    }
+  ]
+}

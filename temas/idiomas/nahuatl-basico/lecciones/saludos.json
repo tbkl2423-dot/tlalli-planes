@@ -1,0 +1,54 @@
+{
+  "id": "saludos",
+  "tema": "nahuatl-basico",
+  "subtema": "saludos",
+  "titulo": "Saludos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El náhuatl es una lengua viva. Muchas palabras del español de México vienen de ella, como chocolate, tomate, aguacate y chile."
+    },
+    {
+      "texto": "Un saludo común es niltze, que funciona como hola. Para preguntar cómo estás se dice quen tinemi."
+    },
+    {
+      "texto": "Para dar las gracias se dice tlazohcamati."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "gracias",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice gracias en náhuatl?",
+      "opciones": [
+        "Tlazohcamati",
+        "Niltze",
+        "Quen tinemi"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tlazohcamati es la forma de agradecer."
+    },
+    {
+      "id": "nahuatlismo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas palabras viene del náhuatl?",
+      "opciones": [
+        "Aguacate",
+        "Almohada",
+        "Guitarra"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Aguacate viene de ahuacatl. Almohada viene del árabe."
+    },
+    {
+      "id": "hola",
+      "tipo": "completar",
+      "enunciado": "Un saludo equivalente a hola es ___.",
+      "respuestas_validas": [
+        "niltze"
+      ],
+      "explicacion_respuesta": "Niltze se usa como saludo en varias variantes del náhuatl."
+    }
+  ]
+}

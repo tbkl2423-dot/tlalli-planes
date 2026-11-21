@@ -1,0 +1,78 @@
+{
+  "id": "nutricion",
+  "titulo": "Nutrición",
+  "categoria": "salud",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Qué nutrientes necesita el cuerpo, cómo leer etiquetas y cómo armar un plato equilibrado.",
+  "version": 1,
+  "aliases": [
+    "nutricion",
+    "alimentacion",
+    "comer sano"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "nutrientes",
+      "titulo": "Macronutrientes y micronutrientes",
+      "aliases": [
+        "proteinas",
+        "vitaminas"
+      ]
+    },
+    {
+      "id": "plato-del-bien-comer",
+      "titulo": "El plato del bien comer",
+      "aliases": [
+        "grupos de alimentos"
+      ]
+    },
+    {
+      "id": "hidratacion",
+      "titulo": "Hidratación",
+      "aliases": [
+        "agua"
+      ]
+    },
+    {
+      "id": "etiquetas",
+      "titulo": "Leer etiquetas y sellos",
+      "aliases": [
+        "octagonos"
+      ]
+    },
+    {
+      "id": "azucar-y-sal",
+      "titulo": "Azúcar, sal y grasas",
+      "aliases": [
+        "ultraprocesados"
+      ]
+    },
+    {
+      "id": "porciones",
+      "titulo": "Porciones"
+    },
+    {
+      "id": "mitos",
+      "titulo": "Mitos de la alimentación",
+      "aliases": [
+        "dietas"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "nutrientes",
+          "titulo": "Macronutrientes y micronutrientes",
+          "subtema": "nutrientes",
+          "archivo": "lecciones/nutrientes.json"
+        }
+      ]
+    }
+  ]
+}

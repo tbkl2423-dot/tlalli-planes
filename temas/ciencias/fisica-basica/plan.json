@@ -1,0 +1,114 @@
+{
+  "id": "fisica-basica",
+  "titulo": "Física básica",
+  "categoria": "ciencias",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Movimiento, fuerzas, energía, ondas y electricidad explicados con ejemplos cotidianos.",
+  "version": 1,
+  "aliases": [
+    "fisica",
+    "mecanica"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "magnitudes",
+      "titulo": "Magnitudes y unidades",
+      "aliases": [
+        "sistema internacional"
+      ]
+    },
+    {
+      "id": "movimiento",
+      "titulo": "Movimiento",
+      "aliases": [
+        "velocidad",
+        "aceleracion"
+      ]
+    },
+    {
+      "id": "leyes-de-newton",
+      "titulo": "Leyes de Newton",
+      "aliases": [
+        "inercia",
+        "fuerza"
+      ]
+    },
+    {
+      "id": "gravedad",
+      "titulo": "Gravedad",
+      "aliases": [
+        "peso",
+        "masa"
+      ]
+    },
+    {
+      "id": "energia",
+      "titulo": "Trabajo y energía",
+      "aliases": [
+        "cinetica",
+        "potencial"
+      ]
+    },
+    {
+      "id": "presion",
+      "titulo": "Presión y fluidos",
+      "aliases": [
+        "arquimedes"
+      ]
+    },
+    {
+      "id": "calor",
+      "titulo": "Calor y temperatura",
+      "aliases": [
+        "termodinamica"
+      ]
+    },
+    {
+      "id": "ondas-y-sonido",
+      "titulo": "Ondas y sonido",
+      "aliases": [
+        "frecuencia"
+      ]
+    },
+    {
+      "id": "luz",
+      "titulo": "Luz y óptica",
+      "aliases": [
+        "reflexion",
+        "refraccion"
+      ]
+    },
+    {
+      "id": "electricidad",
+      "titulo": "Electricidad",
+      "aliases": [
+        "voltaje",
+        "corriente",
+        "ley de ohm"
+      ]
+    },
+    {
+      "id": "magnetismo",
+      "titulo": "Magnetismo",
+      "aliases": [
+        "imanes"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "magnitudes",
+          "titulo": "Magnitudes y unidades",
+          "subtema": "magnitudes",
+          "archivo": "lecciones/magnitudes.json"
+        }
+      ]
+    }
+  ]
+}

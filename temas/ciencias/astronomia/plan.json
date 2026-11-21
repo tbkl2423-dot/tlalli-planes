@@ -1,0 +1,82 @@
+{
+  "id": "astronomia",
+  "titulo": "Astronomía",
+  "categoria": "ciencias",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "El sistema solar, las estrellas, las galaxias y cómo observamos el universo.",
+  "version": 1,
+  "aliases": [
+    "astronomia",
+    "espacio",
+    "universo"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "sistema-solar",
+      "titulo": "El sistema solar",
+      "aliases": [
+        "planetas"
+      ]
+    },
+    {
+      "id": "tierra-y-luna",
+      "titulo": "La Tierra y la Luna",
+      "aliases": [
+        "fases lunares",
+        "eclipses"
+      ]
+    },
+    {
+      "id": "estaciones",
+      "titulo": "Las estaciones del año",
+      "aliases": [
+        "inclinacion"
+      ]
+    },
+    {
+      "id": "estrellas",
+      "titulo": "Estrellas",
+      "aliases": [
+        "sol",
+        "vida de una estrella"
+      ]
+    },
+    {
+      "id": "galaxias",
+      "titulo": "Galaxias",
+      "aliases": [
+        "via lactea"
+      ]
+    },
+    {
+      "id": "telescopios",
+      "titulo": "Telescopios y observación",
+      "aliases": [
+        "observar el cielo"
+      ]
+    },
+    {
+      "id": "big-bang",
+      "titulo": "Origen del universo",
+      "aliases": [
+        "big bang"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "sistema-solar",
+          "titulo": "El sistema solar",
+          "subtema": "sistema-solar",
+          "archivo": "lecciones/sistema-solar.json"
+        }
+      ]
+    }
+  ]
+}

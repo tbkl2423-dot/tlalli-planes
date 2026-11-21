@@ -1,0 +1,132 @@
+{
+  "id": "historia-de-mexico",
+  "titulo": "Historia de México",
+  "categoria": "historia",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Del México antiguo a nuestros días: culturas mesoamericanas, Conquista, Virreinato, Independencia, Reforma, Revolución y México contemporáneo.",
+  "version": 1,
+  "aliases": [
+    "historia de mexico",
+    "historia nacional"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "mesoamerica",
+      "titulo": "Mesoamérica",
+      "aliases": [
+        "olmecas",
+        "mayas",
+        "teotihuacan"
+      ]
+    },
+    {
+      "id": "mexicas",
+      "titulo": "Los mexicas",
+      "aliases": [
+        "aztecas",
+        "tenochtitlan"
+      ]
+    },
+    {
+      "id": "conquista",
+      "titulo": "La Conquista",
+      "aliases": [
+        "1521",
+        "cortes"
+      ]
+    },
+    {
+      "id": "virreinato",
+      "titulo": "Nueva España",
+      "aliases": [
+        "colonia",
+        "virreinato"
+      ]
+    },
+    {
+      "id": "independencia",
+      "titulo": "La Independencia",
+      "aliases": [
+        "1810",
+        "hidalgo",
+        "morelos"
+      ]
+    },
+    {
+      "id": "primeras-decadas",
+      "titulo": "Primeras décadas del México independiente",
+      "aliases": [
+        "imperio de iturbide",
+        "santa anna"
+      ]
+    },
+    {
+      "id": "guerra-con-eu",
+      "titulo": "Guerra con Estados Unidos",
+      "aliases": [
+        "1847"
+      ]
+    },
+    {
+      "id": "reforma",
+      "titulo": "La Reforma",
+      "aliases": [
+        "juarez",
+        "leyes de reforma"
+      ]
+    },
+    {
+      "id": "intervencion-francesa",
+      "titulo": "Intervención francesa y Segundo Imperio",
+      "aliases": [
+        "maximiliano",
+        "5 de mayo"
+      ]
+    },
+    {
+      "id": "porfiriato",
+      "titulo": "El Porfiriato",
+      "aliases": [
+        "porfirio diaz"
+      ]
+    },
+    {
+      "id": "revolucion",
+      "titulo": "La Revolución Mexicana",
+      "aliases": [
+        "1910",
+        "madero",
+        "zapata",
+        "villa"
+      ]
+    },
+    {
+      "id": "mexico-moderno",
+      "titulo": "México en el siglo XX",
+      "aliases": [
+        "cardenas",
+        "expropiacion petrolera"
+      ]
+    },
+    {
+      "id": "mexico-contemporaneo",
+      "titulo": "México contemporáneo"
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "mesoamerica",
+          "titulo": "Mesoamérica",
+          "subtema": "mesoamerica",
+          "archivo": "lecciones/mesoamerica.json"
+        }
+      ]
+    }
+  ]
+}

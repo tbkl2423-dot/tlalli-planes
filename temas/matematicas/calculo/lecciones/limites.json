@@ -1,0 +1,45 @@
+{
+  "id": "limites",
+  "tema": "calculo",
+  "subtema": "limites",
+  "titulo": "Límites",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El cálculo estudia cómo cambian las cosas. La derivada mide qué tan rápido cambia una cantidad en un instante."
+    },
+    {
+      "texto": "Por ejemplo, si una función da la posición de un coche, su derivada da su velocidad."
+    },
+    {
+      "texto": "Una regla básica: la derivada de x a la n es n por x a la n menos uno.",
+      "codigo": "f(x) = x^3\nf'(x) = 3x^2"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "derivada-x2",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la derivada de x²?",
+      "opciones": [
+        "2x",
+        "x",
+        "x³/3"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se baja el exponente y se resta uno: 2·x¹ = 2x."
+    },
+    {
+      "id": "que-mide",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué mide la derivada?",
+      "respuesta_esperada": "Qué tan rápido cambia una función.",
+      "palabras_clave": [
+        "cambio",
+        "rapido"
+      ],
+      "explicacion_respuesta": "La derivada es la razón de cambio instantánea, la pendiente de la recta tangente."
+    }
+  ]
+}

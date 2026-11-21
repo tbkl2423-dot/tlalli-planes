@@ -1,0 +1,43 @@
+{
+  "id": "que-es-red",
+  "tema": "redes",
+  "subtema": "que-es-red",
+  "titulo": "¿Qué es una red?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una red conecta dispositivos para que intercambien datos. Internet es una red de redes."
+    },
+    {
+      "texto": "Cada dispositivo tiene una dirección IP, como la dirección de una casa, para que los datos lleguen al lugar correcto."
+    },
+    {
+      "texto": "Como recordar números es difícil, el DNS traduce nombres como un dominio web a su dirección IP."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "dns-hace",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace el DNS?",
+      "opciones": [
+        "Traduce nombres a direcciones IP",
+        "Da energía al router",
+        "Cifra contraseñas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El DNS funciona como una agenda: busca la IP que corresponde a un nombre."
+    },
+    {
+      "id": "https-s",
+      "tipo": "completar",
+      "enunciado": "HTTPS es la versión ___ de HTTP.",
+      "respuestas_validas": [
+        "segura",
+        "cifrada"
+      ],
+      "explicacion_respuesta": "La S significa seguro: la comunicación va cifrada."
+    }
+  ]
+}

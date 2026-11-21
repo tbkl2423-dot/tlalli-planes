@@ -1,0 +1,54 @@
+{
+  "id": "que-es-git",
+  "tema": "git",
+  "subtema": "que-es-git",
+  "titulo": "¿Qué es el control de versiones?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Git guarda fotos de tu proyecto llamadas commits. Así puedes volver a cualquier versión anterior."
+    },
+    {
+      "texto": "Primero eliges qué cambios guardar con git add, y luego los guardas con git commit y un mensaje.",
+      "codigo": "git add archivo.txt\ngit commit -m \"Agrega la portada\""
+    },
+    {
+      "texto": "GitHub es un sitio donde subes tu repositorio para tener respaldo y colaborar con otras personas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "que-es-commit",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es un commit?",
+      "opciones": [
+        "Una foto guardada del proyecto",
+        "Un servidor",
+        "Un lenguaje"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Un commit guarda el estado de los archivos en un momento, con un mensaje que lo describe."
+    },
+    {
+      "id": "preparar",
+      "tipo": "completar",
+      "enunciado": "git ___ archivo.txt",
+      "respuestas_validas": [
+        "add"
+      ],
+      "explicacion_respuesta": "git add prepara los cambios que entrarán en el próximo commit."
+    },
+    {
+      "id": "git-vs-github",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuál es la diferencia entre Git y GitHub?",
+      "respuesta_esperada": "Git es la herramienta de versiones y GitHub es un sitio para alojar repositorios.",
+      "palabras_clave": [
+        "herramienta",
+        "sitio"
+      ],
+      "explicacion_respuesta": "Git funciona en tu computadora; GitHub guarda copias en internet y facilita colaborar."
+    }
+  ]
+}

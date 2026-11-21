@@ -1,0 +1,93 @@
+{
+  "id": "probabilidad-y-estadistica",
+  "titulo": "Probabilidad y estadística",
+  "categoria": "matematicas",
+  "idioma": "es",
+  "nivel": "intermedio",
+  "descripcion": "Resumir datos, leer gráficas y calcular qué tan probable es que algo pase.",
+  "version": 1,
+  "aliases": [
+    "probabilidad",
+    "estadistica"
+  ],
+  "requisitos": [
+    "matematicas-basicas"
+  ],
+  "subtemas": [
+    {
+      "id": "tipos-de-datos",
+      "titulo": "Tipos de datos",
+      "aliases": [
+        "cualitativos",
+        "cuantitativos"
+      ]
+    },
+    {
+      "id": "tendencia-central",
+      "titulo": "Medidas de tendencia central",
+      "aliases": [
+        "media",
+        "mediana",
+        "moda"
+      ]
+    },
+    {
+      "id": "dispersion",
+      "titulo": "Rango y desviación estándar",
+      "aliases": [
+        "varianza"
+      ]
+    },
+    {
+      "id": "graficas",
+      "titulo": "Gráficas estadísticas",
+      "aliases": [
+        "histograma",
+        "barras"
+      ]
+    },
+    {
+      "id": "probabilidad-clasica",
+      "titulo": "Probabilidad clásica",
+      "aliases": [
+        "eventos"
+      ]
+    },
+    {
+      "id": "conteo",
+      "titulo": "Técnicas de conteo",
+      "aliases": [
+        "combinaciones",
+        "permutaciones"
+      ]
+    },
+    {
+      "id": "probabilidad-condicional",
+      "titulo": "Probabilidad condicional",
+      "aliases": [
+        "eventos dependientes"
+      ]
+    },
+    {
+      "id": "distribucion-normal",
+      "titulo": "Distribución normal",
+      "aliases": [
+        "campana de gauss"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "tipos-de-datos",
+          "titulo": "Tipos de datos",
+          "subtema": "tipos-de-datos",
+          "archivo": "lecciones/tipos-de-datos.json"
+        }
+      ]
+    }
+  ]
+}

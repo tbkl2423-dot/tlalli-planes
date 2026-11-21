@@ -1,0 +1,44 @@
+{
+  "id": "que-es-ia",
+  "tema": "inteligencia-artificial",
+  "subtema": "que-es-ia",
+  "titulo": "¿Qué es la inteligencia artificial?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La inteligencia artificial es la rama de la computación que crea sistemas capaces de hacer tareas que parecen requerir inteligencia, como reconocer imágenes o conversar."
+    },
+    {
+      "texto": "En el aprendizaje automático, el programa no recibe reglas escritas a mano: aprende patrones a partir de muchos ejemplos."
+    },
+    {
+      "texto": "Los modelos pueden equivocarse con mucha seguridad. Por eso conviene verificar los datos importantes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "aprende-de",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿De qué aprende un modelo de aprendizaje automático?",
+      "opciones": [
+        "De ejemplos",
+        "De su propia intuición",
+        "De nada"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se entrena con muchos ejemplos y ajusta sus parámetros para reconocer patrones."
+    },
+    {
+      "id": "verificar",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué conviene verificar lo que responde una IA?",
+      "respuesta_esperada": "Porque puede equivocarse aunque suene segura.",
+      "palabras_clave": [
+        "equivoca",
+        "error"
+      ],
+      "explicacion_respuesta": "Los modelos pueden inventar datos; revisar fuentes evita errores."
+    }
+  ]
+}

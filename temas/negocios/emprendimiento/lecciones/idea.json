@@ -1,0 +1,44 @@
+{
+  "id": "idea",
+  "tema": "emprendimiento",
+  "subtema": "idea",
+  "titulo": "De la idea al problema",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un buen negocio resuelve un problema real de alguien. Antes de invertir, confirma que el problema existe."
+    },
+    {
+      "texto": "Habla con posibles clientes y pregunta cómo resuelven hoy ese problema y cuánto les cuesta."
+    },
+    {
+      "texto": "Un producto mínimo viable es la versión más sencilla que te permite probar si la gente lo quiere."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mvp",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve un producto mínimo viable?",
+      "opciones": [
+        "Para probar la idea con poco gasto",
+        "Para vender más caro",
+        "Para evitar clientes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Te deja aprender rápido si la idea funciona."
+    },
+    {
+      "id": "margen",
+      "tipo": "completar",
+      "enunciado": "Precio de venta menos costo es el ___.",
+      "respuestas_validas": [
+        "margen",
+        "margen de ganancia",
+        "ganancia"
+      ],
+      "explicacion_respuesta": "El margen es lo que te queda por cada venta antes de gastos fijos."
+    }
+  ]
+}

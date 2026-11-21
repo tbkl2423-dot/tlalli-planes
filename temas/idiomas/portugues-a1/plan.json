@@ -1,0 +1,83 @@
+{
+  "id": "portugues-a1",
+  "titulo": "Portugués A1",
+  "categoria": "idiomas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Portugués para hispanohablantes: saludos, presentaciones y los falsos amigos más comunes.",
+  "version": 1,
+  "aliases": [
+    "portugues",
+    "portugues basico",
+    "brasil"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "saludos",
+      "titulo": "Saludos y presentaciones",
+      "aliases": [
+        "ola",
+        "tudo bem"
+      ]
+    },
+    {
+      "id": "pronunciacion",
+      "titulo": "Pronunciación",
+      "aliases": [
+        "nasales",
+        "ão"
+      ]
+    },
+    {
+      "id": "numeros",
+      "titulo": "Números"
+    },
+    {
+      "id": "verbo-ser-estar",
+      "titulo": "Ser y estar"
+    },
+    {
+      "id": "articulos",
+      "titulo": "Artículos y contracciones",
+      "aliases": [
+        "do",
+        "na"
+      ]
+    },
+    {
+      "id": "presente",
+      "titulo": "Presente de verbos regulares",
+      "aliases": [
+        "falar",
+        "comer"
+      ]
+    },
+    {
+      "id": "falsos-amigos",
+      "titulo": "Falsos amigos",
+      "aliases": [
+        "esquisito",
+        "polvo"
+      ]
+    },
+    {
+      "id": "rutina",
+      "titulo": "La rutina diaria"
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "saludos",
+          "titulo": "Saludos y presentaciones",
+          "subtema": "saludos",
+          "archivo": "lecciones/saludos.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "partes",
+  "tema": "computacion-basica",
+  "subtema": "partes",
+  "titulo": "Partes de una computadora",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una computadora tiene hardware, que son las partes que puedes tocar, y software, que son los programas."
+    },
+    {
+      "texto": "Los archivos guardan información, como fotos o documentos. Las carpetas sirven para ordenarlos."
+    },
+    {
+      "texto": "Atajos útiles: Control más C copia, Control más V pega y Control más Z deshace."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "deshacer",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué atajo deshace la última acción?",
+      "opciones": [
+        "Control + Z",
+        "Control + P",
+        "Control + S"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Control + Z deshace; Control + S guarda y Control + P imprime."
+    },
+    {
+      "id": "es-software",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estos es software?",
+      "opciones": [
+        "El navegador",
+        "El teclado",
+        "El monitor"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El navegador es un programa; teclado y monitor son hardware."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "algoritmos",
+  "titulo": "Algoritmos y estructuras de datos",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "intermedio",
+  "descripcion": "Cómo resolver problemas de forma eficiente: complejidad, búsqueda, ordenamiento y estructuras como pilas, colas, árboles y grafos.",
+  "version": 1,
+  "aliases": [
+    "algoritmos",
+    "estructuras de datos",
+    "big o"
+  ],
+  "requisitos": [
+    "python"
+  ],
+  "subtemas": [
+    {
+      "id": "que-es-algoritmo",
+      "titulo": "¿Qué es un algoritmo?",
+      "aliases": [
+        "pasos"
+      ]
+    },
+    {
+      "id": "complejidad",
+      "titulo": "Complejidad y notación O grande",
+      "aliases": [
+        "big o",
+        "eficiencia"
+      ]
+    },
+    {
+      "id": "busqueda",
+      "titulo": "Búsqueda lineal y binaria",
+      "aliases": [
+        "busqueda binaria"
+      ]
+    },
+    {
+      "id": "ordenamiento",
+      "titulo": "Algoritmos de ordenamiento",
+      "aliases": [
+        "burbuja",
+        "merge sort",
+        "quicksort"
+      ]
+    },
+    {
+      "id": "recursion",
+      "titulo": "Recursión",
+      "aliases": [
+        "recursivo"
+      ]
+    },
+    {
+      "id": "pilas-y-colas",
+      "titulo": "Pilas y colas",
+      "aliases": [
+        "stack",
+        "queue"
+      ]
+    },
+    {
+      "id": "listas-enlazadas",
+      "titulo": "Listas enlazadas",
+      "aliases": [
+        "linked list"
+      ]
+    },
+    {
+      "id": "tablas-hash",
+      "titulo": "Tablas hash",
+      "aliases": [
+        "hash",
+        "diccionario"
+      ]
+    },
+    {
+      "id": "arboles",
+      "titulo": "Árboles",
+      "aliases": [
+        "arbol binario",
+        "bst"
+      ]
+    },
+    {
+      "id": "grafos",
+      "titulo": "Grafos",
+      "aliases": [
+        "bfs",
+        "dfs"
+      ]
+    },
+    {
+      "id": "programacion-dinamica",
+      "titulo": "Programación dinámica",
+      "aliases": [
+        "memoizacion"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "que-es-algoritmo",
+          "titulo": "¿Qué es un algoritmo?",
+          "subtema": "que-es-algoritmo",
+          "archivo": "lecciones/que-es-algoritmo.json"
+        }
+      ]
+    }
+  ]
+}

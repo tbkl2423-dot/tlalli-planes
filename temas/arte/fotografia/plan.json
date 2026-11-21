@@ -1,0 +1,81 @@
+{
+  "id": "fotografia",
+  "titulo": "Fotografía",
+  "categoria": "arte",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Tomar mejores fotos con cualquier cámara: exposición, composición, luz y edición básica.",
+  "version": 1,
+  "aliases": [
+    "fotografia",
+    "fotos",
+    "camara"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "composicion",
+      "titulo": "Composición",
+      "aliases": [
+        "regla de los tercios"
+      ]
+    },
+    {
+      "id": "luz",
+      "titulo": "La luz",
+      "aliases": [
+        "hora dorada"
+      ]
+    },
+    {
+      "id": "exposicion",
+      "titulo": "Triángulo de exposición",
+      "aliases": [
+        "iso",
+        "apertura",
+        "velocidad de obturacion"
+      ]
+    },
+    {
+      "id": "enfoque",
+      "titulo": "Enfoque y profundidad de campo",
+      "aliases": [
+        "desenfoque"
+      ]
+    },
+    {
+      "id": "celular",
+      "titulo": "Fotografía con el celular"
+    },
+    {
+      "id": "retrato",
+      "titulo": "Retrato"
+    },
+    {
+      "id": "paisaje",
+      "titulo": "Paisaje"
+    },
+    {
+      "id": "edicion",
+      "titulo": "Edición básica",
+      "aliases": [
+        "lightroom",
+        "ajustes"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "composicion",
+          "titulo": "Composición",
+          "subtema": "composicion",
+          "archivo": "lecciones/composicion.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "finanzas-personales",
+  "titulo": "Finanzas personales",
+  "categoria": "negocios",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Organizar tu dinero: presupuesto, ahorro, deudas, crédito, interés compuesto y conceptos básicos de inversión.",
+  "version": 1,
+  "aliases": [
+    "finanzas",
+    "dinero",
+    "ahorro",
+    "presupuesto"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "presupuesto",
+      "titulo": "Presupuesto",
+      "aliases": [
+        "ingresos y gastos"
+      ]
+    },
+    {
+      "id": "ahorro",
+      "titulo": "Ahorro y fondo de emergencia",
+      "aliases": [
+        "fondo de emergencia"
+      ]
+    },
+    {
+      "id": "deudas",
+      "titulo": "Deudas",
+      "aliases": [
+        "pagar deudas"
+      ]
+    },
+    {
+      "id": "credito",
+      "titulo": "Tarjetas de crédito e historial",
+      "aliases": [
+        "buro de credito",
+        "cat"
+      ]
+    },
+    {
+      "id": "interes-compuesto",
+      "titulo": "Interés compuesto"
+    },
+    {
+      "id": "inversion",
+      "titulo": "Conceptos de inversión",
+      "aliases": [
+        "riesgo",
+        "diversificacion"
+      ]
+    },
+    {
+      "id": "retiro",
+      "titulo": "Ahorro para el retiro",
+      "aliases": [
+        "afore"
+      ]
+    },
+    {
+      "id": "impuestos",
+      "titulo": "Impuestos básicos",
+      "aliases": [
+        "sat"
+      ]
+    },
+    {
+      "id": "seguros",
+      "titulo": "Seguros"
+    },
+    {
+      "id": "fraudes",
+      "titulo": "Fraudes financieros",
+      "aliases": [
+        "estafas",
+        "piramides"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "presupuesto",
+          "titulo": "Presupuesto",
+          "subtema": "presupuesto",
+          "archivo": "lecciones/presupuesto.json"
+        }
+      ]
+    }
+  ]
+}

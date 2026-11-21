@@ -1,0 +1,105 @@
+{
+  "id": "teoria-musical",
+  "titulo": "Teoría musical",
+  "categoria": "arte",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Leer y entender la música: notas, ritmo, escalas, intervalos y acordes.",
+  "version": 1,
+  "aliases": [
+    "musica",
+    "solfeo",
+    "lectura musical"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "notas",
+      "titulo": "Las notas musicales",
+      "aliases": [
+        "do re mi"
+      ]
+    },
+    {
+      "id": "pentagrama",
+      "titulo": "Pentagrama y claves",
+      "aliases": [
+        "clave de sol"
+      ]
+    },
+    {
+      "id": "ritmo",
+      "titulo": "Figuras rítmicas",
+      "aliases": [
+        "negra",
+        "corchea"
+      ]
+    },
+    {
+      "id": "compas",
+      "titulo": "Compás",
+      "aliases": [
+        "4/4",
+        "metro"
+      ]
+    },
+    {
+      "id": "alteraciones",
+      "titulo": "Sostenidos y bemoles",
+      "aliases": [
+        "sostenido",
+        "bemol"
+      ]
+    },
+    {
+      "id": "escalas",
+      "titulo": "Escalas mayores y menores",
+      "aliases": [
+        "escala mayor"
+      ]
+    },
+    {
+      "id": "intervalos",
+      "titulo": "Intervalos",
+      "aliases": [
+        "tercera",
+        "quinta"
+      ]
+    },
+    {
+      "id": "acordes",
+      "titulo": "Acordes y triadas",
+      "aliases": [
+        "triada"
+      ]
+    },
+    {
+      "id": "armaduras",
+      "titulo": "Armaduras y tonalidades",
+      "aliases": [
+        "circulo de quintas"
+      ]
+    },
+    {
+      "id": "progresiones",
+      "titulo": "Progresiones de acordes",
+      "aliases": [
+        "i iv v"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "notas",
+          "titulo": "Las notas musicales",
+          "subtema": "notas",
+          "archivo": "lecciones/notas.json"
+        }
+      ]
+    }
+  ]
+}

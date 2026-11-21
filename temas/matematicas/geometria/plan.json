@@ -1,0 +1,100 @@
+{
+  "id": "geometria",
+  "titulo": "Geometría",
+  "categoria": "matematicas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Figuras, ángulos, áreas y volúmenes, y el teorema de Pitágoras.",
+  "version": 1,
+  "aliases": [
+    "geometria",
+    "figuras geometricas"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "angulos",
+      "titulo": "Ángulos",
+      "aliases": [
+        "grados",
+        "agudo",
+        "obtuso"
+      ]
+    },
+    {
+      "id": "triangulos",
+      "titulo": "Triángulos",
+      "aliases": [
+        "isosceles",
+        "equilatero"
+      ]
+    },
+    {
+      "id": "pitagoras",
+      "titulo": "Teorema de Pitágoras",
+      "aliases": [
+        "hipotenusa"
+      ]
+    },
+    {
+      "id": "cuadrilateros",
+      "titulo": "Cuadriláteros",
+      "aliases": [
+        "rectangulo",
+        "trapecio"
+      ]
+    },
+    {
+      "id": "circulo",
+      "titulo": "El círculo",
+      "aliases": [
+        "pi",
+        "radio",
+        "circunferencia"
+      ]
+    },
+    {
+      "id": "areas",
+      "titulo": "Áreas de figuras",
+      "aliases": [
+        "area"
+      ]
+    },
+    {
+      "id": "volumenes",
+      "titulo": "Volúmenes",
+      "aliases": [
+        "cubo",
+        "cilindro"
+      ]
+    },
+    {
+      "id": "semejanza",
+      "titulo": "Semejanza y congruencia",
+      "aliases": [
+        "escala"
+      ]
+    },
+    {
+      "id": "plano-cartesiano",
+      "titulo": "Plano cartesiano",
+      "aliases": [
+        "coordenadas"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "angulos",
+          "titulo": "Ángulos",
+          "subtema": "angulos",
+          "archivo": "lecciones/angulos.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "filosofia",
+  "titulo": "Introducción a la filosofía",
+  "categoria": "humanidades",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Las grandes preguntas: qué podemos conocer, qué es lo correcto y cómo argumentar bien.",
+  "version": 1,
+  "aliases": [
+    "filosofia",
+    "etica",
+    "logica"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "que-es-filosofia",
+      "titulo": "¿Qué es la filosofía?",
+      "aliases": [
+        "amor a la sabiduria"
+      ]
+    },
+    {
+      "id": "presocraticos",
+      "titulo": "Los presocráticos"
+    },
+    {
+      "id": "socrates-platon-aristoteles",
+      "titulo": "Sócrates, Platón y Aristóteles"
+    },
+    {
+      "id": "logica",
+      "titulo": "Lógica y argumentos",
+      "aliases": [
+        "falacias"
+      ]
+    },
+    {
+      "id": "etica",
+      "titulo": "Ética",
+      "aliases": [
+        "moral"
+      ]
+    },
+    {
+      "id": "epistemologia",
+      "titulo": "Teoría del conocimiento",
+      "aliases": [
+        "epistemologia"
+      ]
+    },
+    {
+      "id": "filosofia-moderna",
+      "titulo": "Filosofía moderna",
+      "aliases": [
+        "descartes",
+        "kant"
+      ]
+    },
+    {
+      "id": "filosofia-politica",
+      "titulo": "Filosofía política",
+      "aliases": [
+        "estado",
+        "justicia"
+      ]
+    },
+    {
+      "id": "filosofia-nahuatl",
+      "titulo": "Pensamiento náhuatl",
+      "aliases": [
+        "tlamatinime"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "que-es-filosofia",
+          "titulo": "¿Qué es la filosofía?",
+          "subtema": "que-es-filosofia",
+          "archivo": "lecciones/que-es-filosofia.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "kotlin",
+  "titulo": "Kotlin desde cero",
+  "categoria": "programacion",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "El lenguaje oficial para apps de Android: variables, funciones, clases y manejo seguro de valores nulos.",
+  "version": 1,
+  "aliases": [
+    "kotlin",
+    "android"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "val-y-var",
+      "titulo": "val y var",
+      "aliases": [
+        "variables",
+        "constantes"
+      ]
+    },
+    {
+      "id": "tipos",
+      "titulo": "Tipos básicos",
+      "aliases": [
+        "int",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "id": "funciones",
+      "titulo": "Funciones",
+      "aliases": [
+        "fun"
+      ]
+    },
+    {
+      "id": "condicionales",
+      "titulo": "if y when",
+      "aliases": [
+        "when",
+        "if"
+      ]
+    },
+    {
+      "id": "colecciones",
+      "titulo": "Listas y mapas",
+      "aliases": [
+        "listof",
+        "map"
+      ]
+    },
+    {
+      "id": "nulos",
+      "titulo": "Seguridad con nulos",
+      "aliases": [
+        "null safety",
+        "?.",
+        "elvis"
+      ]
+    },
+    {
+      "id": "clases",
+      "titulo": "Clases y data class",
+      "aliases": [
+        "class",
+        "data class"
+      ]
+    },
+    {
+      "id": "lambdas",
+      "titulo": "Lambdas",
+      "aliases": [
+        "funciones anonimas"
+      ]
+    },
+    {
+      "id": "corrutinas",
+      "titulo": "Corrutinas",
+      "aliases": [
+        "coroutines",
+        "suspend"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "val-y-var",
+          "titulo": "val y var",
+          "subtema": "val-y-var",
+          "archivo": "lecciones/val-y-var.json"
+        }
+      ]
+    }
+  ]
+}

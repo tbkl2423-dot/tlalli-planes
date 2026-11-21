@@ -1,0 +1,83 @@
+{
+  "id": "trigonometria",
+  "titulo": "Trigonometría",
+  "categoria": "matematicas",
+  "idioma": "es",
+  "nivel": "intermedio",
+  "descripcion": "Relaciones entre ángulos y lados de los triángulos: seno, coseno, tangente y sus aplicaciones.",
+  "version": 1,
+  "aliases": [
+    "trigonometria",
+    "seno coseno tangente"
+  ],
+  "requisitos": [
+    "geometria"
+  ],
+  "subtemas": [
+    {
+      "id": "razones-trigonometricas",
+      "titulo": "Razones trigonométricas",
+      "aliases": [
+        "seno",
+        "coseno",
+        "tangente"
+      ]
+    },
+    {
+      "id": "resolver-triangulos",
+      "titulo": "Resolver triángulos rectángulos",
+      "aliases": [
+        "catetos"
+      ]
+    },
+    {
+      "id": "radianes",
+      "titulo": "Grados y radianes",
+      "aliases": [
+        "radian"
+      ]
+    },
+    {
+      "id": "circulo-unitario",
+      "titulo": "Círculo unitario",
+      "aliases": [
+        "circulo trigonometrico"
+      ]
+    },
+    {
+      "id": "identidades",
+      "titulo": "Identidades trigonométricas",
+      "aliases": [
+        "sen2 + cos2"
+      ]
+    },
+    {
+      "id": "ley-de-senos-cosenos",
+      "titulo": "Ley de senos y de cosenos",
+      "aliases": [
+        "triangulos oblicuangulos"
+      ]
+    },
+    {
+      "id": "funciones-trigonometricas",
+      "titulo": "Gráficas de seno y coseno",
+      "aliases": [
+        "ondas"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "razones-trigonometricas",
+          "titulo": "Razones trigonométricas",
+          "subtema": "razones-trigonometricas",
+          "archivo": "lecciones/razones-trigonometricas.json"
+        }
+      ]
+    }
+  ]
+}

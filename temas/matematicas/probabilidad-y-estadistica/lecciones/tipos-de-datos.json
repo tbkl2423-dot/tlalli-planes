@@ -1,0 +1,42 @@
+{
+  "id": "tipos-de-datos",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "tipos-de-datos",
+  "titulo": "Tipos de datos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La probabilidad mide qué tan posible es que pase algo. Va de 0, imposible, a 1, seguro."
+    },
+    {
+      "texto": "Si todos los resultados son igual de posibles, la probabilidad es casos favorables entre casos posibles."
+    },
+    {
+      "texto": "Al lanzar un dado, sacar un 3 tiene probabilidad de 1 entre 6, porque hay seis caras y solo una es 3."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "moneda",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la probabilidad de que una moneda caiga en águila?",
+      "opciones": [
+        "1/2",
+        "1/3",
+        "1"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Hay dos resultados posibles y uno es favorable: 1/2."
+    },
+    {
+      "id": "dado-par",
+      "tipo": "completar",
+      "enunciado": "La probabilidad de sacar un número par con un dado es ___/6.",
+      "respuestas_validas": [
+        "3"
+      ],
+      "explicacion_respuesta": "Los pares son 2, 4 y 6: tres casos favorables de seis."
+    }
+  ]
+}

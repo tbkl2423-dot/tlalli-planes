@@ -1,0 +1,90 @@
+{
+  "id": "emprendimiento",
+  "titulo": "Emprendimiento",
+  "categoria": "negocios",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "De la idea al negocio: validar, modelo de negocio, costos y precios, ventas y formalización.",
+  "version": 1,
+  "aliases": [
+    "emprender",
+    "negocio propio",
+    "startup"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "idea",
+      "titulo": "De la idea al problema",
+      "aliases": [
+        "validacion"
+      ]
+    },
+    {
+      "id": "cliente",
+      "titulo": "Conocer a tu cliente",
+      "aliases": [
+        "entrevistas"
+      ]
+    },
+    {
+      "id": "modelo-de-negocio",
+      "titulo": "Modelo de negocio",
+      "aliases": [
+        "canvas"
+      ]
+    },
+    {
+      "id": "costos-y-precios",
+      "titulo": "Costos y precios",
+      "aliases": [
+        "margen",
+        "punto de equilibrio"
+      ]
+    },
+    {
+      "id": "producto-minimo",
+      "titulo": "Producto mínimo viable",
+      "aliases": [
+        "mvp"
+      ]
+    },
+    {
+      "id": "ventas",
+      "titulo": "Ventas"
+    },
+    {
+      "id": "finanzas-del-negocio",
+      "titulo": "Finanzas del negocio",
+      "aliases": [
+        "flujo de caja"
+      ]
+    },
+    {
+      "id": "formalizacion",
+      "titulo": "Formalizar tu negocio",
+      "aliases": [
+        "rfc",
+        "regimen fiscal"
+      ]
+    },
+    {
+      "id": "crecimiento",
+      "titulo": "Crecer y escalar"
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "idea",
+          "titulo": "De la idea al problema",
+          "subtema": "idea",
+          "archivo": "lecciones/idea.json"
+        }
+      ]
+    }
+  ]
+}

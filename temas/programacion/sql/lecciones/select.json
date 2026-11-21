@@ -1,0 +1,57 @@
+{
+  "id": "select",
+  "tema": "sql",
+  "subtema": "select",
+  "titulo": "Consultas con SELECT",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una base de datos relacional guarda la información en tablas, con filas y columnas, como una hoja de cálculo muy ordenada."
+    },
+    {
+      "texto": "SELECT indica qué columnas quieres y FROM de qué tabla. El asterisco significa todas las columnas.",
+      "codigo": "SELECT nombre, edad FROM alumnos;\nSELECT * FROM alumnos;"
+    },
+    {
+      "texto": "WHERE filtra las filas que cumplen una condición.",
+      "codigo": "SELECT nombre FROM alumnos WHERE edad >= 18;"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "todas-columnas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué símbolo pide todas las columnas en un SELECT?",
+      "opciones": [
+        "*",
+        "%",
+        "#"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El asterisco después de SELECT trae todas las columnas de la tabla."
+    },
+    {
+      "id": "palabra-from",
+      "tipo": "completar",
+      "enunciado": "SELECT nombre ___ alumnos;",
+      "respuestas_validas": [
+        "FROM",
+        "from"
+      ],
+      "explicacion_respuesta": "FROM indica de qué tabla salen los datos."
+    },
+    {
+      "id": "filtrar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué cláusula filtra filas según una condición?",
+      "opciones": [
+        "WHERE",
+        "ORDER BY",
+        "SELECT"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "WHERE deja pasar solo las filas que cumplen la condición."
+    }
+  ]
+}

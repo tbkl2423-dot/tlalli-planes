@@ -1,0 +1,100 @@
+{
+  "id": "ingles-a2",
+  "titulo": "Inglés A2",
+  "categoria": "idiomas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Hablar del pasado, de planes y de comparaciones en situaciones cotidianas.",
+  "version": 1,
+  "aliases": [
+    "ingles basico 2",
+    "english a2",
+    "ingles pre intermedio"
+  ],
+  "requisitos": [
+    "ingles-a1"
+  ],
+  "subtemas": [
+    {
+      "id": "pasado-simple",
+      "titulo": "Pasado simple",
+      "aliases": [
+        "past simple",
+        "ed"
+      ]
+    },
+    {
+      "id": "verbos-irregulares",
+      "titulo": "Verbos irregulares",
+      "aliases": [
+        "went",
+        "had"
+      ]
+    },
+    {
+      "id": "going-to",
+      "titulo": "Planes con going to",
+      "aliases": [
+        "futuro"
+      ]
+    },
+    {
+      "id": "will",
+      "titulo": "Futuro con will"
+    },
+    {
+      "id": "comparativos",
+      "titulo": "Comparativos y superlativos",
+      "aliases": [
+        "bigger",
+        "the biggest"
+      ]
+    },
+    {
+      "id": "contables",
+      "titulo": "Contables e incontables",
+      "aliases": [
+        "some any",
+        "much many"
+      ]
+    },
+    {
+      "id": "presente-perfecto",
+      "titulo": "Presente perfecto (intro)",
+      "aliases": [
+        "have been",
+        "ever"
+      ]
+    },
+    {
+      "id": "adverbios-frecuencia",
+      "titulo": "Adverbios de frecuencia",
+      "aliases": [
+        "always",
+        "never"
+      ]
+    },
+    {
+      "id": "should-must",
+      "titulo": "Should y must",
+      "aliases": [
+        "consejos",
+        "obligacion"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "pasado-simple",
+          "titulo": "Pasado simple",
+          "subtema": "pasado-simple",
+          "archivo": "lecciones/pasado-simple.json"
+        }
+      ]
+    }
+  ]
+}

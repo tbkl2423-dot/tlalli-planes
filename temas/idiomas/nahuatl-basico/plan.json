@@ -1,0 +1,88 @@
+{
+  "id": "nahuatl-basico",
+  "titulo": "Náhuatl básico",
+  "categoria": "idiomas",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Primeros pasos en la lengua de los mexicas, hablada hoy por más de millón y medio de personas en México.",
+  "version": 1,
+  "aliases": [
+    "nahuatl",
+    "mexicano",
+    "lengua nahuatl"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "saludos",
+      "titulo": "Saludos",
+      "aliases": [
+        "niltze",
+        "quen tinemi"
+      ]
+    },
+    {
+      "id": "pronunciacion",
+      "titulo": "Pronunciación y escritura",
+      "aliases": [
+        "tl",
+        "alfabeto"
+      ]
+    },
+    {
+      "id": "numeros",
+      "titulo": "Números",
+      "aliases": [
+        "ce ome yei"
+      ]
+    },
+    {
+      "id": "familia",
+      "titulo": "La familia"
+    },
+    {
+      "id": "cuerpo",
+      "titulo": "Partes del cuerpo"
+    },
+    {
+      "id": "naturaleza",
+      "titulo": "Naturaleza y animales"
+    },
+    {
+      "id": "sustantivos",
+      "titulo": "Sustantivos y plurales",
+      "aliases": [
+        "absolutivo"
+      ]
+    },
+    {
+      "id": "verbos-presente",
+      "titulo": "Verbos en presente",
+      "aliases": [
+        "prefijos de persona"
+      ]
+    },
+    {
+      "id": "palabras-en-espanol",
+      "titulo": "Nahuatlismos en el español",
+      "aliases": [
+        "chocolate",
+        "aguacate"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "saludos",
+          "titulo": "Saludos",
+          "subtema": "saludos",
+          "archivo": "lecciones/saludos.json"
+        }
+      ]
+    }
+  ]
+}

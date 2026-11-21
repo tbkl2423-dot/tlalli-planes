@@ -1,0 +1,82 @@
+{
+  "id": "ecologia-y-medio-ambiente",
+  "titulo": "Ecología y medio ambiente",
+  "categoria": "ciencias",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Cómo funcionan los ecosistemas, el cambio climático y qué podemos hacer para cuidar el planeta.",
+  "version": 1,
+  "aliases": [
+    "medio ambiente",
+    "cambio climatico",
+    "sustentabilidad"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "ecosistemas",
+      "titulo": "Ecosistemas",
+      "aliases": [
+        "bioma"
+      ]
+    },
+    {
+      "id": "cadenas-troficas",
+      "titulo": "Cadenas y redes tróficas",
+      "aliases": [
+        "productores",
+        "consumidores"
+      ]
+    },
+    {
+      "id": "ciclos",
+      "titulo": "Ciclos del agua y del carbono",
+      "aliases": [
+        "ciclo del agua"
+      ]
+    },
+    {
+      "id": "biodiversidad",
+      "titulo": "Biodiversidad",
+      "aliases": [
+        "especies",
+        "megadiverso"
+      ]
+    },
+    {
+      "id": "cambio-climatico",
+      "titulo": "Cambio climático",
+      "aliases": [
+        "efecto invernadero"
+      ]
+    },
+    {
+      "id": "contaminacion",
+      "titulo": "Contaminación",
+      "aliases": [
+        "residuos"
+      ]
+    },
+    {
+      "id": "consumo-responsable",
+      "titulo": "Consumo responsable",
+      "aliases": [
+        "reciclaje"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "primeros-pasos",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "ecosistemas",
+          "titulo": "Ecosistemas",
+          "subtema": "ecosistemas",
+          "archivo": "lecciones/ecosistemas.json"
+        }
+      ]
+    }
+  ]
+}

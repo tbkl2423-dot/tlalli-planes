@@ -1,0 +1,44 @@
+{
+  "id": "emociones",
+  "tema": "salud-mental",
+  "subtema": "emociones",
+  "titulo": "Las emociones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las emociones son reacciones naturales que nos dan información. Ninguna emoción es mala; lo importante es qué hacemos con ella."
+    },
+    {
+      "texto": "El estrés es la respuesta del cuerpo ante un reto. Un poco ayuda a concentrarte; mucho tiempo seguido daña la salud."
+    },
+    {
+      "texto": "Si la tristeza o la angustia duran semanas o no te dejan hacer tu vida, busca a un profesional de la salud. Pedir ayuda es un acto de fuerza."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "estres-largo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué pasa con el estrés que dura mucho tiempo?",
+      "opciones": [
+        "Daña la salud",
+        "Siempre ayuda",
+        "No tiene efecto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El estrés crónico afecta el sueño, el ánimo y el cuerpo."
+    },
+    {
+      "id": "cuando-ayuda",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuándo conviene buscar ayuda profesional?",
+      "respuesta_esperada": "Cuando el malestar dura semanas o impide hacer la vida diaria.",
+      "palabras_clave": [
+        "semanas",
+        "diaria"
+      ],
+      "explicacion_respuesta": "La duración y el impacto en tu vida son señales para buscar apoyo."
+    }
+  ]
+}

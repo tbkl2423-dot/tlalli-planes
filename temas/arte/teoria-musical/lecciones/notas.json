@@ -1,0 +1,44 @@
+{
+  "id": "notas",
+  "tema": "teoria-musical",
+  "subtema": "notas",
+  "titulo": "Las notas musicales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Hay siete notas naturales: do, re, mi, fa, sol, la y si. Después se repiten más agudas."
+    },
+    {
+      "texto": "La música se escribe en el pentagrama, que tiene cinco líneas y cuatro espacios."
+    },
+    {
+      "texto": "La duración se indica con figuras: la redonda dura cuatro tiempos, la blanca dos y la negra uno."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "lineas",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas líneas tiene un pentagrama?",
+      "opciones": [
+        "5",
+        "4",
+        "7"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Pentagrama viene de penta, cinco."
+    },
+    {
+      "id": "negra",
+      "tipo": "completar",
+      "enunciado": "En un compás de 4/4, la negra dura ___ tiempo.",
+      "respuestas_validas": [
+        "1",
+        "un",
+        "uno"
+      ],
+      "explicacion_respuesta": "La negra vale un tiempo; la blanca dos y la redonda cuatro."
+    }
+  ]
+}

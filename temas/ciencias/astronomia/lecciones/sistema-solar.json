@@ -1,0 +1,43 @@
+{
+  "id": "sistema-solar",
+  "tema": "astronomia",
+  "subtema": "sistema-solar",
+  "titulo": "El sistema solar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El sistema solar tiene al Sol en el centro y ocho planetas que giran a su alrededor."
+    },
+    {
+      "texto": "En orden desde el Sol: Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno."
+    },
+    {
+      "texto": "Júpiter es el planeta más grande. Los cuatro primeros son rocosos y los cuatro últimos son gigantes de gas y hielo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mas-grande",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+      "opciones": [
+        "Júpiter",
+        "Saturno",
+        "Tierra"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Júpiter es tan grande que cabrían en él más de mil Tierras."
+    },
+    {
+      "id": "tercer-planeta",
+      "tipo": "completar",
+      "enunciado": "El tercer planeta desde el Sol es la ___.",
+      "respuestas_validas": [
+        "Tierra",
+        "tierra"
+      ],
+      "explicacion_respuesta": "Mercurio, Venus y luego la Tierra."
+    }
+  ]
+}
