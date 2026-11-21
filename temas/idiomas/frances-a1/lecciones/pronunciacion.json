@@ -1,0 +1,42 @@
+{
+  "id": "pronunciacion",
+  "tema": "frances-a1",
+  "subtema": "pronunciacion",
+  "titulo": "Pronunciación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En francés muchas consonantes finales no se pronuncian: petit suena petí."
+    },
+    {
+      "texto": "La combinación ou suena como u, y la u sola suena con los labios redondos, entre u e i."
+    },
+    {
+      "texto": "Oi suena como ua: moi, yo, se pronuncia muá."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "oi",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo suena oi en moi?",
+      "opciones": [
+        "ua",
+        "oi",
+        "o"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Moi suena muá."
+    },
+    {
+      "id": "ou",
+      "tipo": "completar",
+      "enunciado": "La combinación ___ suena como la u del español.",
+      "respuestas_validas": [
+        "ou"
+      ],
+      "explicacion_respuesta": "Como en vous, que suena vu."
+    }
+  ]
+}

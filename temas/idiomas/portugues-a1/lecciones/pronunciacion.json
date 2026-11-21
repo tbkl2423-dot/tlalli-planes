@@ -1,0 +1,43 @@
+{
+  "id": "pronunciacion",
+  "tema": "portugues-a1",
+  "subtema": "pronunciacion",
+  "titulo": "Pronunciación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El portugués tiene sonidos nasales, como en ão: pão, pan, o não, no."
+    },
+    {
+      "texto": "En Brasil, la d y la t antes de i suenan como dch y ch: dia suena parecido a dchía."
+    },
+    {
+      "texto": "La lh suena como ll y la nh como ñ: filho, hijo; amanhã, mañana."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nh",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo suena nh en portugués?",
+      "opciones": [
+        "Como ñ",
+        "Como n",
+        "Como nj"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Amanhã suena amañã."
+    },
+    {
+      "id": "pan",
+      "tipo": "completar",
+      "enunciado": "Pan en portugués es ___.",
+      "respuestas_validas": [
+        "pão",
+        "pao"
+      ],
+      "explicacion_respuesta": "La terminación ão es nasal."
+    }
+  ]
+}

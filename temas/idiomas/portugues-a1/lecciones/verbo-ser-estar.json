@@ -1,0 +1,45 @@
+{
+  "id": "verbo-ser-estar",
+  "tema": "portugues-a1",
+  "subtema": "verbo-ser-estar",
+  "titulo": "Ser y estar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Como en español, ser es para lo permanente y estar para lo temporal."
+    },
+    {
+      "texto": "Ser: eu sou, você é, nós somos. Estar: eu estou, você está, nós estamos."
+    },
+    {
+      "texto": "Eu sou mexicano. Eu estou cansado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sou",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice yo soy?",
+      "opciones": [
+        "Eu sou",
+        "Eu estou",
+        "Eu é"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Sou es la primera persona de ser."
+    },
+    {
+      "id": "estoy-feliz",
+      "tipo": "traduccion",
+      "frase": "Estoy feliz",
+      "idioma_origen": "es",
+      "idioma_destino": "pt",
+      "respuestas_validas": [
+        "eu estou feliz",
+        "estou feliz"
+      ],
+      "explicacion_respuesta": "Estar para estados temporales."
+    }
+  ]
+}

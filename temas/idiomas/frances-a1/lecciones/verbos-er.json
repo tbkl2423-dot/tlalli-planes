@@ -1,0 +1,44 @@
+{
+  "id": "verbos-er",
+  "tema": "frances-a1",
+  "subtema": "verbos-er",
+  "titulo": "Verbos en -er",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La mayoría de los verbos franceses terminan en er, como parler, hablar."
+    },
+    {
+      "texto": "Se conjugan: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent."
+    },
+    {
+      "texto": "Je parle, tu parles, il parle e ils parlent se pronuncian igual."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nous",
+      "tipo": "opcion_multiple",
+      "pregunta": "Nous ___ (parler)",
+      "opciones": [
+        "parlons",
+        "parle",
+        "parlez"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con nous la terminación es ons."
+    },
+    {
+      "id": "hablo-frances",
+      "tipo": "traduccion",
+      "frase": "Hablo español",
+      "idioma_origen": "es",
+      "idioma_destino": "fr",
+      "respuestas_validas": [
+        "je parle espagnol"
+      ],
+      "explicacion_respuesta": "Je parle más el idioma."
+    }
+  ]
+}

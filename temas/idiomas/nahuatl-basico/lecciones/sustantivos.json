@@ -1,0 +1,42 @@
+{
+  "id": "sustantivos",
+  "tema": "nahuatl-basico",
+  "subtema": "sustantivos",
+  "titulo": "Sustantivos y plurales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Muchos sustantivos terminan en tl, tli, li o in cuando están solos: atl, tlalli, calli, citlalin."
+    },
+    {
+      "texto": "Al poseerlos se pierde esa terminación: calli es casa y nocal es mi casa."
+    },
+    {
+      "texto": "Los posesivos son no, mi; mo, tu; i, su: nocal, mocal, ical."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tu-casa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice tu casa?",
+      "opciones": [
+        "Mocal",
+        "Nocal",
+        "Ical"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Mo significa tu."
+    },
+    {
+      "id": "su",
+      "tipo": "completar",
+      "enunciado": "El prefijo para su es ___.",
+      "respuestas_validas": [
+        "i"
+      ],
+      "explicacion_respuesta": "Ical significa su casa."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "familia",
+  "tema": "nahuatl-basico",
+  "subtema": "familia",
+  "titulo": "La familia",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Madre se dice nantli y padre tahtli. Para decir mi se agrega no al inicio y se quita la terminación: nonan, mi madre; notah, mi padre."
+    },
+    {
+      "texto": "Para hablar con cariño o respeto se agrega tzin: nonantzin, mi madrecita."
+    },
+    {
+      "texto": "Niño o hijo pequeño se dice conetl."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "madre",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice mi madre?",
+      "opciones": [
+        "Nonan",
+        "Notah",
+        "Conetl"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "No significa mi; nan, madre."
+    },
+    {
+      "id": "respeto",
+      "tipo": "completar",
+      "enunciado": "La terminación de cariño y respeto es ___.",
+      "respuestas_validas": [
+        "tzin",
+        "-tzin"
+      ],
+      "explicacion_respuesta": "Como en nonantzin o en Cuauhtemoctzin."
+    }
+  ]
+}

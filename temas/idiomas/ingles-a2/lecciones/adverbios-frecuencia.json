@@ -1,0 +1,45 @@
+{
+  "id": "adverbios-frecuencia",
+  "tema": "ingles-a2",
+  "subtema": "adverbios-frecuencia",
+  "titulo": "Adverbios de frecuencia",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los adverbios de frecuencia dicen qué tan seguido pasa algo: always, usually, often, sometimes, rarely y never."
+    },
+    {
+      "texto": "Van antes del verbo principal: I usually walk to work."
+    },
+    {
+      "texto": "Pero van después del verbo to be: she is always late."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "posicion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es correcta?",
+      "opciones": [
+        "He is never late",
+        "He never is late",
+        "Never he is late"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con to be, el adverbio va después."
+    },
+    {
+      "id": "siempre",
+      "tipo": "traduccion",
+      "frase": "Siempre desayuno",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i always have breakfast",
+        "i always eat breakfast"
+      ],
+      "explicacion_respuesta": "Always va antes del verbo."
+    }
+  ]
+}

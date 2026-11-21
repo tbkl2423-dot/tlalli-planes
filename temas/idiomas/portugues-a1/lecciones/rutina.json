@@ -1,0 +1,46 @@
+{
+  "id": "rutina",
+  "tema": "portugues-a1",
+  "subtema": "rutina",
+  "titulo": "La rutina diaria",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para tu rutina: eu acordo, me despierto; eu tomo café da manhã, desayuno; eu trabalho, trabajo."
+    },
+    {
+      "texto": "Los días son segunda-feira, lunes; terça-feira, martes; y así hasta sexta-feira, viernes. Sábado y domingo son iguales."
+    },
+    {
+      "texto": "Para la hora: que horas são? São três horas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "lunes",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice lunes?",
+      "opciones": [
+        "Segunda-feira",
+        "Primeira-feira",
+        "Lunes-feira"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La semana empieza a contar desde el domingo."
+    },
+    {
+      "id": "desayuno",
+      "tipo": "traduccion",
+      "frase": "Desayuno a las siete",
+      "idioma_origen": "es",
+      "idioma_destino": "pt",
+      "respuestas_validas": [
+        "eu tomo café da manhã às sete",
+        "tomo café da manhã às sete",
+        "eu tomo cafe da manha as sete"
+      ],
+      "explicacion_respuesta": "Café da manhã es el desayuno."
+    }
+  ]
+}

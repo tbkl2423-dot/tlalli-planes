@@ -1,0 +1,42 @@
+{
+  "id": "verbos-presente",
+  "tema": "nahuatl-basico",
+  "subtema": "verbos-presente",
+  "titulo": "Verbos en presente",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los verbos cambian con prefijos que indican la persona."
+    },
+    {
+      "texto": "Ni es yo, ti es tú, y sin prefijo es él o ella. Con el verbo cochi, dormir: nicochi, ticochi, cochi."
+    },
+    {
+      "texto": "En plural se agrega una h al final: ticochih, nosotros dormimos; ancochih, ustedes duermen; cochih, ellos duermen."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "yo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice yo duermo?",
+      "opciones": [
+        "Nicochi",
+        "Ticochi",
+        "Cochi"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ni marca la primera persona."
+    },
+    {
+      "id": "tu",
+      "tipo": "completar",
+      "enunciado": "Tú duermes: ___cochi",
+      "respuestas_validas": [
+        "ti"
+      ],
+      "explicacion_respuesta": "Ti marca la segunda persona del singular."
+    }
+  ]
+}

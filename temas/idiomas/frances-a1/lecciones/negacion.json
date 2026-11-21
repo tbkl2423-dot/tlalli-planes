@@ -1,0 +1,44 @@
+{
+  "id": "negacion",
+  "tema": "frances-a1",
+  "subtema": "negacion",
+  "titulo": "La negación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La negación en francés rodea al verbo con ne y pas: je ne parle pas."
+    },
+    {
+      "texto": "Antes de vocal, ne se vuelve n': je n'aime pas."
+    },
+    {
+      "texto": "Al hablar, muchas personas omiten ne: je sais pas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "no-entiendo",
+      "tipo": "traduccion",
+      "frase": "No entiendo",
+      "idioma_origen": "es",
+      "idioma_destino": "fr",
+      "respuestas_validas": [
+        "je ne comprends pas"
+      ],
+      "explicacion_respuesta": "Ne y pas rodean al verbo."
+    },
+    {
+      "id": "forma",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es correcta?",
+      "opciones": [
+        "Je ne mange pas",
+        "Je pas mange",
+        "Je mange ne pas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ne antes del verbo y pas después."
+    }
+  ]
+}

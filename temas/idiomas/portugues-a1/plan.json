@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Portugués para hispanohablantes: saludos, presentaciones y los falsos amigos más comunes.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "portugues",
     "portugues basico",
@@ -68,7 +68,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -76,6 +76,54 @@
           "titulo": "Saludos y presentaciones",
           "subtema": "saludos",
           "archivo": "lecciones/saludos.json"
+        },
+        {
+          "id": "pronunciacion",
+          "titulo": "Pronunciación",
+          "subtema": "pronunciacion",
+          "archivo": "lecciones/pronunciacion.json"
+        },
+        {
+          "id": "numeros",
+          "titulo": "Números",
+          "subtema": "numeros",
+          "archivo": "lecciones/numeros.json"
+        },
+        {
+          "id": "verbo-ser-estar",
+          "titulo": "Ser y estar",
+          "subtema": "verbo-ser-estar",
+          "archivo": "lecciones/verbo-ser-estar.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "articulos",
+          "titulo": "Artículos y contracciones",
+          "subtema": "articulos",
+          "archivo": "lecciones/articulos.json"
+        },
+        {
+          "id": "presente",
+          "titulo": "Presente de verbos regulares",
+          "subtema": "presente",
+          "archivo": "lecciones/presente.json"
+        },
+        {
+          "id": "falsos-amigos",
+          "titulo": "Falsos amigos",
+          "subtema": "falsos-amigos",
+          "archivo": "lecciones/falsos-amigos.json"
+        },
+        {
+          "id": "rutina",
+          "titulo": "La rutina diaria",
+          "subtema": "rutina",
+          "archivo": "lecciones/rutina.json"
         }
       ]
     }

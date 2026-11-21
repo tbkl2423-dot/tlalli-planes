@@ -1,0 +1,43 @@
+{
+  "id": "naturaleza",
+  "tema": "nahuatl-basico",
+  "subtema": "naturaleza",
+  "titulo": "Naturaleza y animales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Agua es atl, fuego tletl, tierra tlalli y cerro tepetl."
+    },
+    {
+      "texto": "Flor es xochitl, sol tonatiuh, luna metztli y estrella citlalin."
+    },
+    {
+      "texto": "Muchos lugares de México llevan estas palabras: Tepetlixpa, Atlixco o Xochimilco."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tierra",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa tlalli?",
+      "opciones": [
+        "Tierra",
+        "Agua",
+        "Fuego"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "De ahí el nombre de esta app: Tlalli."
+    },
+    {
+      "id": "flor",
+      "tipo": "completar",
+      "enunciado": "Flor se dice ___.",
+      "respuestas_validas": [
+        "xochitl",
+        "xóchitl"
+      ],
+      "explicacion_respuesta": "Como en Xochimilco, lugar de flores."
+    }
+  ]
+}

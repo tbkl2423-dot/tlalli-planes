@@ -1,0 +1,42 @@
+{
+  "id": "articulos",
+  "tema": "portugues-a1",
+  "subtema": "articulos",
+  "titulo": "Artículos y contracciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los artículos son o, a, os, as: el, la, los, las."
+    },
+    {
+      "texto": "Se combinan con preposiciones: de más o da do, en más a da na."
+    },
+    {
+      "texto": "Por ejemplo: a casa do João, la casa de João; estou na escola, estoy en la escuela."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "na",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa na escola?",
+      "opciones": [
+        "En la escuela",
+        "De la escuela",
+        "A la escuela"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Na es em más a."
+    },
+    {
+      "id": "do",
+      "tipo": "completar",
+      "enunciado": "A casa ___ Pedro (de + o)",
+      "respuestas_validas": [
+        "do"
+      ],
+      "explicacion_respuesta": "De más o forma do."
+    }
+  ]
+}

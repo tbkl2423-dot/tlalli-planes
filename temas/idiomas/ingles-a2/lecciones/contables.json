@@ -1,0 +1,42 @@
+{
+  "id": "contables",
+  "tema": "ingles-a2",
+  "subtema": "contables",
+  "titulo": "Contables e incontables",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los sustantivos contables se pueden contar: one apple, two apples. Los incontables no: water, rice, money."
+    },
+    {
+      "texto": "Con contables se usa many y con incontables much: many books, much water."
+    },
+    {
+      "texto": "Some se usa en afirmaciones y any en preguntas y negaciones: I have some money. Do you have any?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "much",
+      "tipo": "opcion_multiple",
+      "pregunta": "Completa: How ___ water do you drink?",
+      "opciones": [
+        "much",
+        "many",
+        "a"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Water es incontable."
+    },
+    {
+      "id": "any",
+      "tipo": "completar",
+      "enunciado": "I don't have ___ friends here.",
+      "respuestas_validas": [
+        "any"
+      ],
+      "explicacion_respuesta": "Any en negaciones."
+    }
+  ]
+}

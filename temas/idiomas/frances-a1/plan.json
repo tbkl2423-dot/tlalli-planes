@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Francés desde cero: saludos, presentarte, números y frases de todos los días.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "frances",
     "frances basico",
@@ -71,7 +71,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -79,6 +79,54 @@
           "titulo": "Saludos y presentaciones",
           "subtema": "saludos",
           "archivo": "lecciones/saludos.json"
+        },
+        {
+          "id": "pronunciacion",
+          "titulo": "Pronunciación",
+          "subtema": "pronunciacion",
+          "archivo": "lecciones/pronunciacion.json"
+        },
+        {
+          "id": "numeros",
+          "titulo": "Números",
+          "subtema": "numeros",
+          "archivo": "lecciones/numeros.json"
+        },
+        {
+          "id": "etre-avoir",
+          "titulo": "Être y avoir",
+          "subtema": "etre-avoir",
+          "archivo": "lecciones/etre-avoir.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "articulos",
+          "titulo": "Artículos y género",
+          "subtema": "articulos",
+          "archivo": "lecciones/articulos.json"
+        },
+        {
+          "id": "verbos-er",
+          "titulo": "Verbos en -er",
+          "subtema": "verbos-er",
+          "archivo": "lecciones/verbos-er.json"
+        },
+        {
+          "id": "preguntas",
+          "titulo": "Hacer preguntas",
+          "subtema": "preguntas",
+          "archivo": "lecciones/preguntas.json"
+        },
+        {
+          "id": "negacion",
+          "titulo": "La negación",
+          "subtema": "negacion",
+          "archivo": "lecciones/negacion.json"
         }
       ]
     }

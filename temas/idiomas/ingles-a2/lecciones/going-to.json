@@ -1,0 +1,42 @@
+{
+  "id": "going-to",
+  "tema": "ingles-a2",
+  "subtema": "going-to",
+  "titulo": "Planes con going to",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Going to se usa para planes e intenciones: I'm going to study tonight."
+    },
+    {
+      "texto": "Se forma con am, is o are, más going to, más el verbo."
+    },
+    {
+      "texto": "También sirve para predicciones con evidencia: look at those clouds, it's going to rain."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "plan",
+      "tipo": "completar",
+      "enunciado": "We ___ going to travel next week.",
+      "respuestas_validas": [
+        "are"
+      ],
+      "explicacion_respuesta": "Con we se usa are."
+    },
+    {
+      "id": "voy-a-estudiar",
+      "tipo": "traduccion",
+      "frase": "Voy a estudiar",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i am going to study",
+        "i'm going to study"
+      ],
+      "explicacion_respuesta": "Am going to más el verbo."
+    }
+  ]
+}

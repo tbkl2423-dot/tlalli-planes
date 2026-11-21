@@ -1,0 +1,44 @@
+{
+  "id": "should-must",
+  "tema": "ingles-a2",
+  "subtema": "should-must",
+  "titulo": "Should y must",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Should da consejos: you should drink more water."
+    },
+    {
+      "texto": "Must expresa obligación fuerte: you must wear a seatbelt."
+    },
+    {
+      "texto": "Mustn't es prohibición: you mustn't smoke here."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "consejo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué verbo da un consejo?",
+      "opciones": [
+        "should",
+        "must",
+        "mustn't"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Should es para recomendaciones."
+    },
+    {
+      "id": "deberias",
+      "tipo": "traduccion",
+      "frase": "Deberías dormir más",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "you should sleep more"
+      ],
+      "explicacion_respuesta": "Should más el verbo en forma base."
+    }
+  ]
+}

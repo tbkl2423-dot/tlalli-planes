@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Hablar del pasado, de planes y de comparaciones en situaciones cotidianas.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "ingles basico 2",
     "english a2",
@@ -85,7 +85,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -93,6 +93,66 @@
           "titulo": "Pasado simple",
           "subtema": "pasado-simple",
           "archivo": "lecciones/pasado-simple.json"
+        },
+        {
+          "id": "verbos-irregulares",
+          "titulo": "Verbos irregulares",
+          "subtema": "verbos-irregulares",
+          "archivo": "lecciones/verbos-irregulares.json"
+        },
+        {
+          "id": "going-to",
+          "titulo": "Planes con going to",
+          "subtema": "going-to",
+          "archivo": "lecciones/going-to.json"
+        },
+        {
+          "id": "will",
+          "titulo": "Futuro con will",
+          "subtema": "will",
+          "archivo": "lecciones/will.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "comparativos",
+          "titulo": "Comparativos y superlativos",
+          "subtema": "comparativos",
+          "archivo": "lecciones/comparativos.json"
+        },
+        {
+          "id": "contables",
+          "titulo": "Contables e incontables",
+          "subtema": "contables",
+          "archivo": "lecciones/contables.json"
+        },
+        {
+          "id": "presente-perfecto",
+          "titulo": "Presente perfecto (intro)",
+          "subtema": "presente-perfecto",
+          "archivo": "lecciones/presente-perfecto.json"
+        },
+        {
+          "id": "adverbios-frecuencia",
+          "titulo": "Adverbios de frecuencia",
+          "subtema": "adverbios-frecuencia",
+          "archivo": "lecciones/adverbios-frecuencia.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "should-must",
+          "titulo": "Should y must",
+          "subtema": "should-must",
+          "archivo": "lecciones/should-must.json"
         }
       ]
     }

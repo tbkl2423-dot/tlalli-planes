@@ -1,0 +1,45 @@
+{
+  "id": "palabras-en-espanol",
+  "tema": "nahuatl-basico",
+  "subtema": "palabras-en-espanol",
+  "titulo": "Nahuatlismos en el español",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El español de México tiene cientos de palabras de origen náhuatl."
+    },
+    {
+      "texto": "Comida: chocolate, tomate, aguacate, chile, cacahuate y tamal."
+    },
+    {
+      "texto": "Cosas y animales: papalote viene de papalotl, mariposa; guajolote de huexolotl; tianguis de tianquiztli, mercado; y chapulín de chapolin."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "papalote",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa papalotl?",
+      "opciones": [
+        "Mariposa",
+        "Pájaro",
+        "Viento"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El papalote vuela como una mariposa."
+    },
+    {
+      "id": "tianguis",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿De qué palabra viene tianguis?",
+      "opciones": [
+        "Tianquiztli",
+        "Tepetl",
+        "Tlalli"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tianquiztli significa mercado."
+    }
+  ]
+}

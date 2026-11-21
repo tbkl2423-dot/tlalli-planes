@@ -1,0 +1,47 @@
+{
+  "id": "etre-avoir",
+  "tema": "frances-a1",
+  "subtema": "etre-avoir",
+  "titulo": "Être y avoir",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Être es ser o estar: je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+    },
+    {
+      "texto": "Avoir es tener: j'ai, tu as, il a, nous avons, vous avez, ils ont."
+    },
+    {
+      "texto": "Para la edad se usa avoir: j'ai vingt ans, tengo veinte años."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "edad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo dices tengo 20 años?",
+      "opciones": [
+        "J'ai vingt ans",
+        "Je suis vingt ans",
+        "Je vingt ans"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La edad se dice con avoir."
+    },
+    {
+      "id": "soy",
+      "tipo": "traduccion",
+      "frase": "Soy estudiante",
+      "idioma_origen": "es",
+      "idioma_destino": "fr",
+      "respuestas_validas": [
+        "je suis étudiant",
+        "je suis étudiante",
+        "je suis etudiant",
+        "je suis etudiante"
+      ],
+      "explicacion_respuesta": "Je suis significa yo soy."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "numeros",
+  "tema": "frances-a1",
+  "subtema": "numeros",
+  "titulo": "Números",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Del uno al cinco: un, deux, trois, quatre y cinq."
+    },
+    {
+      "texto": "Del seis al diez: six, sept, huit, neuf y dix."
+    },
+    {
+      "texto": "Setenta se dice soixante-dix, sesenta y diez, y ochenta quatre-vingts, cuatro veintes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "huit",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué número es huit?",
+      "opciones": [
+        "8",
+        "6",
+        "9"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Huit es ocho."
+    },
+    {
+      "id": "ochenta",
+      "tipo": "completar",
+      "enunciado": "Ochenta se dice quatre-___.",
+      "respuestas_validas": [
+        "vingts",
+        "vingt"
+      ],
+      "explicacion_respuesta": "Cuatro veces veinte."
+    }
+  ]
+}

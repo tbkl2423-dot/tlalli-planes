@@ -1,0 +1,45 @@
+{
+  "id": "falsos-amigos",
+  "tema": "portugues-a1",
+  "subtema": "falsos-amigos",
+  "titulo": "Falsos amigos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los falsos amigos parecen palabras del español pero significan otra cosa."
+    },
+    {
+      "texto": "Polvo es pulpo, apelido es apodo, borracha es goma de borrar y exquisito es raro."
+    },
+    {
+      "texto": "Embaraçada significa avergonzada, no embarazada; para eso se dice grávida."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "borracha",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa borracha en portugués?",
+      "opciones": [
+        "Goma de borrar",
+        "Persona ebria",
+        "Botella"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es un clásico falso amigo."
+    },
+    {
+      "id": "polvo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es un polvo en portugués?",
+      "opciones": [
+        "Un pulpo",
+        "Tierra fina",
+        "Un postre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Polvo significa pulpo."
+    }
+  ]
+}

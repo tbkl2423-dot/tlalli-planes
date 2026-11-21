@@ -1,0 +1,44 @@
+{
+  "id": "comparativos",
+  "tema": "ingles-a2",
+  "subtema": "comparativos",
+  "titulo": "Comparativos y superlativos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para comparar adjetivos cortos se agrega er y than: taller than, cheaper than."
+    },
+    {
+      "texto": "Con adjetivos largos se usa more: more expensive than."
+    },
+    {
+      "texto": "El superlativo usa the y est o the most: the tallest, the most expensive. Irregulares: good, better, the best."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "good",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el comparativo de good?",
+      "opciones": [
+        "better",
+        "gooder",
+        "more good"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Good es irregular: better, the best."
+    },
+    {
+      "id": "mas-alto",
+      "tipo": "traduccion",
+      "frase": "Luis es más alto que Ana",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "luis is taller than ana"
+      ],
+      "explicacion_respuesta": "Tall es corto: taller than."
+    }
+  ]
+}

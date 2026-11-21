@@ -1,0 +1,43 @@
+{
+  "id": "numeros",
+  "tema": "portugues-a1",
+  "subtema": "numeros",
+  "titulo": "Números",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Del uno al cinco: um, dois, três, quatro y cinco."
+    },
+    {
+      "texto": "Del seis al diez: seis, sete, oito, nove y dez."
+    },
+    {
+      "texto": "Muchos se parecen al español, pero ojo: oito es ocho y sete es siete."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "oito",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué número es oito?",
+      "opciones": [
+        "8",
+        "7",
+        "9"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Oito es ocho."
+    },
+    {
+      "id": "tres",
+      "tipo": "completar",
+      "enunciado": "Tres en portugués es ___.",
+      "respuestas_validas": [
+        "três",
+        "tres"
+      ],
+      "explicacion_respuesta": "Lleva acento circunflejo."
+    }
+  ]
+}

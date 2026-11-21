@@ -1,0 +1,43 @@
+{
+  "id": "pronunciacion",
+  "tema": "nahuatl-basico",
+  "subtema": "pronunciacion",
+  "titulo": "Pronunciación y escritura",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El náhuatl se escribe con letras latinas desde el siglo dieciséis, y hoy hay varias formas de escribirlo."
+    },
+    {
+      "texto": "La tl es un solo sonido. La x suena como sh. Hu y uh suenan como una u breve, parecida a la w."
+    },
+    {
+      "texto": "La mayoría de las palabras llevan el acento en la penúltima sílaba: xóchitl, tlálli."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "x",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo suena la x en náhuatl?",
+      "opciones": [
+        "Como sh",
+        "Como j",
+        "Como ks"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Xochitl se pronuncia shóchitl."
+    },
+    {
+      "id": "acento",
+      "tipo": "completar",
+      "enunciado": "En náhuatl el acento suele ir en la ___ sílaba.",
+      "respuestas_validas": [
+        "penúltima",
+        "penultima"
+      ],
+      "explicacion_respuesta": "Por eso decimos xóchitl y no xochítl."
+    }
+  ]
+}

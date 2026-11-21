@@ -1,0 +1,42 @@
+{
+  "id": "articulos",
+  "tema": "frances-a1",
+  "subtema": "articulos",
+  "titulo": "Artículos y género",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Todos los sustantivos tienen género. Le es masculino y la femenino: le livre, el libro; la table, la mesa."
+    },
+    {
+      "texto": "Antes de vocal se usa l': l'école. El plural es les."
+    },
+    {
+      "texto": "Los indefinidos son un, une y des."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "vocal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice la escuela?",
+      "opciones": [
+        "L'école",
+        "La école",
+        "Le école"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Antes de vocal, le y la se contraen en l'."
+    },
+    {
+      "id": "plural",
+      "tipo": "completar",
+      "enunciado": "El artículo plural es ___.",
+      "respuestas_validas": [
+        "les"
+      ],
+      "explicacion_respuesta": "Les livres, les tables."
+    }
+  ]
+}

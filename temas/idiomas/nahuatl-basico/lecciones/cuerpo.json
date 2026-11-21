@@ -1,0 +1,42 @@
+{
+  "id": "cuerpo",
+  "tema": "nahuatl-basico",
+  "subtema": "cuerpo",
+  "titulo": "Partes del cuerpo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Mano se dice maitl y pie icxitl."
+    },
+    {
+      "texto": "Cara se dice ixtli y corazón yollotl, palabra de donde vienen ideas como yolotzin, corazoncito."
+    },
+    {
+      "texto": "Cabeza se dice tzontecomatl."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "corazon",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice corazón?",
+      "opciones": [
+        "Yollotl",
+        "Maitl",
+        "Icxitl"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Yollotl también se relaciona con la vida y el movimiento."
+    },
+    {
+      "id": "mano",
+      "tipo": "completar",
+      "enunciado": "Mano se dice ___.",
+      "respuestas_validas": [
+        "maitl"
+      ],
+      "explicacion_respuesta": "De ahí viene macuilli, cinco."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "preguntas",
+  "tema": "frances-a1",
+  "subtema": "preguntas",
+  "titulo": "Hacer preguntas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La forma más fácil de preguntar es subir la entonación: tu parles français?"
+    },
+    {
+      "texto": "Otra forma es poner est-ce que al inicio: est-ce que tu parles français?"
+    },
+    {
+      "texto": "Palabras de pregunta: où, dónde; quand, cuándo; comment, cómo; pourquoi, por qué."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "donde",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa où?",
+      "opciones": [
+        "Dónde",
+        "Cuándo",
+        "Por qué"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Où habites-tu? ¿Dónde vives?"
+    },
+    {
+      "id": "est-ce",
+      "tipo": "completar",
+      "enunciado": "___ que tu as faim?",
+      "respuestas_validas": [
+        "Est-ce",
+        "est-ce"
+      ],
+      "explicacion_respuesta": "Est-ce que convierte una frase en pregunta."
+    }
+  ]
+}

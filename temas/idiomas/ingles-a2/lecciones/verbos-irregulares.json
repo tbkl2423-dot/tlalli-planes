@@ -1,0 +1,44 @@
+{
+  "id": "verbos-irregulares",
+  "tema": "ingles-a2",
+  "subtema": "verbos-irregulares",
+  "titulo": "Verbos irregulares",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los verbos irregulares no forman el pasado con ed; hay que aprenderlos."
+    },
+    {
+      "texto": "Algunos muy usados: go, went; have, had; see, saw; eat, ate; make, made; take, took."
+    },
+    {
+      "texto": "En preguntas y negaciones vuelven a su forma base: did you see? I didn't eat."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "see",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el pasado de see?",
+      "opciones": [
+        "saw",
+        "seed",
+        "seen"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "See es irregular: saw."
+    },
+    {
+      "id": "comi",
+      "tipo": "traduccion",
+      "frase": "Comí pizza",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i ate pizza"
+      ],
+      "explicacion_respuesta": "El pasado de eat es ate."
+    }
+  ]
+}

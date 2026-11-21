@@ -1,0 +1,42 @@
+{
+  "id": "presente-perfecto",
+  "tema": "ingles-a2",
+  "subtema": "presente-perfecto",
+  "titulo": "Presente perfecto (intro)",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El presente perfecto une el pasado con el presente: I have visited Mexico City."
+    },
+    {
+      "texto": "Se forma con have o has más el participio: I have eaten, she has gone."
+    },
+    {
+      "texto": "Ever pregunta por experiencias: have you ever been to Oaxaca?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "experiencia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo preguntas si alguien alguna vez ha visto el mar?",
+      "opciones": [
+        "Have you ever seen the sea?",
+        "Did you ever see the sea yesterday?",
+        "Are you seen the sea?"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ever con presente perfecto pregunta por experiencias."
+    },
+    {
+      "id": "has",
+      "tipo": "completar",
+      "enunciado": "She ___ finished her homework.",
+      "respuestas_validas": [
+        "has"
+      ],
+      "explicacion_respuesta": "Con she se usa has."
+    }
+  ]
+}

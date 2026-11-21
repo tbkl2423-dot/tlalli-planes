@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Primeros pasos en la lengua de los mexicas, hablada hoy por más de millón y medio de personas en México.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "nahuatl",
     "mexicano",
@@ -73,7 +73,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -81,6 +81,66 @@
           "titulo": "Saludos",
           "subtema": "saludos",
           "archivo": "lecciones/saludos.json"
+        },
+        {
+          "id": "pronunciacion",
+          "titulo": "Pronunciación y escritura",
+          "subtema": "pronunciacion",
+          "archivo": "lecciones/pronunciacion.json"
+        },
+        {
+          "id": "numeros",
+          "titulo": "Números",
+          "subtema": "numeros",
+          "archivo": "lecciones/numeros.json"
+        },
+        {
+          "id": "familia",
+          "titulo": "La familia",
+          "subtema": "familia",
+          "archivo": "lecciones/familia.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "cuerpo",
+          "titulo": "Partes del cuerpo",
+          "subtema": "cuerpo",
+          "archivo": "lecciones/cuerpo.json"
+        },
+        {
+          "id": "naturaleza",
+          "titulo": "Naturaleza y animales",
+          "subtema": "naturaleza",
+          "archivo": "lecciones/naturaleza.json"
+        },
+        {
+          "id": "sustantivos",
+          "titulo": "Sustantivos y plurales",
+          "subtema": "sustantivos",
+          "archivo": "lecciones/sustantivos.json"
+        },
+        {
+          "id": "verbos-presente",
+          "titulo": "Verbos en presente",
+          "subtema": "verbos-presente",
+          "archivo": "lecciones/verbos-presente.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "palabras-en-espanol",
+          "titulo": "Nahuatlismos en el español",
+          "subtema": "palabras-en-espanol",
+          "archivo": "lecciones/palabras-en-espanol.json"
         }
       ]
     }

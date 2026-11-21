@@ -1,0 +1,43 @@
+{
+  "id": "will",
+  "tema": "ingles-a2",
+  "subtema": "will",
+  "titulo": "Futuro con will",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Will se usa para decisiones del momento, promesas y predicciones: I'll help you."
+    },
+    {
+      "texto": "No cambia con ninguna persona: she will, they will."
+    },
+    {
+      "texto": "La negación es won't: I won't forget."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "decision",
+      "tipo": "opcion_multiple",
+      "pregunta": "Suena el teléfono y dices: I ___ answer it.",
+      "opciones": [
+        "will",
+        "am going to",
+        "do"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es una decisión tomada en ese momento."
+    },
+    {
+      "id": "negacion",
+      "tipo": "completar",
+      "enunciado": "I ___ tell anyone. (no lo diré)",
+      "respuestas_validas": [
+        "won't",
+        "will not"
+      ],
+      "explicacion_respuesta": "Won't es la contracción de will not."
+    }
+  ]
+}

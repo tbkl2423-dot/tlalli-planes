@@ -1,0 +1,43 @@
+{
+  "id": "presente",
+  "tema": "portugues-a1",
+  "subtema": "presente",
+  "titulo": "Presente de verbos regulares",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los verbos en ar, como falar, hablar: eu falo, você fala, nós falamos."
+    },
+    {
+      "texto": "Los verbos en er, como comer: eu como, você come, nós comemos."
+    },
+    {
+      "texto": "En Brasil se usa mucho você en lugar de tu, y la gente para referirse a nosotros."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "hablo",
+      "tipo": "traduccion",
+      "frase": "Yo hablo portugués",
+      "idioma_origen": "es",
+      "idioma_destino": "pt",
+      "respuestas_validas": [
+        "eu falo português",
+        "eu falo portugues",
+        "falo português"
+      ],
+      "explicacion_respuesta": "Falar se conjuga eu falo."
+    },
+    {
+      "id": "comemos",
+      "tipo": "completar",
+      "enunciado": "Nós ___ arroz. (comer)",
+      "respuestas_validas": [
+        "comemos"
+      ],
+      "explicacion_respuesta": "Nós comemos, igual que en español."
+    }
+  ]
+}

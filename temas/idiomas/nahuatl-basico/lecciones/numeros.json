@@ -1,0 +1,42 @@
+{
+  "id": "numeros",
+  "tema": "nahuatl-basico",
+  "subtema": "numeros",
+  "titulo": "Números",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Del uno al cinco: ce, ome, yei, nahui y macuilli."
+    },
+    {
+      "texto": "Del seis al diez: chicuace, chicome, chicuei, chicnahui y mahtlactli. Chicua significa cinco más."
+    },
+    {
+      "texto": "Los nahuas contaban de veinte en veinte: cempoalli es veinte."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "dos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice dos?",
+      "opciones": [
+        "Ome",
+        "Ce",
+        "Yei"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ce, ome, yei: uno, dos, tres."
+    },
+    {
+      "id": "cinco",
+      "tipo": "completar",
+      "enunciado": "Cinco se dice ___.",
+      "respuestas_validas": [
+        "macuilli"
+      ],
+      "explicacion_respuesta": "Macuilli viene de mano: cinco dedos."
+    }
+  ]
+}
