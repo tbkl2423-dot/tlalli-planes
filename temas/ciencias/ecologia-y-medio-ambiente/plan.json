@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Cómo funcionan los ecosistemas, el cambio climático y qué podemos hacer para cuidar el planeta.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "medio ambiente",
     "cambio climatico",
@@ -67,7 +67,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -75,6 +75,48 @@
           "titulo": "Ecosistemas",
           "subtema": "ecosistemas",
           "archivo": "lecciones/ecosistemas.json"
+        },
+        {
+          "id": "cadenas-troficas",
+          "titulo": "Cadenas y redes tróficas",
+          "subtema": "cadenas-troficas",
+          "archivo": "lecciones/cadenas-troficas.json"
+        },
+        {
+          "id": "ciclos",
+          "titulo": "Ciclos del agua y del carbono",
+          "subtema": "ciclos",
+          "archivo": "lecciones/ciclos.json"
+        },
+        {
+          "id": "biodiversidad",
+          "titulo": "Biodiversidad",
+          "subtema": "biodiversidad",
+          "archivo": "lecciones/biodiversidad.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "cambio-climatico",
+          "titulo": "Cambio climático",
+          "subtema": "cambio-climatico",
+          "archivo": "lecciones/cambio-climatico.json"
+        },
+        {
+          "id": "contaminacion",
+          "titulo": "Contaminación",
+          "subtema": "contaminacion",
+          "archivo": "lecciones/contaminacion.json"
+        },
+        {
+          "id": "consumo-responsable",
+          "titulo": "Consumo responsable",
+          "subtema": "consumo-responsable",
+          "archivo": "lecciones/consumo-responsable.json"
         }
       ]
     }

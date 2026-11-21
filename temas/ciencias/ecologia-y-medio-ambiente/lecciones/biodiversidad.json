@@ -1,0 +1,43 @@
+{
+  "id": "biodiversidad",
+  "tema": "ecologia-y-medio-ambiente",
+  "subtema": "biodiversidad",
+  "titulo": "Biodiversidad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La biodiversidad es la variedad de vida: especies, genes y ecosistemas."
+    },
+    {
+      "texto": "México es megadiverso: tiene selvas, desiertos, bosques, arrecifes y muchas especies que solo viven aquí, llamadas endémicas, como el ajolote."
+    },
+    {
+      "texto": "La pérdida de hábitat es la principal amenaza para la biodiversidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "endemica",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa que una especie sea endémica?",
+      "opciones": [
+        "Que solo vive en un lugar",
+        "Que está en todo el mundo",
+        "Que es venenosa"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Como el ajolote de Xochimilco."
+    },
+    {
+      "id": "amenaza",
+      "tipo": "completar",
+      "enunciado": "La principal amenaza a la biodiversidad es la pérdida de ___.",
+      "respuestas_validas": [
+        "hábitat",
+        "habitat"
+      ],
+      "explicacion_respuesta": "Cuando se destruyen los lugares donde viven las especies."
+    }
+  ]
+}

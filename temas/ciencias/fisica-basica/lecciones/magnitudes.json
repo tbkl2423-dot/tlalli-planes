@@ -1,0 +1,45 @@
+{
+  "id": "magnitudes",
+  "tema": "fisica-basica",
+  "subtema": "magnitudes",
+  "titulo": "Magnitudes y unidades",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una magnitud es algo que se puede medir, como la longitud, la masa o el tiempo."
+    },
+    {
+      "texto": "El Sistema Internacional usa el metro para longitud, el kilogramo para masa y el segundo para tiempo."
+    },
+    {
+      "texto": "Algunas magnitudes solo tienen tamaño, como la temperatura. Otras también tienen dirección, como la velocidad: son vectores."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "masa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la unidad de masa en el Sistema Internacional?",
+      "opciones": [
+        "Kilogramo",
+        "Libra",
+        "Gramo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El kilogramo es la unidad base de masa."
+    },
+    {
+      "id": "vector",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas magnitudes es vectorial?",
+      "opciones": [
+        "Velocidad",
+        "Temperatura",
+        "Tiempo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La velocidad tiene tamaño y dirección."
+    }
+  ]
+}

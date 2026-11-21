@@ -1,0 +1,42 @@
+{
+  "id": "contaminacion",
+  "tema": "ecologia-y-medio-ambiente",
+  "subtema": "contaminacion",
+  "titulo": "Contaminación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La contaminación es la presencia de sustancias que dañan el aire, el agua o el suelo."
+    },
+    {
+      "texto": "Los plásticos de un solo uso tardan cientos de años en degradarse y llegan a los océanos."
+    },
+    {
+      "texto": "En las ciudades, los vehículos e industrias contaminan el aire y afectan la salud respiratoria."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "plastico",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto tarda un plástico en degradarse?",
+      "opciones": [
+        "Cientos de años",
+        "Una semana",
+        "Un mes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Por eso se acumula en el ambiente."
+    },
+    {
+      "id": "aire",
+      "tipo": "completar",
+      "enunciado": "La contaminación del aire afecta sobre todo la salud ___.",
+      "respuestas_validas": [
+        "respiratoria"
+      ],
+      "explicacion_respuesta": "Puede causar asma y otras enfermedades."
+    }
+  ]
+}

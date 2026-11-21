@@ -1,0 +1,42 @@
+{
+  "id": "luz",
+  "tema": "fisica-basica",
+  "subtema": "luz",
+  "titulo": "Luz y óptica",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La luz viaja a unos 300 mil kilómetros por segundo, lo más rápido que existe."
+    },
+    {
+      "texto": "La reflexión ocurre cuando la luz rebota, como en un espejo. La refracción cuando cambia de dirección al pasar de un medio a otro, como un lápiz que parece doblado en el agua."
+    },
+    {
+      "texto": "La luz blanca está formada por todos los colores; un prisma o la lluvia los separan en un arcoíris."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "lapiz",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué un lápiz parece doblado dentro de un vaso con agua?",
+      "opciones": [
+        "Por la refracción",
+        "Por la reflexión",
+        "Por la gravedad"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La luz cambia de dirección al pasar del agua al aire."
+    },
+    {
+      "id": "blanca",
+      "tipo": "completar",
+      "enunciado": "La luz blanca está formada por todos los ___.",
+      "respuestas_validas": [
+        "colores"
+      ],
+      "explicacion_respuesta": "Un prisma los separa."
+    }
+  ]
+}

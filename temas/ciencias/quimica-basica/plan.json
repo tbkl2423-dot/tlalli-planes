@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "De qué está hecha la materia: átomos, tabla periódica, enlaces, reacciones y mezclas.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "quimica",
     "materia"
@@ -80,14 +80,74 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
+        {
+          "id": "materia",
+          "titulo": "La materia y sus estados",
+          "subtema": "materia",
+          "archivo": "lecciones/materia.json"
+        },
         {
           "id": "atomo",
           "titulo": "El átomo",
           "subtema": "atomo",
           "archivo": "lecciones/atomo.json"
+        },
+        {
+          "id": "tabla-periodica",
+          "titulo": "La tabla periódica",
+          "subtema": "tabla-periodica",
+          "archivo": "lecciones/tabla-periodica.json"
+        },
+        {
+          "id": "enlaces",
+          "titulo": "Enlaces químicos",
+          "subtema": "enlaces",
+          "archivo": "lecciones/enlaces.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "mezclas",
+          "titulo": "Mezclas y sustancias puras",
+          "subtema": "mezclas",
+          "archivo": "lecciones/mezclas.json"
+        },
+        {
+          "id": "reacciones",
+          "titulo": "Reacciones químicas",
+          "subtema": "reacciones",
+          "archivo": "lecciones/reacciones.json"
+        },
+        {
+          "id": "balanceo",
+          "titulo": "Balanceo de ecuaciones",
+          "subtema": "balanceo",
+          "archivo": "lecciones/balanceo.json"
+        },
+        {
+          "id": "mol",
+          "titulo": "El mol",
+          "subtema": "mol",
+          "archivo": "lecciones/mol.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "acidos-y-bases",
+          "titulo": "Ácidos y bases",
+          "subtema": "acidos-y-bases",
+          "archivo": "lecciones/acidos-y-bases.json"
         }
       ]
     }

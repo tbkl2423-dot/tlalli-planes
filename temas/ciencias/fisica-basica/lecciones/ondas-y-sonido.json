@@ -1,0 +1,45 @@
+{
+  "id": "ondas-y-sonido",
+  "tema": "fisica-basica",
+  "subtema": "ondas-y-sonido",
+  "titulo": "Ondas y sonido",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una onda transporta energía sin transportar materia."
+    },
+    {
+      "texto": "El sonido es una onda que viaja por el aire. No puede viajar en el vacío."
+    },
+    {
+      "texto": "La frecuencia define si un sonido es grave o agudo: mayor frecuencia, más agudo. Se mide en hertz."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "vacio",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Puede viajar el sonido en el espacio vacío?",
+      "opciones": [
+        "No",
+        "Sí, más rápido",
+        "Sí, igual"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Necesita un medio, como aire o agua."
+    },
+    {
+      "id": "hertz",
+      "tipo": "completar",
+      "enunciado": "La frecuencia se mide en ___.",
+      "respuestas_validas": [
+        "hertz",
+        "Hertz",
+        "hercios",
+        "Hz"
+      ],
+      "explicacion_respuesta": "Un hertz es una vibración por segundo."
+    }
+  ]
+}

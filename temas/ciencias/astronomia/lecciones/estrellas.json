@@ -1,0 +1,43 @@
+{
+  "id": "estrellas",
+  "tema": "astronomia",
+  "subtema": "estrellas",
+  "titulo": "Estrellas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las estrellas son enormes esferas de gas que producen luz fusionando hidrógeno en helio."
+    },
+    {
+      "texto": "El Sol es una estrella mediana, a unos 150 millones de kilómetros. Su luz tarda unos 8 minutos en llegar."
+    },
+    {
+      "texto": "Las estrellas nacen en nubes de gas, viven millones o miles de millones de años y mueren como enanas blancas, estrellas de neutrones o agujeros negros."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sol",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es el Sol?",
+      "opciones": [
+        "Una estrella",
+        "Un planeta",
+        "Una galaxia"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la estrella más cercana a nosotros."
+    },
+    {
+      "id": "minutos",
+      "tipo": "completar",
+      "enunciado": "La luz del Sol tarda unos ___ minutos en llegar a la Tierra.",
+      "respuestas_validas": [
+        "8",
+        "ocho"
+      ],
+      "explicacion_respuesta": "Viaja 150 millones de km a la velocidad de la luz."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "cambio-climatico",
+  "tema": "ecologia-y-medio-ambiente",
+  "subtema": "cambio-climatico",
+  "titulo": "Cambio climático",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El efecto invernadero es natural: algunos gases atrapan calor y mantienen la Tierra habitable."
+    },
+    {
+      "texto": "Quemar petróleo, gas y carbón añade más dióxido de carbono y el planeta se calienta más de lo normal."
+    },
+    {
+      "texto": "Esto provoca olas de calor, sequías, lluvias intensas y el aumento del nivel del mar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "causa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la principal causa del calentamiento actual?",
+      "opciones": [
+        "Quemar combustibles fósiles",
+        "Los volcanes",
+        "La Luna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Liberan grandes cantidades de dióxido de carbono."
+    },
+    {
+      "id": "efecto",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona un efecto del cambio climático.",
+      "respuesta_esperada": "Más sequías y olas de calor.",
+      "palabras_clave": [
+        "sequia",
+        "calor",
+        "mar",
+        "lluvia",
+        "huracan"
+      ],
+      "explicacion_respuesta": "Los fenómenos extremos se vuelven más frecuentes."
+    }
+  ]
+}

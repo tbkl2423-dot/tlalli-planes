@@ -1,0 +1,42 @@
+{
+  "id": "cadenas-troficas",
+  "tema": "ecologia-y-medio-ambiente",
+  "subtema": "cadenas-troficas",
+  "titulo": "Cadenas y redes tróficas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una cadena trófica muestra quién se come a quién: pasto, conejo, coyote."
+    },
+    {
+      "texto": "En cada eslabón se pierde gran parte de la energía, por eso hay muchas más plantas que depredadores."
+    },
+    {
+      "texto": "Las redes tróficas combinan muchas cadenas, porque casi todos los animales comen varias cosas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "energia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué hay menos depredadores que plantas?",
+      "opciones": [
+        "Porque la energía se pierde en cada eslabón",
+        "Porque los depredadores no comen",
+        "Por casualidad"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Solo una parte de la energía pasa al siguiente nivel."
+    },
+    {
+      "id": "red",
+      "tipo": "completar",
+      "enunciado": "Varias cadenas tróficas conectadas forman una ___ trófica.",
+      "respuestas_validas": [
+        "red"
+      ],
+      "explicacion_respuesta": "Las redes reflejan mejor la realidad."
+    }
+  ]
+}

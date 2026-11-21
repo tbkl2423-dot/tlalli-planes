@@ -1,0 +1,43 @@
+{
+  "id": "magnetismo",
+  "tema": "fisica-basica",
+  "subtema": "magnetismo",
+  "titulo": "Magnetismo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los imanes tienen polo norte y polo sur. Polos iguales se repelen y opuestos se atraen."
+    },
+    {
+      "texto": "La Tierra es un gran imán; por eso la brújula apunta al norte."
+    },
+    {
+      "texto": "Electricidad y magnetismo están unidos: una corriente crea un campo magnético, y así funcionan los motores eléctricos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "repelen",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué pasa si acercas dos polos norte?",
+      "opciones": [
+        "Se repelen",
+        "Se atraen",
+        "Nada"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Polos iguales se repelen."
+    },
+    {
+      "id": "brujula",
+      "tipo": "completar",
+      "enunciado": "La brújula funciona porque la Tierra se comporta como un gran ___.",
+      "respuestas_validas": [
+        "imán",
+        "iman"
+      ],
+      "explicacion_respuesta": "El campo magnético terrestre orienta la aguja."
+    }
+  ]
+}

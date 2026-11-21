@@ -1,0 +1,42 @@
+{
+  "id": "mol",
+  "tema": "quimica-basica",
+  "subtema": "mol",
+  "titulo": "El mol",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los átomos son tan pequeños que los químicos los cuentan por montones llamados moles."
+    },
+    {
+      "texto": "Un mol tiene unos 6.02 por diez a la 23 partículas. Es el número de Avogadro."
+    },
+    {
+      "texto": "La masa molar es lo que pesa un mol. Un mol de agua pesa unos 18 gramos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "avogadro",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas partículas hay en un mol?",
+      "opciones": [
+        "Unas 6.02 × 10²³",
+        "Mil",
+        "Un millón"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es el número de Avogadro."
+    },
+    {
+      "id": "agua",
+      "tipo": "completar",
+      "enunciado": "Un mol de agua pesa unos ___ gramos.",
+      "respuestas_validas": [
+        "18"
+      ],
+      "explicacion_respuesta": "2 de hidrógeno más 16 del oxígeno."
+    }
+  ]
+}

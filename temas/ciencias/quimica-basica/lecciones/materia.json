@@ -1,0 +1,43 @@
+{
+  "id": "materia",
+  "tema": "quimica-basica",
+  "subtema": "materia",
+  "titulo": "La materia y sus estados",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Materia es todo lo que tiene masa y ocupa un lugar."
+    },
+    {
+      "texto": "Sus estados más comunes son sólido, líquido y gas. Un sólido tiene forma propia; un líquido toma la forma del recipiente; un gas lo llena todo."
+    },
+    {
+      "texto": "Los cambios de estado tienen nombre: fusión, de sólido a líquido; evaporación, de líquido a gas; y condensación, de gas a líquido."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fusion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llama el paso de sólido a líquido?",
+      "opciones": [
+        "Fusión",
+        "Evaporación",
+        "Condensación"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Como el hielo que se derrite."
+    },
+    {
+      "id": "condensacion",
+      "tipo": "completar",
+      "enunciado": "El vapor que se vuelve gotas en un vaso frío es ___.",
+      "respuestas_validas": [
+        "condensación",
+        "condensacion"
+      ],
+      "explicacion_respuesta": "El gas pasa a líquido al enfriarse."
+    }
+  ]
+}

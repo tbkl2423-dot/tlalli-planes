@@ -1,0 +1,44 @@
+{
+  "id": "gravedad",
+  "tema": "fisica-basica",
+  "subtema": "gravedad",
+  "titulo": "Gravedad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La gravedad es la atracción entre cuerpos con masa. La Tierra nos atrae hacia su centro."
+    },
+    {
+      "texto": "Cerca de la superficie, los objetos caen con una aceleración de unos 9.8 metros por segundo cada segundo."
+    },
+    {
+      "texto": "La masa es la cantidad de materia y no cambia. El peso es la fuerza con que la gravedad te atrae: en la Luna pesarías menos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "luna",
+      "tipo": "opcion_multiple",
+      "pregunta": "En la Luna, tu masa…",
+      "opciones": [
+        "Es la misma",
+        "Es menor",
+        "Desaparece"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Lo que cambia es el peso, no la masa."
+    },
+    {
+      "id": "g",
+      "tipo": "completar",
+      "enunciado": "La aceleración de la gravedad en la Tierra es de unos ___ m/s².",
+      "respuestas_validas": [
+        "9.8",
+        "9.81",
+        "10"
+      ],
+      "explicacion_respuesta": "Se suele redondear a 9.8."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "tierra-y-luna",
+  "tema": "astronomia",
+  "subtema": "tierra-y-luna",
+  "titulo": "La Tierra y la Luna",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La Luna no tiene luz propia: refleja la del Sol. Según su posición vemos distintas fases."
+    },
+    {
+      "texto": "Luna nueva, cuarto creciente, luna llena y cuarto menguante. El ciclo completo dura unos 29 días y medio."
+    },
+    {
+      "texto": "Un eclipse de Sol ocurre cuando la Luna se pone entre el Sol y la Tierra; uno de Luna, cuando la Tierra tapa la luz que llega a la Luna."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "luz",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué brilla la Luna?",
+      "opciones": [
+        "Refleja la luz del Sol",
+        "Tiene luz propia",
+        "Por los volcanes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La Luna solo refleja la luz solar."
+    },
+    {
+      "id": "eclipse",
+      "tipo": "completar",
+      "enunciado": "En un eclipse de Sol, la ___ se interpone entre el Sol y la Tierra.",
+      "respuestas_validas": [
+        "Luna",
+        "luna"
+      ],
+      "explicacion_respuesta": "Su sombra cae sobre la Tierra."
+    }
+  ]
+}

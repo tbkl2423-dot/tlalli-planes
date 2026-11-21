@@ -1,0 +1,42 @@
+{
+  "id": "enlaces",
+  "tema": "quimica-basica",
+  "subtema": "enlaces",
+  "titulo": "Enlaces químicos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los átomos se unen formando enlaces para ser más estables."
+    },
+    {
+      "texto": "En el enlace iónico un átomo cede electrones a otro, como en la sal de mesa, cloruro de sodio."
+    },
+    {
+      "texto": "En el enlace covalente los átomos comparten electrones, como en el agua."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tipo de enlace tiene la sal de mesa?",
+      "opciones": [
+        "Iónico",
+        "Covalente",
+        "Metálico"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El sodio cede un electrón al cloro."
+    },
+    {
+      "id": "comparten",
+      "tipo": "completar",
+      "enunciado": "En el enlace ___ los átomos comparten electrones.",
+      "respuestas_validas": [
+        "covalente"
+      ],
+      "explicacion_respuesta": "Como en la molécula de agua."
+    }
+  ]
+}

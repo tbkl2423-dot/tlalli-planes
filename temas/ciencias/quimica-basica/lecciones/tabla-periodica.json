@@ -1,0 +1,43 @@
+{
+  "id": "tabla-periodica",
+  "tema": "quimica-basica",
+  "subtema": "tabla-periodica",
+  "titulo": "La tabla periódica",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La tabla periódica ordena los elementos por su número atómico, el número de protones."
+    },
+    {
+      "texto": "Las columnas se llaman grupos: sus elementos se comportan de forma parecida. Las filas se llaman periodos."
+    },
+    {
+      "texto": "Ejemplos: H es hidrógeno, O oxígeno, C carbono, Na sodio y Fe hierro."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "simbolo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué elemento tiene el símbolo Fe?",
+      "opciones": [
+        "Hierro",
+        "Flúor",
+        "Fósforo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Fe viene del latín ferrum."
+    },
+    {
+      "id": "columnas",
+      "tipo": "completar",
+      "enunciado": "Las columnas de la tabla periódica se llaman ___.",
+      "respuestas_validas": [
+        "grupos",
+        "familias"
+      ],
+      "explicacion_respuesta": "Elementos del mismo grupo tienen propiedades parecidas."
+    }
+  ]
+}

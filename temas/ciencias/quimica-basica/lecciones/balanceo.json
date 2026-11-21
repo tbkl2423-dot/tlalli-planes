@@ -1,0 +1,44 @@
+{
+  "id": "balanceo",
+  "tema": "quimica-basica",
+  "subtema": "balanceo",
+  "titulo": "Balanceo de ecuaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En una reacción la masa se conserva: los átomos no aparecen ni desaparecen, solo se reacomodan."
+    },
+    {
+      "texto": "Por eso una ecuación química debe tener la misma cantidad de cada átomo de los dos lados."
+    },
+    {
+      "texto": "Se balancea con números delante de las fórmulas, llamados coeficientes.",
+      "codigo": "2 H₂ + O₂ → 2 H₂O"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "conserva",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué se conserva en una reacción química?",
+      "opciones": [
+        "La masa",
+        "El color",
+        "El estado físico"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la ley de conservación de la masa de Lavoisier."
+    },
+    {
+      "id": "coeficiente",
+      "tipo": "completar",
+      "enunciado": "Los números delante de las fórmulas se llaman ___.",
+      "respuestas_validas": [
+        "coeficientes",
+        "coeficiente"
+      ],
+      "explicacion_respuesta": "Indican cuántas moléculas participan."
+    }
+  ]
+}

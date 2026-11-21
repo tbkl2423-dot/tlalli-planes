@@ -1,0 +1,42 @@
+{
+  "id": "reacciones",
+  "tema": "quimica-basica",
+  "subtema": "reacciones",
+  "titulo": "Reacciones químicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En una reacción química unas sustancias, los reactivos, se transforman en otras nuevas, los productos."
+    },
+    {
+      "texto": "Señales de reacción: cambio de color, burbujas, calor o luz, o un olor nuevo."
+    },
+    {
+      "texto": "La combustión, la oxidación del hierro y la digestión son reacciones químicas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "senal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es señal de una reacción química?",
+      "opciones": [
+        "Aparecen burbujas de un gas nuevo",
+        "El hielo se derrite",
+        "El papel se dobla"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Derretir o doblar son cambios físicos."
+    },
+    {
+      "id": "productos",
+      "tipo": "completar",
+      "enunciado": "Las sustancias que se forman en una reacción se llaman ___.",
+      "respuestas_validas": [
+        "productos"
+      ],
+      "explicacion_respuesta": "Los reactivos se transforman en productos."
+    }
+  ]
+}

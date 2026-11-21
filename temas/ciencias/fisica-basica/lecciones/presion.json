@@ -1,0 +1,44 @@
+{
+  "id": "presion",
+  "tema": "fisica-basica",
+  "subtema": "presion",
+  "titulo": "Presión y fluidos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La presión es la fuerza repartida sobre un área. Un cuchillo afilado corta mejor porque concentra la fuerza en poca área."
+    },
+    {
+      "texto": "En los líquidos, la presión aumenta con la profundidad."
+    },
+    {
+      "texto": "El principio de Arquímedes dice que un cuerpo sumergido recibe un empuje igual al peso del líquido que desaloja. Por eso flotan los barcos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cuchillo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Por qué corta mejor un cuchillo afilado?",
+      "opciones": [
+        "Concentra la fuerza en menos área",
+        "Es más pesado",
+        "Tiene más masa"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Menor área, mayor presión."
+    },
+    {
+      "id": "arquimedes",
+      "tipo": "completar",
+      "enunciado": "El empuje que hace flotar a los barcos lo explica el principio de ___.",
+      "respuestas_validas": [
+        "Arquímedes",
+        "Arquimedes",
+        "arquimedes"
+      ],
+      "explicacion_respuesta": "Empuje igual al peso del líquido desalojado."
+    }
+  ]
+}

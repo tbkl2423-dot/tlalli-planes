@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Movimiento, fuerzas, energía, ondas y electricidad explicados con ejemplos cotidianos.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "fisica",
     "mecanica"
@@ -99,14 +99,86 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
+        {
+          "id": "magnitudes",
+          "titulo": "Magnitudes y unidades",
+          "subtema": "magnitudes",
+          "archivo": "lecciones/magnitudes.json"
+        },
+        {
+          "id": "movimiento",
+          "titulo": "Movimiento",
+          "subtema": "movimiento",
+          "archivo": "lecciones/movimiento.json"
+        },
         {
           "id": "leyes-de-newton",
           "titulo": "Leyes de Newton",
           "subtema": "leyes-de-newton",
           "archivo": "lecciones/leyes-de-newton.json"
+        },
+        {
+          "id": "gravedad",
+          "titulo": "Gravedad",
+          "subtema": "gravedad",
+          "archivo": "lecciones/gravedad.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "energia",
+          "titulo": "Trabajo y energía",
+          "subtema": "energia",
+          "archivo": "lecciones/energia.json"
+        },
+        {
+          "id": "presion",
+          "titulo": "Presión y fluidos",
+          "subtema": "presion",
+          "archivo": "lecciones/presion.json"
+        },
+        {
+          "id": "calor",
+          "titulo": "Calor y temperatura",
+          "subtema": "calor",
+          "archivo": "lecciones/calor.json"
+        },
+        {
+          "id": "ondas-y-sonido",
+          "titulo": "Ondas y sonido",
+          "subtema": "ondas-y-sonido",
+          "archivo": "lecciones/ondas-y-sonido.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "luz",
+          "titulo": "Luz y óptica",
+          "subtema": "luz",
+          "archivo": "lecciones/luz.json"
+        },
+        {
+          "id": "electricidad",
+          "titulo": "Electricidad",
+          "subtema": "electricidad",
+          "archivo": "lecciones/electricidad.json"
+        },
+        {
+          "id": "magnetismo",
+          "titulo": "Magnetismo",
+          "subtema": "magnetismo",
+          "archivo": "lecciones/magnetismo.json"
         }
       ]
     }

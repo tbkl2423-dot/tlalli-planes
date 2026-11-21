@@ -1,0 +1,42 @@
+{
+  "id": "galaxias",
+  "tema": "astronomia",
+  "subtema": "galaxias",
+  "titulo": "Galaxias",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una galaxia es un enorme conjunto de estrellas, gas y polvo unidos por la gravedad."
+    },
+    {
+      "texto": "Vivimos en la Vía Láctea, una galaxia espiral con cientos de miles de millones de estrellas."
+    },
+    {
+      "texto": "Andrómeda es la galaxia grande más cercana. En el universo observable hay miles de millones de galaxias."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nuestra",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llama nuestra galaxia?",
+      "opciones": [
+        "Vía Láctea",
+        "Andrómeda",
+        "Orión"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Desde un lugar oscuro se ve como una franja en el cielo."
+    },
+    {
+      "id": "forma",
+      "tipo": "completar",
+      "enunciado": "La Vía Láctea es una galaxia ___.",
+      "respuestas_validas": [
+        "espiral"
+      ],
+      "explicacion_respuesta": "Tiene brazos que giran alrededor del centro."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "big-bang",
+  "tema": "astronomia",
+  "subtema": "big-bang",
+  "titulo": "Origen del universo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Según el modelo del Big Bang, el universo comenzó hace unos 13 800 millones de años en un estado muy caliente y denso."
+    },
+    {
+      "texto": "Desde entonces se ha expandido y enfriado. Las galaxias se alejan unas de otras."
+    },
+    {
+      "texto": "Una prueba es la radiación de fondo de microondas, un eco de luz que llena todo el universo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "edad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué edad aproximada tiene el universo?",
+      "opciones": [
+        "13 800 millones de años",
+        "6 000 años",
+        "1 millón de años"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la estimación de las observaciones actuales."
+    },
+    {
+      "id": "expande",
+      "tipo": "completar",
+      "enunciado": "Desde el Big Bang el universo se ha ___.",
+      "respuestas_validas": [
+        "expandido",
+        "expandiendo"
+      ],
+      "explicacion_respuesta": "Las galaxias se alejan entre sí."
+    }
+  ]
+}

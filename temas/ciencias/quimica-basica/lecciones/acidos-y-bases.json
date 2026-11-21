@@ -1,0 +1,42 @@
+{
+  "id": "acidos-y-bases",
+  "tema": "quimica-basica",
+  "subtema": "acidos-y-bases",
+  "titulo": "Ácidos y bases",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El pH mide qué tan ácida o básica es una sustancia, en una escala del 0 al 14."
+    },
+    {
+      "texto": "Menos de 7 es ácido, como el limón o el vinagre. Más de 7 es básico, como el jabón. El 7 es neutro, como el agua pura."
+    },
+    {
+      "texto": "Un ácido y una base se neutralizan entre sí."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "limon",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo es el jugo de limón?",
+      "opciones": [
+        "Ácido",
+        "Básico",
+        "Neutro"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Su pH es menor a 7."
+    },
+    {
+      "id": "neutro",
+      "tipo": "completar",
+      "enunciado": "Una sustancia neutra tiene pH ___.",
+      "respuestas_validas": [
+        "7"
+      ],
+      "explicacion_respuesta": "El agua pura es neutra."
+    }
+  ]
+}

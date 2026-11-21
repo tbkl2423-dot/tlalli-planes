@@ -1,0 +1,42 @@
+{
+  "id": "ciclos",
+  "tema": "ecologia-y-medio-ambiente",
+  "subtema": "ciclos",
+  "titulo": "Ciclos del agua y del carbono",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En el ciclo del agua, el agua se evapora, se condensa en nubes, cae como lluvia y vuelve a ríos, mares y suelo."
+    },
+    {
+      "texto": "En el ciclo del carbono, las plantas toman dióxido de carbono y los seres vivos lo regresan al respirar y al descomponerse."
+    },
+    {
+      "texto": "Quemar combustibles fósiles libera carbono que estuvo guardado por millones de años."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nubes",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se forman las nubes?",
+      "opciones": [
+        "Por condensación del vapor",
+        "Por evaporación del hielo",
+        "Por el viento"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El vapor se enfría y forma gotitas."
+    },
+    {
+      "id": "plantas",
+      "tipo": "completar",
+      "enunciado": "Las plantas absorben dióxido de ___.",
+      "respuestas_validas": [
+        "carbono"
+      ],
+      "explicacion_respuesta": "Lo usan en la fotosíntesis."
+    }
+  ]
+}

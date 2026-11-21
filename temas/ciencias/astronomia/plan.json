@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "El sistema solar, las estrellas, las galaxias y cómo observamos el universo.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "astronomia",
     "espacio",
@@ -67,7 +67,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -75,6 +75,48 @@
           "titulo": "El sistema solar",
           "subtema": "sistema-solar",
           "archivo": "lecciones/sistema-solar.json"
+        },
+        {
+          "id": "tierra-y-luna",
+          "titulo": "La Tierra y la Luna",
+          "subtema": "tierra-y-luna",
+          "archivo": "lecciones/tierra-y-luna.json"
+        },
+        {
+          "id": "estaciones",
+          "titulo": "Las estaciones del año",
+          "subtema": "estaciones",
+          "archivo": "lecciones/estaciones.json"
+        },
+        {
+          "id": "estrellas",
+          "titulo": "Estrellas",
+          "subtema": "estrellas",
+          "archivo": "lecciones/estrellas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "galaxias",
+          "titulo": "Galaxias",
+          "subtema": "galaxias",
+          "archivo": "lecciones/galaxias.json"
+        },
+        {
+          "id": "telescopios",
+          "titulo": "Telescopios y observación",
+          "subtema": "telescopios",
+          "archivo": "lecciones/telescopios.json"
+        },
+        {
+          "id": "big-bang",
+          "titulo": "Origen del universo",
+          "subtema": "big-bang",
+          "archivo": "lecciones/big-bang.json"
         }
       ]
     }

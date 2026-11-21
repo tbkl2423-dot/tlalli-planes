@@ -1,0 +1,42 @@
+{
+  "id": "calor",
+  "tema": "fisica-basica",
+  "subtema": "calor",
+  "titulo": "Calor y temperatura",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La temperatura mide qué tan rápido se mueven las partículas. El calor es energía que pasa de lo caliente a lo frío."
+    },
+    {
+      "texto": "El calor viaja por conducción, al tocar; por convección, en líquidos y gases que circulan; y por radiación, como la luz del sol."
+    },
+    {
+      "texto": "Los metales conducen bien el calor; la madera y el aire lo conducen mal y sirven de aislantes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sol",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo nos llega el calor del Sol?",
+      "opciones": [
+        "Por radiación",
+        "Por conducción",
+        "Por convección"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Viaja por el espacio vacío como radiación."
+    },
+    {
+      "id": "aislante",
+      "tipo": "completar",
+      "enunciado": "Un material que conduce mal el calor se llama ___.",
+      "respuestas_validas": [
+        "aislante"
+      ],
+      "explicacion_respuesta": "Como la madera o el unicel."
+    }
+  ]
+}

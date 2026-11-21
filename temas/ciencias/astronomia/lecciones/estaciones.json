@@ -1,0 +1,42 @@
+{
+  "id": "estaciones",
+  "tema": "astronomia",
+  "subtema": "estaciones",
+  "titulo": "Las estaciones del año",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las estaciones no se deben a que la Tierra se acerque o aleje del Sol."
+    },
+    {
+      "texto": "Se deben a que el eje de la Tierra está inclinado unos 23 grados. Durante el año, cada hemisferio recibe la luz más directa o más inclinada."
+    },
+    {
+      "texto": "Cuando en el norte es verano, en el sur es invierno."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "causa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué causa las estaciones?",
+      "opciones": [
+        "La inclinación del eje terrestre",
+        "La distancia al Sol",
+        "La Luna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La inclinación cambia cuán directa llega la luz."
+    },
+    {
+      "id": "opuestas",
+      "tipo": "completar",
+      "enunciado": "Cuando en el hemisferio norte es verano, en el sur es ___.",
+      "respuestas_validas": [
+        "invierno"
+      ],
+      "explicacion_respuesta": "Los hemisferios tienen estaciones opuestas."
+    }
+  ]
+}

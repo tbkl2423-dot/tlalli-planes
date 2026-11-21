@@ -1,0 +1,47 @@
+{
+  "id": "consumo-responsable",
+  "tema": "ecologia-y-medio-ambiente",
+  "subtema": "consumo-responsable",
+  "titulo": "Consumo responsable",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Reducir, reutilizar y reciclar, en ese orden: lo mejor es no generar el residuo."
+    },
+    {
+      "texto": "Llevar tu bolsa y tu termo, reparar en lugar de tirar y separar la basura ayuda."
+    },
+    {
+      "texto": "Ahorrar agua y energía en casa también reduce tu huella ambiental."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "orden",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las tres R es la más importante?",
+      "opciones": [
+        "Reducir",
+        "Reciclar",
+        "Reutilizar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El mejor residuo es el que no se genera."
+    },
+    {
+      "id": "accion",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona una acción de consumo responsable.",
+      "respuesta_esperada": "Llevar mi propia bolsa al súper.",
+      "palabras_clave": [
+        "bolsa",
+        "termo",
+        "reparar",
+        "separar",
+        "reutilizar"
+      ],
+      "explicacion_respuesta": "Pequeñas acciones diarias suman mucho."
+    }
+  ]
+}

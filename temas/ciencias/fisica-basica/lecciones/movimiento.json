@@ -1,0 +1,42 @@
+{
+  "id": "movimiento",
+  "tema": "fisica-basica",
+  "subtema": "movimiento",
+  "titulo": "Movimiento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La velocidad es la distancia recorrida entre el tiempo: v = d / t."
+    },
+    {
+      "texto": "Si un coche recorre 120 kilómetros en 2 horas, va a 60 kilómetros por hora."
+    },
+    {
+      "texto": "La aceleración es qué tan rápido cambia la velocidad. Frenar también es acelerar, pero en sentido contrario."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "velocidad",
+      "tipo": "opcion_multiple",
+      "pregunta": "Recorres 30 km en media hora. ¿Cuál es tu velocidad?",
+      "opciones": [
+        "60 km/h",
+        "15 km/h",
+        "30 km/h"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "30 / 0.5 = 60."
+    },
+    {
+      "id": "formula",
+      "tipo": "completar",
+      "enunciado": "velocidad = distancia / ___",
+      "respuestas_validas": [
+        "tiempo"
+      ],
+      "explicacion_respuesta": "v = d / t."
+    }
+  ]
+}

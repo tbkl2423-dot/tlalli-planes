@@ -1,0 +1,42 @@
+{
+  "id": "energia",
+  "tema": "fisica-basica",
+  "subtema": "energia",
+  "titulo": "Trabajo y energía",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La energía es la capacidad de hacer trabajo. No se crea ni se destruye, solo se transforma."
+    },
+    {
+      "texto": "La energía cinética es la del movimiento. La potencial es la guardada por posición, como un objeto en lo alto."
+    },
+    {
+      "texto": "En una montaña rusa, la potencial de arriba se transforma en cinética al bajar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cinetica",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué energía tiene un balón en movimiento?",
+      "opciones": [
+        "Cinética",
+        "Potencial",
+        "Química"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cinética viene de movimiento."
+    },
+    {
+      "id": "conservacion",
+      "tipo": "completar",
+      "enunciado": "La energía no se crea ni se destruye, solo se ___.",
+      "respuestas_validas": [
+        "transforma"
+      ],
+      "explicacion_respuesta": "Es el principio de conservación de la energía."
+    }
+  ]
+}

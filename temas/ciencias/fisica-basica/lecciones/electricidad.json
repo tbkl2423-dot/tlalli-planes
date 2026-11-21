@@ -1,0 +1,45 @@
+{
+  "id": "electricidad",
+  "tema": "fisica-basica",
+  "subtema": "electricidad",
+  "titulo": "Electricidad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La corriente eléctrica es el movimiento de cargas por un conductor. Se mide en amperes."
+    },
+    {
+      "texto": "El voltaje es el empuje que mueve las cargas, en volts. La resistencia es la oposición al paso, en ohms."
+    },
+    {
+      "texto": "La ley de Ohm las relaciona: voltaje igual a corriente por resistencia.",
+      "codigo": "V = I × R"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ohm",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si una resistencia de 10 ohms recibe 2 amperes, ¿qué voltaje hay?",
+      "opciones": [
+        "20 V",
+        "5 V",
+        "12 V"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "V = 2 × 10 = 20."
+    },
+    {
+      "id": "unidad",
+      "tipo": "completar",
+      "enunciado": "La corriente eléctrica se mide en ___.",
+      "respuestas_validas": [
+        "amperes",
+        "amperios",
+        "A"
+      ],
+      "explicacion_respuesta": "La unidad es el ampere."
+    }
+  ]
+}

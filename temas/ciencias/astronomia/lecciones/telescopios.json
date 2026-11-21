@@ -1,0 +1,45 @@
+{
+  "id": "telescopios",
+  "tema": "astronomia",
+  "subtema": "telescopios",
+  "titulo": "Telescopios y observación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Galileo usó un telescopio en 1609 y vio las lunas de Júpiter y los cráteres de la Luna."
+    },
+    {
+      "texto": "Los telescopios captan más luz que el ojo y muestran objetos débiles o lejanos."
+    },
+    {
+      "texto": "Los telescopios espaciales, como el Hubble o el James Webb, observan sin la interferencia de la atmósfera."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "galileo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué descubrió Galileo con su telescopio?",
+      "opciones": [
+        "Las lunas de Júpiter",
+        "Plutón",
+        "Los agujeros negros"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Vio cuatro lunas girando alrededor de Júpiter."
+    },
+    {
+      "id": "espacio",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué se ponen telescopios en el espacio?",
+      "respuesta_esperada": "Para evitar la interferencia de la atmósfera.",
+      "palabras_clave": [
+        "atmosfera",
+        "aire",
+        "nubes"
+      ],
+      "explicacion_respuesta": "La atmósfera distorsiona y bloquea parte de la luz."
+    }
+  ]
+}

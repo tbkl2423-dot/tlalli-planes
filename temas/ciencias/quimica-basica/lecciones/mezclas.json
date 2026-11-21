@@ -1,0 +1,43 @@
+{
+  "id": "mezclas",
+  "tema": "quimica-basica",
+  "subtema": "mezclas",
+  "titulo": "Mezclas y sustancias puras",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una sustancia pura tiene composición fija, como el agua destilada o el oro."
+    },
+    {
+      "texto": "Una mezcla combina sustancias sin que cambien. Es homogénea si se ve uniforme, como el agua con sal, y heterogénea si se distinguen sus partes, como una ensalada."
+    },
+    {
+      "texto": "Las mezclas se separan por métodos físicos: filtración, evaporación o destilación."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "homogenea",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una mezcla homogénea?",
+      "opciones": [
+        "Agua con azúcar disuelta",
+        "Arena con piedras",
+        "Agua con aceite"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "No se distinguen sus componentes."
+    },
+    {
+      "id": "filtrar",
+      "tipo": "completar",
+      "enunciado": "Para separar arena del agua se usa la ___.",
+      "respuestas_validas": [
+        "filtración",
+        "filtracion"
+      ],
+      "explicacion_respuesta": "El filtro retiene la arena."
+    }
+  ]
+}
