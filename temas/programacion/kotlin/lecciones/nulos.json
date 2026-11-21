@@ -1,0 +1,43 @@
+{
+  "id": "nulos",
+  "tema": "kotlin",
+  "subtema": "nulos",
+  "titulo": "Seguridad con nulos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En Kotlin una variable no puede ser null a menos que su tipo lleve signo de interrogación: String?."
+    },
+    {
+      "texto": "El operador ?. llama a algo solo si no es null, y el operador Elvis ?: da un valor por defecto.",
+      "codigo": "val largo = nombre?.length ?: 0"
+    },
+    {
+      "texto": "Así se evitan muchos errores de valores nulos que en otros lenguajes cierran la app."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "elvis",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace ?: en Kotlin?",
+      "opciones": [
+        "Da un valor por defecto si lo de la izquierda es null",
+        "Compara dos números",
+        "Crea un rango"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se llama operador Elvis."
+    },
+    {
+      "id": "nullable",
+      "tipo": "completar",
+      "enunciado": "Una variable que puede ser null se declara como String___",
+      "respuestas_validas": [
+        "?"
+      ],
+      "explicacion_respuesta": "El signo de interrogación marca el tipo como anulable."
+    }
+  ]
+}

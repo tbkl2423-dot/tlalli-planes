@@ -1,0 +1,43 @@
+{
+  "id": "ramas",
+  "tema": "git",
+  "subtema": "ramas",
+  "titulo": "Ramas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una rama es una línea de trabajo independiente. Puedes probar algo sin tocar la rama principal."
+    },
+    {
+      "texto": "git switch -c crea una rama nueva y te cambia a ella.",
+      "codigo": "git switch -c nueva-portada"
+    },
+    {
+      "texto": "La rama principal suele llamarse main."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "para-que",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve una rama?",
+      "opciones": [
+        "Trabajar en algo sin afectar la rama principal",
+        "Borrar el historial",
+        "Subir archivos grandes"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las ramas aíslan el trabajo en curso."
+    },
+    {
+      "id": "crear",
+      "tipo": "completar",
+      "enunciado": "git switch ___ mi-rama crea y cambia a la rama.",
+      "respuestas_validas": [
+        "-c"
+      ],
+      "explicacion_respuesta": "-c significa create."
+    }
+  ]
+}

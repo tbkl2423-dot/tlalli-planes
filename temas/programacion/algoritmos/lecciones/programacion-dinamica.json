@@ -1,0 +1,61 @@
+{
+  "id": "programacion-dinamica",
+  "tema": "algoritmos",
+  "subtema": "programacion-dinamica",
+  "titulo": "Programación dinámica",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La programación dinámica resuelve problemas grandes guardando las respuestas de los subproblemas para no repetirlos."
+    },
+    {
+      "texto": "Fibonacci recursivo repite muchísimos cálculos; con memoización se calcula cada valor una sola vez.",
+      "codigo": "const memo = {};\nfunction fib(n) {\n  if (n < 2) return n;\n  if (memo[n]) return memo[n];\n  return memo[n] = fib(n - 1) + fib(n - 2);\n}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "idea",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la idea central de la programación dinámica?",
+      "opciones": [
+        "Guardar resultados de subproblemas",
+        "Usar más ciclos",
+        "Ordenar primero"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Evita resolver dos veces lo mismo."
+    },
+    {
+      "id": "fib",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe fib(n) que regrese el n-ésimo número de Fibonacci (fib(0)=0, fib(1)=1) usando un ciclo.",
+      "codigo_inicial": "function fib(n) {\n  // tu código aquí\n}",
+      "funcion": "fib",
+      "pruebas": [
+        {
+          "entrada": [
+            10
+          ],
+          "salida": 55
+        },
+        {
+          "entrada": [
+            1
+          ],
+          "salida": 1
+        },
+        {
+          "entrada": [
+            0
+          ],
+          "salida": 0
+        }
+      ],
+      "solucion": "function fib(n) {\n  let a = 0, b = 1;\n  for (let i = 0; i < n; i++) [a, b] = [b, a + b];\n  return a;\n}",
+      "explicacion_respuesta": "Guardando solo los dos últimos valores se calcula en O(n)."
+    }
+  ]
+}

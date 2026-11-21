@@ -1,0 +1,46 @@
+{
+  "id": "corrutinas",
+  "tema": "kotlin",
+  "subtema": "corrutinas",
+  "titulo": "Corrutinas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las corrutinas permiten hacer tareas lentas, como descargas, sin congelar la pantalla."
+    },
+    {
+      "texto": "Una función marcada con suspend puede pausarse y continuar después sin bloquear el hilo."
+    },
+    {
+      "texto": "En Android se lanzan dentro de un scope, por ejemplo viewModelScope.launch.",
+      "codigo": "viewModelScope.launch {\n    val datos = repositorio.cargar()\n}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "suspend",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué indica la palabra suspend?",
+      "opciones": [
+        "Que la función puede pausarse sin bloquear",
+        "Que la función está prohibida",
+        "Que es una clase"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las funciones suspend solo se llaman desde corrutinas u otras suspend."
+    },
+    {
+      "id": "por-que",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué no se debe descargar algo en el hilo principal?",
+      "respuesta_esperada": "Porque la pantalla se congela mientras espera.",
+      "palabras_clave": [
+        "congela",
+        "bloquea",
+        "pantalla"
+      ],
+      "explicacion_respuesta": "El hilo principal dibuja la interfaz; si se bloquea, la app se traba."
+    }
+  ]
+}

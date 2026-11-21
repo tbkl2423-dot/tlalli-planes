@@ -1,0 +1,42 @@
+{
+  "id": "pilas-y-colas",
+  "tema": "algoritmos",
+  "subtema": "pilas-y-colas",
+  "titulo": "Pilas y colas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una pila funciona como una torre de platos: el último que entra es el primero que sale. Se le llama LIFO."
+    },
+    {
+      "texto": "Una cola funciona como una fila del banco: el primero que llega es el primero que sale. Se le llama FIFO."
+    },
+    {
+      "texto": "El botón de deshacer usa una pila; una impresora con varios trabajos usa una cola."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "deshacer",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué estructura usa el botón deshacer?",
+      "opciones": [
+        "Una pila",
+        "Una cola",
+        "Un árbol"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se deshace primero lo último que hiciste."
+    },
+    {
+      "id": "fifo",
+      "tipo": "completar",
+      "enunciado": "Una cola sigue el orden FIFO: el primero en entrar es el primero en ___.",
+      "respuestas_validas": [
+        "salir"
+      ],
+      "explicacion_respuesta": "First in, first out."
+    }
+  ]
+}

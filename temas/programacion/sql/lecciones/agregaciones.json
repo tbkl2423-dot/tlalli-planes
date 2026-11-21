@@ -1,0 +1,41 @@
+{
+  "id": "agregaciones",
+  "tema": "sql",
+  "subtema": "agregaciones",
+  "titulo": "Funciones de agregación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las funciones de agregación resumen muchas filas en un solo valor."
+    },
+    {
+      "texto": "COUNT cuenta filas, SUM suma, AVG promedia, MIN y MAX dan el menor y el mayor.",
+      "codigo": "SELECT COUNT(*), AVG(precio) FROM productos;"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "contar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué función cuenta cuántas filas hay?",
+      "opciones": [
+        "COUNT",
+        "SUM",
+        "MAX"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "COUNT(*) cuenta todas las filas."
+    },
+    {
+      "id": "promedio",
+      "tipo": "completar",
+      "enunciado": "SELECT ___(calificacion) FROM examenes; da el promedio.",
+      "respuestas_validas": [
+        "AVG",
+        "avg"
+      ],
+      "explicacion_respuesta": "AVG calcula el promedio."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "busqueda",
+  "tema": "algoritmos",
+  "subtema": "busqueda",
+  "titulo": "Búsqueda lineal y binaria",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La búsqueda lineal revisa elemento por elemento. Es O de n."
+    },
+    {
+      "texto": "La búsqueda binaria funciona en listas ordenadas: mira el centro y descarta la mitad donde no puede estar el dato."
+    },
+    {
+      "texto": "Es O de logaritmo de n: en un millón de elementos necesita unas 20 comparaciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "binaria",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas comparaciones necesita como máximo la búsqueda binaria en 1000 elementos?",
+      "opciones": [
+        "Unas 10",
+        "Unas 500",
+        "1000"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "2 a la 10 es 1024, así que unas 10 divisiones bastan."
+    },
+    {
+      "id": "lineal",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función buscar que regrese la posición de un valor en un arreglo, o -1 si no está.",
+      "codigo_inicial": "function buscar(lista, valor) {\n  // tu código aquí\n}",
+      "funcion": "buscar",
+      "pruebas": [
+        {
+          "entrada": [
+            [
+              4,
+              7,
+              9
+            ],
+            7
+          ],
+          "salida": 1
+        },
+        {
+          "entrada": [
+            [
+              1,
+              2
+            ],
+            5
+          ],
+          "salida": -1
+        }
+      ],
+      "solucion": "function buscar(lista, valor) {\n  for (let i = 0; i < lista.length; i++) {\n    if (lista[i] === valor) return i;\n  }\n  return -1;\n}",
+      "explicacion_respuesta": "Se revisa cada posición y se regresa la primera que coincide."
+    }
+  ]
+}

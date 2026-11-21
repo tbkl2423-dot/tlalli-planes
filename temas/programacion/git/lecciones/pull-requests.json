@@ -1,0 +1,45 @@
+{
+  "id": "pull-requests",
+  "tema": "git",
+  "subtema": "pull-requests",
+  "titulo": "Pull requests",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un pull request es una propuesta para unir tu rama a la principal en GitHub."
+    },
+    {
+      "texto": "Otras personas revisan el código, comentan y sugieren cambios antes de aceptarlo."
+    },
+    {
+      "texto": "También se ejecutan pruebas automáticas que revisan que nada se rompa."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pr",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es un pull request?",
+      "opciones": [
+        "Una propuesta para unir cambios con revisión",
+        "Un tipo de rama",
+        "Un respaldo automático"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Permite revisar y discutir antes de fusionar."
+    },
+    {
+      "id": "revision",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué es útil la revisión de código?",
+      "respuesta_esperada": "Porque otras personas encuentran errores y mejoras antes de unir los cambios.",
+      "palabras_clave": [
+        "errores",
+        "mejoras",
+        "calidad"
+      ],
+      "explicacion_respuesta": "Cuatro ojos ven más que dos."
+    }
+  ]
+}

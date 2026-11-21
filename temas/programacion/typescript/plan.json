@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "JavaScript con tipos: detecta errores antes de ejecutar y hace el código más fácil de mantener.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "typescript",
     "ts"
@@ -71,7 +71,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -79,6 +79,48 @@
           "titulo": "¿Por qué TypeScript?",
           "subtema": "por-que-typescript",
           "archivo": "lecciones/por-que-typescript.json"
+        },
+        {
+          "id": "tipos-basicos",
+          "titulo": "Tipos básicos",
+          "subtema": "tipos-basicos",
+          "archivo": "lecciones/tipos-basicos.json"
+        },
+        {
+          "id": "interfaces",
+          "titulo": "Interfaces y types",
+          "subtema": "interfaces",
+          "archivo": "lecciones/interfaces.json"
+        },
+        {
+          "id": "uniones",
+          "titulo": "Uniones y literales",
+          "subtema": "uniones",
+          "archivo": "lecciones/uniones.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "funciones-tipadas",
+          "titulo": "Funciones tipadas",
+          "subtema": "funciones-tipadas",
+          "archivo": "lecciones/funciones-tipadas.json"
+        },
+        {
+          "id": "genericos",
+          "titulo": "Genéricos",
+          "subtema": "genericos",
+          "archivo": "lecciones/genericos.json"
+        },
+        {
+          "id": "narrowing",
+          "titulo": "Estrechamiento de tipos",
+          "subtema": "narrowing",
+          "archivo": "lecciones/narrowing.json"
         }
       ]
     }

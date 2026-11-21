@@ -1,0 +1,40 @@
+{
+  "id": "condicionales",
+  "tema": "kotlin",
+  "subtema": "condicionales",
+  "titulo": "if y when",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En Kotlin if también es una expresión: puede devolver un valor."
+    },
+    {
+      "texto": "when reemplaza a cadenas de if y es muy legible.",
+      "codigo": "val texto = when (nota) {\n    10 -> \"Excelente\"\n    in 6..9 -> \"Aprobado\"\n    else -> \"Reprobado\"\n}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "when",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué palabra de Kotlin evalúa varios casos de forma ordenada?",
+      "opciones": [
+        "when",
+        "switch",
+        "case"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "when es el equivalente mejorado de switch."
+    },
+    {
+      "id": "rango",
+      "tipo": "completar",
+      "enunciado": "in 1___5 representa el rango del 1 al 5.",
+      "respuestas_validas": [
+        ".."
+      ],
+      "explicacion_respuesta": "Dos puntos seguidos crean un rango inclusivo."
+    }
+  ]
+}

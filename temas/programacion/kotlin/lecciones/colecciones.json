@@ -1,0 +1,44 @@
+{
+  "id": "colecciones",
+  "tema": "kotlin",
+  "subtema": "colecciones",
+  "titulo": "Listas y mapas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "listOf crea una lista de solo lectura y mutableListOf una lista que puedes modificar.",
+      "codigo": "val colores = listOf(\"rojo\", \"azul\")\nval tareas = mutableListOf(\"leer\")\ntareas.add(\"correr\")"
+    },
+    {
+      "texto": "mapOf guarda pares clave valor con la palabra to.",
+      "codigo": "val edades = mapOf(\"Ana\" to 20, \"Luis\" to 25)"
+    },
+    {
+      "texto": "Las colecciones tienen funciones como filter, map y sum."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mutable",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál permite agregar elementos?",
+      "opciones": [
+        "mutableListOf",
+        "listOf",
+        "setOf"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las colecciones mutables se pueden modificar."
+    },
+    {
+      "id": "par",
+      "tipo": "completar",
+      "enunciado": "mapOf(\"uno\" ___ 1)",
+      "respuestas_validas": [
+        "to"
+      ],
+      "explicacion_respuesta": "to crea un par clave valor."
+    }
+  ]
+}

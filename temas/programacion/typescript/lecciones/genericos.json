@@ -1,0 +1,40 @@
+{
+  "id": "genericos",
+  "tema": "typescript",
+  "subtema": "genericos",
+  "titulo": "Genéricos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los genéricos permiten escribir código que funciona con muchos tipos sin perder la información del tipo."
+    },
+    {
+      "texto": "T es un parámetro de tipo que se decide al usar la función.",
+      "codigo": "function primero<T>(lista: T[]): T {\n  return lista[0];\n}\nprimero([1, 2, 3]);   // number"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ventaja",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ventaja dan los genéricos?",
+      "opciones": [
+        "Reutilizar código sin perder el tipo",
+        "Hacer el código más lento",
+        "Eliminar los tipos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El resultado conserva el tipo exacto."
+    },
+    {
+      "id": "letra",
+      "tipo": "completar",
+      "enunciado": "function id<___>(x: T): T { return x; }",
+      "respuestas_validas": [
+        "T"
+      ],
+      "explicacion_respuesta": "T es el nombre convencional del parámetro de tipo."
+    }
+  ]
+}

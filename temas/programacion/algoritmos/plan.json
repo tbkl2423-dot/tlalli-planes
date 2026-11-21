@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "Cómo resolver problemas de forma eficiente: complejidad, búsqueda, ordenamiento y estructuras como pilas, colas, árboles y grafos.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "algoritmos",
     "estructuras de datos",
@@ -102,7 +102,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -110,6 +110,78 @@
           "titulo": "¿Qué es un algoritmo?",
           "subtema": "que-es-algoritmo",
           "archivo": "lecciones/que-es-algoritmo.json"
+        },
+        {
+          "id": "complejidad",
+          "titulo": "Complejidad y notación O grande",
+          "subtema": "complejidad",
+          "archivo": "lecciones/complejidad.json"
+        },
+        {
+          "id": "busqueda",
+          "titulo": "Búsqueda lineal y binaria",
+          "subtema": "busqueda",
+          "archivo": "lecciones/busqueda.json"
+        },
+        {
+          "id": "ordenamiento",
+          "titulo": "Algoritmos de ordenamiento",
+          "subtema": "ordenamiento",
+          "archivo": "lecciones/ordenamiento.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "recursion",
+          "titulo": "Recursión",
+          "subtema": "recursion",
+          "archivo": "lecciones/recursion.json"
+        },
+        {
+          "id": "pilas-y-colas",
+          "titulo": "Pilas y colas",
+          "subtema": "pilas-y-colas",
+          "archivo": "lecciones/pilas-y-colas.json"
+        },
+        {
+          "id": "listas-enlazadas",
+          "titulo": "Listas enlazadas",
+          "subtema": "listas-enlazadas",
+          "archivo": "lecciones/listas-enlazadas.json"
+        },
+        {
+          "id": "tablas-hash",
+          "titulo": "Tablas hash",
+          "subtema": "tablas-hash",
+          "archivo": "lecciones/tablas-hash.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "arboles",
+          "titulo": "Árboles",
+          "subtema": "arboles",
+          "archivo": "lecciones/arboles.json"
+        },
+        {
+          "id": "grafos",
+          "titulo": "Grafos",
+          "subtema": "grafos",
+          "archivo": "lecciones/grafos.json"
+        },
+        {
+          "id": "programacion-dinamica",
+          "titulo": "Programación dinámica",
+          "subtema": "programacion-dinamica",
+          "archivo": "lecciones/programacion-dinamica.json"
         }
       ]
     }

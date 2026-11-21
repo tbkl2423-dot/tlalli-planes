@@ -1,0 +1,45 @@
+{
+  "id": "ordenamiento",
+  "tema": "algoritmos",
+  "subtema": "ordenamiento",
+  "titulo": "Algoritmos de ordenamiento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ordenar es uno de los problemas más estudiados. Hay algoritmos simples y otros muy eficientes."
+    },
+    {
+      "texto": "Burbuja compara pares vecinos y los intercambia; es fácil pero lento, O de n al cuadrado."
+    },
+    {
+      "texto": "Merge sort divide la lista, ordena cada mitad y las mezcla. Es O de n por logaritmo de n."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "eficiente",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es más eficiente con muchos datos?",
+      "opciones": [
+        "Merge sort",
+        "Burbuja",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "n log n crece mucho más lento que n²."
+    },
+    {
+      "id": "merge",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuál es la idea de merge sort?",
+      "respuesta_esperada": "Dividir la lista en mitades, ordenarlas y mezclarlas.",
+      "palabras_clave": [
+        "dividir",
+        "mitades",
+        "mezclar"
+      ],
+      "explicacion_respuesta": "Es un ejemplo de divide y vencerás."
+    }
+  ]
+}

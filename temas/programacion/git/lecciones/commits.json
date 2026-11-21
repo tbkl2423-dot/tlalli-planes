@@ -1,0 +1,43 @@
+{
+  "id": "commits",
+  "tema": "git",
+  "subtema": "commits",
+  "titulo": "Commits",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "git status te dice qué archivos cambiaron y cuáles están listos para guardar."
+    },
+    {
+      "texto": "git add prepara cambios y git commit los guarda con un mensaje.",
+      "codigo": "git status\ngit add .\ngit commit -m \"Agrega el formulario de contacto\""
+    },
+    {
+      "texto": "Un buen mensaje de commit explica qué cambió y por qué, en pocas palabras."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "status",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué comando muestra qué archivos cambiaron?",
+      "opciones": [
+        "git status",
+        "git log",
+        "git push"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "git status resume el estado del área de trabajo."
+    },
+    {
+      "id": "mensaje",
+      "tipo": "completar",
+      "enunciado": "git commit ___ \"Corrige el error del login\"",
+      "respuestas_validas": [
+        "-m"
+      ],
+      "explicacion_respuesta": "-m permite escribir el mensaje en la misma línea."
+    }
+  ]
+}

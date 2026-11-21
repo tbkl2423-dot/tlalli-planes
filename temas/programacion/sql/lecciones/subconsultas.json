@@ -1,0 +1,41 @@
+{
+  "id": "subconsultas",
+  "tema": "sql",
+  "subtema": "subconsultas",
+  "titulo": "Subconsultas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una subconsulta es una consulta dentro de otra, entre paréntesis."
+    },
+    {
+      "texto": "Sirve, por ejemplo, para comparar con un valor calculado.",
+      "codigo": "SELECT nombre FROM productos\nWHERE precio > (SELECT AVG(precio) FROM productos);"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "resultado",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué devuelve el ejemplo de la lección?",
+      "opciones": [
+        "Productos con precio mayor al promedio",
+        "El promedio de precios",
+        "Todos los productos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La subconsulta calcula el promedio y la consulta externa filtra con él."
+    },
+    {
+      "id": "parentesis",
+      "tipo": "completar",
+      "enunciado": "Una subconsulta se escribe entre ___.",
+      "respuestas_validas": [
+        "paréntesis",
+        "parentesis"
+      ],
+      "explicacion_respuesta": "Los paréntesis delimitan la consulta interna."
+    }
+  ]
+}

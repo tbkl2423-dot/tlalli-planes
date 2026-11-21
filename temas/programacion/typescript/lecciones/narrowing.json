@@ -1,0 +1,42 @@
+{
+  "id": "narrowing",
+  "tema": "typescript",
+  "subtema": "narrowing",
+  "titulo": "Estrechamiento de tipos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Cuando un valor tiene una unión de tipos, TypeScript necesita que compruebes cuál es antes de usarlo."
+    },
+    {
+      "texto": "typeof y otras comprobaciones estrechan el tipo dentro de cada rama.",
+      "codigo": "function largo(x: string | number) {\n  if (typeof x === \"string\") return x.length;\n  return x;\n}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "typeof",
+      "tipo": "opcion_multiple",
+      "pregunta": "Dentro de if (typeof x === \"string\"), ¿de qué tipo es x?",
+      "opciones": [
+        "string",
+        "number",
+        "any"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "TypeScript sabe que en esa rama x es texto."
+    },
+    {
+      "id": "que-es",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es el estrechamiento de tipos?",
+      "respuesta_esperada": "Comprobar el tipo para que TypeScript sepa cuál es en cada parte del código.",
+      "palabras_clave": [
+        "comprobar",
+        "tipo"
+      ],
+      "explicacion_respuesta": "Así puedes usar métodos específicos de cada tipo con seguridad."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "funciones-tipadas",
+  "tema": "typescript",
+  "subtema": "funciones-tipadas",
+  "titulo": "Funciones tipadas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Puedes tipar los parámetros y el valor que devuelve una función.",
+      "codigo": "function sumar(a: number, b: number): number {\n  return a + b;\n}"
+    },
+    {
+      "texto": "Si llamas a sumar con un texto, TypeScript te avisa antes de ejecutar."
+    },
+    {
+      "texto": "void indica que la función no devuelve nada."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "void",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tipo de retorno indica que una función no regresa nada?",
+      "opciones": [
+        "void",
+        "null",
+        "never"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "void se usa en funciones que solo hacen algo."
+    },
+    {
+      "id": "area",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función area que reciba base y altura y regrese el área de un rectángulo.",
+      "codigo_inicial": "function area(base, altura) {\n  // tu código aquí\n}",
+      "funcion": "area",
+      "pruebas": [
+        {
+          "entrada": [
+            3,
+            4
+          ],
+          "salida": 12
+        },
+        {
+          "entrada": [
+            5,
+            2
+          ],
+          "salida": 10
+        }
+      ],
+      "solucion": "function area(base, altura) {\n  return base * altura;\n}",
+      "explicacion_respuesta": "El área de un rectángulo es base por altura."
+    }
+  ]
+}

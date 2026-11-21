@@ -1,0 +1,44 @@
+{
+  "id": "transacciones",
+  "tema": "sql",
+  "subtema": "transacciones",
+  "titulo": "Transacciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una transacción agrupa varias operaciones que deben hacerse todas o ninguna."
+    },
+    {
+      "texto": "Por ejemplo, una transferencia: restar de una cuenta y sumar a otra.",
+      "codigo": "BEGIN;\nUPDATE cuentas SET saldo = saldo - 100 WHERE id = 1;\nUPDATE cuentas SET saldo = saldo + 100 WHERE id = 2;\nCOMMIT;"
+    },
+    {
+      "texto": "Si algo falla, ROLLBACK deshace todos los cambios de la transacción."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rollback",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace ROLLBACK?",
+      "opciones": [
+        "Deshace los cambios de la transacción",
+        "Guarda los cambios",
+        "Borra la tabla"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "ROLLBACK regresa todo al estado anterior a BEGIN."
+    },
+    {
+      "id": "confirmar",
+      "tipo": "completar",
+      "enunciado": "Para guardar definitivamente los cambios se usa ___.",
+      "respuestas_validas": [
+        "COMMIT",
+        "commit"
+      ],
+      "explicacion_respuesta": "COMMIT confirma la transacción."
+    }
+  ]
+}

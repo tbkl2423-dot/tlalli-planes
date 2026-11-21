@@ -1,0 +1,45 @@
+{
+  "id": "insert-update-delete",
+  "tema": "sql",
+  "subtema": "insert-update-delete",
+  "titulo": "Insertar, actualizar y borrar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "INSERT agrega filas nuevas.",
+      "codigo": "INSERT INTO clientes (nombre, ciudad) VALUES ('Ana', 'Mérida');"
+    },
+    {
+      "texto": "UPDATE cambia datos y DELETE borra filas. Siempre usa WHERE con ellos.",
+      "codigo": "UPDATE clientes SET ciudad = 'Toluca' WHERE id = 7;\nDELETE FROM clientes WHERE id = 9;"
+    },
+    {
+      "texto": "Un UPDATE o DELETE sin WHERE afecta a toda la tabla."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sin-where",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué pasa con DELETE FROM clientes; sin WHERE?",
+      "opciones": [
+        "Borra todas las filas",
+        "No hace nada",
+        "Borra solo la primera"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Sin WHERE la condición aplica a todas las filas."
+    },
+    {
+      "id": "insertar",
+      "tipo": "completar",
+      "enunciado": "___ INTO productos (nombre) VALUES ('Café');",
+      "respuestas_validas": [
+        "INSERT",
+        "insert"
+      ],
+      "explicacion_respuesta": "INSERT INTO agrega una fila."
+    }
+  ]
+}

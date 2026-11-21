@@ -1,0 +1,45 @@
+{
+  "id": "where",
+  "tema": "sql",
+  "subtema": "where",
+  "titulo": "Filtrar con WHERE",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "WHERE filtra filas. Puedes combinar condiciones con AND y OR.",
+      "codigo": "SELECT * FROM productos\nWHERE precio < 100 AND stock > 0;"
+    },
+    {
+      "texto": "LIKE busca patrones de texto. El signo de porcentaje significa cualquier cosa.",
+      "codigo": "SELECT nombre FROM clientes WHERE nombre LIKE 'Ma%';"
+    },
+    {
+      "texto": "IN revisa si un valor está en una lista: WHERE ciudad IN ('Puebla', 'Oaxaca')."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "and",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué devuelve WHERE edad > 18 AND ciudad = 'León'?",
+      "opciones": [
+        "Mayores de 18 que viven en León",
+        "Todos los de León",
+        "Todos los mayores de 18"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "AND exige que se cumplan las dos condiciones."
+    },
+    {
+      "id": "like",
+      "tipo": "completar",
+      "enunciado": "WHERE nombre ___ 'A%' busca nombres que empiezan con A.",
+      "respuestas_validas": [
+        "LIKE",
+        "like"
+      ],
+      "explicacion_respuesta": "LIKE compara con un patrón; % representa cualquier texto."
+    }
+  ]
+}

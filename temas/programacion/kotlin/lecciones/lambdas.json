@@ -1,0 +1,41 @@
+{
+  "id": "lambdas",
+  "tema": "kotlin",
+  "subtema": "lambdas",
+  "titulo": "Lambdas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una lambda es una función sin nombre que se escribe entre llaves.",
+      "codigo": "val doble = { n: Int -> n * 2 }"
+    },
+    {
+      "texto": "Si la lambda tiene un solo parámetro, puedes usar it.",
+      "codigo": "listOf(1, 2, 3).map { it * 10 }   // [10, 20, 30]"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "it",
+      "tipo": "opcion_multiple",
+      "pregunta": "En una lambda de un solo parámetro, ¿cómo se llama ese parámetro por defecto?",
+      "opciones": [
+        "it",
+        "this",
+        "self"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "it es el nombre implícito del único parámetro."
+    },
+    {
+      "id": "filtrar",
+      "tipo": "completar",
+      "enunciado": "listOf(1, 2, 3, 4).___ { it % 2 == 0 } da [2, 4]",
+      "respuestas_validas": [
+        "filter"
+      ],
+      "explicacion_respuesta": "filter conserva los elementos que cumplen la condición."
+    }
+  ]
+}

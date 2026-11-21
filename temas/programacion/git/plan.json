@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Guardar la historia de tu código, trabajar con ramas y colaborar en GitHub sin perder cambios.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "git",
     "github",
@@ -90,7 +90,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -98,6 +98,66 @@
           "titulo": "¿Qué es el control de versiones?",
           "subtema": "que-es-git",
           "archivo": "lecciones/que-es-git.json"
+        },
+        {
+          "id": "commits",
+          "titulo": "Commits",
+          "subtema": "commits",
+          "archivo": "lecciones/commits.json"
+        },
+        {
+          "id": "historial",
+          "titulo": "Ver el historial",
+          "subtema": "historial",
+          "archivo": "lecciones/historial.json"
+        },
+        {
+          "id": "ramas",
+          "titulo": "Ramas",
+          "subtema": "ramas",
+          "archivo": "lecciones/ramas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "merge",
+          "titulo": "Fusionar ramas",
+          "subtema": "merge",
+          "archivo": "lecciones/merge.json"
+        },
+        {
+          "id": "remotos",
+          "titulo": "Repositorios remotos",
+          "subtema": "remotos",
+          "archivo": "lecciones/remotos.json"
+        },
+        {
+          "id": "pull-requests",
+          "titulo": "Pull requests",
+          "subtema": "pull-requests",
+          "archivo": "lecciones/pull-requests.json"
+        },
+        {
+          "id": "deshacer",
+          "titulo": "Deshacer cambios",
+          "subtema": "deshacer",
+          "archivo": "lecciones/deshacer.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "gitignore",
+          "titulo": "Ignorar archivos",
+          "subtema": "gitignore",
+          "archivo": "lecciones/gitignore.json"
         }
       ]
     }

@@ -1,0 +1,44 @@
+{
+  "id": "gitignore",
+  "tema": "git",
+  "subtema": "gitignore",
+  "titulo": "Ignorar archivos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El archivo .gitignore lista los archivos que Git no debe guardar."
+    },
+    {
+      "texto": "Se usa para archivos generados, dependencias y secretos como contraseñas.",
+      "codigo": "node_modules/\n.env\n*.log"
+    },
+    {
+      "texto": "Nunca subas contraseñas o llaves a un repositorio, aunque sea privado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "que-ignorar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene poner en .gitignore?",
+      "opciones": [
+        "Archivos con contraseñas y carpetas generadas",
+        "El código principal",
+        "El README"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los secretos y lo que se puede regenerar no van al repositorio."
+    },
+    {
+      "id": "archivo",
+      "tipo": "completar",
+      "enunciado": "El archivo que indica qué ignorar se llama ___.",
+      "respuestas_validas": [
+        ".gitignore",
+        "gitignore"
+      ],
+      "explicacion_respuesta": "Va en la raíz del proyecto."
+    }
+  ]
+}

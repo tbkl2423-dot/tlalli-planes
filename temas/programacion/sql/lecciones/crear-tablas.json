@@ -1,0 +1,44 @@
+{
+  "id": "crear-tablas",
+  "tema": "sql",
+  "subtema": "crear-tablas",
+  "titulo": "Crear tablas y llaves",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "CREATE TABLE define una tabla con sus columnas y tipos.",
+      "codigo": "CREATE TABLE alumnos (\n  id INTEGER PRIMARY KEY,\n  nombre TEXT NOT NULL,\n  grupo_id INTEGER REFERENCES grupos(id)\n);"
+    },
+    {
+      "texto": "La llave primaria identifica cada fila de forma única."
+    },
+    {
+      "texto": "Una llave foránea apunta a la llave primaria de otra tabla y conecta los datos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "primaria",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué identifica de forma única cada fila?",
+      "opciones": [
+        "La llave primaria",
+        "La llave foránea",
+        "El índice"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "No puede haber dos filas con la misma llave primaria."
+    },
+    {
+      "id": "not-null",
+      "tipo": "completar",
+      "enunciado": "Para exigir que una columna siempre tenga valor se usa NOT ___.",
+      "respuestas_validas": [
+        "NULL",
+        "null"
+      ],
+      "explicacion_respuesta": "NOT NULL impide guardar filas sin ese dato."
+    }
+  ]
+}

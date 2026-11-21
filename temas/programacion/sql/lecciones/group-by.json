@@ -1,0 +1,44 @@
+{
+  "id": "group-by",
+  "tema": "sql",
+  "subtema": "group-by",
+  "titulo": "Agrupar con GROUP BY y HAVING",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "GROUP BY agrupa filas que comparten un valor para calcular una agregación por grupo.",
+      "codigo": "SELECT ciudad, COUNT(*) FROM clientes GROUP BY ciudad;"
+    },
+    {
+      "texto": "HAVING filtra los grupos después de agruparlos. WHERE filtra filas antes.",
+      "codigo": "SELECT ciudad, COUNT(*) FROM clientes\nGROUP BY ciudad HAVING COUNT(*) > 10;"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "having",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué cláusula filtra grupos ya formados?",
+      "opciones": [
+        "HAVING",
+        "WHERE",
+        "ORDER BY"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "HAVING actúa sobre el resultado de GROUP BY."
+    },
+    {
+      "id": "diferencia",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuál es la diferencia entre WHERE y HAVING?",
+      "respuesta_esperada": "WHERE filtra filas antes de agrupar y HAVING filtra grupos después.",
+      "palabras_clave": [
+        "antes",
+        "despues",
+        "grupos"
+      ],
+      "explicacion_respuesta": "El orden importa: WHERE, luego GROUP BY, luego HAVING."
+    }
+  ]
+}

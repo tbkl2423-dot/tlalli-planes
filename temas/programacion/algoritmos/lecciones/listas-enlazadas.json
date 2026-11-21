@@ -1,0 +1,42 @@
+{
+  "id": "listas-enlazadas",
+  "tema": "algoritmos",
+  "subtema": "listas-enlazadas",
+  "titulo": "Listas enlazadas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una lista enlazada guarda cada elemento en un nodo que apunta al siguiente."
+    },
+    {
+      "texto": "Insertar o quitar al inicio es muy rápido, porque solo cambias un enlace."
+    },
+    {
+      "texto": "Pero para llegar al elemento número cien tienes que recorrer los noventa y nueve anteriores."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ventaja",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué operación es rápida en una lista enlazada?",
+      "opciones": [
+        "Insertar al inicio",
+        "Leer el elemento 500",
+        "Ordenar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Solo se ajusta un apuntador."
+    },
+    {
+      "id": "nodo",
+      "tipo": "completar",
+      "enunciado": "Cada elemento de la lista enlazada vive en un ___.",
+      "respuestas_validas": [
+        "nodo"
+      ],
+      "explicacion_respuesta": "El nodo guarda el valor y la referencia al siguiente."
+    }
+  ]
+}

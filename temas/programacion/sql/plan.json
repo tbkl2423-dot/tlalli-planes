@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Consultar y modificar datos en bases de datos relacionales con SQL: filtrar, ordenar, agrupar y unir tablas.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "sql",
     "bases de datos",
@@ -105,7 +105,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -113,6 +113,78 @@
           "titulo": "Consultas con SELECT",
           "subtema": "select",
           "archivo": "lecciones/select.json"
+        },
+        {
+          "id": "where",
+          "titulo": "Filtrar con WHERE",
+          "subtema": "where",
+          "archivo": "lecciones/where.json"
+        },
+        {
+          "id": "order-by-limit",
+          "titulo": "Ordenar y limitar",
+          "subtema": "order-by-limit",
+          "archivo": "lecciones/order-by-limit.json"
+        },
+        {
+          "id": "agregaciones",
+          "titulo": "Funciones de agregación",
+          "subtema": "agregaciones",
+          "archivo": "lecciones/agregaciones.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "group-by",
+          "titulo": "Agrupar con GROUP BY y HAVING",
+          "subtema": "group-by",
+          "archivo": "lecciones/group-by.json"
+        },
+        {
+          "id": "joins",
+          "titulo": "Unir tablas con JOIN",
+          "subtema": "joins",
+          "archivo": "lecciones/joins.json"
+        },
+        {
+          "id": "subconsultas",
+          "titulo": "Subconsultas",
+          "subtema": "subconsultas",
+          "archivo": "lecciones/subconsultas.json"
+        },
+        {
+          "id": "insert-update-delete",
+          "titulo": "Insertar, actualizar y borrar",
+          "subtema": "insert-update-delete",
+          "archivo": "lecciones/insert-update-delete.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "crear-tablas",
+          "titulo": "Crear tablas y llaves",
+          "subtema": "crear-tablas",
+          "archivo": "lecciones/crear-tablas.json"
+        },
+        {
+          "id": "indices",
+          "titulo": "Índices",
+          "subtema": "indices",
+          "archivo": "lecciones/indices.json"
+        },
+        {
+          "id": "transacciones",
+          "titulo": "Transacciones",
+          "subtema": "transacciones",
+          "archivo": "lecciones/transacciones.json"
         }
       ]
     }

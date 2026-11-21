@@ -1,0 +1,43 @@
+{
+  "id": "tipos-basicos",
+  "tema": "typescript",
+  "subtema": "tipos-basicos",
+  "titulo": "Tipos básicos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los tipos básicos son string, number y boolean. También existen arreglos como number[]."
+    },
+    {
+      "texto": "any desactiva la revisión de tipos; conviene evitarlo. unknown es la alternativa segura.",
+      "codigo": "let edades: number[] = [20, 31];\nlet dato: unknown = JSON.parse(texto);"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "arreglo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se escribe un arreglo de textos?",
+      "opciones": [
+        "string[]",
+        "[string]",
+        "array"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El tipo seguido de corchetes indica un arreglo."
+    },
+    {
+      "id": "evitar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tipo conviene evitar porque desactiva la revisión?",
+      "opciones": [
+        "any",
+        "number",
+        "unknown"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "any acepta todo y oculta errores."
+    }
+  ]
+}

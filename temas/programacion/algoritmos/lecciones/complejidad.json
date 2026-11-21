@@ -1,0 +1,45 @@
+{
+  "id": "complejidad",
+  "tema": "algoritmos",
+  "subtema": "complejidad",
+  "titulo": "Complejidad y notación O grande",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La notación O grande describe cómo crece el tiempo de un algoritmo cuando crecen los datos."
+    },
+    {
+      "texto": "O de uno es constante: tarda lo mismo con 10 o con un millón de datos. O de n crece al mismo ritmo que los datos."
+    },
+    {
+      "texto": "O de n al cuadrado crece muy rápido: con el doble de datos tarda cuatro veces más."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "lineal",
+      "tipo": "opcion_multiple",
+      "pregunta": "Recorrer una lista una vez es…",
+      "opciones": [
+        "O(n)",
+        "O(1)",
+        "O(n²)"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El trabajo crece igual que la cantidad de elementos."
+    },
+    {
+      "id": "cuadratica",
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos ciclos anidados sobre la misma lista suelen ser…",
+      "opciones": [
+        "O(n²)",
+        "O(n)",
+        "O(log n)"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Por cada elemento se recorre toda la lista otra vez."
+    }
+  ]
+}

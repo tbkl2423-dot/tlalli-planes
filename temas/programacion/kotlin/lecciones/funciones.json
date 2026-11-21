@@ -1,0 +1,44 @@
+{
+  "id": "funciones",
+  "tema": "kotlin",
+  "subtema": "funciones",
+  "titulo": "Funciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las funciones se declaran con fun. El tipo de retorno va después de los paréntesis.",
+      "codigo": "fun doble(n: Int): Int {\n    return n * 2\n}"
+    },
+    {
+      "texto": "Si la función es una sola expresión, se puede escribir con igual.",
+      "codigo": "fun doble(n: Int) = n * 2"
+    },
+    {
+      "texto": "Los parámetros pueden tener valores por defecto: fun saludar(nombre: String = \"amigo\")."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "declarar",
+      "tipo": "completar",
+      "enunciado": "___ cuadrado(n: Int) = n * n",
+      "respuestas_validas": [
+        "fun"
+      ],
+      "explicacion_respuesta": "fun declara una función."
+    },
+    {
+      "id": "defecto",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué permite un valor por defecto en un parámetro?",
+      "opciones": [
+        "Llamar la función sin ese argumento",
+        "Cambiar el tipo",
+        "Evitar el return"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Si no pasas el argumento, se usa el valor por defecto."
+    }
+  ]
+}

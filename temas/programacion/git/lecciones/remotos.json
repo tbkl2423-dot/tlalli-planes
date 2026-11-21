@@ -1,0 +1,43 @@
+{
+  "id": "remotos",
+  "tema": "git",
+  "subtema": "remotos",
+  "titulo": "Repositorios remotos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un remoto es una copia del repositorio en otro lugar, como GitHub."
+    },
+    {
+      "texto": "git clone copia un repositorio completo a tu computadora.",
+      "codigo": "git clone https://github.com/usuario/proyecto.git"
+    },
+    {
+      "texto": "git push sube tus commits al remoto y git pull trae los cambios de otras personas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "subir",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué comando sube tus commits a GitHub?",
+      "opciones": [
+        "git push",
+        "git pull",
+        "git clone"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "push empuja tus cambios al remoto."
+    },
+    {
+      "id": "traer",
+      "tipo": "completar",
+      "enunciado": "Para traer los cambios del remoto se usa git ___.",
+      "respuestas_validas": [
+        "pull"
+      ],
+      "explicacion_respuesta": "pull descarga y combina los cambios."
+    }
+  ]
+}

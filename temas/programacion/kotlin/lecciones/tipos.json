@@ -1,0 +1,43 @@
+{
+  "id": "tipos",
+  "tema": "kotlin",
+  "subtema": "tipos",
+  "titulo": "Tipos básicos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los tipos básicos de Kotlin son Int para enteros, Double para decimales, String para texto y Boolean para verdadero o falso."
+    },
+    {
+      "texto": "Puedes escribir el tipo de forma explícita después de dos puntos.",
+      "codigo": "val precio: Double = 19.99\nval activo: Boolean = true"
+    },
+    {
+      "texto": "Los textos aceptan plantillas con signo de pesos: \"Hola, $nombre\"."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "decimal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tipo guarda números con decimales?",
+      "opciones": [
+        "Double",
+        "Int",
+        "Boolean"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Double guarda números de punto flotante."
+    },
+    {
+      "id": "plantilla",
+      "tipo": "completar",
+      "enunciado": "println(\"Tienes ___edad años\")",
+      "respuestas_validas": [
+        "$"
+      ],
+      "explicacion_respuesta": "Con $ insertas el valor de una variable en el texto."
+    }
+  ]
+}

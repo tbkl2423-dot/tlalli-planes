@@ -1,0 +1,46 @@
+{
+  "id": "grafos",
+  "tema": "algoritmos",
+  "subtema": "grafos",
+  "titulo": "Grafos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un grafo es un conjunto de nodos conectados por aristas, como ciudades unidas por carreteras."
+    },
+    {
+      "texto": "La búsqueda en anchura, BFS, explora por niveles y encuentra el camino con menos pasos."
+    },
+    {
+      "texto": "La búsqueda en profundidad, DFS, sigue un camino hasta el fondo antes de regresar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "bfs",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué recorrido encuentra el camino con menos aristas?",
+      "opciones": [
+        "BFS",
+        "DFS",
+        "Burbuja"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "BFS revisa primero todos los vecinos cercanos."
+    },
+    {
+      "id": "ejemplo-grafo",
+      "tipo": "voz_pregunta",
+      "pregunta": "Da un ejemplo de algo que se puede representar como grafo.",
+      "respuesta_esperada": "Una red social, donde las personas son nodos y las amistades son aristas.",
+      "palabras_clave": [
+        "red",
+        "mapa",
+        "ciudades",
+        "amigos"
+      ],
+      "explicacion_respuesta": "Mapas, redes sociales e internet son grafos."
+    }
+  ]
+}

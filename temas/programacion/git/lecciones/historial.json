@@ -1,0 +1,46 @@
+{
+  "id": "historial",
+  "tema": "git",
+  "subtema": "historial",
+  "titulo": "Ver el historial",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "git log muestra la lista de commits, del más reciente al más antiguo.",
+      "codigo": "git log --oneline"
+    },
+    {
+      "texto": "git diff muestra las líneas que cambiaron y aún no guardas en un commit."
+    },
+    {
+      "texto": "Cada commit tiene un identificador único llamado hash."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "log",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué comando muestra la historia de commits?",
+      "opciones": [
+        "git log",
+        "git diff",
+        "git add"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "git log lista los commits."
+    },
+    {
+      "id": "diff",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué muestra git diff?",
+      "opciones": [
+        "Las líneas que cambiaron",
+        "Los archivos borrados de la papelera",
+        "Los usuarios del repositorio"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "git diff compara tus cambios con el último commit."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "deshacer",
+  "tema": "git",
+  "subtema": "deshacer",
+  "titulo": "Deshacer cambios",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "git restore descarta cambios de un archivo que no has guardado en un commit."
+    },
+    {
+      "texto": "git revert crea un commit nuevo que deshace otro commit, sin borrar el historial."
+    },
+    {
+      "texto": "git reset mueve la rama hacia atrás; úsalo con cuidado, sobre todo si ya subiste los commits."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "seguro",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué forma de deshacer un commit ya subido es la más segura?",
+      "opciones": [
+        "git revert",
+        "git reset --hard",
+        "Borrar la carpeta"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "revert no reescribe la historia que otros ya tienen."
+    },
+    {
+      "id": "descartar",
+      "tipo": "completar",
+      "enunciado": "git ___ archivo.txt descarta sus cambios sin guardar.",
+      "respuestas_validas": [
+        "restore"
+      ],
+      "explicacion_respuesta": "restore regresa el archivo a su último commit."
+    }
+  ]
+}

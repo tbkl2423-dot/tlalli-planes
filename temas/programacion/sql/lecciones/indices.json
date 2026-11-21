@@ -1,0 +1,47 @@
+{
+  "id": "indices",
+  "tema": "sql",
+  "subtema": "indices",
+  "titulo": "Índices",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un índice es como el índice de un libro: ayuda a encontrar filas rápido sin revisar toda la tabla."
+    },
+    {
+      "texto": "Se crean en las columnas que más usas para buscar o unir.",
+      "codigo": "CREATE INDEX idx_clientes_ciudad ON clientes(ciudad);"
+    },
+    {
+      "texto": "Tienen un costo: ocupan espacio y hacen un poco más lentas las inserciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "para-que",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve un índice?",
+      "opciones": [
+        "Acelerar búsquedas",
+        "Guardar respaldos",
+        "Cifrar datos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Evita recorrer toda la tabla en cada búsqueda."
+    },
+    {
+      "id": "costo",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuál es la desventaja de tener muchos índices?",
+      "respuesta_esperada": "Ocupan espacio y vuelven más lentas las escrituras.",
+      "palabras_clave": [
+        "espacio",
+        "lentas",
+        "escritura",
+        "insert"
+      ],
+      "explicacion_respuesta": "Cada inserción también tiene que actualizar los índices."
+    }
+  ]
+}

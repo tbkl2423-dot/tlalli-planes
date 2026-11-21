@@ -1,0 +1,42 @@
+{
+  "id": "order-by-limit",
+  "tema": "sql",
+  "subtema": "order-by-limit",
+  "titulo": "Ordenar y limitar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "ORDER BY ordena el resultado. ASC es de menor a mayor y DESC de mayor a menor.",
+      "codigo": "SELECT nombre, precio FROM productos ORDER BY precio DESC;"
+    },
+    {
+      "texto": "LIMIT corta el resultado a cierta cantidad de filas.",
+      "codigo": "SELECT nombre FROM productos ORDER BY precio DESC LIMIT 3;"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "desc",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace ORDER BY precio DESC?",
+      "opciones": [
+        "Ordena del más caro al más barato",
+        "Ordena del más barato al más caro",
+        "Borra los precios"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "DESC significa descendente."
+    },
+    {
+      "id": "top",
+      "tipo": "completar",
+      "enunciado": "Para obtener solo 5 filas se agrega ___ 5.",
+      "respuestas_validas": [
+        "LIMIT",
+        "limit"
+      ],
+      "explicacion_respuesta": "LIMIT limita cuántas filas regresa la consulta."
+    }
+  ]
+}

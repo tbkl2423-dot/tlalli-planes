@@ -1,0 +1,43 @@
+{
+  "id": "interfaces",
+  "tema": "typescript",
+  "subtema": "interfaces",
+  "titulo": "Interfaces y types",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una interfaz describe la forma de un objeto.",
+      "codigo": "interface Usuario {\n  nombre: string;\n  edad: number;\n  correo?: string;\n}"
+    },
+    {
+      "texto": "El signo de interrogación marca una propiedad opcional."
+    },
+    {
+      "texto": "type hace algo parecido y además puede nombrar uniones y otros tipos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "opcional",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué indica correo?: string?",
+      "opciones": [
+        "Que correo es opcional",
+        "Que es obligatorio",
+        "Que puede ser número"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El ? marca la propiedad como opcional."
+    },
+    {
+      "id": "declarar",
+      "tipo": "completar",
+      "enunciado": "___ Producto { nombre: string; precio: number }",
+      "respuestas_validas": [
+        "interface"
+      ],
+      "explicacion_respuesta": "interface define la forma del objeto."
+    }
+  ]
+}

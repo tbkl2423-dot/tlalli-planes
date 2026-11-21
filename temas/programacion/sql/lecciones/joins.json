@@ -1,0 +1,44 @@
+{
+  "id": "joins",
+  "tema": "sql",
+  "subtema": "joins",
+  "titulo": "Unir tablas con JOIN",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un JOIN combina filas de dos tablas que comparten una columna, normalmente una llave."
+    },
+    {
+      "texto": "INNER JOIN deja solo las filas que coinciden en ambas tablas.",
+      "codigo": "SELECT pedidos.id, clientes.nombre\nFROM pedidos\nINNER JOIN clientes ON pedidos.cliente_id = clientes.id;"
+    },
+    {
+      "texto": "LEFT JOIN deja todas las filas de la tabla izquierda, aunque no tengan pareja en la derecha."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "left",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué JOIN conserva todas las filas de la tabla izquierda?",
+      "opciones": [
+        "LEFT JOIN",
+        "INNER JOIN",
+        "CROSS JOIN"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las filas sin pareja muestran NULL en las columnas de la otra tabla."
+    },
+    {
+      "id": "on",
+      "tipo": "completar",
+      "enunciado": "INNER JOIN clientes ___ pedidos.cliente_id = clientes.id",
+      "respuestas_validas": [
+        "ON",
+        "on"
+      ],
+      "explicacion_respuesta": "ON indica qué columnas deben coincidir."
+    }
+  ]
+}

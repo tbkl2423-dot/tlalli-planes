@@ -1,0 +1,45 @@
+{
+  "id": "merge",
+  "tema": "git",
+  "subtema": "merge",
+  "titulo": "Fusionar ramas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "git merge une los cambios de otra rama a la rama actual.",
+      "codigo": "git switch main\ngit merge nueva-portada"
+    },
+    {
+      "texto": "Si las dos ramas cambiaron las mismas líneas, Git marca un conflicto y tú decides qué versión queda."
+    },
+    {
+      "texto": "Después de resolver el conflicto, agregas el archivo y haces commit."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "conflicto",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuándo aparece un conflicto?",
+      "opciones": [
+        "Cuando dos ramas cambian las mismas líneas",
+        "Siempre que haces merge",
+        "Cuando no hay internet"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Git no sabe cuál versión elegir y te pregunta."
+    },
+    {
+      "id": "resolver",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué haces después de resolver un conflicto?",
+      "respuesta_esperada": "Agrego el archivo con git add y hago commit.",
+      "palabras_clave": [
+        "add",
+        "commit"
+      ],
+      "explicacion_respuesta": "Así terminas el merge."
+    }
+  ]
+}

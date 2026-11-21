@@ -1,0 +1,43 @@
+{
+  "id": "arboles",
+  "tema": "algoritmos",
+  "subtema": "arboles",
+  "titulo": "Árboles",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un árbol organiza datos en jerarquía: un nodo raíz con hijos, que a su vez tienen hijos."
+    },
+    {
+      "texto": "En un árbol binario de búsqueda, lo menor va a la izquierda y lo mayor a la derecha."
+    },
+    {
+      "texto": "Así, buscar un valor descarta la mitad del árbol en cada paso, si está balanceado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "bst",
+      "tipo": "opcion_multiple",
+      "pregunta": "En un árbol binario de búsqueda, ¿dónde van los valores menores que la raíz?",
+      "opciones": [
+        "A la izquierda",
+        "A la derecha",
+        "En la raíz"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Menores a la izquierda, mayores a la derecha."
+    },
+    {
+      "id": "raiz",
+      "tipo": "completar",
+      "enunciado": "El nodo superior de un árbol se llama ___.",
+      "respuestas_validas": [
+        "raíz",
+        "raiz"
+      ],
+      "explicacion_respuesta": "Del nodo raíz salen todas las ramas."
+    }
+  ]
+}

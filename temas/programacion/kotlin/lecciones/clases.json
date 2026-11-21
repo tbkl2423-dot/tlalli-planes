@@ -1,0 +1,41 @@
+{
+  "id": "clases",
+  "tema": "kotlin",
+  "subtema": "clases",
+  "titulo": "Clases y data class",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una clase se declara con class y sus propiedades pueden ir en el constructor.",
+      "codigo": "class Perro(val nombre: String) {\n    fun ladrar() = \"$nombre: guau\"\n}"
+    },
+    {
+      "texto": "data class crea clases para guardar datos con equals, toString y copy automáticos.",
+      "codigo": "data class Punto(val x: Int, val y: Int)"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "data",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué genera automáticamente una data class?",
+      "opciones": [
+        "equals, toString y copy",
+        "Una base de datos",
+        "Una interfaz gráfica"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ahorra escribir código repetitivo."
+    },
+    {
+      "id": "instancia",
+      "tipo": "completar",
+      "enunciado": "val p = ___(1, 2)",
+      "respuestas_validas": [
+        "Punto"
+      ],
+      "explicacion_respuesta": "Se crea un objeto llamando al constructor de la clase."
+    }
+  ]
+}

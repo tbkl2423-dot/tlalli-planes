@@ -1,0 +1,58 @@
+{
+  "id": "recursion",
+  "tema": "algoritmos",
+  "subtema": "recursion",
+  "titulo": "Recursión",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una función recursiva se llama a sí misma con un problema más pequeño."
+    },
+    {
+      "texto": "Siempre necesita un caso base que detenga las llamadas."
+    },
+    {
+      "texto": "El factorial es un ejemplo clásico.",
+      "codigo": "function factorial(n) {\n  if (n <= 1) return 1;\n  return n * factorial(n - 1);\n}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "caso-base",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué pasa si una función recursiva no tiene caso base?",
+      "opciones": [
+        "Se llama para siempre hasta fallar",
+        "Regresa cero",
+        "Funciona más rápido"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Sin caso base, las llamadas no terminan y se desborda la pila."
+    },
+    {
+      "id": "suma-rec",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función recursiva sumaHasta(n) que regrese 1 + 2 + … + n.",
+      "codigo_inicial": "function sumaHasta(n) {\n  // tu código aquí\n}",
+      "funcion": "sumaHasta",
+      "pruebas": [
+        {
+          "entrada": [
+            4
+          ],
+          "salida": 10
+        },
+        {
+          "entrada": [
+            1
+          ],
+          "salida": 1
+        }
+      ],
+      "solucion": "function sumaHasta(n) {\n  if (n <= 1) return n;\n  return n + sumaHasta(n - 1);\n}",
+      "explicacion_respuesta": "Caso base n <= 1; si no, n más la suma de los anteriores."
+    }
+  ]
+}

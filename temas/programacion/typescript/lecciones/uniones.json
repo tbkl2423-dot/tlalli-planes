@@ -1,0 +1,41 @@
+{
+  "id": "uniones",
+  "tema": "typescript",
+  "subtema": "uniones",
+  "titulo": "Uniones y literales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una unión dice que un valor puede ser de uno de varios tipos.",
+      "codigo": "let id: string | number;"
+    },
+    {
+      "texto": "Los tipos literales limitan a valores exactos.",
+      "codigo": "type Talla = \"chica\" | \"mediana\" | \"grande\";"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "literal",
+      "tipo": "opcion_multiple",
+      "pregunta": "Con type Talla = \"chica\" | \"grande\", ¿cuál es válido?",
+      "opciones": [
+        "\"chica\"",
+        "\"enorme\"",
+        "3"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Solo se aceptan los valores listados."
+    },
+    {
+      "id": "barra",
+      "tipo": "completar",
+      "enunciado": "let x: string ___ number;",
+      "respuestas_validas": [
+        "|"
+      ],
+      "explicacion_respuesta": "La barra vertical une tipos."
+    }
+  ]
+}

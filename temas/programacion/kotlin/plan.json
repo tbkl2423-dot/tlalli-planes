@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "El lenguaje oficial para apps de Android: variables, funciones, clases y manejo seguro de valores nulos.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "kotlin",
     "android"
@@ -87,7 +87,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -95,6 +95,66 @@
           "titulo": "val y var",
           "subtema": "val-y-var",
           "archivo": "lecciones/val-y-var.json"
+        },
+        {
+          "id": "tipos",
+          "titulo": "Tipos básicos",
+          "subtema": "tipos",
+          "archivo": "lecciones/tipos.json"
+        },
+        {
+          "id": "funciones",
+          "titulo": "Funciones",
+          "subtema": "funciones",
+          "archivo": "lecciones/funciones.json"
+        },
+        {
+          "id": "condicionales",
+          "titulo": "if y when",
+          "subtema": "condicionales",
+          "archivo": "lecciones/condicionales.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "colecciones",
+          "titulo": "Listas y mapas",
+          "subtema": "colecciones",
+          "archivo": "lecciones/colecciones.json"
+        },
+        {
+          "id": "nulos",
+          "titulo": "Seguridad con nulos",
+          "subtema": "nulos",
+          "archivo": "lecciones/nulos.json"
+        },
+        {
+          "id": "clases",
+          "titulo": "Clases y data class",
+          "subtema": "clases",
+          "archivo": "lecciones/clases.json"
+        },
+        {
+          "id": "lambdas",
+          "titulo": "Lambdas",
+          "subtema": "lambdas",
+          "archivo": "lecciones/lambdas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "corrutinas",
+          "titulo": "Corrutinas",
+          "subtema": "corrutinas",
+          "archivo": "lecciones/corrutinas.json"
         }
       ]
     }

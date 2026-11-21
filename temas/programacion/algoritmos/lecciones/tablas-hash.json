@@ -1,0 +1,45 @@
+{
+  "id": "tablas-hash",
+  "tema": "algoritmos",
+  "subtema": "tablas-hash",
+  "titulo": "Tablas hash",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una tabla hash guarda pares clave valor y encuentra un dato casi al instante."
+    },
+    {
+      "texto": "Una función hash convierte la clave en una posición dentro de un arreglo."
+    },
+    {
+      "texto": "Los diccionarios de Python y los Map de JavaScript usan esta idea."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "velocidad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto tarda en promedio buscar en una tabla hash?",
+      "opciones": [
+        "Tiempo constante, O(1)",
+        "O(n²)",
+        "Depende del abecedario"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La función hash calcula directo dónde está el dato."
+    },
+    {
+      "id": "ejemplo",
+      "tipo": "voz_pregunta",
+      "pregunta": "Da un ejemplo de tabla hash en un lenguaje que conozcas.",
+      "respuesta_esperada": "Los diccionarios de Python.",
+      "palabras_clave": [
+        "diccionario",
+        "map",
+        "objeto"
+      ],
+      "explicacion_respuesta": "dict en Python, Map u objetos en JavaScript."
+    }
+  ]
+}
