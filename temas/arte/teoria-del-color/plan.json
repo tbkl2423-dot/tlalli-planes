@@ -1,0 +1,74 @@
+{
+  "id": "teoria-del-color",
+  "titulo": "Teoría del color",
+  "categoria": "arte",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Cómo se mezclan y combinan los colores para pintar, dibujar o diseñar con intención.",
+  "version": 1,
+  "aliases": [
+    "color",
+    "colores",
+    "circulo cromatico"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "circulo-cromatico",
+      "titulo": "El círculo cromático",
+      "aliases": [
+        "primarios",
+        "secundarios",
+        "terciarios"
+      ]
+    },
+    {
+      "id": "tono-valor-saturacion",
+      "titulo": "Tono, valor y saturación",
+      "aliases": [
+        "luminosidad",
+        "matiz"
+      ]
+    },
+    {
+      "id": "colores-calidos-y-frios",
+      "titulo": "Colores cálidos y fríos",
+      "aliases": [
+        "temperatura del color"
+      ]
+    },
+    {
+      "id": "armonias",
+      "titulo": "Armonías de color",
+      "aliases": [
+        "complementarios",
+        "analogos",
+        "triada"
+      ]
+    },
+    {
+      "id": "color-luz-y-pigmento",
+      "titulo": "Color luz y color pigmento",
+      "aliases": [
+        "rgb",
+        "cmyk",
+        "aditivo",
+        "sustractivo"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "bases",
+      "titulo": "Bases del color",
+      "lecciones": [
+        {
+          "id": "circulo-cromatico",
+          "titulo": "El círculo cromático",
+          "subtema": "circulo-cromatico",
+          "archivo": "lecciones/circulo-cromatico.json"
+        }
+      ]
+    }
+  ]
+}

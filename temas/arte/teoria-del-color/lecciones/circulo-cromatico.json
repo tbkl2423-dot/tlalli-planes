@@ -1,0 +1,56 @@
+{
+  "id": "circulo-cromatico",
+  "tema": "teoria-del-color",
+  "subtema": "circulo-cromatico",
+  "titulo": "El círculo cromático",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El círculo cromático acomoda los colores en una rueda para ver cómo se relacionan entre sí."
+    },
+    {
+      "texto": "En pintura tradicional los colores primarios son rojo, amarillo y azul. No se obtienen mezclando otros colores."
+    },
+    {
+      "texto": "Al mezclar dos primarios salen los secundarios: rojo con amarillo da naranja, amarillo con azul da verde y azul con rojo da violeta."
+    },
+    {
+      "texto": "Los colores que quedan frente a frente en la rueda se llaman complementarios, como el rojo y el verde. Juntos generan mucho contraste."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mezcla-verde",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué dos colores mezclas para obtener verde?",
+      "opciones": [
+        "Amarillo y azul",
+        "Rojo y azul",
+        "Rojo y amarillo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El amarillo y el azul son primarios y juntos forman el verde."
+    },
+    {
+      "id": "complemento-rojo",
+      "tipo": "completar",
+      "enunciado": "El complementario del rojo es el ___.",
+      "respuestas_validas": [
+        "verde"
+      ],
+      "explicacion_respuesta": "El verde está justo enfrente del rojo en el círculo cromático."
+    },
+    {
+      "id": "que-son-primarios",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué se llaman primarios los colores primarios?",
+      "respuesta_esperada": "Porque no se pueden obtener mezclando otros colores.",
+      "palabras_clave": [
+        "mezcla",
+        "otros"
+      ],
+      "explicacion_respuesta": "Los primarios son la base: con ellos se hacen los demás, pero ellos no salen de ninguna mezcla."
+    }
+  ]
+}

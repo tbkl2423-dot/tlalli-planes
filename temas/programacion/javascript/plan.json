@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Aprende las bases de JavaScript: variables, funciones y cómo tomar decisiones con if.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "js",
     "javascript basico",
@@ -39,6 +39,69 @@
         "if",
         "else",
         "if else"
+      ]
+    },
+    {
+      "id": "cadenas",
+      "titulo": "Cadenas de texto",
+      "aliases": [
+        "strings",
+        "template literals"
+      ]
+    },
+    {
+      "id": "arreglos",
+      "titulo": "Arreglos",
+      "aliases": [
+        "arrays",
+        "push",
+        "map",
+        "filter"
+      ]
+    },
+    {
+      "id": "ciclos",
+      "titulo": "Ciclos",
+      "aliases": [
+        "for",
+        "while",
+        "for of",
+        "bucles"
+      ]
+    },
+    {
+      "id": "objetos",
+      "titulo": "Objetos",
+      "aliases": [
+        "object",
+        "propiedades",
+        "json"
+      ]
+    },
+    {
+      "id": "dom",
+      "titulo": "Manipular la página (DOM)",
+      "aliases": [
+        "document",
+        "queryselector"
+      ]
+    },
+    {
+      "id": "eventos",
+      "titulo": "Eventos",
+      "aliases": [
+        "addeventlistener",
+        "click"
+      ]
+    },
+    {
+      "id": "asincronia",
+      "titulo": "Promesas y async/await",
+      "aliases": [
+        "promise",
+        "async",
+        "await",
+        "fetch"
       ]
     }
   ],

@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Crea tu primera página web: la estructura con HTML y el estilo con CSS.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "html",
     "css",
@@ -29,6 +29,68 @@
         "css basico",
         "estilos",
         "clases css"
+      ]
+    },
+    {
+      "id": "enlaces-e-imagenes",
+      "titulo": "Enlaces e imágenes",
+      "aliases": [
+        "a",
+        "img",
+        "href"
+      ]
+    },
+    {
+      "id": "formularios",
+      "titulo": "Formularios",
+      "aliases": [
+        "form",
+        "input",
+        "label"
+      ]
+    },
+    {
+      "id": "modelo-de-caja",
+      "titulo": "Modelo de caja",
+      "aliases": [
+        "box model",
+        "margin",
+        "padding",
+        "border"
+      ]
+    },
+    {
+      "id": "flexbox",
+      "titulo": "Flexbox",
+      "aliases": [
+        "flex",
+        "justify-content",
+        "align-items"
+      ]
+    },
+    {
+      "id": "grid",
+      "titulo": "CSS Grid",
+      "aliases": [
+        "grid-template-columns",
+        "rejilla"
+      ]
+    },
+    {
+      "id": "responsive",
+      "titulo": "Diseño responsivo",
+      "aliases": [
+        "media queries",
+        "movil"
+      ]
+    },
+    {
+      "id": "accesibilidad",
+      "titulo": "Accesibilidad web",
+      "aliases": [
+        "a11y",
+        "alt",
+        "aria"
       ]
     }
   ],

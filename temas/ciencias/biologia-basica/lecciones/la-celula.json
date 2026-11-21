@@ -1,0 +1,57 @@
+{
+  "id": "la-celula",
+  "tema": "biologia-basica",
+  "subtema": "la-celula",
+  "titulo": "La célula",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La célula es la unidad más pequeña que está viva. Todo ser vivo está hecho de una o de muchas células."
+    },
+    {
+      "texto": "Hay dos grandes tipos. Las procariotas, como las bacterias, no tienen núcleo. Las eucariotas, como las de plantas y animales, guardan su ADN dentro de un núcleo."
+    },
+    {
+      "texto": "Toda célula tiene una membrana que la rodea y decide qué entra y qué sale, y un líquido interno llamado citoplasma."
+    },
+    {
+      "texto": "Las mitocondrias obtienen energía de los alimentos. Las células de las plantas además tienen cloroplastos, donde ocurre la fotosíntesis, y una pared celular rígida."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sin-nucleo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tipo de célula no tiene núcleo?",
+      "opciones": [
+        "Procariota",
+        "Eucariota",
+        "Neurona"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las procariotas, como las bacterias, tienen su ADN suelto en el citoplasma, sin núcleo."
+    },
+    {
+      "id": "organelo-energia",
+      "tipo": "completar",
+      "enunciado": "Las ___ obtienen energía de los alimentos.",
+      "respuestas_validas": [
+        "mitocondrias",
+        "mitocondria"
+      ],
+      "explicacion_respuesta": "La mitocondria realiza la respiración celular y produce la energía que usa la célula."
+    },
+    {
+      "id": "planta-vs-animal",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué tienen las células de las plantas que no tienen las de los animales?",
+      "respuesta_esperada": "Cloroplastos y pared celular.",
+      "palabras_clave": [
+        "cloroplasto",
+        "pared"
+      ],
+      "explicacion_respuesta": "Los cloroplastos hacen la fotosíntesis y la pared celular le da rigidez a la planta."
+    }
+  ]
+}

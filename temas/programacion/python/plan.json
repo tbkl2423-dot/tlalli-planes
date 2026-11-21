@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Primeros pasos en Python: guardar datos en variables, conocer sus tipos y trabajar con listas.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "python basico",
     "py",
@@ -30,6 +30,95 @@
         "list",
         "arreglos",
         "append"
+      ]
+    },
+    {
+      "id": "cadenas",
+      "titulo": "Cadenas de texto",
+      "aliases": [
+        "strings",
+        "f-strings",
+        "texto"
+      ]
+    },
+    {
+      "id": "condicionales",
+      "titulo": "Condicionales",
+      "aliases": [
+        "if",
+        "elif",
+        "else"
+      ]
+    },
+    {
+      "id": "ciclos",
+      "titulo": "Ciclos for y while",
+      "aliases": [
+        "for",
+        "while",
+        "range",
+        "bucles"
+      ]
+    },
+    {
+      "id": "funciones",
+      "titulo": "Funciones",
+      "aliases": [
+        "def",
+        "return",
+        "parametros"
+      ]
+    },
+    {
+      "id": "diccionarios",
+      "titulo": "Diccionarios",
+      "aliases": [
+        "dict",
+        "clave valor"
+      ]
+    },
+    {
+      "id": "tuplas-y-conjuntos",
+      "titulo": "Tuplas y conjuntos",
+      "aliases": [
+        "tuple",
+        "set"
+      ]
+    },
+    {
+      "id": "modulos",
+      "titulo": "Módulos e import",
+      "aliases": [
+        "import",
+        "paquetes",
+        "pip"
+      ]
+    },
+    {
+      "id": "archivos",
+      "titulo": "Leer y escribir archivos",
+      "aliases": [
+        "open",
+        "with",
+        "txt"
+      ]
+    },
+    {
+      "id": "excepciones",
+      "titulo": "Errores y excepciones",
+      "aliases": [
+        "try",
+        "except",
+        "raise"
+      ]
+    },
+    {
+      "id": "clases",
+      "titulo": "Clases y objetos",
+      "aliases": [
+        "class",
+        "poo",
+        "self"
       ]
     }
   ],

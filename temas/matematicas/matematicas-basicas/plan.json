@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Repasa fracciones y porcentajes con ejemplos de la vida diaria.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "mate basica",
     "aritmetica",
@@ -28,6 +28,70 @@
       "aliases": [
         "por ciento",
         "descuentos"
+      ]
+    },
+    {
+      "id": "numeros-enteros",
+      "titulo": "Números enteros y negativos",
+      "aliases": [
+        "negativos",
+        "enteros"
+      ]
+    },
+    {
+      "id": "jerarquia-de-operaciones",
+      "titulo": "Jerarquía de operaciones",
+      "aliases": [
+        "orden de operaciones",
+        "parentesis"
+      ]
+    },
+    {
+      "id": "decimales",
+      "titulo": "Números decimales",
+      "aliases": [
+        "punto decimal"
+      ]
+    },
+    {
+      "id": "razones-y-proporciones",
+      "titulo": "Razones y proporciones",
+      "aliases": [
+        "regla de tres",
+        "proporcionalidad"
+      ]
+    },
+    {
+      "id": "potencias-y-raices",
+      "titulo": "Potencias y raíces",
+      "aliases": [
+        "exponentes",
+        "raiz cuadrada"
+      ]
+    },
+    {
+      "id": "ecuaciones-lineales",
+      "titulo": "Ecuaciones de primer grado",
+      "aliases": [
+        "despejar",
+        "ecuaciones"
+      ]
+    },
+    {
+      "id": "perimetros-y-areas",
+      "titulo": "Perímetros y áreas",
+      "aliases": [
+        "area",
+        "perimetro",
+        "figuras"
+      ]
+    },
+    {
+      "id": "estadistica-basica",
+      "titulo": "Promedio, mediana y moda",
+      "aliases": [
+        "media",
+        "estadistica"
       ]
     }
   ],

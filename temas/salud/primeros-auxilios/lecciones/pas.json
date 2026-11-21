@@ -1,0 +1,57 @@
+{
+  "id": "pas",
+  "tema": "primeros-auxilios",
+  "subtema": "pas",
+  "titulo": "Proteger, avisar, socorrer",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ante cualquier emergencia sigue tres pasos en orden: proteger, avisar y socorrer. Se conoce como conducta PAS."
+    },
+    {
+      "texto": "Proteger: antes de acercarte revisa que no haya peligro para ti ni para la persona, como tráfico, fuego o cables eléctricos. Si te lastimas, ya serían dos víctimas."
+    },
+    {
+      "texto": "Avisar: llama al número de emergencias, que en México es el 911. Di dónde estás, qué pasó y cuántas personas están heridas, y no cuelgues hasta que te lo indiquen."
+    },
+    {
+      "texto": "Socorrer: háblale fuerte y toca sus hombros. Si no responde y no respira con normalidad, se empieza la RCP. No le des de beber ni la muevas sin necesidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "primer-paso",
+      "tipo": "opcion_multiple",
+      "pregunta": "Llegas a un accidente. ¿Qué haces primero?",
+      "opciones": [
+        "Revisar que el lugar sea seguro",
+        "Mover a la persona herida",
+        "Darle agua"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Primero proteger: si el lugar es peligroso, podrías terminar herido tú también."
+    },
+    {
+      "id": "numero-mexico",
+      "tipo": "completar",
+      "enunciado": "En México el número de emergencias es el ___.",
+      "respuestas_validas": [
+        "911"
+      ],
+      "explicacion_respuesta": "El 911 es el número único de emergencias en México."
+    },
+    {
+      "id": "que-decir",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué información das al llamar a emergencias?",
+      "respuesta_esperada": "Dónde estoy, qué pasó y cuántos heridos hay.",
+      "palabras_clave": [
+        "donde",
+        "paso",
+        "heridos"
+      ],
+      "explicacion_respuesta": "Con el lugar, lo que pasó y el número de heridos pueden enviar la ayuda correcta."
+    }
+  ]
+}

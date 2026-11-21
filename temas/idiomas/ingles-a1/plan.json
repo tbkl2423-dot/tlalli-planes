@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Inglés para principiantes: saludar, presentarte y usar el verbo to be en frases simples.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "ingles basico",
     "english a1",
@@ -29,6 +29,85 @@
         "to be",
         "am is are",
         "ser o estar"
+      ]
+    },
+    {
+      "id": "numeros-y-hora",
+      "titulo": "Números, fechas y la hora",
+      "aliases": [
+        "numbers",
+        "what time is it"
+      ]
+    },
+    {
+      "id": "articulos-y-plurales",
+      "titulo": "Artículos y plurales",
+      "aliases": [
+        "a an the",
+        "plural"
+      ]
+    },
+    {
+      "id": "pronombres-y-posesivos",
+      "titulo": "Pronombres y posesivos",
+      "aliases": [
+        "my your",
+        "his her"
+      ]
+    },
+    {
+      "id": "there-is-there-are",
+      "titulo": "There is / there are",
+      "aliases": [
+        "hay"
+      ]
+    },
+    {
+      "id": "presente-simple",
+      "titulo": "Presente simple",
+      "aliases": [
+        "present simple",
+        "do does",
+        "rutina"
+      ]
+    },
+    {
+      "id": "preguntas-wh",
+      "titulo": "Preguntas con what, where, who",
+      "aliases": [
+        "wh questions"
+      ]
+    },
+    {
+      "id": "can",
+      "titulo": "Can para habilidades",
+      "aliases": [
+        "poder",
+        "can cant"
+      ]
+    },
+    {
+      "id": "preposiciones-de-lugar",
+      "titulo": "Preposiciones de lugar",
+      "aliases": [
+        "in on under",
+        "next to"
+      ]
+    },
+    {
+      "id": "presente-continuo",
+      "titulo": "Presente continuo",
+      "aliases": [
+        "present continuous",
+        "ing"
+      ]
+    },
+    {
+      "id": "imperativos",
+      "titulo": "Instrucciones (imperativo)",
+      "aliases": [
+        "imperative",
+        "sit down"
       ]
     }
   ],

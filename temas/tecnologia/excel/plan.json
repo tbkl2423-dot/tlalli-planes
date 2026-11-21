@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Usa fórmulas en Excel o en hojas de cálculo similares: sumar, promediar y copiar fórmulas sin errores.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "hojas de calculo",
     "excel basico",
@@ -29,6 +29,55 @@
         "signo de pesos",
         "fijar celda",
         "referencias"
+      ]
+    },
+    {
+      "id": "funciones-si",
+      "titulo": "Función SI",
+      "aliases": [
+        "if",
+        "condicion"
+      ]
+    },
+    {
+      "id": "buscarx",
+      "titulo": "BUSCARX y BUSCARV",
+      "aliases": [
+        "xlookup",
+        "vlookup",
+        "buscarv"
+      ]
+    },
+    {
+      "id": "ordenar-y-filtrar",
+      "titulo": "Ordenar y filtrar",
+      "aliases": [
+        "filtros",
+        "orden"
+      ]
+    },
+    {
+      "id": "formato-condicional",
+      "titulo": "Formato condicional",
+      "aliases": [
+        "colores",
+        "reglas"
+      ]
+    },
+    {
+      "id": "graficos",
+      "titulo": "Gráficos",
+      "aliases": [
+        "graficas",
+        "charts"
+      ]
+    },
+    {
+      "id": "tablas-dinamicas",
+      "titulo": "Tablas dinámicas",
+      "aliases": [
+        "pivot",
+        "pivot table"
       ]
     }
   ],

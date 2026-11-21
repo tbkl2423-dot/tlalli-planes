@@ -1,0 +1,97 @@
+{
+  "id": "biologia-basica",
+  "titulo": "Biología básica",
+  "categoria": "ciencias",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "De la célula a los ecosistemas: cómo están hechos los seres vivos, cómo heredan sus rasgos y cómo se relacionan con su entorno.",
+  "version": 1,
+  "aliases": [
+    "biologia",
+    "seres vivos",
+    "ciencias naturales"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "que-es-la-vida",
+      "titulo": "¿Qué es un ser vivo?",
+      "aliases": [
+        "caracteristicas de la vida"
+      ]
+    },
+    {
+      "id": "la-celula",
+      "titulo": "La célula",
+      "aliases": [
+        "celula",
+        "organelos",
+        "nucleo"
+      ]
+    },
+    {
+      "id": "moleculas-de-la-vida",
+      "titulo": "Moléculas de la vida",
+      "aliases": [
+        "proteinas",
+        "carbohidratos",
+        "lipidos"
+      ]
+    },
+    {
+      "id": "fotosintesis-y-respiracion",
+      "titulo": "Fotosíntesis y respiración celular",
+      "aliases": [
+        "fotosintesis",
+        "mitocondria"
+      ]
+    },
+    {
+      "id": "division-celular",
+      "titulo": "División celular",
+      "aliases": [
+        "mitosis",
+        "meiosis"
+      ]
+    },
+    {
+      "id": "adn-y-herencia",
+      "titulo": "ADN y herencia",
+      "aliases": [
+        "genetica",
+        "mendel",
+        "genes"
+      ]
+    },
+    {
+      "id": "evolucion",
+      "titulo": "Evolución y selección natural",
+      "aliases": [
+        "darwin",
+        "seleccion natural"
+      ]
+    },
+    {
+      "id": "ecologia",
+      "titulo": "Ecosistemas y ecología",
+      "aliases": [
+        "cadena alimenticia",
+        "ecosistema"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "la-vida",
+      "titulo": "La vida y la célula",
+      "lecciones": [
+        {
+          "id": "la-celula",
+          "titulo": "La célula",
+          "subtema": "la-celula",
+          "archivo": "lecciones/la-celula.json"
+        }
+      ]
+    }
+  ]
+}

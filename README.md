@@ -21,3 +21,14 @@ Contenido bajo licencia CC BY-SA 4.0 (`LICENSE-CONTENIDO`) · Código bajo licen
 3. Settings → Branches → regla para `main`: exigir el check **validar** y **Require branches to be up to date** (así dos PR que agregan el mismo tema no se fusionan los dos).
 4. Issues → Labels → crear `desde-app` y `error-contenido`.
 5. Settings → Secrets → Actions: `IA_API_URL`, `IA_API_KEY`, `IA_MODELO` (por ejemplo Groq u OpenRouter).
+
+## Referencias de los temarios
+
+El orden y alcance de los subtemas sigue temarios ya establecidos; las lecciones están escritas con palabras propias.
+
+- Python: [tutorial oficial de Python](https://docs.python.org/es/3/tutorial/)
+- JavaScript y HTML/CSS: [MDN Learn web development](https://developer.mozilla.org/es/docs/Learn)
+- Inglés A1: descriptores A1 del [MCER](https://www.coe.int/en/web/common-european-framework-reference-languages) y el [Core Inventory for General English](https://www.eaquals.org/resources/the-core-inventory-for-general-english/)
+- Matemáticas: [Plan de Estudio SEP 2022](https://educacionbasica.sep.gob.mx/wp-content/uploads/2024/07/Plan-de-Estudios-Educacion-Basica_digital-2024.pdf)
+- Biología: [OpenStax Biology 2e](https://openstax.org/books/biology-2e/pages/preface) (CC BY 4.0)
+- Primeros auxilios: guías internacionales de primeros auxilios de la Cruz Roja (IFRC)

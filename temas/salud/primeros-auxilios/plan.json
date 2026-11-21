@@ -1,0 +1,86 @@
+{
+  "id": "primeros-auxilios",
+  "titulo": "Primeros auxilios",
+  "categoria": "salud",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Qué hacer en los primeros minutos de una emergencia mientras llega la ayuda. No sustituye un curso presencial con práctica.",
+  "version": 1,
+  "aliases": [
+    "emergencias",
+    "auxilios",
+    "rcp basica"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "pas",
+      "titulo": "Proteger, avisar, socorrer",
+      "aliases": [
+        "conducta pas",
+        "que hacer en una emergencia"
+      ]
+    },
+    {
+      "id": "rcp",
+      "titulo": "Reanimación cardiopulmonar (RCP)",
+      "aliases": [
+        "compresiones",
+        "paro cardiaco",
+        "desfibrilador"
+      ]
+    },
+    {
+      "id": "atragantamiento",
+      "titulo": "Atragantamiento",
+      "aliases": [
+        "asfixia",
+        "heimlich"
+      ]
+    },
+    {
+      "id": "hemorragias",
+      "titulo": "Hemorragias",
+      "aliases": [
+        "sangrado",
+        "presion directa"
+      ]
+    },
+    {
+      "id": "quemaduras",
+      "titulo": "Quemaduras",
+      "aliases": [
+        "quemadura"
+      ]
+    },
+    {
+      "id": "posicion-lateral",
+      "titulo": "Posición lateral de seguridad",
+      "aliases": [
+        "inconsciente que respira"
+      ]
+    },
+    {
+      "id": "fracturas",
+      "titulo": "Golpes, torceduras y fracturas",
+      "aliases": [
+        "esguince",
+        "inmovilizar"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "lo-primero",
+      "titulo": "Lo primero",
+      "lecciones": [
+        {
+          "id": "pas",
+          "titulo": "Proteger, avisar, socorrer",
+          "subtema": "pas",
+          "archivo": "lecciones/pas.json"
+        }
+      ]
+    }
+  ]
+}
