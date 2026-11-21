@@ -1,0 +1,113 @@
+{
+  "id": "productividad",
+  "titulo": "Productividad y manejo del tiempo",
+  "categoria": "negocios",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Organiza tus días: prioridades, listas, bloques de tiempo, concentración y cómo evitar la procrastinación.",
+  "version": 1,
+  "aliases": [
+    "organizacion personal",
+    "manejo del tiempo",
+    "procrastinacion"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "prioridades",
+      "titulo": "Prioridades",
+      "aliases": [
+        "urgente importante",
+        "eisenhower"
+      ]
+    },
+    {
+      "id": "listas",
+      "titulo": "Listas de tareas",
+      "aliases": [
+        "pendientes",
+        "to do"
+      ]
+    },
+    {
+      "id": "bloques",
+      "titulo": "Bloques de tiempo",
+      "aliases": [
+        "calendario",
+        "time blocking"
+      ]
+    },
+    {
+      "id": "pomodoro",
+      "titulo": "Técnica Pomodoro",
+      "aliases": [
+        "concentracion"
+      ]
+    },
+    {
+      "id": "distracciones",
+      "titulo": "Evitar distracciones",
+      "aliases": [
+        "celular",
+        "notificaciones"
+      ]
+    },
+    {
+      "id": "procrastinacion",
+      "titulo": "Vencer la procrastinación",
+      "aliases": [
+        "postergar"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "prioridades",
+          "titulo": "Prioridades",
+          "subtema": "prioridades",
+          "archivo": "lecciones/prioridades.json"
+        },
+        {
+          "id": "listas",
+          "titulo": "Listas de tareas",
+          "subtema": "listas",
+          "archivo": "lecciones/listas.json"
+        },
+        {
+          "id": "bloques",
+          "titulo": "Bloques de tiempo",
+          "subtema": "bloques",
+          "archivo": "lecciones/bloques.json"
+        },
+        {
+          "id": "pomodoro",
+          "titulo": "Técnica Pomodoro",
+          "subtema": "pomodoro",
+          "archivo": "lecciones/pomodoro.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "distracciones",
+          "titulo": "Evitar distracciones",
+          "subtema": "distracciones",
+          "archivo": "lecciones/distracciones.json"
+        },
+        {
+          "id": "procrastinacion",
+          "titulo": "Vencer la procrastinación",
+          "subtema": "procrastinacion",
+          "archivo": "lecciones/procrastinacion.json"
+        }
+      ]
+    }
+  ]
+}

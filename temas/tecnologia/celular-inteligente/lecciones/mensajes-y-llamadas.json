@@ -1,0 +1,45 @@
+{
+  "id": "mensajes-y-llamadas",
+  "tema": "celular-inteligente",
+  "subtema": "mensajes-y-llamadas",
+  "titulo": "Mensajes y videollamadas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las apps de mensajería permiten enviar texto, fotos, audios y hacer videollamadas con internet."
+    },
+    {
+      "texto": "En una videollamada, busca buena luz de frente y una conexión estable."
+    },
+    {
+      "texto": "Antes de reenviar una noticia, verifica que sea cierta: muchas cadenas son falsas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "luz",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde debe estar la luz en una videollamada?",
+      "opciones": [
+        "De frente",
+        "Detrás de ti",
+        "No importa"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con luz detrás se ve tu silueta oscura."
+    },
+    {
+      "id": "cadenas",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué haces antes de reenviar una noticia?",
+      "respuesta_esperada": "Verificar que sea cierta.",
+      "palabras_clave": [
+        "verific",
+        "cierta",
+        "fuente"
+      ],
+      "explicacion_respuesta": "Así no difundes información falsa."
+    }
+  ]
+}

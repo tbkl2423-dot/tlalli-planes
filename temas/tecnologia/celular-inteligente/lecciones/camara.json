@@ -1,0 +1,43 @@
+{
+  "id": "camara",
+  "tema": "celular-inteligente",
+  "subtema": "camara",
+  "titulo": "La cámara",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Toca la pantalla para enfocar donde quieras. Desliza para cambiar entre foto, video y retrato."
+    },
+    {
+      "texto": "Limpia el lente y sostén el teléfono con las dos manos para que no salga movida."
+    },
+    {
+      "texto": "Tus fotos se guardan en la galería; actívale el respaldo en la nube para no perderlas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "enfocar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo enfocas algo en la cámara del celular?",
+      "opciones": [
+        "Tocando la pantalla sobre eso",
+        "Agitando el teléfono",
+        "Subiendo el volumen"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El punto que tocas queda enfocado."
+    },
+    {
+      "id": "respaldo",
+      "tipo": "completar",
+      "enunciado": "Para no perder tus fotos activa el ___ en la nube.",
+      "respuestas_validas": [
+        "respaldo",
+        "backup"
+      ],
+      "explicacion_respuesta": "Así se guardan aunque pierdas el teléfono."
+    }
+  ]
+}

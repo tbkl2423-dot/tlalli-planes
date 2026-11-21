@@ -1,0 +1,45 @@
+{
+  "id": "mensajes",
+  "tema": "atencion-al-cliente",
+  "subtema": "mensajes",
+  "titulo": "Atención por mensaje",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Por mensaje se pierde el tono de voz, así que escribe con amabilidad y claridad."
+    },
+    {
+      "texto": "Usa mensajes cortos, ordenados, y confirma los datos importantes: precio, fecha y dirección."
+    },
+    {
+      "texto": "Si no puedes responder de inmediato, avisa en cuánto tiempo lo harás."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "confirmar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene confirmar por escrito?",
+      "opciones": [
+        "Precio, fecha y dirección",
+        "El clima",
+        "Tu horario de comida"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Evita errores y malentendidos."
+    },
+    {
+      "id": "tono",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué cuidar la redacción en mensajes?",
+      "respuesta_esperada": "Porque se pierde el tono de voz y puede malinterpretarse.",
+      "palabras_clave": [
+        "tono",
+        "malinterpret",
+        "voz"
+      ],
+      "explicacion_respuesta": "Lo escrito puede sonar más frío de lo que quieres."
+    }
+  ]
+}

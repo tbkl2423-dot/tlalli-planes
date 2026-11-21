@@ -1,0 +1,44 @@
+{
+  "id": "procrastinacion",
+  "tema": "productividad",
+  "subtema": "procrastinacion",
+  "titulo": "Vencer la procrastinación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Procrastinar es posponer algo aunque sepas que te conviene hacerlo."
+    },
+    {
+      "texto": "La regla de los dos minutos: si algo toma menos de dos minutos, hazlo ya."
+    },
+    {
+      "texto": "Para empezar algo grande, comprométete solo a cinco minutos; empezar es lo más difícil."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "dos-minutos",
+      "tipo": "opcion_multiple",
+      "pregunta": "Según la regla de los dos minutos, ¿qué haces con una tarea rápida?",
+      "opciones": [
+        "Hacerla ya",
+        "Agendarla",
+        "Olvidarla"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Anotarla tomaría casi lo mismo."
+    },
+    {
+      "id": "empezar",
+      "tipo": "completar",
+      "enunciado": "Lo más difícil de una tarea suele ser ___.",
+      "respuestas_validas": [
+        "empezar",
+        "comenzar",
+        "iniciar"
+      ],
+      "explicacion_respuesta": "Una vez que empiezas, seguir es más fácil."
+    }
+  ]
+}

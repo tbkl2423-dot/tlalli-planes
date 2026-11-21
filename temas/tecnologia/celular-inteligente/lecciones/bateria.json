@@ -1,0 +1,42 @@
+{
+  "id": "bateria",
+  "tema": "celular-inteligente",
+  "subtema": "bateria",
+  "titulo": "Cuidar la batería",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El brillo alto, la ubicación y las apps abiertas gastan más batería."
+    },
+    {
+      "texto": "El modo ahorro de energía alarga la duración cuando la batería está baja."
+    },
+    {
+      "texto": "Usa cargadores de buena calidad y evita dejar el teléfono al sol mientras carga."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "gasta",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué gasta más batería?",
+      "opciones": [
+        "Brillo alto",
+        "Modo ahorro",
+        "Pantalla apagada"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La pantalla es de lo que más consume."
+    },
+    {
+      "id": "ahorro",
+      "tipo": "completar",
+      "enunciado": "Cuando queda poca batería activa el modo ___ de energía.",
+      "respuestas_validas": [
+        "ahorro"
+      ],
+      "explicacion_respuesta": "Reduce procesos para durar más."
+    }
+  ]
+}

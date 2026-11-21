@@ -1,0 +1,45 @@
+{
+  "id": "distracciones",
+  "tema": "productividad",
+  "subtema": "distracciones",
+  "titulo": "Evitar distracciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las notificaciones interrumpen y cuesta varios minutos volver a concentrarse."
+    },
+    {
+      "texto": "Silencia el celular o déjalo en otra habitación mientras trabajas."
+    },
+    {
+      "texto": "Ten a la mano lo que necesitas antes de empezar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "notificaciones",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hacer con las notificaciones al concentrarte?",
+      "opciones": [
+        "Silenciarlas",
+        "Revisarlas todas",
+        "Subir el volumen"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cada interrupción rompe la concentración."
+    },
+    {
+      "id": "celular",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Dónde conviene dejar el celular al estudiar?",
+      "respuesta_esperada": "En otra habitación o lejos de la vista.",
+      "palabras_clave": [
+        "otra",
+        "lejos",
+        "fuera"
+      ],
+      "explicacion_respuesta": "Hasta verlo cerca distrae."
+    }
+  ]
+}

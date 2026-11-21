@@ -1,0 +1,45 @@
+{
+  "id": "ideas",
+  "tema": "escritura-creativa",
+  "subtema": "ideas",
+  "titulo": "Encontrar ideas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las ideas están en todas partes: una conversación, una noticia, un recuerdo."
+    },
+    {
+      "texto": "Pregúntate qué pasaría si: ¿qué pasaría si los gatos hablaran solo los martes?"
+    },
+    {
+      "texto": "Lleva una libreta o notas en el celular para apuntarlas antes de que se olviden."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pregunta",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué pregunta ayuda a generar ideas?",
+      "opciones": [
+        "¿Qué pasaría si...?",
+        "¿Cuánto cuesta?",
+        "¿Qué hora es?"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Imaginar escenarios abre historias."
+    },
+    {
+      "id": "libreta",
+      "tipo": "completar",
+      "enunciado": "Conviene llevar una ___ para apuntar ideas.",
+      "respuestas_validas": [
+        "libreta",
+        "libreta de notas",
+        "nota",
+        "notas"
+      ],
+      "explicacion_respuesta": "Las ideas se olvidan rápido."
+    }
+  ]
+}

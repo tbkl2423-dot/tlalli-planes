@@ -1,0 +1,43 @@
+{
+  "id": "prioridades",
+  "tema": "productividad",
+  "subtema": "prioridades",
+  "titulo": "Prioridades",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "No todo es igual de importante. La matriz de Eisenhower separa lo urgente de lo importante."
+    },
+    {
+      "texto": "Lo importante y urgente se hace ya. Lo importante no urgente se agenda. Lo urgente no importante se delega. Lo demás se elimina."
+    },
+    {
+      "texto": "Lo importante no urgente, como estudiar o hacer ejercicio, es lo que más mejora tu vida."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "agendar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué haces con lo importante pero no urgente?",
+      "opciones": [
+        "Agendarlo",
+        "Eliminarlo",
+        "Ignorarlo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Si no lo agendas, nunca encuentra lugar."
+    },
+    {
+      "id": "matriz",
+      "tipo": "completar",
+      "enunciado": "La matriz que separa urgente de importante es la de ___.",
+      "respuestas_validas": [
+        "Eisenhower",
+        "eisenhower"
+      ],
+      "explicacion_respuesta": "Lleva el nombre de un presidente de Estados Unidos."
+    }
+  ]
+}

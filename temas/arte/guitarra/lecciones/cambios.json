@@ -1,0 +1,45 @@
+{
+  "id": "cambios",
+  "tema": "guitarra",
+  "subtema": "cambios",
+  "titulo": "Cambiar de acorde",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Lo más difícil al principio es cambiar rápido entre acordes."
+    },
+    {
+      "texto": "Practica solo el cambio: de mi menor a do, ida y vuelta, despacio, durante un minuto."
+    },
+    {
+      "texto": "Busca dedos que se queden en su lugar entre un acorde y otro; ahorran movimiento."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "practicar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se practican los cambios de acorde?",
+      "opciones": [
+        "Repitiendo el cambio despacio",
+        "Tocando rápido desde el principio",
+        "Sin mirar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La velocidad llega con la repetición lenta."
+    },
+    {
+      "id": "dedo-guia",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es un dedo guía?",
+      "respuesta_esperada": "Un dedo que se queda en su lugar al cambiar de acorde.",
+      "palabras_clave": [
+        "queda",
+        "lugar",
+        "mismo"
+      ],
+      "explicacion_respuesta": "Ahorra movimiento y da estabilidad."
+    }
+  ]
+}

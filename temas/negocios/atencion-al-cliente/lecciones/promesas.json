@@ -1,0 +1,43 @@
+{
+  "id": "promesas",
+  "tema": "atencion-al-cliente",
+  "subtema": "promesas",
+  "titulo": "Cumplir lo que prometes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Promete solo lo que puedes cumplir."
+    },
+    {
+      "texto": "Es mejor decir que llega el jueves y entregar el miércoles, que prometer el lunes y entregar el miércoles."
+    },
+    {
+      "texto": "Si algo cambia, avisa antes de que el cliente tenga que preguntar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mejor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué genera más confianza?",
+      "opciones": [
+        "Prometer menos y cumplir de más",
+        "Prometer mucho y fallar",
+        "No prometer nada nunca"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Superar expectativas fideliza."
+    },
+    {
+      "id": "avisar",
+      "tipo": "completar",
+      "enunciado": "Si algo cambia, ___ antes de que pregunten.",
+      "respuestas_validas": [
+        "avisa",
+        "avisar"
+      ],
+      "explicacion_respuesta": "La comunicación anticipada evita molestias."
+    }
+  ]
+}

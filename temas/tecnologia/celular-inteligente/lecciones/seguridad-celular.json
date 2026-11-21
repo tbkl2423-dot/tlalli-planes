@@ -1,0 +1,42 @@
+{
+  "id": "seguridad-celular",
+  "tema": "celular-inteligente",
+  "subtema": "seguridad-celular",
+  "titulo": "Seguridad del celular",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Pon un bloqueo de pantalla con PIN, huella o reconocimiento facial."
+    },
+    {
+      "texto": "Activa la función de encontrar tu dispositivo para ubicarlo o borrarlo si lo pierdes."
+    },
+    {
+      "texto": "No compartas los códigos que te llegan por mensaje: sirven para entrar a tus cuentas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "perdido",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué función ayuda si pierdes tu celular?",
+      "opciones": [
+        "Encontrar mi dispositivo",
+        "Modo avión",
+        "Linterna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Permite ubicarlo, hacerlo sonar o borrarlo."
+    },
+    {
+      "id": "bloqueo",
+      "tipo": "completar",
+      "enunciado": "Protege tu teléfono con un ___ de pantalla.",
+      "respuestas_validas": [
+        "bloqueo"
+      ],
+      "explicacion_respuesta": "PIN, huella o rostro."
+    }
+  ]
+}

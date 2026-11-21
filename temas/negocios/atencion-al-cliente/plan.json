@@ -1,0 +1,111 @@
+{
+  "id": "atencion-al-cliente",
+  "titulo": "Atención al cliente",
+  "categoria": "negocios",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Atender bien a las personas: comunicación, escucha, quejas, servicio por mensaje y cómo convertir clientes en recomendadores.",
+  "version": 1,
+  "aliases": [
+    "servicio al cliente",
+    "customer service"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "primer-contacto",
+      "titulo": "Primer contacto",
+      "aliases": [
+        "saludo"
+      ]
+    },
+    {
+      "id": "escucha-activa",
+      "titulo": "Escucha activa",
+      "aliases": [
+        "escuchar"
+      ]
+    },
+    {
+      "id": "quejas",
+      "titulo": "Manejar quejas",
+      "aliases": [
+        "reclamos",
+        "cliente molesto"
+      ]
+    },
+    {
+      "id": "mensajes",
+      "titulo": "Atención por mensaje",
+      "aliases": [
+        "whatsapp",
+        "chat"
+      ]
+    },
+    {
+      "id": "promesas",
+      "titulo": "Cumplir lo que prometes",
+      "aliases": [
+        "confianza"
+      ]
+    },
+    {
+      "id": "fidelizar-clientes",
+      "titulo": "Clientes que regresan",
+      "aliases": [
+        "recomendaciones",
+        "lealtad"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "primer-contacto",
+          "titulo": "Primer contacto",
+          "subtema": "primer-contacto",
+          "archivo": "lecciones/primer-contacto.json"
+        },
+        {
+          "id": "escucha-activa",
+          "titulo": "Escucha activa",
+          "subtema": "escucha-activa",
+          "archivo": "lecciones/escucha-activa.json"
+        },
+        {
+          "id": "quejas",
+          "titulo": "Manejar quejas",
+          "subtema": "quejas",
+          "archivo": "lecciones/quejas.json"
+        },
+        {
+          "id": "mensajes",
+          "titulo": "Atención por mensaje",
+          "subtema": "mensajes",
+          "archivo": "lecciones/mensajes.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "promesas",
+          "titulo": "Cumplir lo que prometes",
+          "subtema": "promesas",
+          "archivo": "lecciones/promesas.json"
+        },
+        {
+          "id": "fidelizar-clientes",
+          "titulo": "Clientes que regresan",
+          "subtema": "fidelizar-clientes",
+          "archivo": "lecciones/fidelizar-clientes.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dialogos",
+  "tema": "escritura-creativa",
+  "subtema": "dialogos",
+  "titulo": "Diálogos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los diálogos dan vida y ritmo. Cada personaje debe sonar distinto."
+    },
+    {
+      "texto": "En español se marcan con raya: —Ya llegué —dijo Ana."
+    },
+    {
+      "texto": "Evita que los personajes se expliquen cosas que ambos ya saben solo para informar al lector."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "signo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué signo marca los diálogos en español?",
+      "opciones": [
+        "La raya",
+        "Las comillas siempre",
+        "El asterisco"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La raya es la forma tradicional."
+    },
+    {
+      "id": "voces",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué cada personaje debe hablar distinto?",
+      "respuesta_esperada": "Para que el lector los distinga y se sientan reales.",
+      "palabras_clave": [
+        "distinguir",
+        "reales",
+        "personalidad"
+      ],
+      "explicacion_respuesta": "La forma de hablar revela quién es cada uno."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "primer-contacto",
+  "tema": "atencion-al-cliente",
+  "subtema": "primer-contacto",
+  "titulo": "Primer contacto",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La primera impresión cuenta: saluda con amabilidad, usa el nombre de la persona y sonríe, también al teléfono."
+    },
+    {
+      "texto": "Pregunta en qué puedes ayudar en lugar de esperar a que te expliquen todo."
+    },
+    {
+      "texto": "Responder rápido demuestra interés."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nombre",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ayuda a crear una buena primera impresión?",
+      "opciones": [
+        "Saludar y usar el nombre del cliente",
+        "Ignorarlo hasta que hable",
+        "Hablar de ti"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las personas se sienten reconocidas."
+    },
+    {
+      "id": "rapido",
+      "tipo": "completar",
+      "enunciado": "Responder ___ demuestra interés.",
+      "respuestas_validas": [
+        "rápido",
+        "rapido",
+        "pronto"
+      ],
+      "explicacion_respuesta": "La espera genera frustración."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bloques",
+  "tema": "productividad",
+  "subtema": "bloques",
+  "titulo": "Bloques de tiempo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Asigna a cada tarea un bloque en tu calendario, como si fuera una cita."
+    },
+    {
+      "texto": "Agrupa tareas parecidas, como responder mensajes, en un solo bloque."
+    },
+    {
+      "texto": "Deja espacios libres para imprevistos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "agrupar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene hacer con tareas parecidas?",
+      "opciones": [
+        "Agruparlas en un bloque",
+        "Repartirlas todo el día",
+        "Evitarlas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cambiar de tarea consume energía."
+    },
+    {
+      "id": "imprevistos",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué dejar espacios libres en tu agenda?",
+      "respuesta_esperada": "Para los imprevistos.",
+      "palabras_clave": [
+        "imprevist",
+        "inesperad"
+      ],
+      "explicacion_respuesta": "Una agenda sin margen se rompe al primer imprevisto."
+    }
+  ]
+}

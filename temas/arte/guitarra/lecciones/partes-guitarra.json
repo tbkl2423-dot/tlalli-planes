@@ -1,0 +1,42 @@
+{
+  "id": "partes-guitarra",
+  "tema": "guitarra",
+  "subtema": "partes-guitarra",
+  "titulo": "Partes de la guitarra",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La guitarra tiene cuerpo, mástil y clavijero. En el mástil están los trastes, barras de metal que separan las notas."
+    },
+    {
+      "texto": "Tiene seis cuerdas. La sexta es la más gruesa y grave; la primera, la más delgada y aguda."
+    },
+    {
+      "texto": "Las clavijas tensan las cuerdas para afinarlas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "grave",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la cuerda más grave?",
+      "opciones": [
+        "La sexta",
+        "La primera",
+        "La tercera"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La sexta es la más gruesa."
+    },
+    {
+      "id": "trastes",
+      "tipo": "completar",
+      "enunciado": "Las barras de metal del mástil se llaman ___.",
+      "respuestas_validas": [
+        "trastes"
+      ],
+      "explicacion_respuesta": "Cada traste sube medio tono."
+    }
+  ]
+}

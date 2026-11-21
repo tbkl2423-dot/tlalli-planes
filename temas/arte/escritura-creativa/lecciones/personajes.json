@@ -1,0 +1,45 @@
+{
+  "id": "personajes",
+  "tema": "escritura-creativa",
+  "subtema": "personajes",
+  "titulo": "Personajes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un buen personaje quiere algo y algo se lo impide. Ahí nace la historia."
+    },
+    {
+      "texto": "Dale rasgos concretos: una manía, una forma de hablar, un miedo."
+    },
+    {
+      "texto": "Muestra cómo es por lo que hace, no solo diciéndolo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "motor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace avanzar a un personaje en la historia?",
+      "opciones": [
+        "Quiere algo y algo se lo impide",
+        "Que sea perfecto",
+        "Que no cambie"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Deseo y obstáculo generan conflicto."
+    },
+    {
+      "id": "mostrar",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué significa mostrar en lugar de decir?",
+      "respuesta_esperada": "Que el lector descubra cómo es el personaje por sus acciones.",
+      "palabras_clave": [
+        "acciones",
+        "hace",
+        "descubr"
+      ],
+      "explicacion_respuesta": "En vez de decir que es valiente, muestra un acto valiente."
+    }
+  ]
+}

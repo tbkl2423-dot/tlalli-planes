@@ -1,0 +1,45 @@
+{
+  "id": "apps",
+  "tema": "celular-inteligente",
+  "subtema": "apps",
+  "titulo": "Instalar y quitar apps",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Instala apps solo desde la tienda oficial: Play Store en Android o App Store en iPhone."
+    },
+    {
+      "texto": "Antes de instalar, revisa las calificaciones y los permisos que pide."
+    },
+    {
+      "texto": "Desinstala las apps que no usas: liberan espacio y batería."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tienda",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿De dónde conviene instalar apps?",
+      "opciones": [
+        "De la tienda oficial",
+        "De cualquier enlace",
+        "De mensajes de desconocidos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las tiendas oficiales revisan las apps."
+    },
+    {
+      "id": "permisos",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué revisas antes de instalar una app?",
+      "respuesta_esperada": "Las calificaciones y los permisos que pide.",
+      "palabras_clave": [
+        "calificacion",
+        "permisos",
+        "opiniones"
+      ],
+      "explicacion_respuesta": "Una linterna no necesita tus contactos."
+    }
+  ]
+}

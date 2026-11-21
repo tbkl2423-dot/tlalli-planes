@@ -1,0 +1,115 @@
+{
+  "id": "celular-inteligente",
+  "titulo": "Usa tu celular",
+  "categoria": "tecnologia",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Saca provecho de tu teléfono: ajustes básicos, apps, cámara, mensajes, videollamadas y cómo cuidarlo.",
+  "version": 1,
+  "aliases": [
+    "smartphone",
+    "telefono inteligente",
+    "uso del celular"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "ajustes-basicos",
+      "titulo": "Ajustes básicos",
+      "aliases": [
+        "configuracion",
+        "brillo"
+      ]
+    },
+    {
+      "id": "apps",
+      "titulo": "Instalar y quitar apps",
+      "aliases": [
+        "aplicaciones",
+        "play store"
+      ]
+    },
+    {
+      "id": "camara",
+      "titulo": "La cámara",
+      "aliases": [
+        "fotos",
+        "video"
+      ]
+    },
+    {
+      "id": "mensajes-y-llamadas",
+      "titulo": "Mensajes y videollamadas",
+      "aliases": [
+        "whatsapp",
+        "videollamada"
+      ]
+    },
+    {
+      "id": "bateria",
+      "titulo": "Cuidar la batería",
+      "aliases": [
+        "carga",
+        "energia"
+      ]
+    },
+    {
+      "id": "seguridad-celular",
+      "titulo": "Seguridad del celular",
+      "aliases": [
+        "bloqueo",
+        "contraseña"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "ajustes-basicos",
+          "titulo": "Ajustes básicos",
+          "subtema": "ajustes-basicos",
+          "archivo": "lecciones/ajustes-basicos.json"
+        },
+        {
+          "id": "apps",
+          "titulo": "Instalar y quitar apps",
+          "subtema": "apps",
+          "archivo": "lecciones/apps.json"
+        },
+        {
+          "id": "camara",
+          "titulo": "La cámara",
+          "subtema": "camara",
+          "archivo": "lecciones/camara.json"
+        },
+        {
+          "id": "mensajes-y-llamadas",
+          "titulo": "Mensajes y videollamadas",
+          "subtema": "mensajes-y-llamadas",
+          "archivo": "lecciones/mensajes-y-llamadas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "bateria",
+          "titulo": "Cuidar la batería",
+          "subtema": "bateria",
+          "archivo": "lecciones/bateria.json"
+        },
+        {
+          "id": "seguridad-celular",
+          "titulo": "Seguridad del celular",
+          "subtema": "seguridad-celular",
+          "archivo": "lecciones/seguridad-celular.json"
+        }
+      ]
+    }
+  ]
+}

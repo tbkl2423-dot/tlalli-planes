@@ -1,0 +1,42 @@
+{
+  "id": "revision",
+  "tema": "escritura-creativa",
+  "subtema": "revision",
+  "titulo": "Revisar y corregir",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El primer borrador es para contar la historia; la revisión es para contarla bien."
+    },
+    {
+      "texto": "Deja reposar el texto un día y léelo en voz alta."
+    },
+    {
+      "texto": "Quita lo que sobra: palabras repetidas, adjetivos innecesarios y escenas que no aportan."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "reposar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene antes de revisar?",
+      "opciones": [
+        "Dejar reposar el texto",
+        "Publicarlo de inmediato",
+        "Borrarlo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con distancia ves mejor los errores."
+    },
+    {
+      "id": "borrador",
+      "tipo": "completar",
+      "enunciado": "El primer ___ es para contar la historia.",
+      "respuestas_validas": [
+        "borrador"
+      ],
+      "explicacion_respuesta": "Después se pule."
+    }
+  ]
+}

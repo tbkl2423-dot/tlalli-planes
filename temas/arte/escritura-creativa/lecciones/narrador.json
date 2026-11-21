@@ -1,0 +1,42 @@
+{
+  "id": "narrador",
+  "tema": "escritura-creativa",
+  "subtema": "narrador",
+  "titulo": "El narrador",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El narrador en primera persona cuenta desde el yo: yo abrí la puerta."
+    },
+    {
+      "texto": "El de tercera persona cuenta desde fuera: ella abrió la puerta. Puede saberlo todo o solo lo que sabe un personaje."
+    },
+    {
+      "texto": "Elige el narrador según cuánto quieres que sepa el lector."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "primera",
+      "tipo": "opcion_multiple",
+      "pregunta": "Yo nunca había visto el mar. ¿Qué narrador es?",
+      "opciones": [
+        "Primera persona",
+        "Tercera persona",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Usa el yo."
+    },
+    {
+      "id": "omnisciente",
+      "tipo": "completar",
+      "enunciado": "El narrador que lo sabe todo se llama ___.",
+      "respuestas_validas": [
+        "omnisciente"
+      ],
+      "explicacion_respuesta": "Conoce pensamientos de todos los personajes."
+    }
+  ]
+}

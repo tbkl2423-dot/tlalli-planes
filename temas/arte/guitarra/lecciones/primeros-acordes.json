@@ -1,0 +1,44 @@
+{
+  "id": "primeros-acordes",
+  "tema": "guitarra",
+  "subtema": "primeros-acordes",
+  "titulo": "Primeros acordes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un acorde es tocar varias cuerdas a la vez con ciertos dedos presionando trastes."
+    },
+    {
+      "texto": "Mi menor es de los más fáciles: solo usa dos dedos en el segundo traste de la quinta y cuarta cuerdas."
+    },
+    {
+      "texto": "Después aprende la menor, do, sol y re. Con esos cinco puedes tocar cientos de canciones."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "facil",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué acorde es de los más fáciles para empezar?",
+      "opciones": [
+        "Mi menor",
+        "Si bemol",
+        "Fa mayor con cejilla"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Solo usa dos dedos."
+    },
+    {
+      "id": "cuantos",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué conviene aprender primero do, sol, re, la menor y mi menor?",
+      "respuesta_esperada": "Porque con ellos se tocan muchísimas canciones.",
+      "palabras_clave": [
+        "canciones",
+        "muchas"
+      ],
+      "explicacion_respuesta": "Son la base de mucha música popular."
+    }
+  ]
+}

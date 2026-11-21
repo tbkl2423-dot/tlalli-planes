@@ -1,0 +1,115 @@
+{
+  "id": "guitarra",
+  "titulo": "Guitarra para principiantes",
+  "categoria": "arte",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Primeros pasos con la guitarra: partes, afinación, primeros acordes, rasgueos y cómo practicar.",
+  "version": 1,
+  "aliases": [
+    "guitarra",
+    "tocar guitarra",
+    "acordes de guitarra"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "partes-guitarra",
+      "titulo": "Partes de la guitarra",
+      "aliases": [
+        "cuerdas",
+        "trastes"
+      ]
+    },
+    {
+      "id": "afinacion",
+      "titulo": "Afinación",
+      "aliases": [
+        "afinar",
+        "afinador"
+      ]
+    },
+    {
+      "id": "primeros-acordes",
+      "titulo": "Primeros acordes",
+      "aliases": [
+        "mi menor",
+        "la menor",
+        "do"
+      ]
+    },
+    {
+      "id": "rasgueo",
+      "titulo": "Rasgueo y ritmo",
+      "aliases": [
+        "ritmo",
+        "strumming"
+      ]
+    },
+    {
+      "id": "cambios",
+      "titulo": "Cambiar de acorde",
+      "aliases": [
+        "transiciones"
+      ]
+    },
+    {
+      "id": "practica",
+      "titulo": "Cómo practicar",
+      "aliases": [
+        "rutina",
+        "dolor de dedos"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "partes-guitarra",
+          "titulo": "Partes de la guitarra",
+          "subtema": "partes-guitarra",
+          "archivo": "lecciones/partes-guitarra.json"
+        },
+        {
+          "id": "afinacion",
+          "titulo": "Afinación",
+          "subtema": "afinacion",
+          "archivo": "lecciones/afinacion.json"
+        },
+        {
+          "id": "primeros-acordes",
+          "titulo": "Primeros acordes",
+          "subtema": "primeros-acordes",
+          "archivo": "lecciones/primeros-acordes.json"
+        },
+        {
+          "id": "rasgueo",
+          "titulo": "Rasgueo y ritmo",
+          "subtema": "rasgueo",
+          "archivo": "lecciones/rasgueo.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "cambios",
+          "titulo": "Cambiar de acorde",
+          "subtema": "cambios",
+          "archivo": "lecciones/cambios.json"
+        },
+        {
+          "id": "practica",
+          "titulo": "Cómo practicar",
+          "subtema": "practica",
+          "archivo": "lecciones/practica.json"
+        }
+      ]
+    }
+  ]
+}

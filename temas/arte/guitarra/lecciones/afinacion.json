@@ -1,0 +1,42 @@
+{
+  "id": "afinacion",
+  "tema": "guitarra",
+  "subtema": "afinacion",
+  "titulo": "Afinación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La afinación estándar, de la sexta a la primera cuerda, es mi, la, re, sol, si, mi."
+    },
+    {
+      "texto": "Usa un afinador o una app: toca cada cuerda y gira la clavija hasta que marque la nota correcta."
+    },
+    {
+      "texto": "Afina cada vez que vayas a tocar; las cuerdas se desafinan con el uso y el clima."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "estandar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la afinación estándar desde la sexta cuerda?",
+      "opciones": [
+        "Mi, la, re, sol, si, mi",
+        "Do, re, mi, fa, sol, la",
+        "La, re, sol, do, mi, la"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la afinación más usada."
+    },
+    {
+      "id": "cuando",
+      "tipo": "completar",
+      "enunciado": "Conviene afinar ___ vez que vas a tocar.",
+      "respuestas_validas": [
+        "cada"
+      ],
+      "explicacion_respuesta": "Las cuerdas se mueven con el uso."
+    }
+  ]
+}

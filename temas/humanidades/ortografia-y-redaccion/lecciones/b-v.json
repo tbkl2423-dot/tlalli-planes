@@ -34,8 +34,7 @@
       "tipo": "completar",
       "enunciado": "Ayer jug___ futbol.",
       "respuestas_validas": [
-        "aba",
-        "aba."
+        "aba"
       ],
       "explicacion_respuesta": "Las terminaciones aba van con b."
     }

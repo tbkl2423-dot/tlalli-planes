@@ -1,0 +1,43 @@
+{
+  "id": "quejas",
+  "tema": "atencion-al-cliente",
+  "subtema": "quejas",
+  "titulo": "Manejar quejas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ante una queja, mantén la calma y no lo tomes personal."
+    },
+    {
+      "texto": "Reconoce el problema, ofrece una disculpa sincera y una solución concreta con tiempos claros."
+    },
+    {
+      "texto": "Un cliente cuya queja se resolvió bien suele volverse más leal que antes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "primero",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué haces primero ante un cliente molesto?",
+      "opciones": [
+        "Escuchar con calma y reconocer el problema",
+        "Discutir",
+        "Ignorarlo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La calma baja la tensión."
+    },
+    {
+      "id": "solucion",
+      "tipo": "completar",
+      "enunciado": "Después de disculparte, ofrece una ___ concreta.",
+      "respuestas_validas": [
+        "solución",
+        "solucion"
+      ],
+      "explicacion_respuesta": "Con tiempos claros."
+    }
+  ]
+}

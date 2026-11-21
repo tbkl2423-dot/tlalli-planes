@@ -1,0 +1,45 @@
+{
+  "id": "escucha-activa",
+  "tema": "atencion-al-cliente",
+  "subtema": "escucha-activa",
+  "titulo": "Escucha activa",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Escuchar activamente es poner toda tu atención, sin interrumpir."
+    },
+    {
+      "texto": "Repite con tus palabras lo que entendiste: entonces, su pedido llegó incompleto, ¿verdad?"
+    },
+    {
+      "texto": "Así la persona se siente comprendida y evitas malentendidos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "parafrasear",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué repetir con tus palabras lo que dijo el cliente?",
+      "opciones": [
+        "Para confirmar que entendiste",
+        "Para ganar tiempo",
+        "Para corregirlo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Evita malentendidos."
+    },
+    {
+      "id": "interrumpir",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué no conviene interrumpir al cliente?",
+      "respuesta_esperada": "Porque necesita sentirse escuchado y puedes perder información.",
+      "palabras_clave": [
+        "escuchado",
+        "informacion",
+        "respeto"
+      ],
+      "explicacion_respuesta": "Escuchar completo da mejores soluciones."
+    }
+  ]
+}

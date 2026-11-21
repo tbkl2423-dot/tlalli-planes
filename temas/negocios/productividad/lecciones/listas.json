@@ -1,0 +1,43 @@
+{
+  "id": "listas",
+  "tema": "productividad",
+  "subtema": "listas",
+  "titulo": "Listas de tareas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Escribir tus pendientes libera la mente: ya no tienes que recordarlos."
+    },
+    {
+      "texto": "Divide las tareas grandes en pasos pequeños y concretos: en vez de hacer tesis, escribir la introducción."
+    },
+    {
+      "texto": "Cada noche, elige las tres tareas más importantes del día siguiente."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "concreto",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una tarea mejor escrita?",
+      "opciones": [
+        "Escribir el primer párrafo del ensayo",
+        "Ensayo",
+        "Hacer cosas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Una acción concreta es más fácil de empezar."
+    },
+    {
+      "id": "tres",
+      "tipo": "completar",
+      "enunciado": "Elige las ___ tareas más importantes del día.",
+      "respuestas_validas": [
+        "3",
+        "tres"
+      ],
+      "explicacion_respuesta": "Pocas prioridades claras."
+    }
+  ]
+}

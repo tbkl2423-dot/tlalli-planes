@@ -1,0 +1,112 @@
+{
+  "id": "escritura-creativa",
+  "titulo": "Escritura creativa",
+  "categoria": "arte",
+  "idioma": "es",
+  "nivel": "principiante",
+  "descripcion": "Escribe cuentos y textos propios: ideas, personajes, narrador, diálogos, descripciones y revisión.",
+  "version": 1,
+  "aliases": [
+    "escribir cuentos",
+    "narrativa",
+    "creative writing"
+  ],
+  "requisitos": [],
+  "subtemas": [
+    {
+      "id": "ideas",
+      "titulo": "Encontrar ideas",
+      "aliases": [
+        "inspiracion"
+      ]
+    },
+    {
+      "id": "personajes",
+      "titulo": "Personajes",
+      "aliases": [
+        "protagonista"
+      ]
+    },
+    {
+      "id": "estructura",
+      "titulo": "Estructura del cuento",
+      "aliases": [
+        "inicio nudo desenlace"
+      ]
+    },
+    {
+      "id": "narrador",
+      "titulo": "El narrador",
+      "aliases": [
+        "primera persona",
+        "tercera persona"
+      ]
+    },
+    {
+      "id": "dialogos",
+      "titulo": "Diálogos",
+      "aliases": [
+        "raya",
+        "conversacion"
+      ]
+    },
+    {
+      "id": "revision",
+      "titulo": "Revisar y corregir",
+      "aliases": [
+        "editar",
+        "reescribir"
+      ]
+    }
+  ],
+  "unidades": [
+    {
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "ideas",
+          "titulo": "Encontrar ideas",
+          "subtema": "ideas",
+          "archivo": "lecciones/ideas.json"
+        },
+        {
+          "id": "personajes",
+          "titulo": "Personajes",
+          "subtema": "personajes",
+          "archivo": "lecciones/personajes.json"
+        },
+        {
+          "id": "estructura",
+          "titulo": "Estructura del cuento",
+          "subtema": "estructura",
+          "archivo": "lecciones/estructura.json"
+        },
+        {
+          "id": "narrador",
+          "titulo": "El narrador",
+          "subtema": "narrador",
+          "archivo": "lecciones/narrador.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "dialogos",
+          "titulo": "Diálogos",
+          "subtema": "dialogos",
+          "archivo": "lecciones/dialogos.json"
+        },
+        {
+          "id": "revision",
+          "titulo": "Revisar y corregir",
+          "subtema": "revision",
+          "archivo": "lecciones/revision.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "estructura",
+  "tema": "escritura-creativa",
+  "subtema": "estructura",
+  "titulo": "Estructura del cuento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un cuento clásico tiene inicio, nudo y desenlace."
+    },
+    {
+      "texto": "En el inicio presentas al personaje y su mundo. En el nudo aparece el conflicto y crece. En el desenlace se resuelve."
+    },
+    {
+      "texto": "Empieza lo más cerca posible de la acción para atrapar al lector."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "nudo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué parte aparece y crece el conflicto?",
+      "opciones": [
+        "Nudo",
+        "Inicio",
+        "Desenlace"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El nudo es el corazón de la tensión."
+    },
+    {
+      "id": "partes",
+      "tipo": "completar",
+      "enunciado": "Las partes del cuento son inicio, nudo y ___.",
+      "respuestas_validas": [
+        "desenlace",
+        "final"
+      ],
+      "explicacion_respuesta": "El desenlace resuelve el conflicto."
+    }
+  ]
+}

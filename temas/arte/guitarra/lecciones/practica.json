@@ -1,0 +1,42 @@
+{
+  "id": "practica",
+  "tema": "guitarra",
+  "subtema": "practica",
+  "titulo": "Cómo practicar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Es mejor practicar quince minutos diarios que dos horas una vez a la semana."
+    },
+    {
+      "texto": "Al inicio duelen las yemas; en unas semanas se forman callos y ya no molesta."
+    },
+    {
+      "texto": "Toca canciones que te gusten: la motivación hace que no lo dejes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "frecuencia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es mejor para avanzar?",
+      "opciones": [
+        "Practicar poco pero diario",
+        "Practicar mucho una vez al mes",
+        "No practicar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La constancia gana."
+    },
+    {
+      "id": "callos",
+      "tipo": "completar",
+      "enunciado": "Al principio duelen las yemas hasta que se forman ___.",
+      "respuestas_validas": [
+        "callos"
+      ],
+      "explicacion_respuesta": "Pasa en unas semanas."
+    }
+  ]
+}

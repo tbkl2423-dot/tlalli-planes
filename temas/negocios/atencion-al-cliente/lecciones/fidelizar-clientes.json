@@ -1,0 +1,45 @@
+{
+  "id": "fidelizar-clientes",
+  "tema": "atencion-al-cliente",
+  "subtema": "fidelizar-clientes",
+  "titulo": "Clientes que regresan",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Conseguir un cliente nuevo cuesta más que conservar uno."
+    },
+    {
+      "texto": "Agradece, recuerda sus preferencias y pide su opinión después de la compra."
+    },
+    {
+      "texto": "Un cliente satisfecho te recomienda; esa es la mejor publicidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "costo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué cuesta más?",
+      "opciones": [
+        "Conseguir un cliente nuevo",
+        "Conservar uno",
+        "Igual"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Retener es más barato que atraer."
+    },
+    {
+      "id": "recomendacion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué la recomendación es la mejor publicidad?",
+      "respuesta_esperada": "Porque la gente confía más en lo que le dicen sus conocidos.",
+      "palabras_clave": [
+        "confia",
+        "conocidos",
+        "amigos"
+      ],
+      "explicacion_respuesta": "La confianza se transmite de persona a persona."
+    }
+  ]
+}

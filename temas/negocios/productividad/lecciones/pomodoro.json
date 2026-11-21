@@ -1,0 +1,43 @@
+{
+  "id": "pomodoro",
+  "tema": "productividad",
+  "subtema": "pomodoro",
+  "titulo": "Técnica Pomodoro",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La técnica Pomodoro alterna 25 minutos de trabajo concentrado con 5 de descanso."
+    },
+    {
+      "texto": "Cada cuatro pomodoros, toma un descanso más largo."
+    },
+    {
+      "texto": "Durante el bloque, nada de celular ni otras tareas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tiempo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto dura un pomodoro de trabajo?",
+      "opciones": [
+        "25 minutos",
+        "5 minutos",
+        "2 horas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Seguido de un descanso de 5."
+    },
+    {
+      "id": "descanso",
+      "tipo": "completar",
+      "enunciado": "Después de cada pomodoro hay ___ minutos de descanso.",
+      "respuestas_validas": [
+        "5",
+        "cinco"
+      ],
+      "explicacion_respuesta": "Descansos cortos mantienen la energía."
+    }
+  ]
+}

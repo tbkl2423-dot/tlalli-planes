@@ -1,0 +1,43 @@
+{
+  "id": "ajustes-basicos",
+  "tema": "celular-inteligente",
+  "subtema": "ajustes-basicos",
+  "titulo": "Ajustes básicos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En Ajustes puedes cambiar el brillo, el tamaño de la letra, el volumen y el idioma."
+    },
+    {
+      "texto": "Deslizando desde arriba de la pantalla aparecen accesos rápidos: wifi, linterna, modo avión."
+    },
+    {
+      "texto": "Agrandar la letra es muy útil si te cuesta leer."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rapidos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo abres los accesos rápidos como la linterna?",
+      "opciones": [
+        "Deslizando desde arriba",
+        "Apagando el teléfono",
+        "Desde la cámara"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El panel rápido aparece al deslizar desde la parte superior."
+    },
+    {
+      "id": "letra",
+      "tipo": "completar",
+      "enunciado": "En Ajustes puedes agrandar el tamaño de la ___.",
+      "respuestas_validas": [
+        "letra",
+        "fuente"
+      ],
+      "explicacion_respuesta": "Así lees mejor."
+    }
+  ]
+}

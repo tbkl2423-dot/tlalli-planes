@@ -1,0 +1,44 @@
+{
+  "id": "rasgueo",
+  "tema": "guitarra",
+  "subtema": "rasgueo",
+  "titulo": "Rasgueo y ritmo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El rasgueo es pasar la mano o la púa por las cuerdas, hacia abajo y hacia arriba."
+    },
+    {
+      "texto": "Un patrón básico: abajo, abajo, arriba, arriba, abajo, arriba."
+    },
+    {
+      "texto": "Mantén la mano derecha moviéndose siempre al mismo ritmo, aunque no toques todas las cuerdas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "patron",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace la mano derecha al rasguear?",
+      "opciones": [
+        "Golpea las cuerdas hacia abajo y arriba",
+        "Presiona los trastes",
+        "Afina"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La izquierda hace los acordes; la derecha, el ritmo."
+    },
+    {
+      "id": "constante",
+      "tipo": "completar",
+      "enunciado": "La mano del rasgueo debe moverse a un ritmo ___.",
+      "respuestas_validas": [
+        "constante",
+        "estable",
+        "parejo"
+      ],
+      "explicacion_respuesta": "Así el ritmo suena firme."
+    }
+  ]
+}
