@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "De la célula a los ecosistemas: cómo están hechos los seres vivos, cómo heredan sus rasgos y cómo se relacionan con su entorno.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "biologia",
     "seres vivos",
@@ -82,14 +82,62 @@
   ],
   "unidades": [
     {
-      "id": "la-vida",
-      "titulo": "La vida y la célula",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
+        {
+          "id": "que-es-la-vida",
+          "titulo": "¿Qué es un ser vivo?",
+          "subtema": "que-es-la-vida",
+          "archivo": "lecciones/que-es-la-vida.json"
+        },
         {
           "id": "la-celula",
           "titulo": "La célula",
           "subtema": "la-celula",
           "archivo": "lecciones/la-celula.json"
+        },
+        {
+          "id": "moleculas-de-la-vida",
+          "titulo": "Moléculas de la vida",
+          "subtema": "moleculas-de-la-vida",
+          "archivo": "lecciones/moleculas-de-la-vida.json"
+        },
+        {
+          "id": "fotosintesis-y-respiracion",
+          "titulo": "Fotosíntesis y respiración celular",
+          "subtema": "fotosintesis-y-respiracion",
+          "archivo": "lecciones/fotosintesis-y-respiracion.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "division-celular",
+          "titulo": "División celular",
+          "subtema": "division-celular",
+          "archivo": "lecciones/division-celular.json"
+        },
+        {
+          "id": "adn-y-herencia",
+          "titulo": "ADN y herencia",
+          "subtema": "adn-y-herencia",
+          "archivo": "lecciones/adn-y-herencia.json"
+        },
+        {
+          "id": "evolucion",
+          "titulo": "Evolución y selección natural",
+          "subtema": "evolucion",
+          "archivo": "lecciones/evolucion.json"
+        },
+        {
+          "id": "ecologia",
+          "titulo": "Ecosistemas y ecología",
+          "subtema": "ecologia",
+          "archivo": "lecciones/ecologia.json"
         }
       ]
     }

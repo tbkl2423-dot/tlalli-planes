@@ -1,0 +1,43 @@
+{
+  "id": "primeras-decadas",
+  "tema": "historia-de-mexico",
+  "subtema": "primeras-decadas",
+  "titulo": "Primeras décadas del México independiente",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Tras la Independencia, Iturbide se coronó emperador en 1822, pero su imperio duró menos de un año."
+    },
+    {
+      "texto": "En 1824 se promulgó la primera Constitución y México se volvió una república federal."
+    },
+    {
+      "texto": "Siguieron décadas de inestabilidad, con choques entre federalistas y centralistas. Antonio López de Santa Anna ocupó la presidencia varias veces."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "constitucion-1824",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué forma de gobierno estableció la Constitución de 1824?",
+      "opciones": [
+        "República federal",
+        "Monarquía",
+        "Imperio"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La Constitución de 1824 creó una república federal."
+    },
+    {
+      "id": "santa-anna",
+      "tipo": "completar",
+      "enunciado": "El general que fue presidente varias veces en esa época fue Antonio López de ___.",
+      "respuestas_validas": [
+        "Santa Anna",
+        "santa anna"
+      ],
+      "explicacion_respuesta": "Santa Anna estuvo en el poder en muchas ocasiones entre 1833 y 1855."
+    }
+  ]
+}

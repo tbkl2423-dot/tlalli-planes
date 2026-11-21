@@ -1,0 +1,45 @@
+{
+  "id": "fracturas",
+  "tema": "primeros-auxilios",
+  "subtema": "fracturas",
+  "titulo": "Golpes, torceduras y fracturas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Si sospechas una fractura, no intentes acomodar el hueso."
+    },
+    {
+      "texto": "Inmoviliza la zona tal como está, con algo firme y acolchado, y aplica frío envuelto en tela para el dolor."
+    },
+    {
+      "texto": "Si hay un hueso expuesto, mucho dolor o golpe en cabeza, cuello o espalda, no muevas a la persona y llama al 911."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "acomodar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Debes intentar enderezar un hueso fracturado?",
+      "opciones": [
+        "No, se inmoviliza como está",
+        "Sí, siempre",
+        "Solo si duele poco"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Moverlo puede dañar vasos sanguíneos y nervios."
+    },
+    {
+      "id": "espalda",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si alguien cayó y le duele el cuello, ¿qué haces?",
+      "opciones": [
+        "No moverlo y llamar al 911",
+        "Sentarlo",
+        "Ayudarlo a caminar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Una lesión de columna puede empeorar al moverlo."
+    }
+  ]
+}

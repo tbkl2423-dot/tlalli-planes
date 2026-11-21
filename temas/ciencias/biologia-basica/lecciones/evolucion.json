@@ -1,0 +1,45 @@
+{
+  "id": "evolucion",
+  "tema": "biologia-basica",
+  "subtema": "evolucion",
+  "titulo": "Evolución y selección natural",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La evolución es el cambio de las especies a lo largo de muchas generaciones."
+    },
+    {
+      "texto": "Charles Darwin propuso la selección natural: los individuos con rasgos que les ayudan a sobrevivir y reproducirse dejan más descendencia."
+    },
+    {
+      "texto": "Con el tiempo, esos rasgos se vuelven más comunes en la población."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "darwin",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién propuso la selección natural?",
+      "opciones": [
+        "Charles Darwin",
+        "Isaac Newton",
+        "Louis Pasteur"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Darwin la publicó en El origen de las especies, en 1859."
+    },
+    {
+      "id": "seleccion",
+      "tipo": "voz_pregunta",
+      "pregunta": "Explica con tus palabras la selección natural.",
+      "respuesta_esperada": "Los que tienen rasgos útiles sobreviven y se reproducen más.",
+      "palabras_clave": [
+        "sobreviven",
+        "reproducen",
+        "rasgos"
+      ],
+      "explicacion_respuesta": "Los rasgos ventajosos se heredan y se vuelven más comunes."
+    }
+  ]
+}

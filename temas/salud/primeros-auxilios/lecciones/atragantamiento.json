@@ -1,0 +1,43 @@
+{
+  "id": "atragantamiento",
+  "tema": "primeros-auxilios",
+  "subtema": "atragantamiento",
+  "titulo": "Atragantamiento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Si la persona puede toser o hablar, anímala a seguir tosiendo; la tos es lo más eficaz."
+    },
+    {
+      "texto": "Si no puede toser, hablar ni respirar, da golpes firmes entre los omóplatos y compresiones abdominales, la maniobra de Heimlich, hasta que salga el objeto."
+    },
+    {
+      "texto": "Si pierde el conocimiento, llama al 911 y empieza la RCP."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tos",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si la persona atragantada tose con fuerza, ¿qué haces?",
+      "opciones": [
+        "Animarla a seguir tosiendo",
+        "Darle agua",
+        "Acostarla"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Mientras tose, el aire pasa y puede expulsar el objeto."
+    },
+    {
+      "id": "maniobra",
+      "tipo": "completar",
+      "enunciado": "Las compresiones abdominales se conocen como maniobra de ___.",
+      "respuestas_validas": [
+        "Heimlich",
+        "heimlich"
+      ],
+      "explicacion_respuesta": "Empujan el aire de los pulmones para expulsar el objeto."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mexico-contemporaneo",
+  "tema": "historia-de-mexico",
+  "subtema": "mexico-contemporaneo",
+  "titulo": "México contemporáneo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En 1968 el movimiento estudiantil fue reprimido en Tlatelolco, un hecho que marcó al país."
+    },
+    {
+      "texto": "El terremoto de 1985 en la Ciudad de México mostró la fuerza de la organización ciudadana."
+    },
+    {
+      "texto": "En 1994 entró en vigor el tratado de libre comercio con Estados Unidos y Canadá, y en el año 2000 hubo alternancia en la presidencia tras décadas de un mismo partido."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "alternancia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué año llegó a la presidencia un partido distinto al que gobernó por décadas?",
+      "opciones": [
+        "2000",
+        "1968",
+        "1985"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En el año 2000 hubo alternancia política."
+    },
+    {
+      "id": "sismo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué mostró el sismo de 1985?",
+      "opciones": [
+        "La fuerza de la organización ciudadana",
+        "El fin del Porfiriato",
+        "La independencia económica"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La gente se organizó para rescatar y ayudar antes de que llegara el gobierno."
+    }
+  ]
+}

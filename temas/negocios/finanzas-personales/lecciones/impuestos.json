@@ -1,0 +1,43 @@
+{
+  "id": "impuestos",
+  "tema": "finanzas-personales",
+  "subtema": "impuestos",
+  "titulo": "Impuestos básicos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los impuestos son contribuciones que pagamos para financiar servicios públicos."
+    },
+    {
+      "texto": "En México los recauda el SAT. El IVA se paga al comprar y el ISR se paga sobre los ingresos."
+    },
+    {
+      "texto": "Si trabajas por tu cuenta, necesitas tu RFC y emitir facturas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "iva",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuándo pagas IVA?",
+      "opciones": [
+        "Al comprar productos o servicios",
+        "Solo al cobrar tu sueldo",
+        "Nunca"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El IVA va incluido en el precio de muchas compras."
+    },
+    {
+      "id": "sat",
+      "tipo": "completar",
+      "enunciado": "La institución que recauda impuestos en México es el ___.",
+      "respuestas_validas": [
+        "SAT",
+        "sat"
+      ],
+      "explicacion_respuesta": "SAT significa Servicio de Administración Tributaria."
+    }
+  ]
+}

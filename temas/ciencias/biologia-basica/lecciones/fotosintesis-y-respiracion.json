@@ -1,0 +1,43 @@
+{
+  "id": "fotosintesis-y-respiracion",
+  "tema": "biologia-basica",
+  "subtema": "fotosintesis-y-respiracion",
+  "titulo": "Fotosíntesis y respiración celular",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En la fotosíntesis, las plantas usan luz, agua y dióxido de carbono para fabricar glucosa y liberar oxígeno."
+    },
+    {
+      "texto": "En la respiración celular, casi todos los seres vivos usan glucosa y oxígeno para obtener energía, y liberan dióxido de carbono y agua."
+    },
+    {
+      "texto": "Son procesos complementarios: lo que uno produce, el otro lo usa."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "libera",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué gas liberan las plantas en la fotosíntesis?",
+      "opciones": [
+        "Oxígeno",
+        "Dióxido de carbono",
+        "Nitrógeno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El oxígeno que respiramos viene de la fotosíntesis."
+    },
+    {
+      "id": "organelo",
+      "tipo": "completar",
+      "enunciado": "La fotosíntesis ocurre en los ___.",
+      "respuestas_validas": [
+        "cloroplastos",
+        "cloroplasto"
+      ],
+      "explicacion_respuesta": "Los cloroplastos contienen clorofila, que capta la luz."
+    }
+  ]
+}

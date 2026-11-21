@@ -1,0 +1,45 @@
+{
+  "id": "porfiriato",
+  "tema": "historia-de-mexico",
+  "subtema": "porfiriato",
+  "titulo": "El Porfiriato",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Porfirio Díaz gobernó México, con una breve pausa, de 1876 a 1911. A ese periodo se le llama Porfiriato."
+    },
+    {
+      "texto": "Hubo crecimiento económico: ferrocarriles, inversión extranjera e industria."
+    },
+    {
+      "texto": "Pero la riqueza se concentró en pocas manos, muchos campesinos perdieron sus tierras y no había libertad política."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "duracion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Aproximadamente cuánto duró el Porfiriato?",
+      "opciones": [
+        "Unos 35 años",
+        "Unos 5 años",
+        "Un siglo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "De 1876 a 1911, con un breve intervalo."
+    },
+    {
+      "id": "problema",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuál fue un problema social grave del Porfiriato?",
+      "respuesta_esperada": "La desigualdad: pocos tenían la riqueza y la tierra.",
+      "palabras_clave": [
+        "desigualdad",
+        "tierra",
+        "pobreza"
+      ],
+      "explicacion_respuesta": "La concentración de tierra y riqueza fue una causa de la Revolución."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "virreinato",
+  "tema": "historia-de-mexico",
+  "subtema": "virreinato",
+  "titulo": "Nueva España",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Durante unos tres siglos el territorio se llamó Nueva España y lo gobernaba un virrey en nombre del rey de España."
+    },
+    {
+      "texto": "La sociedad se dividía en grupos: peninsulares, criollos, mestizos, indígenas, africanos y castas, con distintos derechos."
+    },
+    {
+      "texto": "La plata de minas como Zacatecas y Guanajuato fue la gran riqueza de la colonia."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "gobernante",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién gobernaba la Nueva España en nombre del rey?",
+      "opciones": [
+        "El virrey",
+        "El presidente",
+        "El emperador mexica"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El virrey era el representante del rey en la colonia."
+    },
+    {
+      "id": "criollos",
+      "tipo": "completar",
+      "enunciado": "Los hijos de españoles nacidos en América se llamaban ___.",
+      "respuestas_validas": [
+        "criollos"
+      ],
+      "explicacion_respuesta": "Los criollos tenían menos derechos que los peninsulares y luego impulsaron la Independencia."
+    }
+  ]
+}

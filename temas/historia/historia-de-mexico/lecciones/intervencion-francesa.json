@@ -1,0 +1,43 @@
+{
+  "id": "intervencion-francesa",
+  "tema": "historia-de-mexico",
+  "subtema": "intervencion-francesa",
+  "titulo": "Intervención francesa y Segundo Imperio",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En 1862 Francia invadió México. El 5 de mayo de ese año, el ejército mexicano venció a los franceses en Puebla."
+    },
+    {
+      "texto": "Aun así, los franceses tomaron la capital y en 1864 llegó Maximiliano de Habsburgo como emperador."
+    },
+    {
+      "texto": "Juárez resistió con un gobierno itinerante. En 1867 Maximiliano fue capturado y fusilado, y se restauró la república."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cinco-mayo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué se conmemora el 5 de mayo?",
+      "opciones": [
+        "La victoria en la batalla de Puebla",
+        "La Independencia",
+        "La Revolución"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El 5 de mayo de 1862 el ejército mexicano venció a los franceses en Puebla."
+    },
+    {
+      "id": "emperador",
+      "tipo": "completar",
+      "enunciado": "El emperador impuesto por Francia fue ___ de Habsburgo.",
+      "respuestas_validas": [
+        "Maximiliano",
+        "maximiliano"
+      ],
+      "explicacion_respuesta": "Maximiliano gobernó de 1864 a 1867."
+    }
+  ]
+}

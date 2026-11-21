@@ -1,0 +1,45 @@
+{
+  "id": "colores-calidos-y-frios",
+  "tema": "teoria-del-color",
+  "subtema": "colores-calidos-y-frios",
+  "titulo": "Colores cálidos y fríos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los colores cálidos, como rojo, naranja y amarillo, recuerdan al fuego y al sol. Parecen acercarse."
+    },
+    {
+      "texto": "Los fríos, como azul, verde y violeta, recuerdan al agua y al cielo. Parecen alejarse y transmiten calma."
+    },
+    {
+      "texto": "Combinar ambos crea contraste y profundidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "frio",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un color frío?",
+      "opciones": [
+        "Azul",
+        "Naranja",
+        "Rojo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Azul, verde y violeta son fríos."
+    },
+    {
+      "id": "efecto",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué sensación suelen transmitir los colores fríos?",
+      "respuesta_esperada": "Calma y tranquilidad.",
+      "palabras_clave": [
+        "calma",
+        "tranquil",
+        "frescura"
+      ],
+      "explicacion_respuesta": "Los fríos se asocian con agua, cielo y descanso."
+    }
+  ]
+}

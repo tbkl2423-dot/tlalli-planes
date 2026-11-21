@@ -1,0 +1,43 @@
+{
+  "id": "quemaduras",
+  "tema": "primeros-auxilios",
+  "subtema": "quemaduras",
+  "titulo": "Quemaduras",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Enfría la quemadura con agua corriente fresca, no helada, durante unos 20 minutos."
+    },
+    {
+      "texto": "No pongas hielo, pasta de dientes, mantequilla ni remedios caseros."
+    },
+    {
+      "texto": "Cúbrela con una tela limpia o plástico de cocina. Si es grande, profunda o en cara, manos o genitales, busca atención médica."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "enfriar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es lo primero ante una quemadura?",
+      "opciones": [
+        "Enfriar con agua corriente",
+        "Poner pasta de dientes",
+        "Poner hielo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El agua corriente detiene el daño y alivia el dolor."
+    },
+    {
+      "id": "minutos",
+      "tipo": "completar",
+      "enunciado": "La quemadura se enfría con agua durante unos ___ minutos.",
+      "respuestas_validas": [
+        "20",
+        "veinte"
+      ],
+      "explicacion_respuesta": "Unos 20 minutos de agua fresca son lo recomendado."
+    }
+  ]
+}

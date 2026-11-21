@@ -1,0 +1,45 @@
+{
+  "id": "conquista",
+  "tema": "historia-de-mexico",
+  "subtema": "conquista",
+  "titulo": "La Conquista",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En 1519 llegó Hernán Cortés a las costas del Golfo con algunos cientos de españoles."
+    },
+    {
+      "texto": "Se alió con pueblos enemigos de los mexicas, como los tlaxcaltecas, sin cuyo apoyo la conquista no habría sido posible."
+    },
+    {
+      "texto": "Tras un largo sitio y una epidemia de viruela, Tenochtitlan cayó el 13 de agosto de 1521."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "caida",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué año cayó Tenochtitlan?",
+      "opciones": [
+        "1521",
+        "1492",
+        "1810"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tenochtitlan cayó en 1521, tras meses de sitio."
+    },
+    {
+      "id": "aliados",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué fueron importantes los tlaxcaltecas en la Conquista?",
+      "respuesta_esperada": "Porque se aliaron con los españoles y aportaron miles de guerreros.",
+      "palabras_clave": [
+        "aliaron",
+        "guerreros",
+        "ayuda"
+      ],
+      "explicacion_respuesta": "Los aliados indígenas fueron la mayor parte del ejército que sitió Tenochtitlan."
+    }
+  ]
+}

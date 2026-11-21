@@ -1,0 +1,45 @@
+{
+  "id": "interes-compuesto",
+  "tema": "finanzas-personales",
+  "subtema": "interes-compuesto",
+  "titulo": "Interés compuesto",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El interés compuesto es ganar intereses sobre tus intereses."
+    },
+    {
+      "texto": "Si ahorras 1000 pesos al diez por ciento anual, el primer año ganas 100. El segundo ganas sobre 1100, o sea 110."
+    },
+    {
+      "texto": "Por eso el tiempo es tan importante: empezar joven, aunque sea con poco, hace una gran diferencia."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "segundo-anio",
+      "tipo": "opcion_multiple",
+      "pregunta": "1000 pesos al 10% anual compuesto, ¿cuánto hay al final del segundo año?",
+      "opciones": [
+        "1210",
+        "1200",
+        "1100"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "1000 × 1.1 = 1100; 1100 × 1.1 = 1210."
+    },
+    {
+      "id": "tiempo",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué conviene empezar a ahorrar pronto?",
+      "respuesta_esperada": "Porque el interés compuesto crece más con el tiempo.",
+      "palabras_clave": [
+        "tiempo",
+        "compuesto",
+        "crece"
+      ],
+      "explicacion_respuesta": "Más años significa más ciclos de interés sobre interés."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "tono-valor-saturacion",
+  "tema": "teoria-del-color",
+  "subtema": "tono-valor-saturacion",
+  "titulo": "Tono, valor y saturación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Todo color tiene tres propiedades. El tono es el color en sí: rojo, azul o verde."
+    },
+    {
+      "texto": "El valor es qué tan claro u oscuro es. Agregar blanco lo aclara y agregar negro lo oscurece."
+    },
+    {
+      "texto": "La saturación es qué tan intenso o puro es. Un color poco saturado se ve grisáceo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "valor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué propiedad cambia al agregar blanco a un color?",
+      "opciones": [
+        "El valor",
+        "El tono",
+        "La temperatura"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El blanco aclara: sube el valor."
+    },
+    {
+      "id": "grisaceo",
+      "tipo": "completar",
+      "enunciado": "Un color apagado y grisáceo tiene poca ___.",
+      "respuestas_validas": [
+        "saturación",
+        "saturacion"
+      ],
+      "explicacion_respuesta": "La saturación mide la intensidad."
+    }
+  ]
+}

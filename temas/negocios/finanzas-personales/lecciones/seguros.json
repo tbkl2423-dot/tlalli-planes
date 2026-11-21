@@ -1,0 +1,42 @@
+{
+  "id": "seguros",
+  "tema": "finanzas-personales",
+  "subtema": "seguros",
+  "titulo": "Seguros",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un seguro te protege de un gasto grande e inesperado a cambio de un pago periódico llamado prima."
+    },
+    {
+      "texto": "Hay seguros de gastos médicos, de vida, de auto y de casa."
+    },
+    {
+      "texto": "El deducible es la parte que pagas tú antes de que el seguro cubra el resto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "prima",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llama el pago periódico de un seguro?",
+      "opciones": [
+        "Prima",
+        "Deducible",
+        "Cobertura"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La prima es lo que pagas para tener el seguro."
+    },
+    {
+      "id": "deducible",
+      "tipo": "completar",
+      "enunciado": "La parte del gasto que pagas tú antes de que pague el seguro es el ___.",
+      "respuestas_validas": [
+        "deducible"
+      ],
+      "explicacion_respuesta": "Con un deducible más alto la prima suele ser más baja."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "color-luz-y-pigmento",
+  "tema": "teoria-del-color",
+  "subtema": "color-luz-y-pigmento",
+  "titulo": "Color luz y color pigmento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El color luz, el de las pantallas, se mezcla de forma aditiva: rojo, verde y azul juntos dan blanco. Es el modelo RGB."
+    },
+    {
+      "texto": "El color pigmento, el de la tinta, es sustractivo: cian, magenta y amarillo se oscurecen al mezclarse. Las impresoras usan CMYK."
+    },
+    {
+      "texto": "Por eso un diseño puede verse distinto en pantalla que impreso."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pantalla",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué modelo de color usan las pantallas?",
+      "opciones": [
+        "RGB",
+        "CMYK",
+        "RYB"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las pantallas emiten luz roja, verde y azul."
+    },
+    {
+      "id": "impresoras",
+      "tipo": "completar",
+      "enunciado": "Las impresoras usan el modelo ___.",
+      "respuestas_validas": [
+        "CMYK",
+        "cmyk"
+      ],
+      "explicacion_respuesta": "Cian, magenta, amarillo y negro."
+    }
+  ]
+}

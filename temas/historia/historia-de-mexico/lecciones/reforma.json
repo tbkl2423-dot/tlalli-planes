@@ -1,0 +1,44 @@
+{
+  "id": "reforma",
+  "tema": "historia-de-mexico",
+  "subtema": "reforma",
+  "titulo": "La Reforma",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los liberales, con Benito Juárez como figura central, buscaron separar a la Iglesia del Estado."
+    },
+    {
+      "texto": "La Constitución de 1857 y las Leyes de Reforma establecieron el registro civil, la libertad de cultos y la nacionalización de bienes eclesiásticos."
+    },
+    {
+      "texto": "Esto provocó la Guerra de Reforma, de 1858 a 1861, entre liberales y conservadores."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "figura",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién encabezó el gobierno liberal durante la Reforma?",
+      "opciones": [
+        "Benito Juárez",
+        "Porfirio Díaz",
+        "Agustín de Iturbide"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Juárez dirigió a los liberales y promulgó las Leyes de Reforma."
+    },
+    {
+      "id": "objetivo",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cuál fue el objetivo principal de las Leyes de Reforma?",
+      "respuesta_esperada": "Separar a la Iglesia del Estado.",
+      "palabras_clave": [
+        "iglesia",
+        "estado"
+      ],
+      "explicacion_respuesta": "Buscaban un Estado laico, con instituciones civiles."
+    }
+  ]
+}

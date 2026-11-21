@@ -1,0 +1,43 @@
+{
+  "id": "revolucion",
+  "tema": "historia-de-mexico",
+  "subtema": "revolucion",
+  "titulo": "La Revolución Mexicana",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En 1910 Francisco I. Madero llamó a levantarse contra Díaz con el Plan de San Luis."
+    },
+    {
+      "texto": "Participaron muchos grupos: Emiliano Zapata en el sur pedía tierra para los campesinos, y Francisco Villa encabezaba la División del Norte."
+    },
+    {
+      "texto": "La Constitución de 1917, aún vigente, recogió demandas como la reforma agraria y los derechos laborales."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "constitucion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué Constitución surgió de la Revolución?",
+      "opciones": [
+        "La de 1917",
+        "La de 1857",
+        "La de 1824"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La Constitución de 1917 sigue vigente, con muchas reformas."
+    },
+    {
+      "id": "zapata",
+      "tipo": "completar",
+      "enunciado": "El lema de Zapata fue Tierra y ___.",
+      "respuestas_validas": [
+        "Libertad",
+        "libertad"
+      ],
+      "explicacion_respuesta": "Tierra y Libertad resumía la lucha de los campesinos del sur."
+    }
+  ]
+}

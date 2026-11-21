@@ -1,0 +1,42 @@
+{
+  "id": "division-celular",
+  "tema": "biologia-basica",
+  "subtema": "division-celular",
+  "titulo": "División celular",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las células se reproducen dividiéndose."
+    },
+    {
+      "texto": "En la mitosis, una célula se divide en dos células idénticas. Sirve para crecer y reparar tejidos."
+    },
+    {
+      "texto": "En la meiosis se forman óvulos y espermatozoides, con la mitad de cromosomas, para la reproducción sexual."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mitosis",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué produce la mitosis?",
+      "opciones": [
+        "Dos células idénticas",
+        "Cuatro células distintas",
+        "Una sola célula más grande"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La mitosis copia el material genético y lo reparte igual."
+    },
+    {
+      "id": "gametos",
+      "tipo": "completar",
+      "enunciado": "Los óvulos y espermatozoides se forman por ___.",
+      "respuestas_validas": [
+        "meiosis"
+      ],
+      "explicacion_respuesta": "La meiosis reduce el número de cromosomas a la mitad."
+    }
+  ]
+}

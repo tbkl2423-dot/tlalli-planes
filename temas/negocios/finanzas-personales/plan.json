@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Organizar tu dinero: presupuesto, ahorro, deudas, crédito, interés compuesto y conceptos básicos de inversión.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "finanzas",
     "dinero",
@@ -84,7 +84,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -92,6 +92,72 @@
           "titulo": "Presupuesto",
           "subtema": "presupuesto",
           "archivo": "lecciones/presupuesto.json"
+        },
+        {
+          "id": "ahorro",
+          "titulo": "Ahorro y fondo de emergencia",
+          "subtema": "ahorro",
+          "archivo": "lecciones/ahorro.json"
+        },
+        {
+          "id": "deudas",
+          "titulo": "Deudas",
+          "subtema": "deudas",
+          "archivo": "lecciones/deudas.json"
+        },
+        {
+          "id": "credito",
+          "titulo": "Tarjetas de crédito e historial",
+          "subtema": "credito",
+          "archivo": "lecciones/credito.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "interes-compuesto",
+          "titulo": "Interés compuesto",
+          "subtema": "interes-compuesto",
+          "archivo": "lecciones/interes-compuesto.json"
+        },
+        {
+          "id": "inversion",
+          "titulo": "Conceptos de inversión",
+          "subtema": "inversion",
+          "archivo": "lecciones/inversion.json"
+        },
+        {
+          "id": "retiro",
+          "titulo": "Ahorro para el retiro",
+          "subtema": "retiro",
+          "archivo": "lecciones/retiro.json"
+        },
+        {
+          "id": "impuestos",
+          "titulo": "Impuestos básicos",
+          "subtema": "impuestos",
+          "archivo": "lecciones/impuestos.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "seguros",
+          "titulo": "Seguros",
+          "subtema": "seguros",
+          "archivo": "lecciones/seguros.json"
+        },
+        {
+          "id": "fraudes",
+          "titulo": "Fraudes financieros",
+          "subtema": "fraudes",
+          "archivo": "lecciones/fraudes.json"
         }
       ]
     }

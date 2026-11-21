@@ -1,0 +1,53 @@
+{
+  "id": "rcp",
+  "tema": "primeros-auxilios",
+  "subtema": "rcp",
+  "titulo": "Reanimación cardiopulmonar (RCP)",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Si una persona no responde y no respira con normalidad, pide que llamen al 911 y empieza la reanimación cardiopulmonar."
+    },
+    {
+      "texto": "Coloca las manos en el centro del pecho y empuja fuerte y rápido: unas 100 a 120 compresiones por minuto, hundiendo unos 5 centímetros en un adulto."
+    },
+    {
+      "texto": "Deja que el pecho regrese entre compresiones. Si hay un desfibrilador, úsalo siguiendo sus instrucciones de voz. Si no tienes entrenamiento, solo compresiones ya ayuda mucho."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ritmo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿A qué ritmo se hacen las compresiones?",
+      "opciones": [
+        "100 a 120 por minuto",
+        "20 por minuto",
+        "200 por minuto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ese ritmo mantiene circulando la sangre."
+    },
+    {
+      "id": "donde",
+      "tipo": "completar",
+      "enunciado": "Las manos se colocan en el ___ del pecho.",
+      "respuestas_validas": [
+        "centro"
+      ],
+      "explicacion_respuesta": "En el centro del pecho, sobre la mitad inferior del esternón."
+    },
+    {
+      "id": "desfibrilador",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué haces si alguien trae un desfibrilador?",
+      "respuesta_esperada": "Encenderlo y seguir sus instrucciones de voz.",
+      "palabras_clave": [
+        "encender",
+        "instrucciones"
+      ],
+      "explicacion_respuesta": "Los desfibriladores automáticos guían paso a paso."
+    }
+  ]
+}

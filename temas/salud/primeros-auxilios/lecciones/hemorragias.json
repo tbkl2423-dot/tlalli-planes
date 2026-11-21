@@ -1,0 +1,42 @@
+{
+  "id": "hemorragias",
+  "tema": "primeros-auxilios",
+  "subtema": "hemorragias",
+  "titulo": "Hemorragias",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ante un sangrado, protégete con guantes si puedes y presiona directamente la herida con una tela limpia."
+    },
+    {
+      "texto": "Si la tela se empapa, no la quites: pon otra encima y sigue presionando."
+    },
+    {
+      "texto": "Si el sangrado es abundante y no se detiene, llama al 911 de inmediato."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "empapada",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si la gasa se empapa de sangre, ¿qué haces?",
+      "opciones": [
+        "Pongo otra encima y sigo presionando",
+        "La quito y pongo una nueva",
+        "Dejo de presionar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Quitarla rompería el coágulo que se está formando."
+    },
+    {
+      "id": "presion",
+      "tipo": "completar",
+      "enunciado": "Lo primero ante un sangrado es hacer presión ___ sobre la herida.",
+      "respuestas_validas": [
+        "directa"
+      ],
+      "explicacion_respuesta": "La presión directa es la técnica más eficaz."
+    }
+  ]
+}

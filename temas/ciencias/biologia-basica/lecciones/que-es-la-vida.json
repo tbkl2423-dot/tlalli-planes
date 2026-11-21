@@ -1,0 +1,46 @@
+{
+  "id": "que-es-la-vida",
+  "tema": "biologia-basica",
+  "subtema": "que-es-la-vida",
+  "titulo": "¿Qué es un ser vivo?",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los seres vivos comparten características: están hechos de células, crecen, se reproducen y responden a su entorno."
+    },
+    {
+      "texto": "También obtienen y usan energía, y mantienen su interior estable, lo que se llama homeostasis."
+    },
+    {
+      "texto": "Las poblaciones de seres vivos cambian a lo largo de las generaciones: evolucionan."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "homeostasis",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llama mantener estable el interior del cuerpo?",
+      "opciones": [
+        "Homeostasis",
+        "Fotosíntesis",
+        "Mitosis"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Por ejemplo, sudar para no calentarse demasiado."
+    },
+    {
+      "id": "caracteristicas",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona dos características de los seres vivos.",
+      "respuesta_esperada": "Están hechos de células y se reproducen.",
+      "palabras_clave": [
+        "celulas",
+        "reproducen",
+        "crecen",
+        "energia"
+      ],
+      "explicacion_respuesta": "Células, crecimiento, reproducción, energía y respuesta al entorno."
+    }
+  ]
+}

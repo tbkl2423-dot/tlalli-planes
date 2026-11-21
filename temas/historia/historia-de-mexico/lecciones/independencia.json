@@ -1,0 +1,42 @@
+{
+  "id": "independencia",
+  "tema": "historia-de-mexico",
+  "subtema": "independencia",
+  "titulo": "La Independencia",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El 16 de septiembre de 1810, Miguel Hidalgo llamó al pueblo a levantarse en Dolores, Guanajuato."
+    },
+    {
+      "texto": "Tras la muerte de Hidalgo, José María Morelos encabezó la lucha y escribió los Sentimientos de la Nación."
+    },
+    {
+      "texto": "En 1821, Agustín de Iturbide y Vicente Guerrero pactaron el Plan de Iguala y se consumó la Independencia."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "grito",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde empezó la guerra de Independencia?",
+      "opciones": [
+        "Dolores, Guanajuato",
+        "Veracruz",
+        "Ciudad de México"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El llamado de Hidalgo fue en el pueblo de Dolores."
+    },
+    {
+      "id": "consumacion",
+      "tipo": "completar",
+      "enunciado": "La Independencia se consumó en el año ___.",
+      "respuestas_validas": [
+        "1821"
+      ],
+      "explicacion_respuesta": "En 1821 entró el Ejército Trigarante a la Ciudad de México."
+    }
+  ]
+}

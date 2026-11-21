@@ -1,0 +1,43 @@
+{
+  "id": "mexicas",
+  "tema": "historia-de-mexico",
+  "subtema": "mexicas",
+  "titulo": "Los mexicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los mexicas llegaron desde el norte, según su tradición desde Aztlán, y se asentaron en el valle de México."
+    },
+    {
+      "texto": "Formaron la Triple Alianza con Texcoco y Tlacopan y dominaron gran parte de Mesoamérica, cobrando tributo a otros pueblos."
+    },
+    {
+      "texto": "Tenochtitlan tenía calzadas, canales, chinampas y un gran recinto sagrado con el Templo Mayor."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "alianza",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Con qué ciudades formaron los mexicas la Triple Alianza?",
+      "opciones": [
+        "Texcoco y Tlacopan",
+        "Tula y Cholula",
+        "Teotihuacan y Monte Albán"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La Triple Alianza unió a Tenochtitlan, Texcoco y Tlacopan."
+    },
+    {
+      "id": "templo",
+      "tipo": "completar",
+      "enunciado": "El templo principal de Tenochtitlan era el Templo ___.",
+      "respuestas_validas": [
+        "Mayor",
+        "mayor"
+      ],
+      "explicacion_respuesta": "El Templo Mayor estaba dedicado a Huitzilopochtli y a Tláloc."
+    }
+  ]
+}

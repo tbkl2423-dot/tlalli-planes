@@ -1,0 +1,44 @@
+{
+  "id": "deudas",
+  "tema": "finanzas-personales",
+  "subtema": "deudas",
+  "titulo": "Deudas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una deuda es dinero que debes y que normalmente pagas con intereses."
+    },
+    {
+      "texto": "Hay deudas que te ayudan a crecer, como estudiar, y otras que solo encarecen el consumo."
+    },
+    {
+      "texto": "Para salir de deudas, lista todas, paga el mínimo en cada una y pon el dinero extra en la de interés más alto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "prioridad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué deuda conviene pagar primero con el dinero extra?",
+      "opciones": [
+        "La de interés más alto",
+        "La más antigua",
+        "La más pequeña siempre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Atacar la tasa más alta reduce lo que pagas en total."
+    },
+    {
+      "id": "intereses",
+      "tipo": "completar",
+      "enunciado": "Lo que pagas además del dinero prestado se llama ___.",
+      "respuestas_validas": [
+        "intereses",
+        "interés",
+        "interes"
+      ],
+      "explicacion_respuesta": "El interés es el costo del préstamo."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Del México antiguo a nuestros días: culturas mesoamericanas, Conquista, Virreinato, Independencia, Reforma, Revolución y México contemporáneo.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "historia de mexico",
     "historia nacional"
@@ -117,7 +117,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -125,6 +125,96 @@
           "titulo": "Mesoamérica",
           "subtema": "mesoamerica",
           "archivo": "lecciones/mesoamerica.json"
+        },
+        {
+          "id": "mexicas",
+          "titulo": "Los mexicas",
+          "subtema": "mexicas",
+          "archivo": "lecciones/mexicas.json"
+        },
+        {
+          "id": "conquista",
+          "titulo": "La Conquista",
+          "subtema": "conquista",
+          "archivo": "lecciones/conquista.json"
+        },
+        {
+          "id": "virreinato",
+          "titulo": "Nueva España",
+          "subtema": "virreinato",
+          "archivo": "lecciones/virreinato.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "independencia",
+          "titulo": "La Independencia",
+          "subtema": "independencia",
+          "archivo": "lecciones/independencia.json"
+        },
+        {
+          "id": "primeras-decadas",
+          "titulo": "Primeras décadas del México independiente",
+          "subtema": "primeras-decadas",
+          "archivo": "lecciones/primeras-decadas.json"
+        },
+        {
+          "id": "guerra-con-eu",
+          "titulo": "Guerra con Estados Unidos",
+          "subtema": "guerra-con-eu",
+          "archivo": "lecciones/guerra-con-eu.json"
+        },
+        {
+          "id": "reforma",
+          "titulo": "La Reforma",
+          "subtema": "reforma",
+          "archivo": "lecciones/reforma.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "intervencion-francesa",
+          "titulo": "Intervención francesa y Segundo Imperio",
+          "subtema": "intervencion-francesa",
+          "archivo": "lecciones/intervencion-francesa.json"
+        },
+        {
+          "id": "porfiriato",
+          "titulo": "El Porfiriato",
+          "subtema": "porfiriato",
+          "archivo": "lecciones/porfiriato.json"
+        },
+        {
+          "id": "revolucion",
+          "titulo": "La Revolución Mexicana",
+          "subtema": "revolucion",
+          "archivo": "lecciones/revolucion.json"
+        },
+        {
+          "id": "mexico-moderno",
+          "titulo": "México en el siglo XX",
+          "subtema": "mexico-moderno",
+          "archivo": "lecciones/mexico-moderno.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-4",
+      "titulo": "Siguiente nivel",
+      "lecciones": [
+        {
+          "id": "mexico-contemporaneo",
+          "titulo": "México contemporáneo",
+          "subtema": "mexico-contemporaneo",
+          "archivo": "lecciones/mexico-contemporaneo.json"
         }
       ]
     }

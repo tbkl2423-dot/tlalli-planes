@@ -1,0 +1,43 @@
+{
+  "id": "credito",
+  "tema": "finanzas-personales",
+  "subtema": "credito",
+  "titulo": "Tarjetas de crédito e historial",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una tarjeta de crédito es un préstamo: si pagas el total cada mes, normalmente no pagas intereses."
+    },
+    {
+      "texto": "Si solo pagas el mínimo, la deuda crece mucho por los intereses."
+    },
+    {
+      "texto": "En México, el CAT o costo anual total sirve para comparar el costo real de distintos créditos. Tu historial queda en el buró de crédito."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pago-total",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué pasa si pagas el total de tu tarjeta cada mes?",
+      "opciones": [
+        "Normalmente no pagas intereses",
+        "Te cobran doble",
+        "Bajas tu historial"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Pagar el total evita intereses y mejora tu historial."
+    },
+    {
+      "id": "cat",
+      "tipo": "completar",
+      "enunciado": "Para comparar créditos en México se usa el ___.",
+      "respuestas_validas": [
+        "CAT",
+        "cat"
+      ],
+      "explicacion_respuesta": "El CAT incluye intereses y comisiones."
+    }
+  ]
+}

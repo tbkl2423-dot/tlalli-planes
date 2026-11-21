@@ -1,0 +1,43 @@
+{
+  "id": "armonias",
+  "tema": "teoria-del-color",
+  "subtema": "armonias",
+  "titulo": "Armonías de color",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una armonía es una combinación de colores que se ve equilibrada."
+    },
+    {
+      "texto": "Los complementarios están opuestos en el círculo y dan mucho contraste. Los análogos están juntos y se ven suaves."
+    },
+    {
+      "texto": "Una tríada usa tres colores a la misma distancia en el círculo, como rojo, amarillo y azul."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "analogos",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llaman los colores que están juntos en el círculo?",
+      "opciones": [
+        "Análogos",
+        "Complementarios",
+        "Neutros"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Por ejemplo, amarillo, amarillo verdoso y verde."
+    },
+    {
+      "id": "triada",
+      "tipo": "completar",
+      "enunciado": "Una armonía de tres colores equidistantes se llama ___.",
+      "respuestas_validas": [
+        "tríada",
+        "triada"
+      ],
+      "explicacion_respuesta": "Las tríadas son vivas y equilibradas."
+    }
+  ]
+}

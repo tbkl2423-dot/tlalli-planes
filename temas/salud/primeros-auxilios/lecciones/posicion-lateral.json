@@ -1,0 +1,45 @@
+{
+  "id": "posicion-lateral",
+  "tema": "primeros-auxilios",
+  "subtema": "posicion-lateral",
+  "titulo": "Posición lateral de seguridad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Si una persona está inconsciente pero respira con normalidad, colócala de lado en la posición lateral de seguridad."
+    },
+    {
+      "texto": "Así la vía aérea queda abierta y, si vomita, no se ahoga."
+    },
+    {
+      "texto": "Llama al 911 y revisa su respiración seguido mientras llega la ayuda."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cuando",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuándo se usa la posición lateral de seguridad?",
+      "opciones": [
+        "Persona inconsciente que respira",
+        "Persona que no respira",
+        "Persona con una fractura de pierna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Si no respira, se necesita RCP, no la posición lateral."
+    },
+    {
+      "id": "por-que",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué se pone de lado a una persona inconsciente que respira?",
+      "respuesta_esperada": "Para que no se ahogue con su lengua o con vómito.",
+      "palabras_clave": [
+        "ahogue",
+        "vomito",
+        "aire"
+      ],
+      "explicacion_respuesta": "De lado, la vía aérea se mantiene libre."
+    }
+  ]
+}

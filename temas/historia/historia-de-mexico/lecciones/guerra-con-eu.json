@@ -1,0 +1,42 @@
+{
+  "id": "guerra-con-eu",
+  "tema": "historia-de-mexico",
+  "subtema": "guerra-con-eu",
+  "titulo": "Guerra con Estados Unidos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En 1846 estalló la guerra entre México y Estados Unidos, después de que Texas se uniera a ese país."
+    },
+    {
+      "texto": "El ejército estadounidense llegó a la Ciudad de México en 1847. Ahí ocurrió la defensa del Castillo de Chapultepec."
+    },
+    {
+      "texto": "Con el Tratado de Guadalupe Hidalgo de 1848, México perdió cerca de la mitad de su territorio."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tratado",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tratado terminó la guerra con Estados Unidos?",
+      "opciones": [
+        "Tratado de Guadalupe Hidalgo",
+        "Tratados de Córdoba",
+        "Plan de Ayala"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El Tratado de Guadalupe Hidalgo se firmó en 1848."
+    },
+    {
+      "id": "perdida",
+      "tipo": "completar",
+      "enunciado": "México perdió cerca de la ___ de su territorio.",
+      "respuestas_validas": [
+        "mitad"
+      ],
+      "explicacion_respuesta": "Se perdieron territorios como California, Nuevo México y Arizona."
+    }
+  ]
+}

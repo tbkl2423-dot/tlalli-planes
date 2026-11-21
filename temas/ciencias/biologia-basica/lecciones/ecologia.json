@@ -1,0 +1,43 @@
+{
+  "id": "ecologia",
+  "tema": "biologia-basica",
+  "subtema": "ecologia",
+  "titulo": "Ecosistemas y ecología",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La ecología estudia cómo se relacionan los seres vivos entre sí y con su ambiente."
+    },
+    {
+      "texto": "En una cadena alimenticia la energía pasa de los productores a los herbívoros y luego a los carnívoros."
+    },
+    {
+      "texto": "Si una especie desaparece, todo el ecosistema puede verse afectado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "estudia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué estudia la ecología?",
+      "opciones": [
+        "Las relaciones de los seres vivos con su ambiente",
+        "Las rocas",
+        "Las estrellas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Estudia poblaciones, comunidades y ecosistemas."
+    },
+    {
+      "id": "herbivoros",
+      "tipo": "completar",
+      "enunciado": "Los animales que comen plantas se llaman ___.",
+      "respuestas_validas": [
+        "herbívoros",
+        "herbivoros"
+      ],
+      "explicacion_respuesta": "Los herbívoros son consumidores primarios."
+    }
+  ]
+}

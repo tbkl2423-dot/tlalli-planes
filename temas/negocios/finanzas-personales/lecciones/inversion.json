@@ -1,0 +1,44 @@
+{
+  "id": "inversion",
+  "tema": "finanzas-personales",
+  "subtema": "inversion",
+  "titulo": "Conceptos de inversión",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Invertir es poner tu dinero a trabajar para que crezca, aceptando algo de riesgo."
+    },
+    {
+      "texto": "Normalmente, a mayor rendimiento posible, mayor riesgo."
+    },
+    {
+      "texto": "Diversificar es no poner todo en un solo lugar. Desconfía de quien promete ganancias altas y seguras."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "relacion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué relación hay entre rendimiento y riesgo?",
+      "opciones": [
+        "A mayor rendimiento, normalmente mayor riesgo",
+        "No tienen relación",
+        "Más rendimiento, menos riesgo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las inversiones que pueden dar más también pueden perder más."
+    },
+    {
+      "id": "diversificar",
+      "tipo": "completar",
+      "enunciado": "No poner todo tu dinero en una sola inversión se llama ___.",
+      "respuestas_validas": [
+        "diversificar",
+        "diversificación",
+        "diversificacion"
+      ],
+      "explicacion_respuesta": "Diversificar reduce el impacto si una inversión sale mal."
+    }
+  ]
+}

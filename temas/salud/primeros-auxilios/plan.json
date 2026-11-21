@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Qué hacer en los primeros minutos de una emergencia mientras llega la ayuda. No sustituye un curso presencial con práctica.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "emergencias",
     "auxilios",
@@ -71,14 +71,56 @@
   ],
   "unidades": [
     {
-      "id": "lo-primero",
-      "titulo": "Lo primero",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
         {
           "id": "pas",
           "titulo": "Proteger, avisar, socorrer",
           "subtema": "pas",
           "archivo": "lecciones/pas.json"
+        },
+        {
+          "id": "rcp",
+          "titulo": "Reanimación cardiopulmonar (RCP)",
+          "subtema": "rcp",
+          "archivo": "lecciones/rcp.json"
+        },
+        {
+          "id": "atragantamiento",
+          "titulo": "Atragantamiento",
+          "subtema": "atragantamiento",
+          "archivo": "lecciones/atragantamiento.json"
+        },
+        {
+          "id": "hemorragias",
+          "titulo": "Hemorragias",
+          "subtema": "hemorragias",
+          "archivo": "lecciones/hemorragias.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "quemaduras",
+          "titulo": "Quemaduras",
+          "subtema": "quemaduras",
+          "archivo": "lecciones/quemaduras.json"
+        },
+        {
+          "id": "posicion-lateral",
+          "titulo": "Posición lateral de seguridad",
+          "subtema": "posicion-lateral",
+          "archivo": "lecciones/posicion-lateral.json"
+        },
+        {
+          "id": "fracturas",
+          "titulo": "Golpes, torceduras y fracturas",
+          "subtema": "fracturas",
+          "archivo": "lecciones/fracturas.json"
         }
       ]
     }

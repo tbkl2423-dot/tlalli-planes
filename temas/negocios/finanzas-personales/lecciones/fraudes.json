@@ -1,0 +1,45 @@
+{
+  "id": "fraudes",
+  "tema": "finanzas-personales",
+  "subtema": "fraudes",
+  "titulo": "Fraudes financieros",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los fraudes financieros prometen ganancias altas, rápidas y sin riesgo. Esa combinación casi siempre es falsa."
+    },
+    {
+      "texto": "En un esquema piramidal se paga a los primeros con el dinero de los nuevos, hasta que se derrumba."
+    },
+    {
+      "texto": "Nunca compartas códigos ni contraseñas de tu banco. Tu banco no te los pedirá por teléfono ni por mensaje."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "senal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una señal de fraude?",
+      "opciones": [
+        "Ganancias altas, rápidas y garantizadas",
+        "Un contrato claro",
+        "Una institución registrada"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ninguna inversión legítima garantiza ganancias altas sin riesgo."
+    },
+    {
+      "id": "codigo",
+      "tipo": "voz_pregunta",
+      "pregunta": "Te llaman del supuesto banco y piden el código que te llegó por mensaje. ¿Qué haces?",
+      "respuesta_esperada": "No lo doy y cuelgo; llamo yo al número oficial del banco.",
+      "palabras_clave": [
+        "no",
+        "cuelgo",
+        "banco"
+      ],
+      "explicacion_respuesta": "Los bancos no piden códigos de verificación; quien los pide quiere robarte."
+    }
+  ]
+}

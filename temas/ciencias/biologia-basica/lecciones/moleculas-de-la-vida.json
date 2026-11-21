@@ -1,0 +1,42 @@
+{
+  "id": "moleculas-de-la-vida",
+  "tema": "biologia-basica",
+  "subtema": "moleculas-de-la-vida",
+  "titulo": "Moléculas de la vida",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los seres vivos están hechos de cuatro grandes tipos de moléculas: carbohidratos, lípidos, proteínas y ácidos nucleicos."
+    },
+    {
+      "texto": "Los carbohidratos dan energía rápida, los lípidos guardan energía y forman membranas."
+    },
+    {
+      "texto": "Las proteínas hacen casi todo el trabajo de la célula, y los ácidos nucleicos, como el ADN, guardan la información genética."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "adn",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿A qué tipo de molécula pertenece el ADN?",
+      "opciones": [
+        "Ácidos nucleicos",
+        "Lípidos",
+        "Carbohidratos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El ADN y el ARN son ácidos nucleicos."
+    },
+    {
+      "id": "energia-rapida",
+      "tipo": "completar",
+      "enunciado": "Los ___ son la fuente de energía rápida.",
+      "respuestas_validas": [
+        "carbohidratos"
+      ],
+      "explicacion_respuesta": "Como la glucosa de los alimentos."
+    }
+  ]
+}

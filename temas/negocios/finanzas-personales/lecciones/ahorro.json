@@ -1,0 +1,45 @@
+{
+  "id": "ahorro",
+  "tema": "finanzas-personales",
+  "subtema": "ahorro",
+  "titulo": "Ahorro y fondo de emergencia",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ahorrar es apartar una parte de lo que ganas antes de gastar, no lo que sobra al final."
+    },
+    {
+      "texto": "Un truco útil es automatizarlo: separa el ahorro el mismo día que recibes tu pago."
+    },
+    {
+      "texto": "Primero arma un fondo de emergencia; después ahorra para metas concretas, como un curso o un viaje."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cuando",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuándo conviene apartar el ahorro?",
+      "opciones": [
+        "En cuanto recibes el ingreso",
+        "Al final del mes, si sobra",
+        "Solo en diciembre"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Si esperas a que sobre, casi nunca sobra."
+    },
+    {
+      "id": "meta",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué ayuda tener una meta de ahorro concreta?",
+      "respuesta_esperada": "Porque motiva y dice cuánto ahorrar y para cuándo.",
+      "palabras_clave": [
+        "motiva",
+        "cuanto",
+        "cuando"
+      ],
+      "explicacion_respuesta": "Una meta clara convierte el ahorro en un plan."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mexico-moderno",
+  "tema": "historia-de-mexico",
+  "subtema": "mexico-moderno",
+  "titulo": "México en el siglo XX",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Después de la Revolución se fundaron instituciones como la SEP, en 1921, que impulsó la educación y el muralismo."
+    },
+    {
+      "texto": "Lázaro Cárdenas, presidente de 1934 a 1940, repartió tierras y en 1938 expropió el petróleo."
+    },
+    {
+      "texto": "De los años cuarenta a los setenta hubo un gran crecimiento económico llamado el milagro mexicano."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "expropiacion",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué presidente decretó la expropiación petrolera?",
+      "opciones": [
+        "Lázaro Cárdenas",
+        "Benito Juárez",
+        "Porfirio Díaz"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cárdenas la decretó el 18 de marzo de 1938."
+    },
+    {
+      "id": "anio-petroleo",
+      "tipo": "completar",
+      "enunciado": "La expropiación petrolera fue en ___.",
+      "respuestas_validas": [
+        "1938"
+      ],
+      "explicacion_respuesta": "Se celebra cada 18 de marzo."
+    }
+  ]
+}

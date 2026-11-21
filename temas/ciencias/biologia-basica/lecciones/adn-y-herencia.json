@@ -1,0 +1,47 @@
+{
+  "id": "adn-y-herencia",
+  "tema": "biologia-basica",
+  "subtema": "adn-y-herencia",
+  "titulo": "ADN y herencia",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El ADN contiene las instrucciones para formar y hacer funcionar a un ser vivo. Un gen es un fragmento de ADN con una instrucción."
+    },
+    {
+      "texto": "Heredamos la mitad de nuestros genes de cada progenitor."
+    },
+    {
+      "texto": "Gregor Mendel descubrió con chícharos que algunos rasgos son dominantes y otros recesivos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mitad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué parte de tus genes heredas de cada progenitor?",
+      "opciones": [
+        "La mitad",
+        "Todos",
+        "Un cuarto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La mitad viene de la madre y la otra mitad del padre."
+    },
+    {
+      "id": "mendel",
+      "tipo": "completar",
+      "enunciado": "Mendel hizo sus experimentos con plantas de ___.",
+      "respuestas_validas": [
+        "chícharo",
+        "chicharo",
+        "chícharos",
+        "chicharos",
+        "guisantes",
+        "guisante"
+      ],
+      "explicacion_respuesta": "Cruzó plantas de chícharo y contó cómo aparecían los rasgos."
+    }
+  ]
+}

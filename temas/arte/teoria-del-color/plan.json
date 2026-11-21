@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Cómo se mezclan y combinan los colores para pintar, dibujar o diseñar con intención.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "color",
     "colores",
@@ -59,14 +59,44 @@
   ],
   "unidades": [
     {
-      "id": "bases",
-      "titulo": "Bases del color",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
         {
           "id": "circulo-cromatico",
           "titulo": "El círculo cromático",
           "subtema": "circulo-cromatico",
           "archivo": "lecciones/circulo-cromatico.json"
+        },
+        {
+          "id": "tono-valor-saturacion",
+          "titulo": "Tono, valor y saturación",
+          "subtema": "tono-valor-saturacion",
+          "archivo": "lecciones/tono-valor-saturacion.json"
+        },
+        {
+          "id": "colores-calidos-y-frios",
+          "titulo": "Colores cálidos y fríos",
+          "subtema": "colores-calidos-y-frios",
+          "archivo": "lecciones/colores-calidos-y-frios.json"
+        },
+        {
+          "id": "armonias",
+          "titulo": "Armonías de color",
+          "subtema": "armonias",
+          "archivo": "lecciones/armonias.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "color-luz-y-pigmento",
+          "titulo": "Color luz y color pigmento",
+          "subtema": "color-luz-y-pigmento",
+          "archivo": "lecciones/color-luz-y-pigmento.json"
         }
       ]
     }

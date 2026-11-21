@@ -1,0 +1,42 @@
+{
+  "id": "retiro",
+  "tema": "finanzas-personales",
+  "subtema": "retiro",
+  "titulo": "Ahorro para el retiro",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ahorrar para el retiro es pensar en tu yo del futuro, cuando ya no trabajes."
+    },
+    {
+      "texto": "En México, si trabajas con prestaciones, tienes una cuenta en una Afore donde se depositan aportaciones."
+    },
+    {
+      "texto": "Puedes hacer aportaciones voluntarias para aumentar tu ahorro, y mientras antes empieces, mejor."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "afore",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué administra una Afore?",
+      "opciones": [
+        "El ahorro para el retiro",
+        "Tu tarjeta de crédito",
+        "Tus impuestos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las Afores administran las cuentas de retiro de los trabajadores."
+    },
+    {
+      "id": "voluntarias",
+      "tipo": "completar",
+      "enunciado": "Además de lo obligatorio, puedes hacer aportaciones ___.",
+      "respuestas_validas": [
+        "voluntarias"
+      ],
+      "explicacion_respuesta": "Las aportaciones voluntarias aumentan tu ahorro para el retiro."
+    }
+  ]
+}
