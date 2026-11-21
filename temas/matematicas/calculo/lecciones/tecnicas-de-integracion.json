@@ -1,0 +1,45 @@
+{
+  "id": "tecnicas-de-integracion",
+  "tema": "calculo",
+  "subtema": "tecnicas-de-integracion",
+  "titulo": "Técnicas de integración",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "No todas las integrales salen directo. Hay técnicas para transformarlas."
+    },
+    {
+      "texto": "Sustitución: cambias una parte de la expresión por una nueva variable para simplificar. Es la regla de la cadena al revés."
+    },
+    {
+      "texto": "Por partes: sirve para productos, como x por e a la x. Se basa en la regla del producto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cadena",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué técnica es la regla de la cadena al revés?",
+      "opciones": [
+        "Sustitución",
+        "Por partes",
+        "Fracciones parciales"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cambia la variable para simplificar."
+    },
+    {
+      "id": "producto",
+      "tipo": "opcion_multiple",
+      "pregunta": "Para integrar x · eˣ conviene…",
+      "opciones": [
+        "Integración por partes",
+        "Sustitución trigonométrica",
+        "No se puede"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Por partes maneja productos de funciones."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "Usar letras para representar números: expresiones, ecuaciones, sistemas, factorización y funciones.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "algebra",
     "algebra basica"
@@ -82,14 +82,74 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
+        {
+          "id": "expresiones",
+          "titulo": "Expresiones algebraicas",
+          "subtema": "expresiones",
+          "archivo": "lecciones/expresiones.json"
+        },
         {
           "id": "ecuaciones-primer-grado",
           "titulo": "Ecuaciones de primer grado",
           "subtema": "ecuaciones-primer-grado",
           "archivo": "lecciones/ecuaciones-primer-grado.json"
+        },
+        {
+          "id": "desigualdades",
+          "titulo": "Desigualdades",
+          "subtema": "desigualdades",
+          "archivo": "lecciones/desigualdades.json"
+        },
+        {
+          "id": "sistemas",
+          "titulo": "Sistemas de ecuaciones",
+          "subtema": "sistemas",
+          "archivo": "lecciones/sistemas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "productos-notables",
+          "titulo": "Productos notables",
+          "subtema": "productos-notables",
+          "archivo": "lecciones/productos-notables.json"
+        },
+        {
+          "id": "factorizacion",
+          "titulo": "Factorización",
+          "subtema": "factorizacion",
+          "archivo": "lecciones/factorizacion.json"
+        },
+        {
+          "id": "ecuaciones-cuadraticas",
+          "titulo": "Ecuaciones cuadráticas",
+          "subtema": "ecuaciones-cuadraticas",
+          "archivo": "lecciones/ecuaciones-cuadraticas.json"
+        },
+        {
+          "id": "funciones",
+          "titulo": "Funciones y gráficas",
+          "subtema": "funciones",
+          "archivo": "lecciones/funciones.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "exponentes",
+          "titulo": "Leyes de los exponentes",
+          "subtema": "exponentes",
+          "archivo": "lecciones/exponentes.json"
         }
       ]
     }

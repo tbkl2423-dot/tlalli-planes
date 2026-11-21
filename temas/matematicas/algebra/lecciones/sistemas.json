@@ -1,0 +1,46 @@
+{
+  "id": "sistemas",
+  "tema": "algebra",
+  "subtema": "sistemas",
+  "titulo": "Sistemas de ecuaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un sistema de ecuaciones son dos o más ecuaciones que se cumplen al mismo tiempo."
+    },
+    {
+      "texto": "Por sustitución: despejas una letra en una ecuación y la reemplazas en la otra.",
+      "codigo": "x + y = 10\nx - y = 2\nSumando: 2x = 12, x = 6, y = 4"
+    },
+    {
+      "texto": "La solución es el punto donde se cruzan las dos rectas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "solucion",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si x + y = 5 y x = 2, ¿cuánto vale y?",
+      "opciones": [
+        "3",
+        "7",
+        "2"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Sustituyendo: 2 + y = 5, y = 3."
+    },
+    {
+      "id": "grafica",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué representa gráficamente la solución de un sistema de dos ecuaciones lineales?",
+      "respuesta_esperada": "El punto donde se cruzan las dos rectas.",
+      "palabras_clave": [
+        "cruzan",
+        "punto",
+        "interse"
+      ],
+      "explicacion_respuesta": "Ese punto cumple las dos ecuaciones."
+    }
+  ]
+}

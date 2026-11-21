@@ -1,0 +1,40 @@
+{
+  "id": "triangulos",
+  "tema": "geometria",
+  "subtema": "triangulos",
+  "titulo": "Triángulos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Por sus lados, un triángulo es equilátero si los tres son iguales, isósceles si dos son iguales y escaleno si todos son distintos."
+    },
+    {
+      "texto": "Por sus ángulos, es rectángulo si tiene un ángulo de 90 grados, acutángulo si todos son agudos y obtusángulo si uno es obtuso."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "isosceles",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un triángulo con dos lados iguales es…",
+      "opciones": [
+        "Isósceles",
+        "Equilátero",
+        "Escaleno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Isósceles significa dos piernas iguales."
+    },
+    {
+      "id": "recto",
+      "tipo": "completar",
+      "enunciado": "Un triángulo con un ángulo de 90° es ___.",
+      "respuestas_validas": [
+        "rectángulo",
+        "rectangulo"
+      ],
+      "explicacion_respuesta": "El ángulo recto da nombre al triángulo rectángulo."
+    }
+  ]
+}

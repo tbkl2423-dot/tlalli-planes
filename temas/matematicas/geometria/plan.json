@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Figuras, ángulos, áreas y volúmenes, y el teorema de Pitágoras.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "geometria",
     "figuras geometricas"
@@ -85,7 +85,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -93,6 +93,66 @@
           "titulo": "Ángulos",
           "subtema": "angulos",
           "archivo": "lecciones/angulos.json"
+        },
+        {
+          "id": "triangulos",
+          "titulo": "Triángulos",
+          "subtema": "triangulos",
+          "archivo": "lecciones/triangulos.json"
+        },
+        {
+          "id": "pitagoras",
+          "titulo": "Teorema de Pitágoras",
+          "subtema": "pitagoras",
+          "archivo": "lecciones/pitagoras.json"
+        },
+        {
+          "id": "cuadrilateros",
+          "titulo": "Cuadriláteros",
+          "subtema": "cuadrilateros",
+          "archivo": "lecciones/cuadrilateros.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "circulo",
+          "titulo": "El círculo",
+          "subtema": "circulo",
+          "archivo": "lecciones/circulo.json"
+        },
+        {
+          "id": "areas",
+          "titulo": "Áreas de figuras",
+          "subtema": "areas",
+          "archivo": "lecciones/areas.json"
+        },
+        {
+          "id": "volumenes",
+          "titulo": "Volúmenes",
+          "subtema": "volumenes",
+          "archivo": "lecciones/volumenes.json"
+        },
+        {
+          "id": "semejanza",
+          "titulo": "Semejanza y congruencia",
+          "subtema": "semejanza",
+          "archivo": "lecciones/semejanza.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "plano-cartesiano",
+          "titulo": "Plano cartesiano",
+          "subtema": "plano-cartesiano",
+          "archivo": "lecciones/plano-cartesiano.json"
         }
       ]
     }

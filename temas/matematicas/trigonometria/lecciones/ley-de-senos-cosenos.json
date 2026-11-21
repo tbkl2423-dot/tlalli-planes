@@ -1,0 +1,43 @@
+{
+  "id": "ley-de-senos-cosenos",
+  "tema": "trigonometria",
+  "subtema": "ley-de-senos-cosenos",
+  "titulo": "Ley de senos y de cosenos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Para triángulos que no son rectángulos se usan dos leyes."
+    },
+    {
+      "texto": "Ley de senos: cada lado dividido entre el seno de su ángulo opuesto da lo mismo."
+    },
+    {
+      "texto": "Ley de cosenos: generaliza a Pitágoras, c² = a² + b² - 2ab cos C. Si C mide 90 grados, vuelve a ser Pitágoras."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cuando",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué triángulos sirven estas leyes?",
+      "opciones": [
+        "Para cualquier triángulo",
+        "Solo rectángulos",
+        "Solo equiláteros"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Funcionan aunque no haya ángulo recto."
+    },
+    {
+      "id": "pitagoras",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué pasa con la ley de cosenos si el ángulo C mide 90°?",
+      "respuesta_esperada": "Se convierte en el teorema de Pitágoras.",
+      "palabras_clave": [
+        "pitagoras"
+      ],
+      "explicacion_respuesta": "cos 90° = 0, así que desaparece el último término."
+    }
+  ]
+}

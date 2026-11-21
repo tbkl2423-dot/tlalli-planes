@@ -1,0 +1,42 @@
+{
+  "id": "circulo",
+  "tema": "geometria",
+  "subtema": "circulo",
+  "titulo": "El círculo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El radio va del centro al borde. El diámetro cruza el círculo pasando por el centro y mide dos radios."
+    },
+    {
+      "texto": "La circunferencia, el contorno, mide pi por el diámetro."
+    },
+    {
+      "texto": "El área del círculo es pi por el radio al cuadrado. Pi vale aproximadamente 3.1416."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "diametro",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si el radio mide 5, ¿cuánto mide el diámetro?",
+      "opciones": [
+        "10",
+        "5",
+        "25"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El diámetro es el doble del radio."
+    },
+    {
+      "id": "area",
+      "tipo": "completar",
+      "enunciado": "El área de un círculo es π por el ___ al cuadrado.",
+      "respuestas_validas": [
+        "radio"
+      ],
+      "explicacion_respuesta": "A = π r²."
+    }
+  ]
+}

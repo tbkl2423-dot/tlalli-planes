@@ -1,0 +1,42 @@
+{
+  "id": "funciones",
+  "tema": "algebra",
+  "subtema": "funciones",
+  "titulo": "Funciones y gráficas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una función asigna a cada entrada exactamente una salida."
+    },
+    {
+      "texto": "La función lineal y = mx + b es una recta. m es la pendiente, qué tanto sube, y b es donde corta al eje y."
+    },
+    {
+      "texto": "Si la pendiente es positiva la recta sube; si es negativa, baja."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pendiente",
+      "tipo": "opcion_multiple",
+      "pregunta": "En y = 3x + 1, ¿cuál es la pendiente?",
+      "opciones": [
+        "3",
+        "1",
+        "x"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La pendiente es el número que multiplica a x."
+    },
+    {
+      "id": "ordenada",
+      "tipo": "completar",
+      "enunciado": "En y = 2x + 5, la recta corta al eje y en ___.",
+      "respuestas_validas": [
+        "5"
+      ],
+      "explicacion_respuesta": "Cuando x = 0, y = 5."
+    }
+  ]
+}

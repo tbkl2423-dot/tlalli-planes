@@ -1,0 +1,42 @@
+{
+  "id": "integral-definida",
+  "tema": "calculo",
+  "subtema": "integral-definida",
+  "titulo": "Integral definida y área",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La integral definida entre a y b mide el área bajo la curva de una función en ese intervalo."
+    },
+    {
+      "texto": "Se calcula evaluando la antiderivada en b y restándole su valor en a."
+    },
+    {
+      "texto": "También sirve para acumular: la distancia recorrida es la integral de la velocidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "area",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué representa la integral definida de una función positiva?",
+      "opciones": [
+        "El área bajo la curva",
+        "La pendiente",
+        "El máximo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Suma infinitas franjas muy delgadas."
+    },
+    {
+      "id": "calculo-def",
+      "tipo": "completar",
+      "enunciado": "La integral de 0 a 2 de 2x es ___.",
+      "respuestas_validas": [
+        "4"
+      ],
+      "explicacion_respuesta": "x² evaluado: 4 - 0 = 4."
+    }
+  ]
+}

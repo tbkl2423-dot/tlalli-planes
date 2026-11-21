@@ -1,0 +1,42 @@
+{
+  "id": "cuadrilateros",
+  "tema": "geometria",
+  "subtema": "cuadrilateros",
+  "titulo": "Cuadriláteros",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un cuadrilátero tiene cuatro lados y sus ángulos suman 360 grados."
+    },
+    {
+      "texto": "El cuadrado tiene lados y ángulos iguales. El rectángulo tiene ángulos rectos. El rombo tiene lados iguales."
+    },
+    {
+      "texto": "El trapecio tiene solo un par de lados paralelos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "suma",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto suman los ángulos de un cuadrilátero?",
+      "opciones": [
+        "360°",
+        "180°",
+        "540°"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se puede dividir en dos triángulos: 2 × 180."
+    },
+    {
+      "id": "trapecio",
+      "tipo": "completar",
+      "enunciado": "El cuadrilátero con un solo par de lados paralelos es el ___.",
+      "respuestas_validas": [
+        "trapecio"
+      ],
+      "explicacion_respuesta": "Sus lados paralelos se llaman bases."
+    }
+  ]
+}

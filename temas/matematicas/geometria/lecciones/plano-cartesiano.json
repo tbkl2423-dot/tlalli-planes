@@ -1,0 +1,42 @@
+{
+  "id": "plano-cartesiano",
+  "tema": "geometria",
+  "subtema": "plano-cartesiano",
+  "titulo": "Plano cartesiano",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El plano cartesiano tiene un eje horizontal, x, y uno vertical, y. Se cruzan en el origen, el punto (0, 0)."
+    },
+    {
+      "texto": "Cada punto se escribe como (x, y): primero cuánto a la derecha o izquierda y luego cuánto arriba o abajo."
+    },
+    {
+      "texto": "Los ejes dividen el plano en cuatro cuadrantes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "punto",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde está el punto (3, -2)?",
+      "opciones": [
+        "3 a la derecha y 2 abajo",
+        "3 arriba y 2 a la izquierda",
+        "En el origen"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "x positiva va a la derecha; y negativa va abajo."
+    },
+    {
+      "id": "origen",
+      "tipo": "completar",
+      "enunciado": "El punto (0, 0) se llama ___.",
+      "respuestas_validas": [
+        "origen"
+      ],
+      "explicacion_respuesta": "Es el cruce de los ejes."
+    }
+  ]
+}

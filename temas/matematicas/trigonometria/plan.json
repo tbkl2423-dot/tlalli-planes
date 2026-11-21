@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "Relaciones entre ángulos y lados de los triángulos: seno, coseno, tangente y sus aplicaciones.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "trigonometria",
     "seno coseno tangente"
@@ -68,7 +68,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -76,6 +76,48 @@
           "titulo": "Razones trigonométricas",
           "subtema": "razones-trigonometricas",
           "archivo": "lecciones/razones-trigonometricas.json"
+        },
+        {
+          "id": "resolver-triangulos",
+          "titulo": "Resolver triángulos rectángulos",
+          "subtema": "resolver-triangulos",
+          "archivo": "lecciones/resolver-triangulos.json"
+        },
+        {
+          "id": "radianes",
+          "titulo": "Grados y radianes",
+          "subtema": "radianes",
+          "archivo": "lecciones/radianes.json"
+        },
+        {
+          "id": "circulo-unitario",
+          "titulo": "Círculo unitario",
+          "subtema": "circulo-unitario",
+          "archivo": "lecciones/circulo-unitario.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "identidades",
+          "titulo": "Identidades trigonométricas",
+          "subtema": "identidades",
+          "archivo": "lecciones/identidades.json"
+        },
+        {
+          "id": "ley-de-senos-cosenos",
+          "titulo": "Ley de senos y de cosenos",
+          "subtema": "ley-de-senos-cosenos",
+          "archivo": "lecciones/ley-de-senos-cosenos.json"
+        },
+        {
+          "id": "funciones-trigonometricas",
+          "titulo": "Gráficas de seno y coseno",
+          "subtema": "funciones-trigonometricas",
+          "archivo": "lecciones/funciones-trigonometricas.json"
         }
       ]
     }

@@ -1,0 +1,42 @@
+{
+  "id": "identidades",
+  "tema": "trigonometria",
+  "subtema": "identidades",
+  "titulo": "Identidades trigonométricas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una identidad trigonométrica es una igualdad que se cumple para todos los ángulos."
+    },
+    {
+      "texto": "La más importante: seno al cuadrado más coseno al cuadrado es igual a uno. Sale del teorema de Pitágoras en el círculo unitario."
+    },
+    {
+      "texto": "También: tangente es seno entre coseno."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "pitagorica",
+      "tipo": "opcion_multiple",
+      "pregunta": "sen²θ + cos²θ = ?",
+      "opciones": [
+        "1",
+        "0",
+        "tan θ"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la identidad pitagórica."
+    },
+    {
+      "id": "tan",
+      "tipo": "completar",
+      "enunciado": "tan θ = sen θ / ___ θ",
+      "respuestas_validas": [
+        "cos"
+      ],
+      "explicacion_respuesta": "La tangente es el cociente de seno entre coseno."
+    }
+  ]
+}

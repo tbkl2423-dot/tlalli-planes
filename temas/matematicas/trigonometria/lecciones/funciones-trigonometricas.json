@@ -1,0 +1,47 @@
+{
+  "id": "funciones-trigonometricas",
+  "tema": "trigonometria",
+  "subtema": "funciones-trigonometricas",
+  "titulo": "Gráficas de seno y coseno",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las gráficas de seno y coseno son ondas que se repiten cada 2π. A esto se le llama periodo."
+    },
+    {
+      "texto": "Oscilan entre menos uno y uno; esa altura se llama amplitud."
+    },
+    {
+      "texto": "Describen fenómenos que se repiten: el sonido, la luz, las mareas o la corriente alterna."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "periodo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cada cuánto se repite la gráfica del seno?",
+      "opciones": [
+        "2π",
+        "π/2",
+        "1"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Su periodo es 2π."
+    },
+    {
+      "id": "ejemplo",
+      "tipo": "voz_pregunta",
+      "pregunta": "Da un ejemplo de fenómeno que se modela con ondas senoidales.",
+      "respuesta_esperada": "El sonido.",
+      "palabras_clave": [
+        "sonido",
+        "luz",
+        "marea",
+        "corriente",
+        "onda"
+      ],
+      "explicacion_respuesta": "Todo lo que se repite periódicamente."
+    }
+  ]
+}

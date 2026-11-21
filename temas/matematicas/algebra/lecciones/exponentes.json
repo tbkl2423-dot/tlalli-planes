@@ -1,0 +1,42 @@
+{
+  "id": "exponentes",
+  "tema": "algebra",
+  "subtema": "exponentes",
+  "titulo": "Leyes de los exponentes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Al multiplicar potencias de la misma base se suman los exponentes: x² · x³ = x⁵."
+    },
+    {
+      "texto": "Al dividir se restan: x⁵ / x² = x³. Una potencia de potencia multiplica: (x²)³ = x⁶."
+    },
+    {
+      "texto": "Un exponente negativo significa el inverso: x elevado a menos uno es uno entre x."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "multiplicar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es a⁴ · a²?",
+      "opciones": [
+        "a⁶",
+        "a⁸",
+        "a²"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se suman los exponentes: 4 + 2."
+    },
+    {
+      "id": "potencia",
+      "tipo": "completar",
+      "enunciado": "(x³)² = x^___",
+      "respuestas_validas": [
+        "6"
+      ],
+      "explicacion_respuesta": "Potencia de potencia: 3 × 2 = 6."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "pitagoras",
+  "tema": "geometria",
+  "subtema": "pitagoras",
+  "titulo": "Teorema de Pitágoras",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos."
+    },
+    {
+      "texto": "Se escribe c² = a² + b².",
+      "codigo": "Si a = 3 y b = 4:\nc² = 9 + 16 = 25\nc = 5"
+    },
+    {
+      "texto": "Sirve, por ejemplo, para saber la diagonal de una pantalla o el largo de una escalera."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "hipotenusa",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si los catetos miden 6 y 8, ¿cuánto mide la hipotenusa?",
+      "opciones": [
+        "10",
+        "14",
+        "12"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "36 + 64 = 100, y la raíz de 100 es 10."
+    },
+    {
+      "id": "formula",
+      "tipo": "completar",
+      "enunciado": "c² = a² + ___",
+      "respuestas_validas": [
+        "b²",
+        "b^2",
+        "b2"
+      ],
+      "explicacion_respuesta": "Teorema de Pitágoras."
+    }
+  ]
+}

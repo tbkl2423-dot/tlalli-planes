@@ -1,0 +1,45 @@
+{
+  "id": "conteo",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "conteo",
+  "titulo": "Técnicas de conteo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El principio multiplicativo: si hay 3 camisas y 4 pantalones, hay 3 × 4 = 12 combinaciones."
+    },
+    {
+      "texto": "En las permutaciones importa el orden, como en un podio. En las combinaciones no importa, como al elegir un equipo."
+    },
+    {
+      "texto": "El factorial, n!, multiplica de n hasta 1: 4! = 24."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "factorial",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 3!?",
+      "opciones": [
+        "6",
+        "3",
+        "9"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "3 × 2 × 1 = 6."
+    },
+    {
+      "id": "orden",
+      "tipo": "opcion_multiple",
+      "pregunta": "Elegir presidente, secretario y tesorero de un grupo es…",
+      "opciones": [
+        "Permutación",
+        "Combinación",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El orden importa porque cada cargo es distinto."
+    }
+  ]
+}

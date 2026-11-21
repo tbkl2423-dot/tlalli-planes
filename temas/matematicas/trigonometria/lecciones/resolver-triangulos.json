@@ -1,0 +1,46 @@
+{
+  "id": "resolver-triangulos",
+  "tema": "trigonometria",
+  "subtema": "resolver-triangulos",
+  "titulo": "Resolver triángulos rectángulos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Resolver un triángulo rectángulo es encontrar los lados y ángulos que faltan."
+    },
+    {
+      "texto": "Si conoces un ángulo y un lado, usas seno, coseno o tangente según los lados que relacionen."
+    },
+    {
+      "texto": "Ejemplo: una escalera de 5 metros forma 60 grados con el piso. La altura que alcanza es 5 por seno de 60, unos 4.33 metros.",
+      "codigo": "altura = 5 × sen(60°) ≈ 4.33 m"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cual",
+      "tipo": "opcion_multiple",
+      "pregunta": "Conoces el ángulo y la hipotenusa y buscas el cateto opuesto. ¿Qué usas?",
+      "opciones": [
+        "Seno",
+        "Coseno",
+        "Tangente"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Seno relaciona opuesto e hipotenusa."
+    },
+    {
+      "id": "tangente",
+      "tipo": "opcion_multiple",
+      "pregunta": "Conoces el cateto adyacente y buscas el opuesto. ¿Qué usas?",
+      "opciones": [
+        "Tangente",
+        "Seno",
+        "Coseno"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Tangente = opuesto / adyacente."
+    }
+  ]
+}

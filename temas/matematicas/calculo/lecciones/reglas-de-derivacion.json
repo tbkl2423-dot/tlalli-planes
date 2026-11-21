@@ -1,0 +1,42 @@
+{
+  "id": "reglas-de-derivacion",
+  "tema": "calculo",
+  "subtema": "reglas-de-derivacion",
+  "titulo": "Reglas de derivación",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La derivada de una constante es cero. La de x a la n es n por x a la n menos uno."
+    },
+    {
+      "texto": "La derivada de una suma es la suma de las derivadas."
+    },
+    {
+      "texto": "La regla de la cadena deriva funciones compuestas: derivas la de afuera y multiplicas por la derivada de la de adentro."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "constante",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la derivada de 7?",
+      "opciones": [
+        "0",
+        "7",
+        "1"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Una constante no cambia, su razón de cambio es cero."
+    },
+    {
+      "id": "potencia",
+      "tipo": "completar",
+      "enunciado": "La derivada de x⁴ es ___x³.",
+      "respuestas_validas": [
+        "4"
+      ],
+      "explicacion_respuesta": "Bajas el exponente y le restas uno."
+    }
+  ]
+}

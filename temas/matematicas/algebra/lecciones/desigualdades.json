@@ -1,0 +1,43 @@
+{
+  "id": "desigualdades",
+  "tema": "algebra",
+  "subtema": "desigualdades",
+  "titulo": "Desigualdades",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una desigualdad compara con mayor que, menor que, mayor o igual, o menor o igual."
+    },
+    {
+      "texto": "Se resuelve como una ecuación, con una diferencia: si multiplicas o divides entre un número negativo, el signo se invierte."
+    },
+    {
+      "texto": "Ejemplo: -2x < 6. Dividimos entre -2 y el signo cambia: x > -3.",
+      "codigo": "-2x < 6\nx > -3"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "invertir",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuándo se invierte el signo de una desigualdad?",
+      "opciones": [
+        "Al multiplicar o dividir entre un negativo",
+        "Siempre",
+        "Al sumar"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Es la regla especial de las desigualdades."
+    },
+    {
+      "id": "resolver",
+      "tipo": "completar",
+      "enunciado": "Si x + 4 > 10, entonces x > ___",
+      "respuestas_validas": [
+        "6"
+      ],
+      "explicacion_respuesta": "Restamos 4 en ambos lados."
+    }
+  ]
+}

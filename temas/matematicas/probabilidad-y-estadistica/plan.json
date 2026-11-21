@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "intermedio",
   "descripcion": "Resumir datos, leer gráficas y calcular qué tan probable es que algo pase.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "probabilidad",
     "estadistica"
@@ -78,14 +78,62 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
+      "lecciones": [
+        {
+          "id": "tipos-de-datos",
+          "titulo": "Tipos de datos",
+          "subtema": "tipos-de-datos",
+          "archivo": "lecciones/tipos-de-datos.json"
+        },
+        {
+          "id": "tendencia-central",
+          "titulo": "Medidas de tendencia central",
+          "subtema": "tendencia-central",
+          "archivo": "lecciones/tendencia-central.json"
+        },
+        {
+          "id": "dispersion",
+          "titulo": "Rango y desviación estándar",
+          "subtema": "dispersion",
+          "archivo": "lecciones/dispersion.json"
+        },
+        {
+          "id": "graficas",
+          "titulo": "Gráficas estadísticas",
+          "subtema": "graficas",
+          "archivo": "lecciones/graficas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
       "lecciones": [
         {
           "id": "probabilidad-clasica",
           "titulo": "Probabilidad clásica",
           "subtema": "probabilidad-clasica",
           "archivo": "lecciones/probabilidad-clasica.json"
+        },
+        {
+          "id": "conteo",
+          "titulo": "Técnicas de conteo",
+          "subtema": "conteo",
+          "archivo": "lecciones/conteo.json"
+        },
+        {
+          "id": "probabilidad-condicional",
+          "titulo": "Probabilidad condicional",
+          "subtema": "probabilidad-condicional",
+          "archivo": "lecciones/probabilidad-condicional.json"
+        },
+        {
+          "id": "distribucion-normal",
+          "titulo": "Distribución normal",
+          "subtema": "distribucion-normal",
+          "archivo": "lecciones/distribucion-normal.json"
         }
       ]
     }

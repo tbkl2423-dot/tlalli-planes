@@ -1,0 +1,42 @@
+{
+  "id": "continuidad",
+  "tema": "calculo",
+  "subtema": "continuidad",
+  "titulo": "Continuidad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una función es continua si puedes dibujarla sin levantar el lápiz."
+    },
+    {
+      "texto": "En un punto, es continua si existe el valor de la función, existe el límite y ambos coinciden."
+    },
+    {
+      "texto": "Un salto o un hueco en la gráfica es una discontinuidad."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "lapiz",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué idea intuitiva describe una función continua?",
+      "opciones": [
+        "Se dibuja sin levantar el lápiz",
+        "Siempre sube",
+        "Es una recta"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "No tiene saltos ni huecos."
+    },
+    {
+      "id": "hueco",
+      "tipo": "completar",
+      "enunciado": "Un salto o hueco en la gráfica es una ___.",
+      "respuestas_validas": [
+        "discontinuidad"
+      ],
+      "explicacion_respuesta": "En ese punto la función no es continua."
+    }
+  ]
+}

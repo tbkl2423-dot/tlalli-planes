@@ -1,0 +1,42 @@
+{
+  "id": "productos-notables",
+  "tema": "algebra",
+  "subtema": "productos-notables",
+  "titulo": "Productos notables",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los productos notables son multiplicaciones con resultado conocido que ahorran trabajo."
+    },
+    {
+      "texto": "Binomio al cuadrado: (a + b)² = a² + 2ab + b²."
+    },
+    {
+      "texto": "Binomios conjugados: (a + b)(a - b) = a² - b²."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cuadrado",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es (x + 3)²?",
+      "opciones": [
+        "x² + 6x + 9",
+        "x² + 9",
+        "x² + 3x + 9"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "a² + 2ab + b² = x² + 6x + 9."
+    },
+    {
+      "id": "conjugados",
+      "tipo": "completar",
+      "enunciado": "(x + 5)(x - 5) = x² - ___",
+      "respuestas_validas": [
+        "25"
+      ],
+      "explicacion_respuesta": "Diferencia de cuadrados: 5² = 25."
+    }
+  ]
+}

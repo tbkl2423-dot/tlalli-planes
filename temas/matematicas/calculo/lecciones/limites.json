@@ -1,0 +1,44 @@
+{
+  "id": "limites",
+  "tema": "calculo",
+  "subtema": "limites",
+  "titulo": "Límites",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un límite describe a qué valor se acerca una función cuando x se acerca a un número."
+    },
+    {
+      "texto": "Por ejemplo, cuando x se acerca a 2, la función x + 3 se acerca a 5."
+    },
+    {
+      "texto": "Los límites permiten hablar de lo que pasa muy cerca de un punto, aunque la función no esté definida justo ahí."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "valor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿A qué se acerca 2x cuando x se acerca a 4?",
+      "opciones": [
+        "8",
+        "4",
+        "2"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "2 × 4 = 8."
+    },
+    {
+      "id": "idea",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué describe un límite?",
+      "respuesta_esperada": "El valor al que se acerca una función cuando x se acerca a un punto.",
+      "palabras_clave": [
+        "acerca",
+        "valor"
+      ],
+      "explicacion_respuesta": "Es la base de la derivada y la integral."
+    }
+  ]
+}

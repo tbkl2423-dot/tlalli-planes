@@ -1,0 +1,45 @@
+{
+  "id": "graficas",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "graficas",
+  "titulo": "Gráficas estadísticas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las gráficas de barras comparan categorías. Los histogramas muestran cómo se distribuyen datos numéricos en intervalos."
+    },
+    {
+      "texto": "Las de línea muestran cambios en el tiempo."
+    },
+    {
+      "texto": "Cuidado con ejes que no empiezan en cero: pueden exagerar las diferencias."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "histograma",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué gráfica muestra la distribución de estaturas por intervalos?",
+      "opciones": [
+        "Histograma",
+        "Circular",
+        "De línea"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El histograma agrupa datos numéricos en rangos."
+    },
+    {
+      "id": "engano",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cómo puede engañar una gráfica?",
+      "respuesta_esperada": "Con un eje que no empieza en cero, que exagera diferencias.",
+      "palabras_clave": [
+        "eje",
+        "cero",
+        "exager"
+      ],
+      "explicacion_respuesta": "Siempre revisa la escala de los ejes."
+    }
+  ]
+}

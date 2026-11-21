@@ -1,0 +1,42 @@
+{
+  "id": "semejanza",
+  "tema": "geometria",
+  "subtema": "semejanza",
+  "titulo": "Semejanza y congruencia",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Dos figuras congruentes son idénticas en forma y tamaño."
+    },
+    {
+      "texto": "Dos figuras semejantes tienen la misma forma pero distinto tamaño: sus lados son proporcionales."
+    },
+    {
+      "texto": "Los mapas y las maquetas usan escala, que es semejanza."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mapa",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un mapa a escala es un ejemplo de…",
+      "opciones": [
+        "Semejanza",
+        "Congruencia",
+        "Simetría"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El mapa conserva la forma pero reduce el tamaño."
+    },
+    {
+      "id": "escala",
+      "tipo": "completar",
+      "enunciado": "Si la escala es 1:100, 2 cm en el plano son ___ cm reales.",
+      "respuestas_validas": [
+        "200"
+      ],
+      "explicacion_respuesta": "2 × 100 = 200 cm, o sea 2 metros."
+    }
+  ]
+}

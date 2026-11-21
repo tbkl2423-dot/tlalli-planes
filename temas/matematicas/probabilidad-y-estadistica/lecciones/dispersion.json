@@ -1,0 +1,45 @@
+{
+  "id": "dispersion",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "dispersion",
+  "titulo": "Rango y desviación estándar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las medidas de dispersión dicen qué tan separados están los datos."
+    },
+    {
+      "texto": "El rango es el mayor menos el menor."
+    },
+    {
+      "texto": "La desviación estándar indica qué tanto se alejan los datos del promedio. Si es pequeña, los datos están juntos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rango",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el rango de 4, 9, 2, 15?",
+      "opciones": [
+        "13",
+        "15",
+        "11"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "15 - 2 = 13."
+    },
+    {
+      "id": "desviacion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué indica una desviación estándar pequeña?",
+      "respuesta_esperada": "Que los datos están cerca del promedio.",
+      "palabras_clave": [
+        "cerca",
+        "juntos",
+        "promedio"
+      ],
+      "explicacion_respuesta": "Poca dispersión significa datos parecidos entre sí."
+    }
+  ]
+}

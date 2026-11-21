@@ -1,0 +1,42 @@
+{
+  "id": "ecuaciones-cuadraticas",
+  "tema": "algebra",
+  "subtema": "ecuaciones-cuadraticas",
+  "titulo": "Ecuaciones cuadráticas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una ecuación cuadrática tiene la forma ax² + bx + c = 0 y puede tener dos, una o ninguna solución real."
+    },
+    {
+      "texto": "Algunas se resuelven factorizando: x² - 5x + 6 = 0 es (x - 2)(x - 3) = 0, así que x = 2 o x = 3."
+    },
+    {
+      "texto": "La fórmula general sirve para todas: x igual a menos b, más o menos raíz de b² - 4ac, todo entre 2a."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "factorizando",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuáles son las soluciones de (x - 1)(x + 4) = 0?",
+      "opciones": [
+        "1 y -4",
+        "-1 y 4",
+        "1 y 4"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Cada factor se iguala a cero."
+    },
+    {
+      "id": "discriminante",
+      "tipo": "completar",
+      "enunciado": "La expresión b² - 4ac se llama ___.",
+      "respuestas_validas": [
+        "discriminante"
+      ],
+      "explicacion_respuesta": "Su signo dice cuántas soluciones reales hay."
+    }
+  ]
+}

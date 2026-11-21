@@ -1,0 +1,43 @@
+{
+  "id": "integral-indefinida",
+  "tema": "calculo",
+  "subtema": "integral-indefinida",
+  "titulo": "Integral indefinida",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Integrar es lo contrario de derivar: buscar una función cuya derivada conoces. Por eso también se llama antiderivada."
+    },
+    {
+      "texto": "La integral de x a la n es x a la n más uno, entre n más uno."
+    },
+    {
+      "texto": "Siempre se suma una constante C, porque la derivada de una constante es cero."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "integral-x",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la integral de 2x?",
+      "opciones": [
+        "x² + C",
+        "2 + C",
+        "x + C"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La derivada de x² es 2x."
+    },
+    {
+      "id": "constante",
+      "tipo": "completar",
+      "enunciado": "A toda integral indefinida se le suma una constante ___.",
+      "respuestas_validas": [
+        "C",
+        "c"
+      ],
+      "explicacion_respuesta": "Representa todas las antiderivadas posibles."
+    }
+  ]
+}

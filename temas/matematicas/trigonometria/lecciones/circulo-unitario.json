@@ -1,0 +1,42 @@
+{
+  "id": "circulo-unitario",
+  "tema": "trigonometria",
+  "subtema": "circulo-unitario",
+  "titulo": "Círculo unitario",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El círculo unitario tiene radio uno y centro en el origen."
+    },
+    {
+      "texto": "Para cada ángulo, el punto sobre el círculo tiene coordenadas coseno del ángulo y seno del ángulo."
+    },
+    {
+      "texto": "Así se definen seno y coseno para cualquier ángulo, no solo los de un triángulo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "coordenadas",
+      "tipo": "opcion_multiple",
+      "pregunta": "En el círculo unitario, la coordenada x de un punto es…",
+      "opciones": [
+        "El coseno del ángulo",
+        "El seno del ángulo",
+        "La tangente"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El punto es (cos θ, sen θ)."
+    },
+    {
+      "id": "sen90",
+      "tipo": "completar",
+      "enunciado": "sen(90°) = ___",
+      "respuestas_validas": [
+        "1"
+      ],
+      "explicacion_respuesta": "A 90° el punto está arriba: (0, 1)."
+    }
+  ]
+}

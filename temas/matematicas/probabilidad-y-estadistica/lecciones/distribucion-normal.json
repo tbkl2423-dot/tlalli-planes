@@ -1,0 +1,42 @@
+{
+  "id": "distribucion-normal",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "distribucion-normal",
+  "titulo": "Distribución normal",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Muchos fenómenos, como la estatura, siguen una distribución normal: forma de campana, con la mayoría cerca del promedio."
+    },
+    {
+      "texto": "Alrededor del 68 por ciento de los datos queda a una desviación estándar del promedio."
+    },
+    {
+      "texto": "Y alrededor del 95 por ciento queda a dos desviaciones estándar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "forma",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué forma tiene la distribución normal?",
+      "opciones": [
+        "De campana",
+        "De escalera",
+        "Plana"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "También se llama campana de Gauss."
+    },
+    {
+      "id": "dos-desviaciones",
+      "tipo": "completar",
+      "enunciado": "A dos desviaciones estándar del promedio queda cerca del ___% de los datos.",
+      "respuestas_validas": [
+        "95"
+      ],
+      "explicacion_respuesta": "Es la regla 68-95-99.7."
+    }
+  ]
+}

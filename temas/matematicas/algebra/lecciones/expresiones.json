@@ -1,0 +1,42 @@
+{
+  "id": "expresiones",
+  "tema": "algebra",
+  "subtema": "expresiones",
+  "titulo": "Expresiones algebraicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una expresión algebraica combina números y letras, como 3x + 2y - 5."
+    },
+    {
+      "texto": "Los términos semejantes tienen la misma letra con el mismo exponente, y se pueden sumar: 3x + 5x = 8x."
+    },
+    {
+      "texto": "3x y 3x² no son semejantes, porque el exponente es distinto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "semejantes",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 4a + 2b + 3a?",
+      "opciones": [
+        "7a + 2b",
+        "9ab",
+        "6a + 3b"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Solo se suman los términos con a: 4a + 3a = 7a."
+    },
+    {
+      "id": "simplificar",
+      "tipo": "completar",
+      "enunciado": "5x - 2x = ___x",
+      "respuestas_validas": [
+        "3"
+      ],
+      "explicacion_respuesta": "Se restan los coeficientes: 5 - 2 = 3."
+    }
+  ]
+}

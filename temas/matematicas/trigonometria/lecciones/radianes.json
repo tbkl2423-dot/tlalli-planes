@@ -1,0 +1,42 @@
+{
+  "id": "radianes",
+  "tema": "trigonometria",
+  "subtema": "radianes",
+  "titulo": "Grados y radianes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los ángulos también se miden en radianes. Una vuelta completa son 360 grados o 2π radianes."
+    },
+    {
+      "texto": "Por eso 180 grados son π radianes y 90 grados son π entre 2."
+    },
+    {
+      "texto": "Para convertir grados a radianes multiplicas por π y divides entre 180."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "media-vuelta",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántos radianes son 180°?",
+      "opciones": [
+        "π",
+        "2π",
+        "π/2"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Media vuelta es π."
+    },
+    {
+      "id": "vuelta",
+      "tipo": "completar",
+      "enunciado": "Una vuelta completa son ___π radianes.",
+      "respuestas_validas": [
+        "2"
+      ],
+      "explicacion_respuesta": "360° = 2π."
+    }
+  ]
+}

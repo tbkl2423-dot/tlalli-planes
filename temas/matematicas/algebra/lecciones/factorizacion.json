@@ -1,0 +1,42 @@
+{
+  "id": "factorizacion",
+  "tema": "algebra",
+  "subtema": "factorizacion",
+  "titulo": "Factorización",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Factorizar es lo contrario de multiplicar: escribir una expresión como producto."
+    },
+    {
+      "texto": "Factor común: 6x + 9 = 3(2x + 3)."
+    },
+    {
+      "texto": "Trinomio: x² + 5x + 6 = (x + 2)(x + 3), porque 2 + 3 = 5 y 2 × 3 = 6."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "comun",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el factor común de 4x + 8?",
+      "opciones": [
+        "4(x + 2)",
+        "2(x + 8)",
+        "x(4 + 8)"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ambos términos se dividen entre 4."
+    },
+    {
+      "id": "trinomio",
+      "tipo": "completar",
+      "enunciado": "x² + 7x + 12 = (x + 3)(x + ___)",
+      "respuestas_validas": [
+        "4"
+      ],
+      "explicacion_respuesta": "3 + 4 = 7 y 3 × 4 = 12."
+    }
+  ]
+}

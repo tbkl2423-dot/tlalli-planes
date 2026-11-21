@@ -1,0 +1,42 @@
+{
+  "id": "probabilidad-condicional",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "probabilidad-condicional",
+  "titulo": "Probabilidad condicional",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La probabilidad condicional es la probabilidad de un evento sabiendo que otro ya ocurrió."
+    },
+    {
+      "texto": "Si sacas una carta y no la regresas, la probabilidad de la siguiente cambia: los eventos son dependientes."
+    },
+    {
+      "texto": "Si lanzas una moneda dos veces, el primer resultado no afecta al segundo: son independientes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "independiente",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Lanzar dos veces una moneda son eventos…?",
+      "opciones": [
+        "Independientes",
+        "Dependientes",
+        "Imposibles"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La moneda no tiene memoria."
+    },
+    {
+      "id": "bolsa",
+      "tipo": "completar",
+      "enunciado": "Una bolsa tiene 2 rojas y 3 azules. Sacas una roja y no la regresas. Ahora la probabilidad de roja es ___/4.",
+      "respuestas_validas": [
+        "1"
+      ],
+      "explicacion_respuesta": "Queda 1 roja de 4 canicas."
+    }
+  ]
+}

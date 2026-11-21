@@ -1,0 +1,42 @@
+{
+  "id": "volumenes",
+  "tema": "geometria",
+  "subtema": "volumenes",
+  "titulo": "Volúmenes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El volumen mide cuánto espacio ocupa un cuerpo, en unidades cúbicas."
+    },
+    {
+      "texto": "Cubo: lado al cubo. Prisma o caja: largo por ancho por alto."
+    },
+    {
+      "texto": "Cilindro: área de la base, pi por radio al cuadrado, por la altura."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "caja",
+      "tipo": "opcion_multiple",
+      "pregunta": "Una caja de 2 × 3 × 4, ¿qué volumen tiene?",
+      "opciones": [
+        "24",
+        "9",
+        "12"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "2 × 3 × 4 = 24 unidades cúbicas."
+    },
+    {
+      "id": "cubo",
+      "tipo": "completar",
+      "enunciado": "Un cubo de lado 3 tiene volumen ___.",
+      "respuestas_validas": [
+        "27"
+      ],
+      "explicacion_respuesta": "3 × 3 × 3 = 27."
+    }
+  ]
+}

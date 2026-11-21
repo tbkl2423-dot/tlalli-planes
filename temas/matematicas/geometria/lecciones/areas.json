@@ -1,0 +1,42 @@
+{
+  "id": "areas",
+  "tema": "geometria",
+  "subtema": "areas",
+  "titulo": "Áreas de figuras",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Área del cuadrado: lado por lado. Del rectángulo: base por altura."
+    },
+    {
+      "texto": "Del triángulo: base por altura entre dos."
+    },
+    {
+      "texto": "Del trapecio: la suma de las dos bases, por la altura, entre dos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "triangulo",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un triángulo de base 10 y altura 4, ¿qué área tiene?",
+      "opciones": [
+        "20",
+        "40",
+        "14"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "10 × 4 / 2 = 20."
+    },
+    {
+      "id": "cuadrado",
+      "tipo": "completar",
+      "enunciado": "Un cuadrado de lado 7 tiene área de ___.",
+      "respuestas_validas": [
+        "49"
+      ],
+      "explicacion_respuesta": "7 × 7 = 49."
+    }
+  ]
+}

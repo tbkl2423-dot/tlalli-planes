@@ -1,0 +1,44 @@
+{
+  "id": "aplicaciones-derivada",
+  "tema": "calculo",
+  "subtema": "aplicaciones-derivada",
+  "titulo": "Máximos, mínimos y optimización",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Donde la derivada vale cero, la función puede tener un máximo o un mínimo."
+    },
+    {
+      "texto": "Si la derivada es positiva la función crece; si es negativa, decrece."
+    },
+    {
+      "texto": "Así se resuelven problemas de optimización, como el área máxima con cierta cerca."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "maximo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué valor tiene la derivada en un máximo de una función suave?",
+      "opciones": [
+        "Cero",
+        "Uno",
+        "Infinito"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En la cima la tangente es horizontal."
+    },
+    {
+      "id": "crece",
+      "tipo": "completar",
+      "enunciado": "Si la derivada es positiva, la función ___.",
+      "respuestas_validas": [
+        "crece",
+        "aumenta",
+        "sube"
+      ],
+      "explicacion_respuesta": "Pendiente positiva significa que sube."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "teorema-fundamental",
+  "tema": "calculo",
+  "subtema": "teorema-fundamental",
+  "titulo": "Teorema fundamental del cálculo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El teorema fundamental del cálculo une las dos grandes ideas: derivar e integrar son operaciones inversas."
+    },
+    {
+      "texto": "Gracias a él, para calcular un área basta con encontrar una antiderivada y evaluarla en los extremos."
+    },
+    {
+      "texto": "Lo descubrieron de forma independiente Newton y Leibniz en el siglo diecisiete."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "une",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué relaciona el teorema fundamental del cálculo?",
+      "opciones": [
+        "La derivada y la integral",
+        "Seno y coseno",
+        "Suma y resta"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Son operaciones inversas."
+    },
+    {
+      "id": "autores",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quiénes desarrollaron el cálculo?",
+      "opciones": [
+        "Newton y Leibniz",
+        "Euclides y Pitágoras",
+        "Darwin y Mendel"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ambos lo hicieron por separado en el siglo XVII."
+    }
+  ]
+}

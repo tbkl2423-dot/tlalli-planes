@@ -1,0 +1,42 @@
+{
+  "id": "tipos-de-datos",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "tipos-de-datos",
+  "titulo": "Tipos de datos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los datos cualitativos describen cualidades, como color favorito o ciudad."
+    },
+    {
+      "texto": "Los cuantitativos son números. Pueden ser discretos, que se cuentan, como hermanos; o continuos, que se miden, como estatura."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cualitativo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un dato cualitativo?",
+      "opciones": [
+        "Color de ojos",
+        "Edad",
+        "Peso"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Describe una cualidad, no una cantidad."
+    },
+    {
+      "id": "continuo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es un dato continuo?",
+      "opciones": [
+        "Estatura",
+        "Número de hijos",
+        "Goles en un partido"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La estatura se mide y puede tener decimales."
+    }
+  ]
+}

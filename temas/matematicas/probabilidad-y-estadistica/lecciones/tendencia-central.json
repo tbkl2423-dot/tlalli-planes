@@ -1,0 +1,42 @@
+{
+  "id": "tendencia-central",
+  "tema": "probabilidad-y-estadistica",
+  "subtema": "tendencia-central",
+  "titulo": "Medidas de tendencia central",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La media es el promedio: sumas todo y divides entre el número de datos."
+    },
+    {
+      "texto": "La mediana es el valor del centro cuando ordenas los datos. Es útil si hay valores extremos."
+    },
+    {
+      "texto": "La moda es el valor que más se repite."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "extremos",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si unos pocos sueldos son altísimos, ¿qué medida representa mejor al sueldo típico?",
+      "opciones": [
+        "La mediana",
+        "La media",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La mediana no se deja jalar por los extremos."
+    },
+    {
+      "id": "mediana",
+      "tipo": "completar",
+      "enunciado": "La mediana de 1, 3, 8, 9, 20 es ___.",
+      "respuestas_validas": [
+        "8"
+      ],
+      "explicacion_respuesta": "Es el valor de en medio."
+    }
+  ]
+}
