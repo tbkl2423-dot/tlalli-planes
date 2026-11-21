@@ -1,0 +1,45 @@
+{
+  "id": "aprendizaje",
+  "tema": "psicologia",
+  "subtema": "aprendizaje",
+  "titulo": "Aprendizaje",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En el condicionamiento clásico se asocia un estímulo neutro con otro que produce una respuesta, como la campana de Pavlov."
+    },
+    {
+      "texto": "En el condicionamiento operante, las consecuencias cambian la conducta: lo que se premia se repite."
+    },
+    {
+      "texto": "También aprendemos observando a otros, como mostró Albert Bandura."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "operante",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un niño recibe un elogio al recoger sus juguetes y lo repite. Es…",
+      "opciones": [
+        "Condicionamiento operante",
+        "Condicionamiento clásico",
+        "Percepción"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La consecuencia positiva refuerza la conducta."
+    },
+    {
+      "id": "observacion",
+      "tipo": "completar",
+      "enunciado": "Aprender viendo a otros se llama aprendizaje por ___.",
+      "respuestas_validas": [
+        "observación",
+        "observacion",
+        "imitación",
+        "imitacion"
+      ],
+      "explicacion_respuesta": "Bandura lo estudió con el experimento del muñeco Bobo."
+    }
+  ]
+}

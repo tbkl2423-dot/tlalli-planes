@@ -1,0 +1,44 @@
+{
+  "id": "presocraticos",
+  "tema": "filosofia",
+  "subtema": "presocraticos",
+  "titulo": "Los presocráticos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los primeros filósofos griegos buscaron explicar el mundo sin recurrir a los mitos."
+    },
+    {
+      "texto": "Tales de Mileto pensó que el origen de todo era el agua. Heráclito dijo que todo cambia: nadie se baña dos veces en el mismo río."
+    },
+    {
+      "texto": "Demócrito propuso que todo está hecho de átomos, partículas indivisibles."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "heraclito",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué filósofo dijo que todo cambia?",
+      "opciones": [
+        "Heráclito",
+        "Tales",
+        "Demócrito"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Su ejemplo del río es famoso."
+    },
+    {
+      "id": "atomos",
+      "tipo": "completar",
+      "enunciado": "La idea de que todo está hecho de átomos fue de ___.",
+      "respuestas_validas": [
+        "Demócrito",
+        "Democrito",
+        "democrito"
+      ],
+      "explicacion_respuesta": "Átomo significa indivisible."
+    }
+  ]
+}

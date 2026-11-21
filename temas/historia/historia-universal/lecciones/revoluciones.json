@@ -1,0 +1,44 @@
+{
+  "id": "revoluciones",
+  "tema": "historia-universal",
+  "subtema": "revoluciones",
+  "titulo": "Revoluciones liberales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La Ilustración, en el siglo dieciocho, defendió la razón, la libertad y la igualdad ante la ley."
+    },
+    {
+      "texto": "La independencia de Estados Unidos, en 1776, y la Revolución francesa, en 1789, pusieron en práctica esas ideas."
+    },
+    {
+      "texto": "La Revolución francesa proclamó los Derechos del Hombre y del Ciudadano e inspiró a los movimientos de independencia de América Latina."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "francesa",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué año empezó la Revolución francesa?",
+      "opciones": [
+        "1789",
+        "1810",
+        "1492"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con la toma de la Bastilla."
+    },
+    {
+      "id": "ilustracion",
+      "tipo": "completar",
+      "enunciado": "El movimiento que defendió la razón en el siglo XVIII fue la ___.",
+      "respuestas_validas": [
+        "Ilustración",
+        "Ilustracion",
+        "ilustracion"
+      ],
+      "explicacion_respuesta": "Sus ideas cambiaron la política del mundo."
+    }
+  ]
+}

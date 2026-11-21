@@ -1,0 +1,46 @@
+{
+  "id": "edad-media",
+  "tema": "historia-universal",
+  "subtema": "edad-media",
+  "titulo": "Edad Media",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La Edad Media va del año 476 a 1453, aproximadamente."
+    },
+    {
+      "texto": "En Europa predominó el feudalismo: los señores tenían tierras y los campesinos las trabajaban a cambio de protección."
+    },
+    {
+      "texto": "La Iglesia tuvo gran poder. Al mismo tiempo, el mundo islámico vivía una época de oro en ciencia y matemáticas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "feudalismo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué era el feudalismo?",
+      "opciones": [
+        "Un sistema de señores y campesinos ligados a la tierra",
+        "Una religión",
+        "Un tipo de arte"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Se basaba en la tierra y en lazos de lealtad."
+    },
+    {
+      "id": "islam",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué aportó el mundo islámico en la Edad Media?",
+      "respuesta_esperada": "Avances en ciencia y matemáticas, como el álgebra.",
+      "palabras_clave": [
+        "ciencia",
+        "matematic",
+        "algebra",
+        "medicina"
+      ],
+      "explicacion_respuesta": "Conservó y amplió el saber antiguo."
+    }
+  ]
+}

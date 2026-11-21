@@ -1,0 +1,43 @@
+{
+  "id": "cerebro-y-conducta",
+  "tema": "psicologia",
+  "subtema": "cerebro-y-conducta",
+  "titulo": "Cerebro y conducta",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El cerebro tiene áreas especializadas. El lóbulo frontal se encarga de planear y decidir; el occipital, de la visión."
+    },
+    {
+      "texto": "Las neuronas se comunican con sustancias llamadas neurotransmisores, como la dopamina y la serotonina."
+    },
+    {
+      "texto": "La neuroplasticidad es la capacidad del cerebro de cambiar y aprender toda la vida."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "frontal",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué lóbulo se relaciona con planear y decidir?",
+      "opciones": [
+        "Frontal",
+        "Occipital",
+        "Temporal"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El lóbulo frontal madura hasta pasados los 20 años."
+    },
+    {
+      "id": "plasticidad",
+      "tipo": "completar",
+      "enunciado": "La capacidad del cerebro de cambiar con la experiencia se llama ___.",
+      "respuestas_validas": [
+        "neuroplasticidad",
+        "plasticidad"
+      ],
+      "explicacion_respuesta": "Por eso siempre se puede aprender."
+    }
+  ]
+}

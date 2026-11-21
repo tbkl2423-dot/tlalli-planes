@@ -1,0 +1,45 @@
+{
+  "id": "motivacion",
+  "tema": "psicologia",
+  "subtema": "motivacion",
+  "titulo": "Motivación y emoción",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La motivación es lo que nos impulsa a actuar."
+    },
+    {
+      "texto": "La motivación intrínseca viene de dentro: hacer algo porque te gusta. La extrínseca viene de fuera: premios o calificaciones."
+    },
+    {
+      "texto": "Las emociones preparan al cuerpo para actuar: el miedo para huir, la alegría para acercarse."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "intrinseca",
+      "tipo": "opcion_multiple",
+      "pregunta": "Leer un libro solo porque lo disfrutas es motivación…",
+      "opciones": [
+        "Intrínseca",
+        "Extrínseca",
+        "Ninguna"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Viene del propio interés."
+    },
+    {
+      "id": "emocion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Para qué sirven las emociones?",
+      "respuesta_esperada": "Preparan al cuerpo para responder ante situaciones.",
+      "palabras_clave": [
+        "prepar",
+        "respond",
+        "actuar"
+      ],
+      "explicacion_respuesta": "Cada emoción tiene una función adaptativa."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "memoria",
+  "tema": "psicologia",
+  "subtema": "memoria",
+  "titulo": "Memoria",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La memoria tiene etapas: codificar, almacenar y recuperar la información."
+    },
+    {
+      "texto": "La memoria de trabajo guarda pocas cosas por poco tiempo. La de largo plazo puede durar toda la vida."
+    },
+    {
+      "texto": "Repasar en sesiones espaciadas y explicar con tus palabras ayuda a recordar más que releer muchas veces."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "estudiar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué técnica ayuda más a recordar?",
+      "opciones": [
+        "Repasar espaciado en varios días",
+        "Leer todo una noche antes",
+        "Subrayar todo"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La repetición espaciada fortalece la memoria."
+    },
+    {
+      "id": "etapas",
+      "tipo": "completar",
+      "enunciado": "Las etapas de la memoria son codificar, almacenar y ___.",
+      "respuestas_validas": [
+        "recuperar"
+      ],
+      "explicacion_respuesta": "Recuperar es traer el recuerdo cuando lo necesitas."
+    }
+  ]
+}

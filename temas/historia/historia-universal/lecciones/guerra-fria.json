@@ -1,0 +1,42 @@
+{
+  "id": "guerra-fria",
+  "tema": "historia-universal",
+  "subtema": "guerra-fria",
+  "titulo": "Guerra Fría",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La Guerra Fría, de 1947 a 1991, fue la rivalidad entre Estados Unidos y la Unión Soviética, sin guerra directa entre ellos."
+    },
+    {
+      "texto": "Compitieron en armas nucleares, en la carrera espacial y en influencia sobre otros países."
+    },
+    {
+      "texto": "El Muro de Berlín cayó en 1989 y la Unión Soviética se disolvió en 1991."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rivales",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quiénes fueron los rivales en la Guerra Fría?",
+      "opciones": [
+        "Estados Unidos y la Unión Soviética",
+        "Francia e Inglaterra",
+        "China y Japón"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Representaban el capitalismo y el comunismo."
+    },
+    {
+      "id": "muro",
+      "tipo": "completar",
+      "enunciado": "El Muro de Berlín cayó en ___.",
+      "respuestas_validas": [
+        "1989"
+      ],
+      "explicacion_respuesta": "Su caída anunció el fin de la Guerra Fría."
+    }
+  ]
+}

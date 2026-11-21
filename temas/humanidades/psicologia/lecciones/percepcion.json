@@ -1,0 +1,45 @@
+{
+  "id": "percepcion",
+  "tema": "psicologia",
+  "subtema": "percepcion",
+  "titulo": "Sensación y percepción",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La sensación es lo que captan los sentidos; la percepción es cómo el cerebro lo interpreta."
+    },
+    {
+      "texto": "Las ilusiones ópticas muestran que el cerebro completa y a veces se equivoca."
+    },
+    {
+      "texto": "La atención es limitada: si te concentras en algo, puedes no notar cosas evidentes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "diferencia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué es la percepción?",
+      "opciones": [
+        "La interpretación que hace el cerebro",
+        "Lo que capta el ojo",
+        "Un tipo de memoria"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El cerebro organiza e interpreta lo que llega de los sentidos."
+    },
+    {
+      "id": "ilusion",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué demuestran las ilusiones ópticas?",
+      "respuesta_esperada": "Que el cerebro interpreta y puede equivocarse.",
+      "palabras_clave": [
+        "interpreta",
+        "equivoca",
+        "cerebro"
+      ],
+      "explicacion_respuesta": "Ver no es solo captar luz: es interpretar."
+    }
+  ]
+}

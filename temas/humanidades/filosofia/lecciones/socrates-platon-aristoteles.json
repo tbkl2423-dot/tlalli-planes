@@ -1,0 +1,44 @@
+{
+  "id": "socrates-platon-aristoteles",
+  "tema": "filosofia",
+  "subtema": "socrates-platon-aristoteles",
+  "titulo": "Sócrates, Platón y Aristóteles",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Sócrates enseñaba preguntando y decía que solo sabía que no sabía nada."
+    },
+    {
+      "texto": "Su alumno Platón distinguió el mundo de las ideas, perfecto, del mundo de las cosas que vemos. Lo explicó con la alegoría de la caverna."
+    },
+    {
+      "texto": "Aristóteles, alumno de Platón, se interesó por el mundo real y sistematizó la lógica, la biología y la ética."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "caverna",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién escribió la alegoría de la caverna?",
+      "opciones": [
+        "Platón",
+        "Aristóteles",
+        "Sócrates"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Habla de prisioneros que solo ven sombras."
+    },
+    {
+      "id": "maestro",
+      "tipo": "completar",
+      "enunciado": "Aristóteles fue alumno de ___.",
+      "respuestas_validas": [
+        "Platón",
+        "Platon",
+        "platon"
+      ],
+      "explicacion_respuesta": "Y Platón fue alumno de Sócrates."
+    }
+  ]
+}

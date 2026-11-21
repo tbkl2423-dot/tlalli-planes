@@ -1,0 +1,42 @@
+{
+  "id": "roma",
+  "tema": "historia-universal",
+  "subtema": "roma",
+  "titulo": "Roma",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Roma pasó de ser una pequeña ciudad a dominar todo el Mediterráneo."
+    },
+    {
+      "texto": "Fue monarquía, luego república y después imperio, con Augusto como primer emperador."
+    },
+    {
+      "texto": "Nos heredó el latín, del que viene el español, el derecho romano, acueductos y caminos. El imperio de occidente cayó en el año 476."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "idioma",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿De qué lengua viene el español?",
+      "opciones": [
+        "Del latín",
+        "Del griego",
+        "Del árabe"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El latín de los romanos dio origen a las lenguas romances."
+    },
+    {
+      "id": "caida",
+      "tipo": "completar",
+      "enunciado": "El Imperio romano de occidente cayó en el año ___.",
+      "respuestas_validas": [
+        "476"
+      ],
+      "explicacion_respuesta": "Esa fecha marca el inicio de la Edad Media."
+    }
+  ]
+}

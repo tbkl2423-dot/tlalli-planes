@@ -1,0 +1,46 @@
+{
+  "id": "globalizacion",
+  "tema": "historia-universal",
+  "subtema": "globalizacion",
+  "titulo": "Mundo actual y globalización",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La globalización es la conexión creciente entre países en comercio, información y cultura."
+    },
+    {
+      "texto": "Internet y los teléfonos inteligentes aceleraron ese intercambio."
+    },
+    {
+      "texto": "Trae oportunidades, pero también retos como la desigualdad, el cambio climático y las pandemias globales."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "acelero",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tecnología aceleró la globalización?",
+      "opciones": [
+        "Internet",
+        "La rueda",
+        "La imprenta"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Conecta personas al instante en todo el mundo."
+    },
+    {
+      "id": "reto",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona un reto de la globalización.",
+      "respuesta_esperada": "La desigualdad entre países.",
+      "palabras_clave": [
+        "desigualdad",
+        "clima",
+        "pandemia",
+        "empleo"
+      ],
+      "explicacion_respuesta": "Los beneficios no se reparten igual."
+    }
+  ]
+}

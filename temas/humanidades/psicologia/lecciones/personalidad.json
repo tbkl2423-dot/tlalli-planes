@@ -1,0 +1,45 @@
+{
+  "id": "personalidad",
+  "tema": "psicologia",
+  "subtema": "personalidad",
+  "titulo": "Personalidad",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La personalidad son los patrones de pensar, sentir y actuar que nos caracterizan."
+    },
+    {
+      "texto": "Un modelo muy usado son los cinco grandes rasgos: apertura, responsabilidad, extraversión, amabilidad y estabilidad emocional."
+    },
+    {
+      "texto": "La personalidad tiene bases genéticas, pero también la moldean las experiencias."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "cinco",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es uno de los cinco grandes rasgos?",
+      "opciones": [
+        "Extraversión",
+        "Inteligencia",
+        "Altura"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los cinco grandes describen la personalidad."
+    },
+    {
+      "id": "origen",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿De qué depende la personalidad?",
+      "respuesta_esperada": "De la genética y de las experiencias.",
+      "palabras_clave": [
+        "genetic",
+        "experiencia",
+        "ambiente"
+      ],
+      "explicacion_respuesta": "Herencia y ambiente se combinan."
+    }
+  ]
+}

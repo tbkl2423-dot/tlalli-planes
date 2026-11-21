@@ -1,0 +1,42 @@
+{
+  "id": "revolucion-industrial",
+  "tema": "historia-universal",
+  "subtema": "revolucion-industrial",
+  "titulo": "Revolución Industrial",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La Revolución Industrial comenzó en Inglaterra a finales del siglo dieciocho."
+    },
+    {
+      "texto": "La máquina de vapor permitió fábricas, trenes y barcos más potentes."
+    },
+    {
+      "texto": "La gente se mudó del campo a las ciudades. Surgió la clase obrera y, con ella, la lucha por derechos laborales."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "donde",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde comenzó la Revolución Industrial?",
+      "opciones": [
+        "Inglaterra",
+        "China",
+        "México"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Inglaterra tenía carbón y comercio."
+    },
+    {
+      "id": "vapor",
+      "tipo": "completar",
+      "enunciado": "La gran invención de la Revolución Industrial fue la máquina de ___.",
+      "respuestas_validas": [
+        "vapor"
+      ],
+      "explicacion_respuesta": "Movió fábricas, trenes y barcos."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "filosofia-politica",
+  "tema": "filosofia",
+  "subtema": "filosofia-politica",
+  "titulo": "Filosofía política",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La filosofía política pregunta qué hace legítimo a un gobierno y qué es la justicia."
+    },
+    {
+      "texto": "Los contractualistas, como Hobbes, Locke y Rousseau, dijeron que el Estado nace de un acuerdo entre las personas."
+    },
+    {
+      "texto": "Montesquieu propuso dividir el poder en ejecutivo, legislativo y judicial, como en México."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "division",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Quién propuso la división de poderes?",
+      "opciones": [
+        "Montesquieu",
+        "Platón",
+        "Nietzsche"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Para que ningún poder abuse de los demás."
+    },
+    {
+      "id": "contrato",
+      "tipo": "completar",
+      "enunciado": "La idea de que el Estado nace de un acuerdo se llama contrato ___.",
+      "respuestas_validas": [
+        "social"
+      ],
+      "explicacion_respuesta": "Lo desarrollaron Hobbes, Locke y Rousseau."
+    }
+  ]
+}

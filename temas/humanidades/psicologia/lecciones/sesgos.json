@@ -1,0 +1,45 @@
+{
+  "id": "sesgos",
+  "tema": "psicologia",
+  "subtema": "sesgos",
+  "titulo": "Sesgos cognitivos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un sesgo cognitivo es un atajo mental que a veces nos lleva a errores."
+    },
+    {
+      "texto": "El sesgo de confirmación nos hace buscar solo lo que confirma lo que ya creemos."
+    },
+    {
+      "texto": "Conocer los sesgos ayuda a tomar mejores decisiones: busca activamente información que te contradiga."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "confirmacion",
+      "tipo": "opcion_multiple",
+      "pregunta": "Leer solo noticias que coinciden con tu opinión es un ejemplo de…",
+      "opciones": [
+        "Sesgo de confirmación",
+        "Memoria a largo plazo",
+        "Condicionamiento"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Buscamos lo que nos da la razón."
+    },
+    {
+      "id": "evitar",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Cómo puedes reducir el sesgo de confirmación?",
+      "respuesta_esperada": "Buscando información que contradiga lo que pienso.",
+      "palabras_clave": [
+        "contradig",
+        "otra",
+        "opuest"
+      ],
+      "explicacion_respuesta": "Escuchar otras posturas equilibra el juicio."
+    }
+  ]
+}

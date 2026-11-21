@@ -1,0 +1,45 @@
+{
+  "id": "filosofia-moderna",
+  "tema": "filosofia",
+  "subtema": "filosofia-moderna",
+  "titulo": "Filosofía moderna",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La filosofía moderna empieza con Descartes, que dudó de todo para encontrar algo seguro: su propio pensamiento."
+    },
+    {
+      "texto": "Kant se preguntó qué podemos conocer, qué debemos hacer y qué podemos esperar."
+    },
+    {
+      "texto": "En el siglo diecinueve, Marx analizó la economía y la sociedad, y Nietzsche criticó los valores tradicionales."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "duda",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué método usó Descartes?",
+      "opciones": [
+        "La duda metódica",
+        "La observación de estrellas",
+        "El voto"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Dudar de todo hasta encontrar algo indudable."
+    },
+    {
+      "id": "kant-preguntas",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona una de las preguntas de Kant.",
+      "respuesta_esperada": "¿Qué puedo conocer?",
+      "palabras_clave": [
+        "conocer",
+        "hacer",
+        "esperar"
+      ],
+      "explicacion_respuesta": "Son las preguntas de su filosofía."
+    }
+  ]
+}

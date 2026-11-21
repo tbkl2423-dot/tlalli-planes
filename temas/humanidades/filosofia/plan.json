@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Las grandes preguntas: qué podemos conocer, qué es lo correcto y cómo argumentar bien.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "filosofia",
     "etica",
@@ -75,7 +75,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -83,6 +83,66 @@
           "titulo": "¿Qué es la filosofía?",
           "subtema": "que-es-filosofia",
           "archivo": "lecciones/que-es-filosofia.json"
+        },
+        {
+          "id": "presocraticos",
+          "titulo": "Los presocráticos",
+          "subtema": "presocraticos",
+          "archivo": "lecciones/presocraticos.json"
+        },
+        {
+          "id": "socrates-platon-aristoteles",
+          "titulo": "Sócrates, Platón y Aristóteles",
+          "subtema": "socrates-platon-aristoteles",
+          "archivo": "lecciones/socrates-platon-aristoteles.json"
+        },
+        {
+          "id": "logica",
+          "titulo": "Lógica y argumentos",
+          "subtema": "logica",
+          "archivo": "lecciones/logica.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "etica",
+          "titulo": "Ética",
+          "subtema": "etica",
+          "archivo": "lecciones/etica.json"
+        },
+        {
+          "id": "epistemologia",
+          "titulo": "Teoría del conocimiento",
+          "subtema": "epistemologia",
+          "archivo": "lecciones/epistemologia.json"
+        },
+        {
+          "id": "filosofia-moderna",
+          "titulo": "Filosofía moderna",
+          "subtema": "filosofia-moderna",
+          "archivo": "lecciones/filosofia-moderna.json"
+        },
+        {
+          "id": "filosofia-politica",
+          "titulo": "Filosofía política",
+          "subtema": "filosofia-politica",
+          "archivo": "lecciones/filosofia-politica.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "filosofia-nahuatl",
+          "titulo": "Pensamiento náhuatl",
+          "subtema": "filosofia-nahuatl",
+          "archivo": "lecciones/filosofia-nahuatl.json"
         }
       ]
     }

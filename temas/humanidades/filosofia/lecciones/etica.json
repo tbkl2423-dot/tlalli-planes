@@ -1,0 +1,43 @@
+{
+  "id": "etica",
+  "tema": "filosofia",
+  "subtema": "etica",
+  "titulo": "Ética",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La ética reflexiona sobre qué es correcto y cómo vivir bien."
+    },
+    {
+      "texto": "Para el utilitarismo, lo correcto es lo que produce el mayor bienestar para el mayor número."
+    },
+    {
+      "texto": "Para Kant, hay deberes que se cumplen sin importar las consecuencias, como no mentir, y hay que tratar a las personas siempre como fines, nunca solo como medios."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "utilitarismo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué defiende el utilitarismo?",
+      "opciones": [
+        "El mayor bienestar para el mayor número",
+        "Seguir siempre las reglas",
+        "Hacer lo que uno quiera"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Juzga las acciones por sus consecuencias."
+    },
+    {
+      "id": "kant",
+      "tipo": "completar",
+      "enunciado": "El filósofo del deber que pedía tratar a las personas como fines fue ___.",
+      "respuestas_validas": [
+        "Kant",
+        "kant"
+      ],
+      "explicacion_respuesta": "Immanuel Kant, siglo XVIII."
+    }
+  ]
+}

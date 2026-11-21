@@ -1,0 +1,42 @@
+{
+  "id": "psicologia-social",
+  "tema": "psicologia",
+  "subtema": "psicologia-social",
+  "titulo": "Psicología social",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La psicología social estudia cómo influyen los demás en lo que pensamos y hacemos."
+    },
+    {
+      "texto": "El experimento de Asch mostró que muchas personas dan una respuesta equivocada solo para coincidir con el grupo."
+    },
+    {
+      "texto": "Conocer estas presiones nos ayuda a pensar por cuenta propia."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "asch",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué mostró el experimento de Asch?",
+      "opciones": [
+        "La presión del grupo para conformarse",
+        "Cómo funciona la memoria",
+        "Los colores del arcoíris"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Muchos siguieron al grupo aunque estaba equivocado."
+    },
+    {
+      "id": "conformidad",
+      "tipo": "completar",
+      "enunciado": "Cambiar la opinión para coincidir con el grupo se llama ___.",
+      "respuestas_validas": [
+        "conformidad"
+      ],
+      "explicacion_respuesta": "Es una forma de influencia social."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Cómo pensamos, sentimos y aprendemos: percepción, memoria, motivación, desarrollo y personalidad.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "psicologia",
     "mente",
@@ -85,7 +85,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -93,6 +93,72 @@
           "titulo": "¿Qué es la psicología?",
           "subtema": "que-es-psicologia",
           "archivo": "lecciones/que-es-psicologia.json"
+        },
+        {
+          "id": "cerebro-y-conducta",
+          "titulo": "Cerebro y conducta",
+          "subtema": "cerebro-y-conducta",
+          "archivo": "lecciones/cerebro-y-conducta.json"
+        },
+        {
+          "id": "percepcion",
+          "titulo": "Sensación y percepción",
+          "subtema": "percepcion",
+          "archivo": "lecciones/percepcion.json"
+        },
+        {
+          "id": "aprendizaje",
+          "titulo": "Aprendizaje",
+          "subtema": "aprendizaje",
+          "archivo": "lecciones/aprendizaje.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "memoria",
+          "titulo": "Memoria",
+          "subtema": "memoria",
+          "archivo": "lecciones/memoria.json"
+        },
+        {
+          "id": "motivacion",
+          "titulo": "Motivación y emoción",
+          "subtema": "motivacion",
+          "archivo": "lecciones/motivacion.json"
+        },
+        {
+          "id": "desarrollo",
+          "titulo": "Desarrollo humano",
+          "subtema": "desarrollo",
+          "archivo": "lecciones/desarrollo.json"
+        },
+        {
+          "id": "personalidad",
+          "titulo": "Personalidad",
+          "subtema": "personalidad",
+          "archivo": "lecciones/personalidad.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "psicologia-social",
+          "titulo": "Psicología social",
+          "subtema": "psicologia-social",
+          "archivo": "lecciones/psicologia-social.json"
+        },
+        {
+          "id": "sesgos",
+          "titulo": "Sesgos cognitivos",
+          "subtema": "sesgos",
+          "archivo": "lecciones/sesgos.json"
         }
       ]
     }

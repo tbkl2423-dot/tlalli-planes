@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Los grandes momentos de la humanidad: primeras civilizaciones, mundo clásico, Edad Media, revoluciones y siglo XX.",
-  "version": 1,
+  "version": 2,
   "aliases": [
     "historia universal",
     "historia mundial"
@@ -93,7 +93,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -101,6 +101,84 @@
           "titulo": "Prehistoria",
           "subtema": "prehistoria",
           "archivo": "lecciones/prehistoria.json"
+        },
+        {
+          "id": "primeras-civilizaciones",
+          "titulo": "Primeras civilizaciones",
+          "subtema": "primeras-civilizaciones",
+          "archivo": "lecciones/primeras-civilizaciones.json"
+        },
+        {
+          "id": "grecia",
+          "titulo": "Grecia antigua",
+          "subtema": "grecia",
+          "archivo": "lecciones/grecia.json"
+        },
+        {
+          "id": "roma",
+          "titulo": "Roma",
+          "subtema": "roma",
+          "archivo": "lecciones/roma.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "edad-media",
+          "titulo": "Edad Media",
+          "subtema": "edad-media",
+          "archivo": "lecciones/edad-media.json"
+        },
+        {
+          "id": "renacimiento",
+          "titulo": "Renacimiento",
+          "subtema": "renacimiento",
+          "archivo": "lecciones/renacimiento.json"
+        },
+        {
+          "id": "exploracion",
+          "titulo": "Era de la exploración",
+          "subtema": "exploracion",
+          "archivo": "lecciones/exploracion.json"
+        },
+        {
+          "id": "revoluciones",
+          "titulo": "Revoluciones liberales",
+          "subtema": "revoluciones",
+          "archivo": "lecciones/revoluciones.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "revolucion-industrial",
+          "titulo": "Revolución Industrial",
+          "subtema": "revolucion-industrial",
+          "archivo": "lecciones/revolucion-industrial.json"
+        },
+        {
+          "id": "guerras-mundiales",
+          "titulo": "Primera y Segunda Guerra Mundial",
+          "subtema": "guerras-mundiales",
+          "archivo": "lecciones/guerras-mundiales.json"
+        },
+        {
+          "id": "guerra-fria",
+          "titulo": "Guerra Fría",
+          "subtema": "guerra-fria",
+          "archivo": "lecciones/guerra-fria.json"
+        },
+        {
+          "id": "globalizacion",
+          "titulo": "Mundo actual y globalización",
+          "subtema": "globalizacion",
+          "archivo": "lecciones/globalizacion.json"
         }
       ]
     }

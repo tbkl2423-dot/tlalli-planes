@@ -1,0 +1,43 @@
+{
+  "id": "logica",
+  "tema": "filosofia",
+  "subtema": "logica",
+  "titulo": "Lógica y argumentos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La lógica estudia cuándo un razonamiento es válido."
+    },
+    {
+      "texto": "Un argumento tiene premisas y conclusión: todos los humanos son mortales, Sócrates es humano, entonces Sócrates es mortal."
+    },
+    {
+      "texto": "Falacias comunes: atacar a la persona en vez de a su argumento, o decir que algo es cierto porque mucha gente lo cree."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ad-hominem",
+      "tipo": "opcion_multiple",
+      "pregunta": "Decir: no le creas, ni siquiera terminó la escuela. Es una falacia…",
+      "opciones": [
+        "Contra la persona",
+        "De autoridad",
+        "Válida"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Ataca a la persona, no al argumento."
+    },
+    {
+      "id": "conclusion",
+      "tipo": "completar",
+      "enunciado": "Un argumento parte de premisas y llega a una ___.",
+      "respuestas_validas": [
+        "conclusión",
+        "conclusion"
+      ],
+      "explicacion_respuesta": "La conclusión se deriva de las premisas."
+    }
+  ]
+}

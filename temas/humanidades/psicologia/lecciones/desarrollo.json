@@ -1,0 +1,44 @@
+{
+  "id": "desarrollo",
+  "tema": "psicologia",
+  "subtema": "desarrollo",
+  "titulo": "Desarrollo humano",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La psicología del desarrollo estudia cómo cambiamos a lo largo de la vida."
+    },
+    {
+      "texto": "Jean Piaget propuso que los niños pasan por etapas en su forma de pensar: de lo sensorial a lo concreto y luego a lo abstracto."
+    },
+    {
+      "texto": "Lev Vygotsky destacó el papel de los demás: aprendemos mejor con la ayuda de alguien más experto."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "piaget",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué propuso Piaget?",
+      "opciones": [
+        "Etapas del desarrollo del pensamiento",
+        "El condicionamiento clásico",
+        "La pirámide de necesidades"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Describió cuatro etapas del desarrollo cognitivo."
+    },
+    {
+      "id": "vygotsky",
+      "tipo": "completar",
+      "enunciado": "El psicólogo que destacó el aprendizaje con ayuda de otros fue ___.",
+      "respuestas_validas": [
+        "Vygotsky",
+        "vygotsky",
+        "Vigotsky"
+      ],
+      "explicacion_respuesta": "Habló de la zona de desarrollo próximo."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "grecia",
+  "tema": "historia-universal",
+  "subtema": "grecia",
+  "titulo": "Grecia antigua",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En la antigua Grecia las ciudades, llamadas polis, eran independientes. Atenas y Esparta fueron las más famosas."
+    },
+    {
+      "texto": "Atenas creó la democracia, en la que los ciudadanos votaban, aunque mujeres y esclavos no participaban."
+    },
+    {
+      "texto": "Los griegos nos dejaron la filosofía, el teatro, los Juegos Olímpicos y avances en matemáticas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "democracia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ciudad griega creó la democracia?",
+      "opciones": [
+        "Atenas",
+        "Esparta",
+        "Troya"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La democracia ateniense surgió en el siglo V antes de Cristo."
+    },
+    {
+      "id": "polis",
+      "tipo": "completar",
+      "enunciado": "Las ciudades estado griegas se llamaban ___.",
+      "respuestas_validas": [
+        "polis"
+      ],
+      "explicacion_respuesta": "Cada polis tenía su propio gobierno."
+    }
+  ]
+}

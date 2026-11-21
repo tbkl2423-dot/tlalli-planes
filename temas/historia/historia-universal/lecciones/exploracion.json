@@ -1,0 +1,48 @@
+{
+  "id": "exploracion",
+  "tema": "historia-universal",
+  "subtema": "exploracion",
+  "titulo": "Era de la exploración",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En los siglos quince y dieciséis los europeos buscaron nuevas rutas comerciales por mar."
+    },
+    {
+      "texto": "En 1492 Cristóbal Colón llegó a América buscando Asia. Magallanes y Elcano dieron la primera vuelta al mundo."
+    },
+    {
+      "texto": "El contacto entre continentes cambió alimentos, animales y enfermedades: el maíz y el chocolate llegaron a Europa."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "colon",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué año llegó Colón a América?",
+      "opciones": [
+        "1492",
+        "1521",
+        "1810"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Llegó a una isla del Caribe."
+    },
+    {
+      "id": "intercambio",
+      "tipo": "voz_pregunta",
+      "pregunta": "Menciona un alimento que América aportó al mundo.",
+      "respuesta_esperada": "El maíz.",
+      "palabras_clave": [
+        "maiz",
+        "chocolate",
+        "cacao",
+        "tomate",
+        "papa",
+        "chile"
+      ],
+      "explicacion_respuesta": "América aportó maíz, cacao, tomate, papa y chile, entre otros."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "epistemologia",
+  "tema": "filosofia",
+  "subtema": "epistemologia",
+  "titulo": "Teoría del conocimiento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La epistemología estudia el conocimiento: qué podemos saber y cómo lo sabemos."
+    },
+    {
+      "texto": "Los racionalistas, como Descartes, confiaban sobre todo en la razón. Los empiristas, como Locke y Hume, en la experiencia de los sentidos."
+    },
+    {
+      "texto": "Kant intentó unir ambas posturas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "empirismo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué se basa el conocimiento para los empiristas?",
+      "opciones": [
+        "En la experiencia",
+        "Solo en la razón",
+        "En la fe"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "La mente empieza como una hoja en blanco."
+    },
+    {
+      "id": "descartes",
+      "tipo": "completar",
+      "enunciado": "Pienso, luego existo, lo dijo ___.",
+      "respuestas_validas": [
+        "Descartes",
+        "descartes"
+      ],
+      "explicacion_respuesta": "Es el punto de partida de su filosofía."
+    }
+  ]
+}

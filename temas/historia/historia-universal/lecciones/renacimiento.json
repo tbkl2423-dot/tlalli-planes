@@ -1,0 +1,43 @@
+{
+  "id": "renacimiento",
+  "tema": "historia-universal",
+  "subtema": "renacimiento",
+  "titulo": "Renacimiento",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El Renacimiento, en los siglos quince y dieciséis, nació en Italia y recuperó el interés por la cultura griega y romana."
+    },
+    {
+      "texto": "El humanismo puso al ser humano en el centro."
+    },
+    {
+      "texto": "Leonardo da Vinci y Miguel Ángel son sus grandes artistas, y la imprenta de Gutenberg difundió los libros."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "origen",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde nació el Renacimiento?",
+      "opciones": [
+        "Italia",
+        "Inglaterra",
+        "Rusia"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Florencia fue uno de sus centros."
+    },
+    {
+      "id": "imprenta",
+      "tipo": "completar",
+      "enunciado": "La imprenta de tipos móviles en Europa la inventó ___.",
+      "respuestas_validas": [
+        "Gutenberg",
+        "gutenberg"
+      ],
+      "explicacion_respuesta": "Hacia 1450, en Alemania."
+    }
+  ]
+}

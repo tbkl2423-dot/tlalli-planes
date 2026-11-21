@@ -1,0 +1,45 @@
+{
+  "id": "primeras-civilizaciones",
+  "tema": "historia-universal",
+  "subtema": "primeras-civilizaciones",
+  "titulo": "Primeras civilizaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las primeras civilizaciones surgieron junto a grandes ríos que permitían la agricultura."
+    },
+    {
+      "texto": "En Mesopotamia, entre el Tigris y el Éufrates, los sumerios inventaron la escritura cuneiforme hacia el 3200 antes de Cristo."
+    },
+    {
+      "texto": "Egipto creció junto al Nilo, con faraones, jeroglíficos y pirámides. En la India y China también surgieron civilizaciones junto al Indo y al río Amarillo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "escritura",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde surgió la escritura cuneiforme?",
+      "opciones": [
+        "Mesopotamia",
+        "Grecia",
+        "Roma"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Los sumerios escribían en tablillas de barro."
+    },
+    {
+      "id": "rios",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué las primeras civilizaciones nacieron junto a ríos?",
+      "respuesta_esperada": "Porque el agua permitía cultivar.",
+      "palabras_clave": [
+        "agua",
+        "cultiv",
+        "agricultura"
+      ],
+      "explicacion_respuesta": "Los ríos daban agua y tierras fértiles."
+    }
+  ]
+}

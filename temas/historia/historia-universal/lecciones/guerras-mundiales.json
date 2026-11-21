@@ -1,0 +1,44 @@
+{
+  "id": "guerras-mundiales",
+  "tema": "historia-universal",
+  "subtema": "guerras-mundiales",
+  "titulo": "Primera y Segunda Guerra Mundial",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La Primera Guerra Mundial, de 1914 a 1918, enfrentó a las grandes potencias europeas con millones de muertos en las trincheras."
+    },
+    {
+      "texto": "La Segunda Guerra Mundial, de 1939 a 1945, fue aún más devastadora. Incluyó el Holocausto y terminó con las bombas atómicas en Japón."
+    },
+    {
+      "texto": "Después se creó la Organización de las Naciones Unidas para intentar evitar nuevas guerras."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "segunda",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿En qué años fue la Segunda Guerra Mundial?",
+      "opciones": [
+        "1939 a 1945",
+        "1914 a 1918",
+        "1950 a 1953"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Fue el conflicto más mortífero de la historia."
+    },
+    {
+      "id": "onu",
+      "tipo": "completar",
+      "enunciado": "Al terminar la Segunda Guerra Mundial se creó la ___.",
+      "respuestas_validas": [
+        "ONU",
+        "onu",
+        "Organización de las Naciones Unidas"
+      ],
+      "explicacion_respuesta": "La ONU se fundó en 1945."
+    }
+  ]
+}

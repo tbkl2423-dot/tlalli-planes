@@ -1,0 +1,42 @@
+{
+  "id": "filosofia-nahuatl",
+  "tema": "filosofia",
+  "subtema": "filosofia-nahuatl",
+  "titulo": "Pensamiento náhuatl",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los nahuas tenían sabios llamados tlamatinime, que reflexionaban sobre la vida, la muerte y la verdad."
+    },
+    {
+      "texto": "Se preguntaban si en la tierra hay algo verdadero, ya que todo es pasajero, como las flores."
+    },
+    {
+      "texto": "Su respuesta era el arte: flor y canto, in xóchitl in cuícatl, era la forma de decir lo verdadero. Miguel León-Portilla estudió este pensamiento."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sabios",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se llamaban los sabios nahuas?",
+      "opciones": [
+        "Tlamatinime",
+        "Tlatoanis",
+        "Pochtecas"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Eran los que saben algo."
+    },
+    {
+      "id": "flor-canto",
+      "tipo": "completar",
+      "enunciado": "In xóchitl in cuícatl significa flor y ___.",
+      "respuestas_validas": [
+        "canto"
+      ],
+      "explicacion_respuesta": "La poesía era su camino a la verdad."
+    }
+  ]
+}
