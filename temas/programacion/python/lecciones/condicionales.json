@@ -1,0 +1,43 @@
+{
+  "id": "condicionales",
+  "tema": "python",
+  "subtema": "condicionales",
+  "titulo": "Condicionales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Con if el programa decide: ejecuta un bloque solo si la condición es verdadera."
+    },
+    {
+      "texto": "elif revisa otra condición y else cubre todo lo demás. La sangría marca qué está dentro de cada bloque.",
+      "codigo": "if edad >= 18:\n    print(\"adulto\")\nelif edad >= 13:\n    print(\"adolescente\")\nelse:\n    print(\"niño\")"
+    },
+    {
+      "texto": "Para comparar se usa == (igual), != (distinto), < y >. Un solo = sirve para asignar, no para comparar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "igualdad",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué operador compara si dos valores son iguales?",
+      "opciones": [
+        "==",
+        "=",
+        "=>"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "== compara; = asigna un valor a una variable."
+    },
+    {
+      "id": "si-no",
+      "tipo": "completar",
+      "enunciado": "if x > 0:\n    print(\"positivo\")\n___:\n    print(\"no positivo\")",
+      "respuestas_validas": [
+        "else"
+      ],
+      "explicacion_respuesta": "else se ejecuta cuando ninguna condición anterior fue verdadera."
+    }
+  ]
+}

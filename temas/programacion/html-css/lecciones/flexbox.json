@@ -1,0 +1,43 @@
+{
+  "id": "flexbox",
+  "tema": "html-css",
+  "subtema": "flexbox",
+  "titulo": "Flexbox",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Flexbox acomoda elementos en una fila o columna y reparte el espacio entre ellos."
+    },
+    {
+      "texto": "Con display: flex en el contenedor, sus hijos se ponen en fila.",
+      "codigo": ".menu {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}"
+    },
+    {
+      "texto": "justify-content alinea en el eje principal y align-items en el eje cruzado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "activar",
+      "tipo": "completar",
+      "enunciado": ".fila { display: ___; }",
+      "respuestas_validas": [
+        "flex"
+      ],
+      "explicacion_respuesta": "display: flex convierte al elemento en contenedor flexible."
+    },
+    {
+      "id": "centrar-vertical",
+      "tipo": "opcion_multiple",
+      "pregunta": "En una fila flex, ¿qué propiedad centra verticalmente a los hijos?",
+      "opciones": [
+        "align-items",
+        "justify-content",
+        "text-align"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En una fila, el eje cruzado es el vertical y lo controla align-items."
+    }
+  ]
+}

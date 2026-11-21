@@ -1,0 +1,46 @@
+{
+  "id": "buscarx",
+  "tema": "excel",
+  "subtema": "buscarx",
+  "titulo": "BUSCARX y BUSCARV",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "BUSCARX encuentra un valor en una columna y te trae el dato que está en la misma fila de otra columna."
+    },
+    {
+      "texto": "Se escribe con lo que buscas, dónde lo buscas y de dónde traes el resultado.",
+      "codigo": "=BUSCARX(\"Ana\", A2:A50, C2:C50)"
+    },
+    {
+      "texto": "BUSCARV es la versión antigua: solo busca hacia la derecha y necesita el número de columna."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "para-que",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve BUSCARX?",
+      "opciones": [
+        "Traer un dato relacionado buscando un valor",
+        "Sumar una columna",
+        "Ordenar la tabla"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Busca en una columna y devuelve el dato correspondiente de otra."
+    },
+    {
+      "id": "limite-buscarv",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué limitación tiene BUSCARV?",
+      "opciones": [
+        "Solo busca hacia la derecha",
+        "No acepta texto",
+        "Solo funciona con números"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "BUSCARV busca en la primera columna del rango y devuelve columnas a su derecha."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "clases",
+  "tema": "python",
+  "subtema": "clases",
+  "titulo": "Clases y objetos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una clase es un molde para crear objetos que tienen datos y comportamientos juntos."
+    },
+    {
+      "texto": "__init__ se ejecuta al crear el objeto. self es el propio objeto.",
+      "codigo": "class Perro:\n    def __init__(self, nombre):\n        self.nombre = nombre\n    def ladrar(self):\n        return f\"{self.nombre}: guau\""
+    },
+    {
+      "texto": "Creas un objeto llamando a la clase como si fuera función: firulais = Perro(\"Firulais\")."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "self",
+      "tipo": "opcion_multiple",
+      "pregunta": "Dentro de un método, ¿qué representa self?",
+      "opciones": [
+        "El objeto mismo",
+        "La clase padre",
+        "Una variable global"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "self da acceso a los datos del objeto que llama al método."
+    },
+    {
+      "id": "constructor",
+      "tipo": "completar",
+      "enunciado": "El método que se ejecuta al crear un objeto se llama ___.",
+      "respuestas_validas": [
+        "__init__",
+        "init"
+      ],
+      "explicacion_respuesta": "__init__ inicializa los datos del nuevo objeto."
+    }
+  ]
+}

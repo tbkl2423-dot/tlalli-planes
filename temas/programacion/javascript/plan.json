@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Aprende las bases de JavaScript: variables, funciones y cómo tomar decisiones con if.",
-  "version": 3,
+  "version": 4,
   "aliases": [
     "js",
     "javascript basico",
@@ -107,8 +107,8 @@
   ],
   "unidades": [
     {
-      "id": "fundamentos",
-      "titulo": "Fundamentos",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
         {
           "id": "variables",
@@ -127,6 +127,60 @@
           "titulo": "Condicionales",
           "subtema": "condicionales",
           "archivo": "lecciones/condicionales.json"
+        },
+        {
+          "id": "cadenas",
+          "titulo": "Cadenas de texto",
+          "subtema": "cadenas",
+          "archivo": "lecciones/cadenas.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "arreglos",
+          "titulo": "Arreglos",
+          "subtema": "arreglos",
+          "archivo": "lecciones/arreglos.json"
+        },
+        {
+          "id": "ciclos",
+          "titulo": "Ciclos",
+          "subtema": "ciclos",
+          "archivo": "lecciones/ciclos.json"
+        },
+        {
+          "id": "objetos",
+          "titulo": "Objetos",
+          "subtema": "objetos",
+          "archivo": "lecciones/objetos.json"
+        },
+        {
+          "id": "dom",
+          "titulo": "Manipular la página (DOM)",
+          "subtema": "dom",
+          "archivo": "lecciones/dom.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "eventos",
+          "titulo": "Eventos",
+          "subtema": "eventos",
+          "archivo": "lecciones/eventos.json"
+        },
+        {
+          "id": "asincronia",
+          "titulo": "Promesas y async/await",
+          "subtema": "asincronia",
+          "archivo": "lecciones/asincronia.json"
         }
       ]
     }

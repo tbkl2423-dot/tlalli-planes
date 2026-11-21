@@ -1,0 +1,42 @@
+{
+  "id": "perimetros-y-areas",
+  "tema": "matematicas-basicas",
+  "subtema": "perimetros-y-areas",
+  "titulo": "Perímetros y áreas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El perímetro es la medida del contorno: sumas todos los lados."
+    },
+    {
+      "texto": "El área es el espacio de adentro. En un rectángulo es base por altura."
+    },
+    {
+      "texto": "En un triángulo el área es base por altura entre dos, y en un círculo es pi por el radio al cuadrado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "rectangulo",
+      "tipo": "opcion_multiple",
+      "pregunta": "Un rectángulo mide 5 por 3. ¿Cuál es su área?",
+      "opciones": [
+        "15",
+        "16",
+        "8"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Área = base × altura = 5 × 3 = 15."
+    },
+    {
+      "id": "cuadrado",
+      "tipo": "completar",
+      "enunciado": "El perímetro de un cuadrado de lado 4 es ___.",
+      "respuestas_validas": [
+        "16"
+      ],
+      "explicacion_respuesta": "Cuatro lados de 4: 4 × 4 = 16."
+    }
+  ]
+}

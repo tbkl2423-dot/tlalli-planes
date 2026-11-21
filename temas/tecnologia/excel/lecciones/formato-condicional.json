@@ -1,0 +1,45 @@
+{
+  "id": "formato-condicional",
+  "tema": "excel",
+  "subtema": "formato-condicional",
+  "titulo": "Formato condicional",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El formato condicional cambia el color de una celda según su valor."
+    },
+    {
+      "texto": "Por ejemplo, poner en rojo las calificaciones menores a 6 o resaltar los valores duplicados."
+    },
+    {
+      "texto": "También hay barras de datos y escalas de color para ver de un vistazo qué valores son altos o bajos."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "uso",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué hace el formato condicional?",
+      "opciones": [
+        "Cambia el formato según el valor",
+        "Calcula promedios",
+        "Protege la hoja"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Aplica colores o estilos solo a las celdas que cumplen la regla."
+    },
+    {
+      "id": "ejemplo",
+      "tipo": "voz_pregunta",
+      "pregunta": "Da un ejemplo de uso del formato condicional.",
+      "respuesta_esperada": "Resaltar en rojo los valores menores a cierto número.",
+      "palabras_clave": [
+        "resaltar",
+        "color",
+        "rojo"
+      ],
+      "explicacion_respuesta": "Sirve para ver de inmediato lo importante en una tabla."
+    }
+  ]
+}

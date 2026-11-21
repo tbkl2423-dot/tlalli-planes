@@ -1,0 +1,40 @@
+{
+  "id": "grid",
+  "tema": "html-css",
+  "subtema": "grid",
+  "titulo": "CSS Grid",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "CSS Grid crea rejillas de filas y columnas, ideal para la estructura general de una página."
+    },
+    {
+      "texto": "grid-template-columns define las columnas. La unidad fr reparte el espacio disponible.",
+      "codigo": ".galeria {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr;\n  gap: 16px;\n}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fr",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué significa la unidad fr en Grid?",
+      "opciones": [
+        "Una fracción del espacio libre",
+        "Un píxel fijo",
+        "El tamaño de la fuente"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "1fr 2fr reparte el espacio en partes de una y dos fracciones."
+    },
+    {
+      "id": "separacion",
+      "tipo": "completar",
+      "enunciado": "La propiedad ___ separa las celdas de una rejilla.",
+      "respuestas_validas": [
+        "gap"
+      ],
+      "explicacion_respuesta": "gap agrega espacio entre filas y columnas."
+    }
+  ]
+}

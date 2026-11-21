@@ -1,0 +1,43 @@
+{
+  "id": "razones-y-proporciones",
+  "tema": "matematicas-basicas",
+  "subtema": "razones-y-proporciones",
+  "titulo": "Razones y proporciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una razón compara dos cantidades, como 2 tazas de agua por 1 de arroz."
+    },
+    {
+      "texto": "Una proporción dice que dos razones son iguales."
+    },
+    {
+      "texto": "La regla de tres resuelve proporciones. Si 3 tortas cuestan 60 pesos, 5 tortas cuestan 5 por 60 entre 3, o sea 100.",
+      "codigo": "3 → 60\n5 → x\nx = 5 × 60 / 3 = 100"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "regla-tres",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 2 kilos cuestan 50 pesos, ¿cuánto cuestan 4 kilos?",
+      "opciones": [
+        "100",
+        "75",
+        "200"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El doble de kilos cuesta el doble: 100."
+    },
+    {
+      "id": "razon",
+      "tipo": "completar",
+      "enunciado": "Si hay 6 niñas y 3 niños, la razón niñas a niños es ___:1.",
+      "respuestas_validas": [
+        "2"
+      ],
+      "explicacion_respuesta": "6 entre 3 da 2: hay dos niñas por cada niño."
+    }
+  ]
+}

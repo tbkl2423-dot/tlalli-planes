@@ -1,0 +1,43 @@
+{
+  "id": "ecuaciones-lineales",
+  "tema": "matematicas-basicas",
+  "subtema": "ecuaciones-lineales",
+  "titulo": "Ecuaciones de primer grado",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una ecuación es una igualdad con un valor desconocido, normalmente x."
+    },
+    {
+      "texto": "Para despejar x haz la operación contraria en ambos lados: si suma, resta; si multiplica, divide."
+    },
+    {
+      "texto": "Ejemplo: 3x + 2 = 11. Restas 2 y queda 3x = 9. Divides entre 3 y x = 3.",
+      "codigo": "3x + 2 = 11\n3x = 9\nx = 3"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "despejar",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si x + 7 = 10, ¿cuánto vale x?",
+      "opciones": [
+        "3",
+        "17",
+        "70"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Restamos 7 a ambos lados: x = 3."
+    },
+    {
+      "id": "despejar-2",
+      "tipo": "completar",
+      "enunciado": "Si 4x = 20, x = ___",
+      "respuestas_validas": [
+        "5"
+      ],
+      "explicacion_respuesta": "Dividimos entre 4: 20 / 4 = 5."
+    }
+  ]
+}

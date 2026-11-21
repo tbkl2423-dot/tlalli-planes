@@ -1,0 +1,44 @@
+{
+  "id": "dom",
+  "tema": "javascript",
+  "subtema": "dom",
+  "titulo": "Manipular la página (DOM)",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El DOM es la representación de la página que JavaScript puede leer y cambiar."
+    },
+    {
+      "texto": "querySelector busca un elemento con un selector de CSS.",
+      "codigo": "const titulo = document.querySelector(\"h1\");\ntitulo.textContent = \"Hola\";"
+    },
+    {
+      "texto": "classList.add y classList.remove agregan o quitan clases para cambiar el estilo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "buscar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué método busca el primer elemento que coincide con un selector?",
+      "opciones": [
+        "querySelector",
+        "getElement",
+        "find"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "document.querySelector usa la misma sintaxis que CSS."
+    },
+    {
+      "id": "texto",
+      "tipo": "completar",
+      "enunciado": "titulo.___ = \"Nuevo título\";",
+      "respuestas_validas": [
+        "textContent",
+        "innerText"
+      ],
+      "explicacion_respuesta": "textContent cambia el texto del elemento."
+    }
+  ]
+}

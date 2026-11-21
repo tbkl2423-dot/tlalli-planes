@@ -1,0 +1,45 @@
+{
+  "id": "there-is-there-are",
+  "tema": "ingles-a1",
+  "subtema": "there-is-there-are",
+  "titulo": "There is / there are",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "There is significa hay cuando hablas de una sola cosa: there is a cat."
+    },
+    {
+      "texto": "There are es hay para varias cosas: there are two cats."
+    },
+    {
+      "texto": "Para preguntar: is there a bank near here?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "hay-libros",
+      "tipo": "opcion_multiple",
+      "pregunta": "Completa: ___ three books on the table.",
+      "opciones": [
+        "There are",
+        "There is",
+        "They are"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Three books es plural, por eso there are."
+    },
+    {
+      "id": "hay-parque",
+      "tipo": "traduccion",
+      "frase": "Hay un parque",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "there is a park",
+        "there's a park"
+      ],
+      "explicacion_respuesta": "Un solo parque: there is."
+    }
+  ]
+}

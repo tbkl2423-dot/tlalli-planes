@@ -1,0 +1,43 @@
+{
+  "id": "modelo-de-caja",
+  "tema": "html-css",
+  "subtema": "modelo-de-caja",
+  "titulo": "Modelo de caja",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "En CSS cada elemento es una caja con cuatro capas: contenido, padding, border y margin."
+    },
+    {
+      "texto": "padding es el espacio interior entre el contenido y el borde. margin es el espacio exterior que lo separa de otros elementos."
+    },
+    {
+      "texto": "box-sizing: border-box hace que el ancho incluya padding y borde, lo que facilita los cálculos.",
+      "codigo": "* { box-sizing: border-box; }"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "espacio-interior",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué propiedad agrega espacio dentro de la caja, antes del borde?",
+      "opciones": [
+        "padding",
+        "margin",
+        "gap"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "padding es el relleno interior; margin es el espacio exterior."
+    },
+    {
+      "id": "exterior",
+      "tipo": "completar",
+      "enunciado": "El espacio fuera del borde se llama ___.",
+      "respuestas_validas": [
+        "margin"
+      ],
+      "explicacion_respuesta": "margin separa la caja de sus vecinas."
+    }
+  ]
+}

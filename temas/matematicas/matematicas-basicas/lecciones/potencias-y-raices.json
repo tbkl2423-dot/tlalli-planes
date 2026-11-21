@@ -1,0 +1,42 @@
+{
+  "id": "potencias-y-raices",
+  "tema": "matematicas-basicas",
+  "subtema": "potencias-y-raices",
+  "titulo": "Potencias y raíces",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una potencia es una multiplicación repetida: 2 a la 3 es 2 × 2 × 2, que da 8."
+    },
+    {
+      "texto": "La raíz cuadrada es lo contrario de elevar al cuadrado: la raíz de 25 es 5, porque 5 × 5 = 25."
+    },
+    {
+      "texto": "Cualquier número elevado a la cero da uno."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "potencia",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 3²?",
+      "opciones": [
+        "9",
+        "6",
+        "5"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "3² = 3 × 3 = 9."
+    },
+    {
+      "id": "raiz",
+      "tipo": "completar",
+      "enunciado": "La raíz cuadrada de 49 es ___.",
+      "respuestas_validas": [
+        "7"
+      ],
+      "explicacion_respuesta": "7 × 7 = 49."
+    }
+  ]
+}

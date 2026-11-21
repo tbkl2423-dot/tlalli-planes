@@ -1,0 +1,42 @@
+{
+  "id": "tablas-dinamicas",
+  "tema": "excel",
+  "subtema": "tablas-dinamicas",
+  "titulo": "Tablas dinámicas",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una tabla dinámica resume muchos datos en segundos, por ejemplo ventas totales por vendedor y por mes."
+    },
+    {
+      "texto": "Arrastras campos a filas, columnas y valores, y Excel calcula sumas, conteos o promedios."
+    },
+    {
+      "texto": "Si cambian los datos originales, usa Actualizar para recalcularla."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "para-que",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Para qué sirve una tabla dinámica?",
+      "opciones": [
+        "Resumir y agrupar datos",
+        "Dibujar formas",
+        "Revisar ortografía"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Agrupa y calcula totales sin escribir fórmulas."
+    },
+    {
+      "id": "actualizar",
+      "tipo": "completar",
+      "enunciado": "Si cambian los datos de origen hay que ___ la tabla dinámica.",
+      "respuestas_validas": [
+        "actualizar"
+      ],
+      "explicacion_respuesta": "La tabla dinámica no se recalcula sola: se actualiza."
+    }
+  ]
+}

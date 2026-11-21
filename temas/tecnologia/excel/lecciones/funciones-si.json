@@ -1,0 +1,43 @@
+{
+  "id": "funciones-si",
+  "tema": "excel",
+  "subtema": "funciones-si",
+  "titulo": "Función SI",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La función SI elige un resultado según una condición."
+    },
+    {
+      "texto": "Tiene tres partes: la condición, lo que muestra si es verdadera y lo que muestra si es falsa.",
+      "codigo": "=SI(B2>=6, \"Aprobado\", \"Reprobado\")"
+    },
+    {
+      "texto": "Para revisar varias condiciones a la vez puedes combinarla con Y u O."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "resultado",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si B2 vale 5, ¿qué muestra =SI(B2>=6,\"Sí\",\"No\")?",
+      "opciones": [
+        "No",
+        "Sí",
+        "5"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "5 no es mayor o igual a 6, así que muestra el valor falso."
+    },
+    {
+      "id": "partes",
+      "tipo": "completar",
+      "enunciado": "=SI(condición, valor si verdadero, valor si ___)",
+      "respuestas_validas": [
+        "falso"
+      ],
+      "explicacion_respuesta": "El tercer argumento es lo que se muestra cuando la condición no se cumple."
+    }
+  ]
+}

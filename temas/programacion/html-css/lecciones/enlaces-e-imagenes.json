@@ -1,0 +1,41 @@
+{
+  "id": "enlaces-e-imagenes",
+  "tema": "html-css",
+  "subtema": "enlaces-e-imagenes",
+  "titulo": "Enlaces e imágenes",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La etiqueta a crea un enlace. href indica a dónde lleva.",
+      "codigo": "<a href=\"https://es.wikipedia.org\">Wikipedia</a>"
+    },
+    {
+      "texto": "img muestra una imagen. src es la ruta y alt describe la imagen para quien no puede verla.",
+      "codigo": "<img src=\"gato.jpg\" alt=\"Gato dormido en una silla\">"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "href",
+      "tipo": "completar",
+      "enunciado": "<a ___=\"pagina.html\">Ir</a>",
+      "respuestas_validas": [
+        "href"
+      ],
+      "explicacion_respuesta": "href guarda la dirección del enlace."
+    },
+    {
+      "id": "para-que-alt",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Para qué sirve el atributo alt de una imagen?",
+      "respuesta_esperada": "Para describir la imagen a quien no puede verla.",
+      "palabras_clave": [
+        "describir",
+        "describe",
+        "lector"
+      ],
+      "explicacion_respuesta": "Los lectores de pantalla leen el alt y también aparece si la imagen no carga."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "presente-continuo",
+  "tema": "ingles-a1",
+  "subtema": "presente-continuo",
+  "titulo": "Presente continuo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El presente continuo habla de lo que pasa ahora mismo."
+    },
+    {
+      "texto": "Se forma con am, is o are más el verbo con ing: I am reading, she is cooking."
+    },
+    {
+      "texto": "Ejemplo: what are you doing? significa ¿qué estás haciendo?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "ahora",
+      "tipo": "completar",
+      "enunciado": "They ___ playing football now.",
+      "respuestas_validas": [
+        "are"
+      ],
+      "explicacion_respuesta": "Con they se usa are."
+    },
+    {
+      "id": "estoy-comiendo",
+      "tipo": "traduccion",
+      "frase": "Estoy comiendo",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i am eating",
+        "i'm eating"
+      ],
+      "explicacion_respuesta": "Am más el verbo con ing."
+    }
+  ]
+}

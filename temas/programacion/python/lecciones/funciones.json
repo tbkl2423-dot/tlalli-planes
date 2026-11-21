@@ -1,0 +1,43 @@
+{
+  "id": "funciones",
+  "tema": "python",
+  "subtema": "funciones",
+  "titulo": "Funciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una función agrupa código con un nombre para reutilizarlo. Se define con def.",
+      "codigo": "def saludar(nombre):\n    return f\"Hola, {nombre}\""
+    },
+    {
+      "texto": "Los parámetros son los datos que recibe. return devuelve el resultado a quien la llamó."
+    },
+    {
+      "texto": "Si una función no tiene return, devuelve None, que significa nada."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "definir",
+      "tipo": "completar",
+      "enunciado": "___ doble(n):\n    return n * 2",
+      "respuestas_validas": [
+        "def"
+      ],
+      "explicacion_respuesta": "def define una función nueva."
+    },
+    {
+      "id": "sin-return",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué devuelve una función que no tiene return?",
+      "opciones": [
+        "None",
+        "0",
+        "Un error"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Python devuelve None cuando no hay return."
+    }
+  ]
+}

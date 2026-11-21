@@ -1,0 +1,42 @@
+{
+  "id": "numeros-enteros",
+  "tema": "matematicas-basicas",
+  "subtema": "numeros-enteros",
+  "titulo": "Números enteros y negativos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los números enteros incluyen los positivos, el cero y los negativos, como menos tres."
+    },
+    {
+      "texto": "En la recta numérica, los negativos están a la izquierda del cero. Mientras más a la izquierda, más pequeño."
+    },
+    {
+      "texto": "Al multiplicar: signos iguales dan positivo y signos distintos dan negativo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "mayor",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es mayor?",
+      "opciones": [
+        "-2",
+        "-5",
+        "-10"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "-2 está más cerca del cero, a la derecha de los otros."
+    },
+    {
+      "id": "signos",
+      "tipo": "completar",
+      "enunciado": "(-3) × (-4) = ___",
+      "respuestas_validas": [
+        "12"
+      ],
+      "explicacion_respuesta": "Menos por menos da más: 3 × 4 = 12."
+    }
+  ]
+}

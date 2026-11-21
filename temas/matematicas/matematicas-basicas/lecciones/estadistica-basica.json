@@ -1,0 +1,42 @@
+{
+  "id": "estadistica-basica",
+  "tema": "matematicas-basicas",
+  "subtema": "estadistica-basica",
+  "titulo": "Promedio, mediana y moda",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "La media o promedio se obtiene sumando todos los datos y dividiendo entre cuántos son."
+    },
+    {
+      "texto": "La mediana es el dato de en medio cuando los ordenas."
+    },
+    {
+      "texto": "La moda es el dato que más se repite."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "promedio",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el promedio de 4, 6 y 8?",
+      "opciones": [
+        "6",
+        "18",
+        "8"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "4 + 6 + 8 = 18, entre 3 da 6."
+    },
+    {
+      "id": "moda",
+      "tipo": "completar",
+      "enunciado": "En 2, 3, 3, 5, 7 la moda es ___.",
+      "respuestas_validas": [
+        "3"
+      ],
+      "explicacion_respuesta": "El 3 aparece dos veces, más que los demás."
+    }
+  ]
+}

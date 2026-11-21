@@ -1,0 +1,43 @@
+{
+  "id": "excepciones",
+  "tema": "python",
+  "subtema": "excepciones",
+  "titulo": "Errores y excepciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una excepción es un error que ocurre mientras el programa corre, como dividir entre cero."
+    },
+    {
+      "texto": "Con try y except atrapas el error y decides qué hacer en vez de que el programa se detenga.",
+      "codigo": "try:\n    n = int(\"hola\")\nexcept ValueError:\n    print(\"Eso no es un número\")"
+    },
+    {
+      "texto": "Con raise lanzas tu propio error cuando algo no tiene sentido."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "atrapar",
+      "tipo": "completar",
+      "enunciado": "try:\n    x = 1 / 0\n___ ZeroDivisionError:\n    print(\"No se puede\")",
+      "respuestas_validas": [
+        "except"
+      ],
+      "explicacion_respuesta": "except atrapa el tipo de error indicado."
+    },
+    {
+      "id": "raise",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué palabra lanza un error a propósito?",
+      "opciones": [
+        "raise",
+        "throw",
+        "error"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "En Python se usa raise; throw es de otros lenguajes."
+    }
+  ]
+}

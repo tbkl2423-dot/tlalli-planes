@@ -1,0 +1,43 @@
+{
+  "id": "presente-simple",
+  "tema": "ingles-a1",
+  "subtema": "presente-simple",
+  "titulo": "Presente simple",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El presente simple sirve para rutinas y hechos: I work, you play."
+    },
+    {
+      "texto": "Con he, she e it el verbo lleva s: she works, he plays."
+    },
+    {
+      "texto": "Para negar se usa don't o doesn't y para preguntar do o does: does she work?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tercera",
+      "tipo": "opcion_multiple",
+      "pregunta": "Completa: She ___ coffee every day.",
+      "opciones": [
+        "drinks",
+        "drink",
+        "drinking"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con she el verbo lleva s."
+    },
+    {
+      "id": "negacion",
+      "tipo": "completar",
+      "enunciado": "He ___ like tea.",
+      "respuestas_validas": [
+        "doesn't",
+        "does not"
+      ],
+      "explicacion_respuesta": "Con he, she e it la negación usa doesn't."
+    }
+  ]
+}

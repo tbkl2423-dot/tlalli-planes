@@ -1,0 +1,43 @@
+{
+  "id": "objetos",
+  "tema": "javascript",
+  "subtema": "objetos",
+  "titulo": "Objetos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un objeto agrupa datos con nombre, llamados propiedades.",
+      "codigo": "const perro = { nombre: \"Kiki\", edad: 3 };\nconsole.log(perro.nombre);"
+    },
+    {
+      "texto": "Puedes leer o cambiar una propiedad con punto o con corchetes: perro[\"edad\"]."
+    },
+    {
+      "texto": "JSON es un formato de texto basado en objetos. JSON.stringify convierte un objeto en texto y JSON.parse hace lo contrario."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "leer-prop",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si p = { x: 5 }, ¿qué da p.x?",
+      "opciones": [
+        "5",
+        "\"x\"",
+        "undefined"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con el punto accedes al valor de la propiedad."
+    },
+    {
+      "id": "a-texto",
+      "tipo": "completar",
+      "enunciado": "JSON.___(objeto) convierte un objeto en texto.",
+      "respuestas_validas": [
+        "stringify"
+      ],
+      "explicacion_respuesta": "stringify serializa el objeto a una cadena JSON."
+    }
+  ]
+}

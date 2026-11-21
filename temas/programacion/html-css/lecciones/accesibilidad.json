@@ -1,0 +1,44 @@
+{
+  "id": "accesibilidad",
+  "tema": "html-css",
+  "subtema": "accesibilidad",
+  "titulo": "Accesibilidad web",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una página accesible la pueden usar todas las personas, incluyendo quienes usan lector de pantalla o solo teclado."
+    },
+    {
+      "texto": "Usa etiquetas con significado: button para botones, nav para menús y encabezados h1 a h6 en orden."
+    },
+    {
+      "texto": "Asegura buen contraste entre texto y fondo, y que todo funcione con la tecla Tab."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "boton",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué conviene usar para una acción que se activa con clic?",
+      "opciones": [
+        "Un button",
+        "Un div con onclick",
+        "Un span"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "button ya funciona con teclado y lector de pantalla."
+    },
+    {
+      "id": "contraste",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué importa el contraste entre texto y fondo?",
+      "respuesta_esperada": "Para que el texto se pueda leer bien, también con baja visión.",
+      "palabras_clave": [
+        "leer",
+        "vision"
+      ],
+      "explicacion_respuesta": "Un contraste bajo hace el texto difícil de leer para muchas personas."
+    }
+  ]
+}

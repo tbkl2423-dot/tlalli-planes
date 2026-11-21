@@ -1,0 +1,43 @@
+{
+  "id": "formularios",
+  "tema": "html-css",
+  "subtema": "formularios",
+  "titulo": "Formularios",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un formulario recoge datos del usuario. Se crea con la etiqueta form."
+    },
+    {
+      "texto": "input crea campos; su type indica el tipo: text, email, password o number. label le pone nombre al campo.",
+      "codigo": "<label for=\"correo\">Correo</label>\n<input id=\"correo\" type=\"email\">"
+    },
+    {
+      "texto": "Relacionar label con el input ayuda a la accesibilidad: al tocar el texto se activa el campo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tipo-correo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué type de input es para correos?",
+      "opciones": [
+        "email",
+        "mail",
+        "text"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "type=\"email\" además valida el formato y muestra el teclado adecuado."
+    },
+    {
+      "id": "etiqueta",
+      "tipo": "completar",
+      "enunciado": "<___ for=\"nombre\">Nombre</___>",
+      "respuestas_validas": [
+        "label"
+      ],
+      "explicacion_respuesta": "label da un nombre visible y accesible al campo."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "graficos",
+  "tema": "excel",
+  "subtema": "graficos",
+  "titulo": "Gráficos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un gráfico convierte números en una imagen fácil de entender."
+    },
+    {
+      "texto": "Las columnas comparan categorías, las líneas muestran cambios en el tiempo y los circulares muestran partes de un total."
+    },
+    {
+      "texto": "Selecciona los datos con sus encabezados y usa la pestaña Insertar."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "tiempo",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué gráfico conviene para ver ventas mes a mes?",
+      "opciones": [
+        "De líneas",
+        "Circular",
+        "De dispersión"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las líneas muestran tendencias a lo largo del tiempo."
+    },
+    {
+      "id": "partes",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué gráfico muestra partes de un total?",
+      "opciones": [
+        "Circular",
+        "De líneas",
+        "De barras apiladas al revés"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El circular, o de pastel, muestra porcentajes del total."
+    }
+  ]
+}

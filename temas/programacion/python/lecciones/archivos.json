@@ -1,0 +1,45 @@
+{
+  "id": "archivos",
+  "tema": "python",
+  "subtema": "archivos",
+  "titulo": "Leer y escribir archivos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "open abre un archivo. Con with se cierra solo al terminar.",
+      "codigo": "with open(\"notas.txt\") as f:\n    texto = f.read()"
+    },
+    {
+      "texto": "El modo \"r\" lee, \"w\" escribe borrando lo que había y \"a\" agrega al final."
+    },
+    {
+      "texto": "Para escribir usas write.",
+      "codigo": "with open(\"notas.txt\", \"a\") as f:\n    f.write(\"Nueva línea\\n\")"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "modo-agregar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué modo agrega texto al final sin borrar lo anterior?",
+      "opciones": [
+        "\"a\"",
+        "\"w\"",
+        "\"r\""
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "\"a\" significa append, agregar al final."
+    },
+    {
+      "id": "por-que-with",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Por qué conviene abrir archivos con with?",
+      "respuesta_esperada": "Porque cierra el archivo automáticamente.",
+      "palabras_clave": [
+        "cierra"
+      ],
+      "explicacion_respuesta": "with garantiza que el archivo se cierre aunque ocurra un error."
+    }
+  ]
+}

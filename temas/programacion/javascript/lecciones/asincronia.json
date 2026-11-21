@@ -1,0 +1,46 @@
+{
+  "id": "asincronia",
+  "tema": "javascript",
+  "subtema": "asincronia",
+  "titulo": "Promesas y async/await",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Algunas tareas tardan, como pedir datos a internet. JavaScript no se queda congelado esperando."
+    },
+    {
+      "texto": "Una promesa representa un valor que llegará después: puede cumplirse o fallar."
+    },
+    {
+      "texto": "Con async y await escribes código asíncrono como si fuera en orden.",
+      "codigo": "async function cargar() {\n  const r = await fetch(\"/datos.json\");\n  return await r.json();\n}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "await",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Dónde se puede usar await?",
+      "opciones": [
+        "Dentro de una función async",
+        "En cualquier lugar",
+        "Solo en ciclos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "await solo funciona dentro de funciones marcadas con async (o en módulos)."
+    },
+    {
+      "id": "promesa",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué es una promesa en JavaScript?",
+      "respuesta_esperada": "Un valor que estará disponible en el futuro.",
+      "palabras_clave": [
+        "futuro",
+        "despues",
+        "luego"
+      ],
+      "explicacion_respuesta": "Una promesa se cumple o se rechaza más adelante."
+    }
+  ]
+}

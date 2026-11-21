@@ -1,0 +1,43 @@
+{
+  "id": "eventos",
+  "tema": "javascript",
+  "subtema": "eventos",
+  "titulo": "Eventos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un evento es algo que pasa en la página: un clic, una tecla o el envío de un formulario."
+    },
+    {
+      "texto": "addEventListener ejecuta una función cuando ocurre el evento.",
+      "codigo": "boton.addEventListener(\"click\", () => {\n  alert(\"¡Clic!\");\n});"
+    },
+    {
+      "texto": "En un formulario, event.preventDefault evita que la página se recargue al enviarlo."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "escuchar",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué método conecta una función con un evento?",
+      "opciones": [
+        "addEventListener",
+        "onEvent",
+        "listen"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "addEventListener recibe el tipo de evento y la función."
+    },
+    {
+      "id": "evento-clic",
+      "tipo": "completar",
+      "enunciado": "boton.addEventListener(\"___\", saludar);",
+      "respuestas_validas": [
+        "click"
+      ],
+      "explicacion_respuesta": "click es el evento de hacer clic."
+    }
+  ]
+}

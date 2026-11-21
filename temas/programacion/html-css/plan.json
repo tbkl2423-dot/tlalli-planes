@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Crea tu primera página web: la estructura con HTML y el estilo con CSS.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "html",
     "css",
@@ -96,8 +96,8 @@
   ],
   "unidades": [
     {
-      "id": "primera-pagina",
-      "titulo": "Tu primera página",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
         {
           "id": "etiquetas-html",
@@ -110,6 +110,60 @@
           "titulo": "Selectores y colores en CSS",
           "subtema": "selectores-css",
           "archivo": "lecciones/selectores-css.json"
+        },
+        {
+          "id": "enlaces-e-imagenes",
+          "titulo": "Enlaces e imágenes",
+          "subtema": "enlaces-e-imagenes",
+          "archivo": "lecciones/enlaces-e-imagenes.json"
+        },
+        {
+          "id": "formularios",
+          "titulo": "Formularios",
+          "subtema": "formularios",
+          "archivo": "lecciones/formularios.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "modelo-de-caja",
+          "titulo": "Modelo de caja",
+          "subtema": "modelo-de-caja",
+          "archivo": "lecciones/modelo-de-caja.json"
+        },
+        {
+          "id": "flexbox",
+          "titulo": "Flexbox",
+          "subtema": "flexbox",
+          "archivo": "lecciones/flexbox.json"
+        },
+        {
+          "id": "grid",
+          "titulo": "CSS Grid",
+          "subtema": "grid",
+          "archivo": "lecciones/grid.json"
+        },
+        {
+          "id": "responsive",
+          "titulo": "Diseño responsivo",
+          "subtema": "responsive",
+          "archivo": "lecciones/responsive.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "accesibilidad",
+          "titulo": "Accesibilidad web",
+          "subtema": "accesibilidad",
+          "archivo": "lecciones/accesibilidad.json"
         }
       ]
     }

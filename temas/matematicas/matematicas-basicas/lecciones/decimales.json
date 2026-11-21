@@ -1,0 +1,42 @@
+{
+  "id": "decimales",
+  "tema": "matematicas-basicas",
+  "subtema": "decimales",
+  "titulo": "Números decimales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los decimales expresan partes de una unidad. En 3.25, el 3 son enteros y el 25 son centésimos."
+    },
+    {
+      "texto": "Para sumar o restar decimales, alinea el punto decimal."
+    },
+    {
+      "texto": "Multiplicar por 10 recorre el punto un lugar a la derecha; dividir entre 10, un lugar a la izquierda."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "por-diez",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 4.7 × 10?",
+      "opciones": [
+        "47",
+        "0.47",
+        "470"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El punto se recorre un lugar a la derecha."
+    },
+    {
+      "id": "suma",
+      "tipo": "completar",
+      "enunciado": "1.5 + 2.25 = ___",
+      "respuestas_validas": [
+        "3.75"
+      ],
+      "explicacion_respuesta": "Alineando el punto: 1.50 + 2.25 = 3.75."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ciclos",
+  "tema": "python",
+  "subtema": "ciclos",
+  "titulo": "Ciclos for y while",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "for recorre cada elemento de una lista o de un rango de números.",
+      "codigo": "for fruta in [\"mango\", \"pera\"]:\n    print(fruta)"
+    },
+    {
+      "texto": "range(5) da los números del 0 al 4. El último número no se incluye.",
+      "codigo": "for i in range(5):\n    print(i)   # 0 1 2 3 4"
+    },
+    {
+      "texto": "while repite mientras una condición sea verdadera. Cuida que la condición cambie, o el ciclo nunca termina."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "range-final",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué números produce range(3)?",
+      "opciones": [
+        "0, 1, 2",
+        "1, 2, 3",
+        "0, 1, 2, 3"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "range empieza en 0 y se detiene antes del número indicado."
+    },
+    {
+      "id": "ciclo-infinito",
+      "tipo": "voz_pregunta",
+      "pregunta": "¿Qué pasa si la condición de un while nunca se vuelve falsa?",
+      "respuesta_esperada": "El ciclo se repite para siempre.",
+      "palabras_clave": [
+        "siempre",
+        "infinito",
+        "nunca termina"
+      ],
+      "explicacion_respuesta": "Se vuelve un ciclo infinito; hay que cambiar la condición dentro del ciclo."
+    }
+  ]
+}

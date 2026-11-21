@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Inglés para principiantes: saludar, presentarte y usar el verbo to be en frases simples.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "ingles basico",
     "english a1",
@@ -113,7 +113,7 @@
   ],
   "unidades": [
     {
-      "id": "primeros-pasos",
+      "id": "unidad-1",
       "titulo": "Primeros pasos",
       "lecciones": [
         {
@@ -127,6 +127,78 @@
           "titulo": "El verbo to be",
           "subtema": "verbo-to-be",
           "archivo": "lecciones/verbo-to-be.json"
+        },
+        {
+          "id": "numeros-y-hora",
+          "titulo": "Números, fechas y la hora",
+          "subtema": "numeros-y-hora",
+          "archivo": "lecciones/numeros-y-hora.json"
+        },
+        {
+          "id": "articulos-y-plurales",
+          "titulo": "Artículos y plurales",
+          "subtema": "articulos-y-plurales",
+          "archivo": "lecciones/articulos-y-plurales.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "pronombres-y-posesivos",
+          "titulo": "Pronombres y posesivos",
+          "subtema": "pronombres-y-posesivos",
+          "archivo": "lecciones/pronombres-y-posesivos.json"
+        },
+        {
+          "id": "there-is-there-are",
+          "titulo": "There is / there are",
+          "subtema": "there-is-there-are",
+          "archivo": "lecciones/there-is-there-are.json"
+        },
+        {
+          "id": "presente-simple",
+          "titulo": "Presente simple",
+          "subtema": "presente-simple",
+          "archivo": "lecciones/presente-simple.json"
+        },
+        {
+          "id": "preguntas-wh",
+          "titulo": "Preguntas con what, where, who",
+          "subtema": "preguntas-wh",
+          "archivo": "lecciones/preguntas-wh.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "can",
+          "titulo": "Can para habilidades",
+          "subtema": "can",
+          "archivo": "lecciones/can.json"
+        },
+        {
+          "id": "preposiciones-de-lugar",
+          "titulo": "Preposiciones de lugar",
+          "subtema": "preposiciones-de-lugar",
+          "archivo": "lecciones/preposiciones-de-lugar.json"
+        },
+        {
+          "id": "presente-continuo",
+          "titulo": "Presente continuo",
+          "subtema": "presente-continuo",
+          "archivo": "lecciones/presente-continuo.json"
+        },
+        {
+          "id": "imperativos",
+          "titulo": "Instrucciones (imperativo)",
+          "subtema": "imperativos",
+          "archivo": "lecciones/imperativos.json"
         }
       ]
     }

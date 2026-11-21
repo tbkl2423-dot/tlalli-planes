@@ -1,0 +1,68 @@
+{
+  "id": "arreglos",
+  "tema": "javascript",
+  "subtema": "arreglos",
+  "titulo": "Arreglos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un arreglo guarda una lista de valores en orden. Las posiciones empiezan en 0.",
+      "codigo": "const frutas = [\"mango\", \"pera\"];\nfrutas.push(\"uva\");"
+    },
+    {
+      "texto": "map crea un arreglo nuevo transformando cada elemento, y filter se queda solo con los que cumplen una condición.",
+      "codigo": "[1, 2, 3].map(n => n * 2)        // [2, 4, 6]\n[1, 2, 3].filter(n => n > 1)    // [2, 3]"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "filter",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué método se queda solo con los elementos que cumplen una condición?",
+      "opciones": [
+        "filter",
+        "map",
+        "push"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "filter filtra; map transforma; push agrega."
+    },
+    {
+      "id": "pares",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función pares que reciba un arreglo de números y regrese solo los pares.",
+      "codigo_inicial": "function pares(numeros) {\n  // tu código aquí\n}",
+      "funcion": "pares",
+      "pruebas": [
+        {
+          "entrada": [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "salida": [
+            2,
+            4
+          ]
+        },
+        {
+          "entrada": [
+            [
+              5,
+              7
+            ]
+          ],
+          "salida": []
+        }
+      ],
+      "solucion": "function pares(numeros) {\n  return numeros.filter(n => n % 2 === 0);\n}",
+      "pista": "Un número es par si n % 2 === 0",
+      "explicacion_respuesta": "filter con n % 2 === 0 deja solo los números divisibles entre 2."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "can",
+  "tema": "ingles-a1",
+  "subtema": "can",
+  "titulo": "Can para habilidades",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Can expresa habilidad o permiso: I can swim significa sé nadar o puedo nadar."
+    },
+    {
+      "texto": "No cambia con ninguna persona: she can, they can."
+    },
+    {
+      "texto": "La negación es can't y la pregunta pone can al inicio: can you help me?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "can-ella",
+      "tipo": "opcion_multiple",
+      "pregunta": "Completa: She ___ speak English.",
+      "opciones": [
+        "can",
+        "cans",
+        "can to"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Can nunca lleva s y el verbo va directo."
+    },
+    {
+      "id": "no-puedo",
+      "tipo": "traduccion",
+      "frase": "No puedo venir",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "i can't come",
+        "i cannot come",
+        "i can not come"
+      ],
+      "explicacion_respuesta": "La negación de can es can't."
+    }
+  ]
+}

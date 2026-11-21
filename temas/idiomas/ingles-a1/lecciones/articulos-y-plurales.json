@@ -1,0 +1,42 @@
+{
+  "id": "articulos-y-plurales",
+  "tema": "ingles-a1",
+  "subtema": "articulos-y-plurales",
+  "titulo": "Artículos y plurales",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "A y an significan un o una. Se usa an antes de sonido de vocal: an apple, a book."
+    },
+    {
+      "texto": "The es el artículo definido: el, la, los o las."
+    },
+    {
+      "texto": "Casi siempre el plural se forma agregando s: cat, cats. Algunos son irregulares: child, children."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "an",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es correcto?",
+      "opciones": [
+        "an orange",
+        "a orange",
+        "the a orange"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Orange empieza con sonido de vocal, por eso se usa an."
+    },
+    {
+      "id": "plural-irregular",
+      "tipo": "completar",
+      "enunciado": "El plural de child es ___.",
+      "respuestas_validas": [
+        "children"
+      ],
+      "explicacion_respuesta": "Child es irregular: children."
+    }
+  ]
+}

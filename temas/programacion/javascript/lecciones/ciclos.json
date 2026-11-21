@@ -1,0 +1,63 @@
+{
+  "id": "ciclos",
+  "tema": "javascript",
+  "subtema": "ciclos",
+  "titulo": "Ciclos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "for repite un bloque un número de veces.",
+      "codigo": "for (let i = 0; i < 3; i++) {\n  console.log(i);\n}"
+    },
+    {
+      "texto": "for of recorre directamente los elementos de un arreglo.",
+      "codigo": "for (const fruta of frutas) {\n  console.log(fruta);\n}"
+    },
+    {
+      "texto": "while repite mientras la condición sea verdadera."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "for-of",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué ciclo recorre directamente los valores de un arreglo?",
+      "opciones": [
+        "for of",
+        "for in",
+        "do"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "for of entrega cada valor; for in entrega las claves."
+    },
+    {
+      "id": "sumar",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función sumar que reciba un arreglo y regrese la suma de todos sus números usando un ciclo.",
+      "codigo_inicial": "function sumar(numeros) {\n  let total = 0;\n  // tu código aquí\n  return total;\n}",
+      "funcion": "sumar",
+      "pruebas": [
+        {
+          "entrada": [
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "salida": 6
+        },
+        {
+          "entrada": [
+            []
+          ],
+          "salida": 0
+        }
+      ],
+      "solucion": "function sumar(numeros) {\n  let total = 0;\n  for (const n of numeros) total += n;\n  return total;\n}",
+      "explicacion_respuesta": "El ciclo va acumulando cada número en total."
+    }
+  ]
+}

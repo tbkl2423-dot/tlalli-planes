@@ -1,0 +1,45 @@
+{
+  "id": "pronombres-y-posesivos",
+  "tema": "ingles-a1",
+  "subtema": "pronombres-y-posesivos",
+  "titulo": "Pronombres y posesivos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los pronombres personales son I, you, he, she, it, we y they."
+    },
+    {
+      "texto": "Los posesivos indican de quién es algo: my, your, his, her, its, our y their."
+    },
+    {
+      "texto": "Ejemplo: this is my book significa este es mi libro."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "su-casa",
+      "tipo": "traduccion",
+      "frase": "Es su casa (de ella)",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "it is her house",
+        "it's her house"
+      ],
+      "explicacion_respuesta": "Para ella se usa her."
+    },
+    {
+      "id": "nuestro",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice nuestro?",
+      "opciones": [
+        "our",
+        "their",
+        "your"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Our es nuestro; their es de ellos."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cadenas",
+  "tema": "python",
+  "subtema": "cadenas",
+  "titulo": "Cadenas de texto",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una cadena es texto entre comillas. Puedes unir cadenas con el signo más."
+    },
+    {
+      "texto": "Las f-strings meten variables dentro del texto: escribe una f antes de las comillas y la variable entre llaves.",
+      "codigo": "nombre = \"Ana\"\nprint(f\"Hola, {nombre}\")"
+    },
+    {
+      "texto": "Las cadenas tienen métodos útiles: upper pasa a mayúsculas, lower a minúsculas y len cuenta los caracteres.",
+      "codigo": "\"hola\".upper()   # HOLA\nlen(\"hola\")      # 4"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "fstring",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué imprime print(f\"{2 + 3} gatos\")?",
+      "opciones": [
+        "5 gatos",
+        "2 + 3 gatos",
+        "{2 + 3} gatos"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Dentro de las llaves de una f-string se evalúa la expresión."
+    },
+    {
+      "id": "mayusculas",
+      "tipo": "completar",
+      "enunciado": "\"tlalli\".___() da \"TLALLI\"",
+      "respuestas_validas": [
+        "upper"
+      ],
+      "explicacion_respuesta": "upper convierte todo el texto a mayúsculas."
+    }
+  ]
+}

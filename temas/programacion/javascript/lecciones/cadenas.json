@@ -1,0 +1,59 @@
+{
+  "id": "cadenas",
+  "tema": "javascript",
+  "subtema": "cadenas",
+  "titulo": "Cadenas de texto",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las cadenas son texto entre comillas simples, dobles o acentos graves."
+    },
+    {
+      "texto": "Con acentos graves puedes meter variables usando ${ }. Se llaman template literals.",
+      "codigo": "const nombre = \"Ana\";\nconsole.log(`Hola, ${nombre}`);"
+    },
+    {
+      "texto": "length da el número de caracteres y toUpperCase pasa el texto a mayúsculas."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "template",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué comillas permiten usar ${variable} dentro del texto?",
+      "opciones": [
+        "Acentos graves `",
+        "Comillas dobles",
+        "Comillas simples"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Solo los template literals con acento grave interpolan variables."
+    },
+    {
+      "id": "gritar",
+      "tipo": "codigo",
+      "lenguaje": "javascript",
+      "instruccion": "Escribe una función gritar que reciba un texto y lo regrese en mayúsculas con un signo ! al final.",
+      "codigo_inicial": "function gritar(texto) {\n  // tu código aquí\n}",
+      "funcion": "gritar",
+      "pruebas": [
+        {
+          "entrada": [
+            "hola"
+          ],
+          "salida": "HOLA!"
+        },
+        {
+          "entrada": [
+            "ya"
+          ],
+          "salida": "YA!"
+        }
+      ],
+      "solucion": "function gritar(texto) {\n  return texto.toUpperCase() + \"!\";\n}",
+      "pista": "Usa toUpperCase()",
+      "explicacion_respuesta": "toUpperCase convierte a mayúsculas y luego se concatena el signo."
+    }
+  ]
+}

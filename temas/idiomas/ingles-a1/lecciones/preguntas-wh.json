@@ -1,0 +1,45 @@
+{
+  "id": "preguntas-wh",
+  "tema": "ingles-a1",
+  "subtema": "preguntas-wh",
+  "titulo": "Preguntas con what, where, who",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Las preguntas con wh piden información: what es qué, where es dónde, who es quién y when es cuándo."
+    },
+    {
+      "texto": "Why es por qué y how es cómo."
+    },
+    {
+      "texto": "Ejemplo: where do you live? significa ¿dónde vives?"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "donde-vives",
+      "tipo": "traduccion",
+      "frase": "¿Dónde vives?",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "where do you live",
+        "where do you live?"
+      ],
+      "explicacion_respuesta": "Where pregunta por el lugar."
+    },
+    {
+      "id": "quien",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué palabra pregunta por una persona?",
+      "opciones": [
+        "Who",
+        "What",
+        "When"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Who significa quién."
+    }
+  ]
+}

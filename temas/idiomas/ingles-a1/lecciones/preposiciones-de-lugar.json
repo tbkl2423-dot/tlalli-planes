@@ -1,0 +1,41 @@
+{
+  "id": "preposiciones-de-lugar",
+  "tema": "ingles-a1",
+  "subtema": "preposiciones-de-lugar",
+  "titulo": "Preposiciones de lugar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "In significa dentro: in the box. On significa sobre: on the table. Under significa debajo: under the bed."
+    },
+    {
+      "texto": "Next to es junto a, between es entre y behind es detrás de."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "sobre",
+      "tipo": "opcion_multiple",
+      "pregunta": "El libro está sobre la mesa: The book is ___ the table.",
+      "opciones": [
+        "on",
+        "in",
+        "under"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "On indica que algo está encima de una superficie."
+    },
+    {
+      "id": "debajo",
+      "tipo": "traduccion",
+      "frase": "El gato está debajo de la cama",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "the cat is under the bed"
+      ],
+      "explicacion_respuesta": "Under significa debajo."
+    }
+  ]
+}

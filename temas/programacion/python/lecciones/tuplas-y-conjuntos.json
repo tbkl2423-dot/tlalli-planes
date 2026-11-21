@@ -1,0 +1,46 @@
+{
+  "id": "tuplas-y-conjuntos",
+  "tema": "python",
+  "subtema": "tuplas-y-conjuntos",
+  "titulo": "Tuplas y conjuntos",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Una tupla es como una lista pero no se puede modificar. Se escribe con paréntesis: (1, 2, 3)."
+    },
+    {
+      "texto": "Un conjunto, o set, guarda elementos sin repetir y sin orden. Se escribe con llaves: {1, 2, 3}."
+    },
+    {
+      "texto": "Convertir una lista a set es una forma rápida de quitar duplicados.",
+      "codigo": "unicos = set([1, 1, 2, 3, 3])   # {1, 2, 3}"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "inmutable",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas colecciones no se puede modificar después de crearla?",
+      "opciones": [
+        "Tupla",
+        "Lista",
+        "Diccionario"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Las tuplas son inmutables."
+    },
+    {
+      "id": "duplicados",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué estructura elimina los elementos repetidos?",
+      "opciones": [
+        "set",
+        "tuple",
+        "list"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Un set solo guarda valores únicos."
+    }
+  ]
+}

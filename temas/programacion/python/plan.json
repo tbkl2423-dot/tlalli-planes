@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Primeros pasos en Python: guardar datos en variables, conocer sus tipos y trabajar con listas.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "python basico",
     "py",
@@ -124,8 +124,8 @@
   ],
   "unidades": [
     {
-      "id": "fundamentos",
-      "titulo": "Fundamentos",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
         {
           "id": "variables-y-tipos",
@@ -138,6 +138,78 @@
           "titulo": "Listas",
           "subtema": "listas",
           "archivo": "lecciones/listas.json"
+        },
+        {
+          "id": "cadenas",
+          "titulo": "Cadenas de texto",
+          "subtema": "cadenas",
+          "archivo": "lecciones/cadenas.json"
+        },
+        {
+          "id": "condicionales",
+          "titulo": "Condicionales",
+          "subtema": "condicionales",
+          "archivo": "lecciones/condicionales.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "ciclos",
+          "titulo": "Ciclos for y while",
+          "subtema": "ciclos",
+          "archivo": "lecciones/ciclos.json"
+        },
+        {
+          "id": "funciones",
+          "titulo": "Funciones",
+          "subtema": "funciones",
+          "archivo": "lecciones/funciones.json"
+        },
+        {
+          "id": "diccionarios",
+          "titulo": "Diccionarios",
+          "subtema": "diccionarios",
+          "archivo": "lecciones/diccionarios.json"
+        },
+        {
+          "id": "tuplas-y-conjuntos",
+          "titulo": "Tuplas y conjuntos",
+          "subtema": "tuplas-y-conjuntos",
+          "archivo": "lecciones/tuplas-y-conjuntos.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "modulos",
+          "titulo": "Módulos e import",
+          "subtema": "modulos",
+          "archivo": "lecciones/modulos.json"
+        },
+        {
+          "id": "archivos",
+          "titulo": "Leer y escribir archivos",
+          "subtema": "archivos",
+          "archivo": "lecciones/archivos.json"
+        },
+        {
+          "id": "excepciones",
+          "titulo": "Errores y excepciones",
+          "subtema": "excepciones",
+          "archivo": "lecciones/excepciones.json"
+        },
+        {
+          "id": "clases",
+          "titulo": "Clases y objetos",
+          "subtema": "clases",
+          "archivo": "lecciones/clases.json"
         }
       ]
     }

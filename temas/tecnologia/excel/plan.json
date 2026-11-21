@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Usa fórmulas en Excel o en hojas de cálculo similares: sumar, promediar y copiar fórmulas sin errores.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "hojas de calculo",
     "excel basico",
@@ -83,8 +83,8 @@
   ],
   "unidades": [
     {
-      "id": "formulas",
-      "titulo": "Fórmulas",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
         {
           "id": "formulas-basicas",
@@ -97,6 +97,48 @@
           "titulo": "Referencias absolutas",
           "subtema": "referencias-absolutas",
           "archivo": "lecciones/referencias-absolutas.json"
+        },
+        {
+          "id": "funciones-si",
+          "titulo": "Función SI",
+          "subtema": "funciones-si",
+          "archivo": "lecciones/funciones-si.json"
+        },
+        {
+          "id": "buscarx",
+          "titulo": "BUSCARX y BUSCARV",
+          "subtema": "buscarx",
+          "archivo": "lecciones/buscarx.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "ordenar-y-filtrar",
+          "titulo": "Ordenar y filtrar",
+          "subtema": "ordenar-y-filtrar",
+          "archivo": "lecciones/ordenar-y-filtrar.json"
+        },
+        {
+          "id": "formato-condicional",
+          "titulo": "Formato condicional",
+          "subtema": "formato-condicional",
+          "archivo": "lecciones/formato-condicional.json"
+        },
+        {
+          "id": "graficos",
+          "titulo": "Gráficos",
+          "subtema": "graficos",
+          "archivo": "lecciones/graficos.json"
+        },
+        {
+          "id": "tablas-dinamicas",
+          "titulo": "Tablas dinámicas",
+          "subtema": "tablas-dinamicas",
+          "archivo": "lecciones/tablas-dinamicas.json"
         }
       ]
     }

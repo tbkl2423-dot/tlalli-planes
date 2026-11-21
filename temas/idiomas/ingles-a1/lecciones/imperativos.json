@@ -1,0 +1,45 @@
+{
+  "id": "imperativos",
+  "tema": "ingles-a1",
+  "subtema": "imperativos",
+  "titulo": "Instrucciones (imperativo)",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "El imperativo da instrucciones. Se usa el verbo solo, sin sujeto: open the door, sit down."
+    },
+    {
+      "texto": "Para negar se pone don't al inicio: don't run."
+    },
+    {
+      "texto": "Agregar please lo hace más amable: please close the window."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "no-corras",
+      "tipo": "traduccion",
+      "frase": "No corras",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "don't run",
+        "do not run"
+      ],
+      "explicacion_respuesta": "Don't más el verbo forma el imperativo negativo."
+    },
+    {
+      "id": "abre",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es una instrucción correcta?",
+      "opciones": [
+        "Open the book",
+        "You opens the book",
+        "Opening the book"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "El imperativo usa el verbo en forma base."
+    }
+  ]
+}

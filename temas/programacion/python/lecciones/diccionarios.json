@@ -1,0 +1,43 @@
+{
+  "id": "diccionarios",
+  "tema": "python",
+  "subtema": "diccionarios",
+  "titulo": "Diccionarios",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un diccionario guarda pares clave y valor, como una agenda: buscas por la clave y obtienes el valor.",
+      "codigo": "edades = {\"Ana\": 20, \"Luis\": 25}\nprint(edades[\"Ana\"])   # 20"
+    },
+    {
+      "texto": "Para agregar o cambiar un valor asignas a una clave: edades[\"Sol\"] = 30."
+    },
+    {
+      "texto": "get busca una clave sin causar error si no existe; devuelve None o el valor por defecto que le pases."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "acceder",
+      "tipo": "opcion_multiple",
+      "pregunta": "Si d = {\"a\": 1}, ¿qué da d[\"a\"]?",
+      "opciones": [
+        "1",
+        "\"a\"",
+        "Un error"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Con la clave entre corchetes obtienes su valor."
+    },
+    {
+      "id": "seguro",
+      "tipo": "completar",
+      "enunciado": "d.___(\"x\", 0) devuelve 0 si la clave x no existe.",
+      "respuestas_validas": [
+        "get"
+      ],
+      "explicacion_respuesta": "get evita el error y regresa un valor por defecto."
+    }
+  ]
+}

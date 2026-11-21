@@ -1,0 +1,43 @@
+{
+  "id": "responsive",
+  "tema": "html-css",
+  "subtema": "responsive",
+  "titulo": "Diseño responsivo",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un diseño responsivo se adapta a pantallas de distintos tamaños, del celular a la computadora."
+    },
+    {
+      "texto": "Las media queries aplican estilos solo cuando se cumple una condición, como un ancho mínimo.",
+      "codigo": "@media (min-width: 768px) {\n  .columnas { display: flex; }\n}"
+    },
+    {
+      "texto": "Una buena práctica es diseñar primero para celular y luego ampliar para pantallas grandes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "media-query",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué herramienta de CSS cambia estilos según el ancho de pantalla?",
+      "opciones": [
+        "Media queries",
+        "Variables",
+        "Animaciones"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "@media aplica reglas solo si se cumple la condición."
+    },
+    {
+      "id": "viewport",
+      "tipo": "completar",
+      "enunciado": "La etiqueta meta ___ hace que el celular no muestre la página encogida.",
+      "respuestas_validas": [
+        "viewport"
+      ],
+      "explicacion_respuesta": "Sin meta viewport el navegador móvil simula una pantalla de escritorio."
+    }
+  ]
+}

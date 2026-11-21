@@ -1,0 +1,43 @@
+{
+  "id": "jerarquia-de-operaciones",
+  "tema": "matematicas-basicas",
+  "subtema": "jerarquia-de-operaciones",
+  "titulo": "Jerarquía de operaciones",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Cuando hay varias operaciones, se resuelven en un orden fijo."
+    },
+    {
+      "texto": "Primero lo que está entre paréntesis, luego potencias, después multiplicaciones y divisiones, y al final sumas y restas."
+    },
+    {
+      "texto": "Por ejemplo, 2 + 3 × 4 da 14, no 20, porque primero se multiplica.",
+      "codigo": "2 + 3 × 4 = 2 + 12 = 14"
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "orden",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 10 - 2 × 3?",
+      "opciones": [
+        "4",
+        "24",
+        "6"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Primero 2 × 3 = 6; luego 10 - 6 = 4."
+    },
+    {
+      "id": "parentesis",
+      "tipo": "completar",
+      "enunciado": "(2 + 3) × 4 = ___",
+      "respuestas_validas": [
+        "20"
+      ],
+      "explicacion_respuesta": "Primero el paréntesis: 5 × 4 = 20."
+    }
+  ]
+}

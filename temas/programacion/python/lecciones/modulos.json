@@ -1,0 +1,43 @@
+{
+  "id": "modulos",
+  "tema": "python",
+  "subtema": "modulos",
+  "titulo": "Módulos e import",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Un módulo es un archivo con código que puedes reutilizar. Lo traes con import.",
+      "codigo": "import math\nprint(math.sqrt(16))   # 4.0"
+    },
+    {
+      "texto": "Python trae muchos módulos incluidos, como random, datetime y math."
+    },
+    {
+      "texto": "Con pip instalas paquetes hechos por otras personas, por ejemplo pip install requests."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "importar",
+      "tipo": "completar",
+      "enunciado": "___ random",
+      "respuestas_validas": [
+        "import"
+      ],
+      "explicacion_respuesta": "import carga un módulo para usar sus funciones."
+    },
+    {
+      "id": "pip",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué herramienta instala paquetes externos de Python?",
+      "opciones": [
+        "pip",
+        "npm",
+        "git"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "pip es el instalador de paquetes de Python."
+    }
+  ]
+}

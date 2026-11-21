@@ -5,7 +5,7 @@
   "idioma": "es",
   "nivel": "principiante",
   "descripcion": "Repasa fracciones y porcentajes con ejemplos de la vida diaria.",
-  "version": 2,
+  "version": 3,
   "aliases": [
     "mate basica",
     "aritmetica",
@@ -97,8 +97,8 @@
   ],
   "unidades": [
     {
-      "id": "numeros",
-      "titulo": "Números de todos los días",
+      "id": "unidad-1",
+      "titulo": "Primeros pasos",
       "lecciones": [
         {
           "id": "fracciones",
@@ -111,6 +111,66 @@
           "titulo": "Porcentajes",
           "subtema": "porcentajes",
           "archivo": "lecciones/porcentajes.json"
+        },
+        {
+          "id": "numeros-enteros",
+          "titulo": "Números enteros y negativos",
+          "subtema": "numeros-enteros",
+          "archivo": "lecciones/numeros-enteros.json"
+        },
+        {
+          "id": "jerarquia-de-operaciones",
+          "titulo": "Jerarquía de operaciones",
+          "subtema": "jerarquia-de-operaciones",
+          "archivo": "lecciones/jerarquia-de-operaciones.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-2",
+      "titulo": "Practica lo básico",
+      "lecciones": [
+        {
+          "id": "decimales",
+          "titulo": "Números decimales",
+          "subtema": "decimales",
+          "archivo": "lecciones/decimales.json"
+        },
+        {
+          "id": "razones-y-proporciones",
+          "titulo": "Razones y proporciones",
+          "subtema": "razones-y-proporciones",
+          "archivo": "lecciones/razones-y-proporciones.json"
+        },
+        {
+          "id": "potencias-y-raices",
+          "titulo": "Potencias y raíces",
+          "subtema": "potencias-y-raices",
+          "archivo": "lecciones/potencias-y-raices.json"
+        },
+        {
+          "id": "ecuaciones-lineales",
+          "titulo": "Ecuaciones de primer grado",
+          "subtema": "ecuaciones-lineales",
+          "archivo": "lecciones/ecuaciones-lineales.json"
+        }
+      ]
+    },
+    {
+      "id": "unidad-3",
+      "titulo": "Más a fondo",
+      "lecciones": [
+        {
+          "id": "perimetros-y-areas",
+          "titulo": "Perímetros y áreas",
+          "subtema": "perimetros-y-areas",
+          "archivo": "lecciones/perimetros-y-areas.json"
+        },
+        {
+          "id": "estadistica-basica",
+          "titulo": "Promedio, mediana y moda",
+          "subtema": "estadistica-basica",
+          "archivo": "lecciones/estadistica-basica.json"
         }
       ]
     }

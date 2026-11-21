@@ -1,0 +1,45 @@
+{
+  "id": "numeros-y-hora",
+  "tema": "ingles-a1",
+  "subtema": "numeros-y-hora",
+  "titulo": "Números, fechas y la hora",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Los números del uno al diez en inglés: one, two, three, four, five, six, seven, eight, nine y ten."
+    },
+    {
+      "texto": "Para preguntar la hora se dice what time is it? Y se responde it's más la hora: it's three o'clock."
+    },
+    {
+      "texto": "Para los días se usa on: on Monday. Para los meses se usa in: in May."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "que-hora",
+      "tipo": "traduccion",
+      "frase": "¿Qué hora es?",
+      "idioma_origen": "es",
+      "idioma_destino": "en",
+      "respuestas_validas": [
+        "what time is it",
+        "what time is it?"
+      ],
+      "explicacion_respuesta": "What time is it? es la pregunta estándar."
+    },
+    {
+      "id": "ocho",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se dice ocho en inglés?",
+      "opciones": [
+        "eight",
+        "eighty",
+        "height"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Eight es ocho; eighty es ochenta."
+    }
+  ]
+}

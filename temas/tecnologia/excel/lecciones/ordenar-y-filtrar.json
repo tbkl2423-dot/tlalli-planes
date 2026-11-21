@@ -1,0 +1,43 @@
+{
+  "id": "ordenar-y-filtrar",
+  "tema": "excel",
+  "subtema": "ordenar-y-filtrar",
+  "titulo": "Ordenar y filtrar",
+  "version": 1,
+  "duracion_min": 5,
+  "explicacion": [
+    {
+      "texto": "Ordenar acomoda las filas de una tabla, por ejemplo de la A a la Z o de mayor a menor."
+    },
+    {
+      "texto": "Filtrar oculta temporalmente las filas que no te interesan, sin borrarlas."
+    },
+    {
+      "texto": "Se activan en la pestaña Datos. Los filtros ponen una flecha en cada encabezado."
+    }
+  ],
+  "ejercicios": [
+    {
+      "id": "filtrar-borra",
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Filtrar borra las filas ocultas?",
+      "opciones": [
+        "No, solo las oculta",
+        "Sí, las elimina",
+        "Las mueve a otra hoja"
+      ],
+      "correcta": 0,
+      "explicacion_respuesta": "Al quitar el filtro vuelven a aparecer."
+    },
+    {
+      "id": "pestana",
+      "tipo": "completar",
+      "enunciado": "Ordenar y filtrar están en la pestaña ___.",
+      "respuestas_validas": [
+        "Datos",
+        "datos"
+      ],
+      "explicacion_respuesta": "Datos agrupa ordenar, filtrar y quitar duplicados."
+    }
+  ]
+}
